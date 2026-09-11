@@ -1,0 +1,2258 @@
+[
+  {
+    "id": "co_1",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "OOPs Q1",
+    "question": "Which of the following is NOT an OOP concept in Java?",
+    "code": "",
+    "options": [
+      "A) Encapsulation",
+      "B) Inheritance",
+      "C) Polymorphism",
+      "D) Compilation"
+    ],
+    "correctAnswer": 3,
+    "correctLetter": "D",
+    "explanation": "Compilation is an environment step (translating source code to bytecode), whereas Encapsulation, Inheritance, and Polymorphism are core OOP concepts."
+  },
+  {
+    "id": "co_2",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "OOPs Q2",
+    "question": "What is an object in Java?",
+    "code": "",
+    "options": [
+      "A) A class template",
+      "B) An instance of a class",
+      "C) A function",
+      "D) A primitive data type"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "An object in Java is a dynamic runtime instance of a class containing state and behavior."
+  },
+  {
+    "id": "co_3",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "OOPs Q3",
+    "question": "Which keyword is used to create an object in Java?",
+    "code": "",
+    "options": [
+      "A) class",
+      "B) this",
+      "C) new",
+      "D) void"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "The 'new' keyword dynamically allocates memory on the heap for a new object instance."
+  },
+  {
+    "id": "co_4",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "OOPs Q4",
+    "question": "What is the output or concept in Question 4?",
+    "code": "What is a class in Java?",
+    "options": [
+      "A) A data type",
+      "B) A blueprint for objects",
+      "C) A collection of methods",
+      "D) A single method"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "A class in Java is a blueprint/template from which individual objects are instantiated."
+  },
+  {
+    "id": "co_5",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "OOPs Q5",
+    "question": "What is the output or concept in Question 5?",
+    "code": "What is the correct way to define a class in Java?",
+    "options": [
+      "A) public Example {}",
+      "B) class Example {}",
+      "C) void Example {}",
+      "D) object Example {}"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "The correct syntax for defining a class is 'class Example {}'."
+  },
+  {
+    "id": "co_6",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "OOPs Q6",
+    "question": "What does this keyword refer to?",
+    "code": "",
+    "options": [
+      "A) Current object",
+      "B) Parent class",
+      "C) Static method",
+      "D) Return type"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "The 'this' keyword refers to the current object instance inside a method or constructor."
+  },
+  {
+    "id": "co_7",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "OOPs Q7",
+    "question": "What is the output or concept in Question 7?",
+    "code": "Which keyword refers to the immediate parent class object?",
+    "options": [
+      "A) base",
+      "B) super",
+      "C) parent",
+      "D) this"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "The 'super' keyword explicitly refers to the immediate parent (superclass) object."
+  },
+  {
+    "id": "co_8",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "OOPs Q8",
+    "question": "What is the purpose of a constructor in Java?",
+    "code": "",
+    "options": [
+      "A) To initialize variables",
+      "B) To create objects",
+      "C) To destroy objects",
+      "D) To define methods"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Constructors are special methods executed to initialize instance variables when an object is created."
+  },
+  {
+    "id": "co_9",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "OOPs Q9",
+    "question": "What does the 'new' keyword do in Java?",
+    "code": "",
+    "options": [
+      "A) Creates a new method",
+      "B) Allocates memory for an object",
+      "C) Deletes an object",
+      "D) Calls a static method"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "The 'new' keyword allocates heap memory for the object and returns a reference to it."
+  },
+  {
+    "id": "co_10",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "OOPs Q10",
+    "question": "What is the output or concept in Question 10?",
+    "code": "Which keyword is used to inherit a class in Java?",
+    "options": [
+      "A) super",
+      "B) this",
+      "C) extends",
+      "D) implements"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "The 'extends' keyword is used for class inheritance in Java."
+  },
+  {
+    "id": "co_11",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "OOPs Q11",
+    "question": "What is the output or concept in Question 11?",
+    "code": "Can a Java class extend multiple classes?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Java does not support multiple inheritance with classes to avoid ambiguity (the Diamond Problem)."
+  },
+  {
+    "id": "co_12",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "OOPs Q12",
+    "question": "What is the output or concept in Question 12?",
+    "code": "What is the difference between an object and a class in Java?",
+    "options": [
+      "A) An object is created from a class",
+      "B) A class is created from an object",
+      "C) An object defines behavior",
+      "D) A class defines behavior"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "An object is instantiated from a class definition."
+  },
+  {
+    "id": "co_13",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "OOPs Q13",
+    "question": "What is the output or concept in Question 13?",
+    "code": "What is the default access modifier for class members in Java?",
+    "options": [
+      "A) private",
+      "B) protected",
+      "C) public",
+      "D) package-private"
+    ],
+    "correctAnswer": 3,
+    "correctLetter": "D",
+    "explanation": "If no modifier is specified, Java defaults to package-private access."
+  },
+  {
+    "id": "co_14",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "OOPs Q14",
+    "question": "What is method overloading in Java?",
+    "code": "",
+    "options": [
+      "A) Redefining a method with the same name and parameters",
+      "B) Defining multiple methods with the same name but different parameters",
+      "C) Calling a method from within another method",
+      "D) Extending a method to add more functionality"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Method overloading occurs when multiple methods in the same class share a name but have different parameter lists."
+  },
+  {
+    "id": "co_15",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "OOPs Q15",
+    "question": "What is method overriding in Java?",
+    "code": "",
+    "options": [
+      "A) Redefining a static method",
+      "B) Redefining a method with the same name and parameters",
+      "C) Defining a method with a different name",
+      "D) Hiding a method implementation"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Method overriding happens when a subclass redefines a parent method with the exact same name and signature."
+  },
+  {
+    "id": "co_16",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "OOPs Q16",
+    "question": "What is the purpose of the Predicate functional interface in Java 8?",
+    "code": "",
+    "options": [
+      "A) To produce results",
+      "B) To consume values",
+      "C) To filter elements based on a condition",
+      "D) To transform values"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Predicate<T> is a functional interface in java.util.function used to evaluate a boolean condition (test(T t))."
+  },
+  {
+    "id": "co_17",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "OOPs Q17",
+    "question": "What is the output or concept in Question 17?",
+    "code": "What is the difference between a class member and an instance member in Java?",
+    "options": [
+      "A) A class member is static, an instance member is non-static",
+      "B) A class member is non-static, an instance member is static",
+      "C) A class member is private, an instance member is public",
+      "D) A class member is public, an instance member is private"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Class members are static (shared across all instances), whereas instance members are non-static (unique per instance)."
+  },
+  {
+    "id": "co_18",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "OOPs Q18",
+    "question": "What is the output or concept in Question 18?",
+    "code": "What is the default access modifier in Java for class members if no access modifier is specified?",
+    "options": [
+      "A) Default",
+      "B) Private",
+      "C) Public",
+      "D) Protected"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Package-private (default) is assigned when no access modifier (public/protected/private) is written."
+  },
+  {
+    "id": "co_19",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "OOPs Q19",
+    "question": "What is the output of the following Java code snippet?",
+    "code": "public class MyClass {\n    private int number = 10;\n    public void display() {\n        System.out.println(number);\n    }\n}\npublic class Main {\n    public static void main(String[] args) {\n        MyClass obj = new MyClass();\n        System.out.println(obj.number);\n    }\n}",
+    "options": [
+      "A) 10",
+      "B) Error: Access Denied",
+      "C) 0",
+      "D) Compilation Error"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Private members cannot be accessed directly outside their class scope, causing a compilation error."
+  },
+  {
+    "id": "co_20",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "OOPs Q20",
+    "question": "What is the output or concept in Question 20?",
+    "code": "Which access modifier makes a class member accessible only within the same package?",
+    "options": [
+      "A) Private",
+      "B) Default",
+      "C) Public",
+      "D) Protected"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Default (package-private) makes members accessible only to classes within the exact same package."
+  },
+  {
+    "id": "co_21",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "OOPs Q21",
+    "question": "What is the correct syntax for declaring a public method named \"display\" in Java?",
+    "code": "",
+    "options": [
+      "A) public void display() { // Method implementation }",
+      "B) private void display() { // Method implementation }",
+      "C) protected void display() { // Method implementation }",
+      "D) void display() { // Method implementation }"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "'public void display() { }' is the valid syntax for declaring a public method with no return value."
+  },
+  {
+    "id": "co_22",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "OOPs Q22",
+    "question": "What is the output or concept in Question 22?",
+    "code": "Can a private method in Java be accessed from outside the class it belongs to?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Private methods are strictly scoped to the enclosing class and cannot be accessed externally."
+  },
+  {
+    "id": "co_23",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "OOPs Q23",
+    "question": "What is the output or concept in Question 23?",
+    "code": "public class abc {\n   int i;\n   public int a(int x){\n      i=x+1;\n      System.out.println(\"Value of i=\"+i);\n      return i;\n   }\n}\npublic class xyz {\n   abc obj1,obj2;\n   public xyz(){\n      obj1=new abc();\n      obj2=obj1;\n      obj2.a(3);\n   }\n   public static void main(String[] args) {\n      xyz x=new xyz();\n   }\n}",
+    "options": [
+      "A) Null pointer exception",
+      "B) Print on the console: 'value of i=4'",
+      "C) Print on the console: 'value of i=3'"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "obj2 holds a reference to obj1. Mutating obj2 mutates the same object instance, setting i=4."
+  },
+  {
+    "id": "co_24",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "OOPs Q24",
+    "question": "Garbage collection in Java is _____",
+    "code": "",
+    "options": [
+      "A) Initialization of unused local variables",
+      "B) Reclaiming the memory occupied by the object that is no longer referenced by any reference variable",
+      "C) Assigning null to reference variables"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Garbage collection in Java reclaims heap memory occupied by objects that are no longer reachable by any reference variable."
+  },
+  {
+    "id": "al_1",
+    "category": "Java",
+    "subtopic": "Collections - ArrayList",
+    "title": "ArrayList Q1",
+    "question": "What is the default initial capacity of an ArrayList in Java if it is not specified?",
+    "code": "",
+    "options": [
+      "A) 0",
+      "B) 10",
+      "C) 16",
+      "D) 50"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "The default initial capacity of ArrayList in Java 8+ is 10 once the first element is added."
+  },
+  {
+    "id": "al_2",
+    "category": "Java",
+    "subtopic": "Collections - ArrayList",
+    "title": "ArrayList Q2",
+    "question": "Which statement is true regarding the synchronization of ArrayList?",
+    "code": "",
+    "options": [
+      "A) ArrayList is thread-safe and fully synchronize",
+      "D) ",
+      "B) ArrayList methods are not synchronized, making it faster than Vector.",
+      "C) ArrayList can only be synchronized manually using the synchronized keyword on its reference.",
+      "D) ArrayList automatically locks data during write modifications."
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "ArrayList is unsynchronized and non-thread-safe, providing better performance than Vector."
+  },
+  {
+    "id": "al_3",
+    "category": "Java",
+    "subtopic": "Collections - ArrayList",
+    "title": "ArrayList Q3",
+    "question": "How does the growth of an ArrayList compare to that of a Vector when resizing?",
+    "code": "",
+    "options": [
+      "A) ArrayList grows by 50%, Vector grows by 100%.",
+      "B) ArrayList grows by 100%, Vector grows by 50%.",
+      "C) Both grow by 50%.",
+      "D) Both grow by 100%."
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "When capacity is exceeded, ArrayList grows by 50% (newCapacity = oldCapacity + (oldCapacity >> 1)), while Vector doubles (100%)."
+  },
+  {
+    "id": "al_4",
+    "category": "Java",
+    "subtopic": "Collections - ArrayList",
+    "title": "ArrayList Q4",
+    "question": "Which method should be used to change an existing element at a specific index in an ArrayList?",
+    "code": "",
+    "options": [
+      "A) add()",
+      "B) put()",
+      "C) set()",
+      "D) replaceAll()"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "The set(index, element) method replaces the element at the specified position."
+  },
+  {
+    "id": "al_5",
+    "category": "Java",
+    "subtopic": "Collections - ArrayList",
+    "title": "ArrayList Q5",
+    "question": "What type of data structure is ArrayList based on?",
+    "code": "",
+    "options": [
+      "A) Linked List",
+      "B) Doubly Linked List",
+      "C) Dynamic Array",
+      "D) Hash Table"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "ArrayList is internally backed by a resizable dynamic array."
+  },
+  {
+    "id": "al_6",
+    "category": "Java",
+    "subtopic": "Collections - ArrayList",
+    "title": "ArrayList Q6",
+    "question": "In which scenario would you prefer LinkedList over ArrayList?",
+    "code": "",
+    "options": [
+      "A) When you need fast random access to elements.",
+      "B) When frequent insertions and deletions are require",
+      "D) ",
+      "C) When memory usage needs to be minimize",
+      "D) ",
+      "D) When thread safety is a priority"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "LinkedList is preferred when frequent insertions and deletions occur because it doesn't require array shifting."
+  },
+  {
+    "id": "al_7",
+    "category": "Java",
+    "subtopic": "Collections - ArrayList",
+    "title": "ArrayList Q7",
+    "question": "Which of the following is true about the LinkedList class?",
+    "code": "",
+    "options": [
+      "A) It uses a fixed-size array.",
+      "B) It can efficiently add and remove elements from both ends.",
+      "C) It requires less memory than ArrayList.",
+      "D) It is faster than Vector for random access."
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "LinkedList implements Deque, allowing O(1) additions and removals at both head and tail."
+  },
+  {
+    "id": "al_8",
+    "category": "Java",
+    "subtopic": "Collections - ArrayList",
+    "title": "ArrayList Q8",
+    "question": "In an ArrayList, how is the time complexity affected when an element is added at the end?",
+    "code": "",
+    "options": [
+      "A) It is always O(1).",
+      "B) It can be O(n) in the worst case.",
+      "C) It is always O(n).",
+      "D) It is O(log n)."
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Adding to the end is O(1) amortized, but can be O(n) when array resizing occurs."
+  },
+  {
+    "id": "al_9",
+    "category": "Java",
+    "subtopic": "Collections - ArrayList",
+    "title": "ArrayList Q9",
+    "question": "Which collection has the lowest memory overhead per element?",
+    "code": "",
+    "options": [
+      "A) ArrayList",
+      "B) Vector",
+      "C) LinkedList",
+      "D) All have the same overhead"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "ArrayList has lower memory overhead per element compared to LinkedList (which stores node pointers) and Vector."
+  },
+  {
+    "id": "al_10",
+    "category": "Java",
+    "subtopic": "Collections - ArrayList",
+    "title": "ArrayList Q10",
+    "question": "Which collection would you choose if you require frequent traversal through the elements?",
+    "code": "",
+    "options": [
+      "A) ArrayList",
+      "B) Vector",
+      "C) LinkedList",
+      "D) Both A and B"
+    ],
+    "correctAnswer": 3,
+    "correctLetter": "D",
+    "explanation": "Both ArrayList and Vector store elements contiguously in arrays, making traversal fast due to CPU cache locality."
+  },
+  {
+    "id": "al_11",
+    "category": "Java",
+    "subtopic": "Collections - ArrayList",
+    "title": "ArrayList Q11",
+    "question": "Which of the following is true regarding iterators in these collections?",
+    "code": "",
+    "options": [
+      "A) ArrayList and LinkedList iterators are fail-fast.",
+      "B) Vector iterator is fail-safe.",
+      "C) All three iterators are fail-fast.",
+      "D) None of the iterators are fail-fast."
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Iterators for ArrayList, Vector, and LinkedList are fail-fast and throw ConcurrentModificationException on structural modifications during iteration."
+  },
+  {
+    "id": "al_12",
+    "category": "Java",
+    "subtopic": "Collections - ArrayList",
+    "title": "ArrayList Q12",
+    "question": "Which of the following would be most efficient for implementing a stack?",
+    "code": "",
+    "options": [
+      "A) ArrayList",
+      "B) Vector",
+      "C) LinkedList",
+      "D) None of the above"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "LinkedList implements Deque/Queue methods (push/pop/peek), making it ideal and efficient for stack behavior."
+  },
+  {
+    "id": "hm_1",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q1",
+    "question": "What is the behavior or output in HashMap Q1?",
+    "code": "What is the primary role of the hash function in a HashMap implementation?",
+    "options": [
+      "A) To encrypt the values for secure storage.",
+      "B) To sort the entries alphabetically by key.",
+      "C) To compute an integer hash code from the key and map it to a valid bucket index.",
+      "D) To dynamically resize the underlying array when it becomes full."
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Option C is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_2",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q2",
+    "question": "What is the behavior or output in HashMap Q2?",
+    "code": "Why do many HashMap implementations (like Java's) enforce that the capacity (number of buckets) is always a power of two?",
+    "options": [
+      "A) It allows fast modulo operations using efficient bitwise AND (h & (length - 1)) instead of slow division.",
+      "B) It guarantees that collisions will never occur regardless of the number of elements inserted.",
+      "C) It ensures that all elements are automatically sorted in natural order.",
+      "D) It prevents the load factor from ever exceeding 0.75."
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option A is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_3",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q3",
+    "question": "What is the behavior or output in HashMap Q3?",
+    "code": "What happens operationally when a HashMap's size exceeds the threshold (Capacity \\(\\times \\) Load Factor)?",
+    "options": [
+      "A) The map throws a CapacityExceededException and stops accepting new keys.",
+      "B) Existing keys are deleted to free up space for new entries.",
+      "C) The load factor is automatically doubled while keeping the capacity the same.",
+      "D) The internal array is resized (usually doubled) and all existing entries are rehashed into the new buckets."
+    ],
+    "correctAnswer": 3,
+    "correctLetter": "D",
+    "explanation": "Option D is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_4",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q4",
+    "question": "How does the separate chaining collision resolution strategy manage multiple keys that hash to the same bucket index?",
+    "code": "",
+    "options": [
+      "A) By probing adjacent consecutive array indices until an empty slot is found.",
+      "B) By storing colliding entries in a secondary data structure (like a linked list or tree) attached to that specific bucket.",
+      "C) By replacing the old entry with the new entry entirely, dropping the old value.",
+      "D) By automatically expanding the total array capacity on every individual collision."
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Option B is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_5",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q5",
+    "question": "What is a primary structural difference between separate chaining and open addressing collision handling?",
+    "code": "",
+    "options": [
+      "A) Open addressing stores all key-value pairs directly inside the primary array slots, whereas chaining uses auxiliary structures per bucket.",
+      "B) Chaining is susceptible to clustering, whereas open addressing completely eliminates any form of collisions.",
+      "C) Open addressing requires linked lists, whereas chaining only works with contiguous memory blocks.",
+      "D) Chaining reduces memory overhead to zero, whereas open addressing requires double the memory of chaining."
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option C is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_6",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q6",
+    "question": "What is the behavior or output in HashMap Q6?",
+    "code": "Assuming a good hash function and a well-distributed load factor, what is the average-case time complexity for get(key) and put(key, value) operations in a HashMap?",
+    "options": [
+      "A) (O(N))",
+      "B) (O(log N))",
+      "C) (O(1))",
+      "D) (O(N log N)"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Option C is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_7",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q7",
+    "question": "What is the behavior or output in HashMap Q7?",
+    "code": "In the worst-case scenario where every single key inserted into a standard HashMap hashes to the same exact bucket index (using linked lists for chaining), what is the time complexity of a lookup operation?",
+    "options": [
+      "A) \\(O(1)\\)",
+      "B) \\(O(\\log N)\\)",
+      "C) \\(O(N \\log N)\\)",
+      "D) \\(O(N)\\)"
+    ],
+    "correctAnswer": 3,
+    "correctLetter": "D",
+    "explanation": "Option B is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_8",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q8",
+    "question": "What is the behavior or output in HashMap Q8?",
+    "code": "Which of the following statements is true about the HashMap class in Java?",
+    "options": [
+      "A) It maintains the insertion of the Map interface",
+      "B) It is synchronized",
+      "C) It is an implementation of the Map interface",
+      "D) None of these"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Option C is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_9",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q9",
+    "question": "What is the behavior or output in HashMap Q9?",
+    "code": "Which of the following statements is true about the LinkedHashMap class in Java?",
+    "options": [
+      "A) It does not allow null keys or values.",
+      "B) It is an implementation of the Map interface.",
+      "C) It is an implementation of the HashMap interface.",
+      "D) None of these"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Option B is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_10",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q10",
+    "question": "What is the behavior or output in HashMap Q10?",
+    "code": "What is the time complexity of the get() method in a HashMap in the worst case?",
+    "options": [
+      "A) O(1)",
+      "B) O(n)",
+      "C) O(n logn)",
+      "D) O( log n )"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Option D is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_11",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q11",
+    "question": "What is the syntax of creating a Hashmap in Java?",
+    "code": "",
+    "options": [
+      "A) HashMap<k, v> map = new HashMap<>();",
+      "B) map<k, v> = new HashMap<>();",
+      "C) HashMap<k, v> map = new HashMap();",
+      "D) None of these"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option A is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_12",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q12",
+    "question": "What is the behavior or output in HashMap Q12?",
+    "code": "How is LinkedHashMap declared in Java",
+    "options": [
+      "A) public class LinkedHashMap<K,\u200bV>",
+      "B) public class LinkedHashMap<K,\u200bV> implements Map<K,\u200bV>",
+      "C) public class LinkedHashMap<K,\u200bV>  extends HashMap<K,\u200bV> implements Map<K,\u200bV>",
+      "D) None of these"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Option B is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_13",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q13",
+    "question": "What happens when a key-value pair already exists in the Map and we use put() to add the value associated with the same key?",
+    "code": "",
+    "options": [
+      "A) It adds one more key-value pair of the same key.",
+      "B) It adds 2 values for the same key",
+      "C) It throws an error",
+      "D) It replaces the pre-existing value."
+    ],
+    "correctAnswer": 3,
+    "correctLetter": "D",
+    "explanation": "Option D is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_14",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q14",
+    "question": "What is the output of following code",
+    "code": "import java.util.*;\nclass HelloWorld {\n    public static void main(String[] args) {\n      HashMap<String, Integer> m = new HashMap<String, Integer>();\n      m.put(\"gfg\", 10);\n      m.put(\"ide\", 16);\n      m.put(\"courses\", 25);\n      System.out.print(m);\n      System.out.print(m.size());\n      for( Map.Entry< String, Integer >e: m.entrySet())\n        System.out.print(e.getKey() + \" \" + e.getValue());\n    }\n}",
+    "options": [
+      "A) 3courses 25gfg 10ide 16",
+      "B) Error",
+      "C) {courses=25, gfg=10, ide=16}3courses 25gfg 10ide 16",
+      "D) None of these"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Option D is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_15",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q15",
+    "question": "What is the output of the code,  if( m.containsKey(\"ide\")) else",
+    "code": "import java.util.*;\nclass HelloWorld {\n    public static void main(String[] args) {\n      HashMap<String, Integer> m = new HashMap<String, Integer>();\n      m.put(\"gfg\", 10);\n      m.put(\"ide\", 16);\n      m.put(\"courses\", 25);\n        System.out.println(\"yes\");\n        System.out.println(\"no\");\n     m.remove(\"ide\");\n     System.out.println(m.size());\n    }\n}",
+    "options": [
+      "A) no 3",
+      "B) yes 3",
+      "C) yes 2",
+      "D) no 2"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Option C is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_16",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q16",
+    "question": "What is the output of the code,",
+    "code": "import java.util.*;\nclass HelloWorld {\n    public static void main(String[] args) {\n      LinkedHashMap<Integer, String> m = new LinkedHashMap<>();\n      m.put(10, \"gfg\");\n      m.put(16, \"IDE\");\n      m.put(25, \"courses\");\n      m.remove( 25 );\n      m.put( 20, \"practice\" );\n      System.out.println(m);\n    }\n}",
+    "options": [
+      "A) Throws an error",
+      "B) {10=gfg, 16=IDE, 20=practice}",
+      "C) {10=gfg, 16=IDE, 25=courses, 20=practice}",
+      "D) None of these"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Option B is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_17",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q17",
+    "question": "What is the behavior or output in HashMap Q17?",
+    "code": "What is the purpose of the 'equals' method in the HashMap key-value pairs?",
+    "options": [
+      "A) To compare the values of two keys",
+      "B) To determine if two keys are equal",
+      "C) To compare the hash codes of two keys",
+      "D) To establish the order of keys in the HashMap"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Option B is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_18",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q18",
+    "question": "What is the behavior or output in HashMap Q18?",
+    "code": "What is the default initial capacity of a HashMap in Java?",
+    "options": [
+      "A) 0",
+      "B) 10",
+      "C) 16",
+      "D) It depends on the JVM"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Option B is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_19",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q19",
+    "question": "What is the behavior or output in HashMap Q19?",
+    "code": "What is the default load factor of a HashMap in Java?",
+    "options": [
+      "A) 0.25",
+      "B) 0.5",
+      "C) 0.75",
+      "D) 1.0"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Option B is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_20",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q20",
+    "question": "What is the behavior or output in HashMap Q20?",
+    "code": "What is the time complexity of inserting a key-value pair into a HashMap?",
+    "options": [
+      "A) O(1)",
+      "B) O(log n)",
+      "C) O(n)",
+      "D) O(n log n)"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option A is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_21",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q21",
+    "question": "What is the behavior or output in HashMap Q21?",
+    "code": "What is the time complexity of retrieving a value from a HashMap using its key?",
+    "options": [
+      "A) O(1)",
+      "B) O(log n)",
+      "C) O(n)",
+      "D) O(n log n)"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option A is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_22",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q22",
+    "question": "What is the output of the following code snippet?",
+    "code": "HashMap<String, Integer> map = new HashMap<>();\n     map.put(\"one\", 1); map.put(\"two\", 2); map.put(\"three\", 3);\n     System.out.println(map.get(\"two\"));",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) null"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Option B is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_23",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q23",
+    "question": "What is the output of the following code snippet?",
+    "code": "HashMap<String, Integer> map = new HashMap<>();\n      map.put(\"one\", 1);\n       map.put(\"two\", 2); map.put(\"one\", 3);\n        System.out.println(map.get(\"one\"));",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) null"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Option C is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_24",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q24",
+    "question": "What is the output of the following code snippet?",
+    "code": "HashMap<String, Integer> map = new HashMap<>();\n    map.put(\"one\", 1); map.put(\"two\", 2);\n     map.remove(\"one\");\n    System.out.println(map.containsKey(\"one\"));",
+    "options": [
+      "A) true",
+      "B) false",
+      "C) null",
+      "D) An error occurs"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Option B is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_25",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q25",
+    "question": "What is the behavior or output in HashMap Q25?",
+    "code": "What is the purpose of the 'hashCode' method in the HashMap key-value pairs?",
+    "options": [
+      "A) To compare the values of two keys",
+      "B) To determine if two keys are equal",
+      "C) To generate a unique identifier for each key",
+      "D) To establish the order of keys in the HashMap"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Option C is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_26",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q26",
+    "question": "What is the output of the following code snippet?",
+    "code": "HashMap<String, Integer> map = new HashMap<>();\n     map.put(\"one\", 1);\n     map.put(\"two\", 2);\n     map.put(\"three\", 3);\n     System.out.println(map.keySet());",
+    "options": [
+      "A) [one, two, three]",
+      "B) [one, two]",
+      "C) [one, three]",
+      "D) [two, three]"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option A is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_27",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q27",
+    "question": "What is the output of the following code snippet?",
+    "code": "HashMap<String, Integer> map = new HashMap<>();\n     map.put(\"one\", 1);\n     map.put(\"two\", 2);\n      map.put(\"three\", 3);\n       System.out.println(map.values());",
+    "options": [
+      "A) [1, 2, 3]",
+      "B) [1, 2]",
+      "C) [1, 3]",
+      "D) [2, 3]"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option A is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_28",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q28",
+    "question": "What is the output of the following code snippet?",
+    "code": "HashMap<String, Integer> map = new HashMap<>();\n      map.put(\"one\", 1);\n      map.put(\"two\", 2);\n      map.put(\"three\", 3);\n       System.out.println(map.containsKey(\"four\"));",
+    "options": [
+      "A) true",
+      "B) false",
+      "C) null",
+      "D) An error occurs"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Option B is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_29",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q29",
+    "question": "What is the output of the following code snippet?",
+    "code": "HashMap<String, Integer> map = new HashMap<>();\n    map.put(\"one\", 1);\n     map.put(\"two\", 2);\n      map.put(\"three\", 3);\n      System.out.println(map.containsValue(2));",
+    "options": [
+      "A) true",
+      "B) false",
+      "C) null",
+      "D) An error occurs"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option A is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_30",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q30",
+    "question": "What is the output of the following code snippet?",
+    "code": "HashMap<String, Integer> map = new HashMap<>();\n     map.put(\"one\", 1);\n     map.put(\"two\", 2);\n     map.put(\"three\", 3);\n     System.out.println(map.size());",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 0"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Option C is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_31",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q31",
+    "question": "What is the output of the following code snippet?",
+    "code": "HashMap<String, Integer> map = new HashMap<>();\n    map.put(\"one\", 1);\n    map.put(\"two\", 2);\n    map.put(\"three\", 3);\n    map.clear();\n    System.out.println(map.size());",
+    "options": [
+      "A) 0",
+      "B) 1",
+      "C) 2",
+      "D) 3"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option A is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_32",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q32",
+    "question": "What is the output of the following code?",
+    "code": "HashMap<String, Integer> map = new HashMap<>();\nmap.put(\"one\", 1);\nmap.put(\"two\", 2);\nmap.put(\"three\", 3);\nSystem.out.println(map.get(\"two\"));",
+    "options": [
+      "A) 2",
+      "B) null",
+      "C) Exception: Key not found",
+      "D) 1"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option A is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_33",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q33",
+    "question": "What will be the output of the following code?",
+    "code": "HashMap<String, Integer> map = new HashMap<>();\nmap.put(\"one\", 1);\nmap.put(\"two\", 2);\nmap.put(\"one\", 11);\nSystem.out.println(map.get(\"one\"));",
+    "options": [
+      "A) 1",
+      "B) 11",
+      "C) null",
+      "D) Exception: Duplicate key"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Option B is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_34",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q34",
+    "question": "What will be the output of the following code?",
+    "code": "HashMap<String, Integer> map = new HashMap<>();\nmap.put(\"one\", 1);\nmap.put(\"two\", 2);\nmap.remove(\"one\");\nSystem.out.println(map.containsKey(\"one\"));",
+    "options": [
+      "A) true",
+      "B) false",
+      "C) null",
+      "D) Exception: Key not found"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Option B is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_35",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q35",
+    "question": "What will be the output of the following code?",
+    "code": "HashMap<String, Integer> map = new HashMap<>();\nmap.put(\"one\", 1);\nmap.put(\"two\", 2);\nmap.keySet().remove(\"one\");\nSystem.out.println(map.get(\"one\"));",
+    "options": [
+      "A) 1",
+      "B) null",
+      "C) Exception: Key not found",
+      "D) Exception: Invalid operation"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option A is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_36",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q36",
+    "question": "What will be the output of the following code?",
+    "code": "HashMap<String, Integer> map = new HashMap<>();\nmap.put(\"one\", 1);\nmap.put(\"two\", 2);\nmap.clear();\nSystem.out.println(map.isEmpty());",
+    "options": [
+      "A) true",
+      "B) false",
+      "C) null",
+      "D) Exception: Map is not empty"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option A is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_37",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q37",
+    "question": "What will be the output of the following code?",
+    "code": "HashMap<String, Integer> map = new HashMap<>();\nmap.put(\"one\", 1);\nmap.put(\"two\", 2);\nmap.putIfAbsent(\"one\", 11);\nSystem.out.println(map.get(\"one\"));",
+    "options": [
+      "A) 1",
+      "B) 11",
+      "C) null",
+      "D) Exception: Duplicate key"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option B is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_38",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q38",
+    "question": "What will be the output of the following code?",
+    "code": "HashMap<String, Integer> map = new HashMap<>();\nmap.put(\"one\", 1);\nmap.put(\"two\", 2);\nmap.computeIfAbsent(\"three\", k -> 3);\nSystem.out.println(map.get(\"three\"));",
+    "options": [
+      "A) 3",
+      "B) null",
+      "C) Exception: Key not found",
+      "D) Exception: Invalid key"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option C is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_39",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q39",
+    "question": "What will be the output of the following code?",
+    "code": "HashMap<String, Integer> map = new HashMap<>();\nmap.put(\"one\", 1);\nmap.put(\"two\", 2);\nmap.computeIfPresent(\"one\", (k, v) -> v * 2);\nSystem.out.println(map.get(\"one\"));",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) null",
+      "D) Exception: Key not found"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Option B is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_40",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q40",
+    "question": "What will be the output of the following code?",
+    "code": "HashMap<String, Integer> map = new HashMap<>();\nmap.put(\"one\", 1);\nmap.put(\"two\", 2);\nmap.merge(\"one\", 11, Integer::sum);\nSystem.out.println(map.get(\"one\"));",
+    "options": [
+      "A) 12",
+      "B) 11",
+      "C) 1",
+      "D) Exception: Duplicate key"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option A is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_41",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q41",
+    "question": "What will be the output of the following code?",
+    "code": "HashMap<String, Integer> map = new HashMap<>();\nmap.put(\"one\", 1);\nmap.put(\"two\", 2);\nmap.replaceAll((k, v) -> v * 2);\nSystem.out.println(map.get(\"one\"));\nSystem.out.println(map.get(\"two\"));",
+    "options": [
+      "A) 2 4",
+      "B) 1 2",
+      "C) null null",
+      "D) Exception: Invalid operation"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option A is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_42",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q42",
+    "question": "What does `getOrDefault` return when the key is missing?",
+    "code": "",
+    "options": [
+      "A) null",
+      "B) The provided default value",
+      "C) Throws NullPointerException",
+      "D) The first entry in the map"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Option B is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_43",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q43",
+    "question": "What is the behavior or output in HashMap Q43?",
+    "code": "Which iteration order does HashMap guarantee?",
+    "options": [
+      "A) Insertion order",
+      "B) Natural key order",
+      "C) No guaranteed order",
+      "D) Reverse insertion order"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Option C is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_44",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q44",
+    "question": "What is the behavior or output in HashMap Q44?",
+    "code": "How do you create a thread-safe HashMap alternative?",
+    "options": [
+      "A) Collections.synchronizedMap(new HashMap<>())",
+      "B) new Hashtable<>()",
+      "C) new ConcurrentHashMap<>()",
+      "D) All of the above"
+    ],
+    "correctAnswer": 3,
+    "correctLetter": "D",
+    "explanation": "Option A is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_45",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q45",
+    "question": "What happens when two keys have the same hashCode but are not equal?",
+    "code": "",
+    "options": [
+      "A) One replaces the other",
+      "B) They go to the same bucket with equals used to distinguish",
+      "C) Map throws an exception",
+      "D) Map discards both entries"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Option B is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_46",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q46",
+    "question": "Which method copies mappings from another Map?",
+    "code": "",
+    "options": [
+      "A) put()",
+      "B) putAll()",
+      "C) merge()",
+      "D) clone()"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Option D is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_47",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q47",
+    "question": "What is the default value returned by `remove(key)` when key is absent?",
+    "code": "",
+    "options": [
+      "A) false",
+      "B) null",
+      "C) 0",
+      "D) Empty Optional"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Option B is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_48",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q48",
+    "question": "What is the behavior or output in HashMap Q48?",
+    "code": "What does `clear()` do on a HashMap?",
+    "options": [
+      "A) Removes all entries",
+      "B) Shrinks capacity to zero",
+      "C) Removes half the entries",
+      "D) Throws UnsupportedOperationException"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option A is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_49",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q49",
+    "question": "Which method checks for both key and expected value before removing?",
+    "code": "",
+    "options": [
+      "A) remove(key)",
+      "B) remove(key, value)",
+      "C) compute()",
+      "D) replaceAll()"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Option B is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_50",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q50",
+    "question": "What is the result of `putIfAbsent` when the key already exists?",
+    "code": "",
+    "options": [
+      "A) Replaces the value",
+      "B) Leaves map unchanged and returns existing value",
+      "C) Removes the key",
+      "D) Throws IllegalStateException"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Option B is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_51",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q51",
+    "question": "What is the behavior or output in HashMap Q51?",
+    "code": "Which interface do HashMap keys and values generically implement?",
+    "options": [
+      "A) Serializable",
+      "B) Cloneable",
+      "C) No interface is required; any Object works",
+      "D) Comparable"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Option C is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_52",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q52",
+    "question": "What does `size()` return?",
+    "code": "",
+    "options": [
+      "A) Current capacity",
+      "B) Number of entries",
+      "C) Load factor",
+      "D) Hash bucket count"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Option B is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_53",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q53",
+    "question": "Which method replaces a value only if it is currently mapped?",
+    "code": "",
+    "options": [
+      "A) replace(key, value)",
+      "B) put(key, value)",
+      "C) merge(key, value, fn)",
+      "D) computeIfAbsent(key, fn)"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option A is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_54",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q54",
+    "question": "How do you iterate over both keys and values at once?",
+    "code": "",
+    "options": [
+      "A) for (String k : map.keySet())",
+      "B) for (Map.Entry e : map.entrySet())",
+      "C) map.iterator()",
+      "D) map.stream()"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Option B is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_55",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q55",
+    "question": "Which call returns a Set of all keys?",
+    "code": "",
+    "options": [
+      "A) map.values()",
+      "B) map.entrySet()",
+      "C) map.keySet()",
+      "D) map.keys()"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Option C is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_56",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q56",
+    "question": "What is the behavior or output in HashMap Q56?",
+    "code": "Which statement is true about fail-fast iterators of HashMap?",
+    "options": [
+      "A) They never throw exceptions",
+      "B) They throw ConcurrentModificationException on structural change",
+      "C) They automatically synchronize modifications",
+      "D) They reorder entries to avoid conflicts"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Option B is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_57",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q57",
+    "question": "What does `containsValue` check?",
+    "code": "",
+    "options": [
+      "A) Presence of a specific key",
+      "B) Presence of a specific value",
+      "C) Both key and value",
+      "D) Only null values"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Option B is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_58",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q58",
+    "question": "What is the behavior or output in HashMap Q58?",
+    "code": "What is returned by `clone()` on a HashMap?",
+    "options": [
+      "A) Deep copy of keys/values",
+      "B) Shallow copy of the map structure",
+      "C) Empty map",
+      "D) Immutable copy"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Option A is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_59",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q59",
+    "question": "What is the behavior or output in HashMap Q59?",
+    "code": "Which statement about nulls is true for HashMap?",
+    "options": [
+      "A) Allows one null key and multiple null values",
+      "B) Forbids null keys but allows null values",
+      "C) Forbids all nulls",
+      "D) Allows unlimited null keys"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option C is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "hm_60",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q60",
+    "question": "Which operation can trigger a resize?",
+    "code": "",
+    "options": [
+      "A) Adding entries beyond threshold",
+      "B) Calling size()",
+      "C) Calling keySet()",
+      "D) Calling containsKey()"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option A is correct based on HashMap internal hashing, bucket indexing, and Java Map contract specifications."
+  },
+  {
+    "id": "v_1",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "Veeva Core MCQ 1",
+    "question": "Analyze the code snippet and choose the correct output or statement:",
+    "code": "",
+    "options": [
+      "A) Parent",
+      "B) Child",
+      "C) Compilation Error",
+      "D) Runtime Exception"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option A is correct based on Java specification."
+  },
+  {
+    "id": "v_2",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "Veeva Core MCQ 2",
+    "question": "Analyze the code snippet and choose the correct output or statement:",
+    "code": "",
+    "options": [
+      "A) true true true",
+      "B) false true false",
+      "C) false true true",
+      "D) true false true"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option A is correct based on Java specification."
+  },
+  {
+    "id": "v_3",
+    "category": "Java",
+    "subtopic": "Exception Handling",
+    "title": "Veeva Core MCQ 3",
+    "question": "Analyze the code snippet and choose the correct output or statement:",
+    "code": "public class ExceptionTest {\n    public static int getValue() {\n        try {\n            return 10;\n        } catch (Exception e) {\n            return 20;\n        } finally {\n            return 30;\n        }\n    }\n    public static void main(String[] args) {\n        System.out.println(getValue());\n    }\n}",
+    "options": [
+      "A) 10",
+      "B) 20",
+      "C) 30",
+      "D) Compilation Error"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "The finally block always executes before the method returns and its return statement overrides any return statement in try/catch."
+  },
+  {
+    "id": "v_4",
+    "category": "Java",
+    "subtopic": "Core Java - Initialization",
+    "title": "Veeva Core MCQ 4",
+    "question": "Analyze the code snippet and choose the correct output or statement:",
+    "code": "class Test {\n    static {\n        System.out.print(\"Static \");\n    }\n    {\n        System.out.print(\"Instance \");\n    }\n    public Test() {\n        System.out.print(\"Constructor \");\n    }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Test t1 = new Test();\n        Test t2 = new Test();\n    }\n}",
+    "options": [
+      "A) Static Instance Constructor Static Instance Constructor",
+      "B) Static Instance Constructor",
+      "C) Instance Constructor Instance Constructor Static",
+      "D) Static Constructor Instance Constructor Instance"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Static initializer runs ONCE when class is loaded. Instance block runs before constructor for EVERY object instantiated."
+  },
+  {
+    "id": "v_5",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "Veeva Core MCQ 5",
+    "question": "Analyze the code snippet and choose the correct output or statement:",
+    "code": "",
+    "options": [
+      "A) Object",
+      "B) String",
+      "C) Compilation Error (Ambiguous method call)",
+      "D) Runtime NullPointerException"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option A is correct based on Java specification."
+  },
+  {
+    "id": "v_6",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "Veeva Core MCQ 6",
+    "question": "Analyze the code snippet and choose the correct output or statement:",
+    "code": "",
+    "options": [
+      "A) [2, 3]",
+      "B) [1, 3]",
+      "C) [1, 2]",
+      "D) [1, 2, 3]"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option A is correct based on Java specification."
+  },
+  {
+    "id": "v_7",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "Veeva Core MCQ 7",
+    "question": "Analyze the code snippet and choose the correct output or statement:",
+    "code": "",
+    "options": [
+      "A) true true",
+      "B) false false",
+      "C) true false",
+      "D) false true"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option A is correct based on Java specification."
+  },
+  {
+    "id": "v_8",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "Veeva Core MCQ 8",
+    "question": "Analyze the code snippet and choose the correct output or statement:",
+    "code": "",
+    "options": [
+      "A) 10",
+      "B) 20",
+      "C) Compilation Error if line 6 is active due to modifying a final field",
+      "D) Runtime Exception"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option A is correct based on Java specification."
+  },
+  {
+    "id": "v_9",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "Veeva Core MCQ 9",
+    "question": "Analyze the code snippet and choose the correct output or statement:",
+    "code": "",
+    "options": [
+      "A) Main Run",
+      "B) Run Main",
+      "C) Output is unpredictable",
+      "D) Compilation Error"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option A is correct based on Java specification."
+  },
+  {
+    "id": "v_10",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "Veeva Core MCQ 10",
+    "question": "Analyze the code snippet and choose the correct output or statement:",
+    "code": "",
+    "options": [
+      "A) 1",
+      "B) RuntimeException",
+      "C) Compilation Error",
+      "D) 2"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option A is correct based on Java specification."
+  },
+  {
+    "id": "v_11",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "Veeva Core MCQ 11",
+    "question": "Analyze the code snippet and choose the correct output or statement:",
+    "code": "",
+    "options": [
+      "A) 3 3",
+      "B) 2 3",
+      "C) 2 1",
+      "D) 3 1"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option A is correct based on Java specification."
+  },
+  {
+    "id": "v_12",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "Veeva Core MCQ 12",
+    "question": "Analyze the code snippet and choose the correct output or statement:",
+    "code": "",
+    "options": [
+      "A) 7 18",
+      "B) 8 19",
+      "C) 8 20",
+      "D) 6 20"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option A is correct based on Java specification."
+  },
+  {
+    "id": "v_13",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "Veeva Core MCQ 13",
+    "question": "Analyze the code snippet and choose the correct output or statement:",
+    "code": "",
+    "options": [
+      "A) Throws ConcurrentModificationException",
+      "B) Prints 2",
+      "C) Prints 3",
+      "D) Throws UnsupportedOperationException"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option A is correct based on Java specification."
+  },
+  {
+    "id": "v_14",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "Veeva Core MCQ 14",
+    "question": "Analyze the code snippet and choose the correct output or statement:",
+    "code": "",
+    "options": [
+      "A) Compilation Error",
+      "B) Loading Login",
+      "C) Runtime Error",
+      "D) Displaying"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option A is correct based on Java specification."
+  },
+  {
+    "id": "v_15",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "Veeva Core MCQ 15",
+    "question": "Analyze the code snippet and choose the correct output or statement:",
+    "code": "",
+    "options": [
+      "B) true false",
+      "C) true true",
+      "D) false false"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option A is correct based on Java specification."
+  },
+  {
+    "id": "v_16",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "Veeva Core MCQ 16",
+    "question": "Analyze the code snippet and choose the correct output or statement:",
+    "code": "",
+    "options": [
+      "A) NPE",
+      "B) Exception followed by NPE",
+      "C) Compilation Error (Unreachable catch block)",
+      "D) Runtime Exception uncaught"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option A is correct based on Java specification."
+  },
+  {
+    "id": "v_17",
+    "category": "Java",
+    "subtopic": "Strings & Memory",
+    "title": "Veeva Core MCQ 17",
+    "question": "//...",
+    "code": "class Config { int timeout = 10; }\npublic static void update(Config c) {\n    c.timeout = 20;\n    c = new Config();\n    c.timeout = 30;\n}\npublic static void main(String[] args) {\n    Config cfg = new Config();\n    update(cfg);\n    System.out.println(cfg.timeout);\n}",
+    "options": [
+      "A) 20",
+      "B) 30",
+      "C) 10",
+      "D) Compilation Error"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Java is pass-by-value for references. Reassigning c inside update() does not change cfg in main, but mutating c.timeout=20 affects the original object."
+  },
+  {
+    "id": "v_18",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "Veeva Core MCQ 18",
+    "question": "Analyze the code snippet and choose the correct output or statement:",
+    "code": ".Which of the following statements accurately describes how Java handles argument passing for primitive types versus object references?",
+    "options": [
+      "A) Java uses pass-by-value for primitives and pass-by-reference for objects.",
+      "B) Java uses pass-by-reference for both primitives and objects.",
+      "C) Java is strictly pass-by-value, meaning a copy of the variable's value (whether primitive or reference) is passed into the method.",
+      "D) Java uses pass-by-reference-value hybrid depending on whether the class is mutable or immutable."
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option A is correct based on Java specification."
+  },
+  {
+    "id": "v_19",
+    "category": "Java",
+    "subtopic": "OOPs - Polymorphism",
+    "title": "Veeva Core MCQ 19",
+    "question": "Analyze the code snippet and choose the correct output or statement:",
+    "code": ".Consider a parent class Parent and a child class Child that both define a static method display(). If you write Parent obj = new Child(); obj.display();, which method is executed and why?",
+    "options": [
+      "A) Parent's display() method executes because static methods are resolved at compile time based on the reference type (method hiding).",
+      "B) Child's display() method executes due to standard runtime dynamic method dispatch.",
+      "C) ",
+      "D) A ClassCastException is thrown at runtime during the method lookup."
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Because print() is an instance method, dynamic method dispatch invokes Child's overridden print() method at runtime."
+  },
+  {
+    "id": "v_20",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "Veeva Core MCQ 20",
+    "question": "Analyze the code snippet and choose the correct output or statement:",
+    "code": "",
+    "options": [
+      "A) The code compiles automatically, and Java arbitrarily picks InterfaceA's default method at runtime.",
+      "B) The code will fail to compile unless one interface extends the other.",
+      "C) It is illegal for an interface to have default methods with duplicate signatures; a compilation error occurs in the interfaces themselves.",
+      "D) The implementing class must override printInfo() and can optionally invoke a specific interface version using InterfaceA.super.printInfo().Show"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option A is correct based on Java specification."
+  },
+  {
+    "id": "v_21",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "Veeva Core MCQ 21",
+    "question": "Analyze the code snippet and choose the correct output or statement:",
+    "code": "What happens during exception propagation if a checked exception is thrown inside a deeply nested method call, and none of the intermediate calling methods handle it or declare it in a throws clause?",
+    "options": [
+      "A) The exception automatically converts to an unchecked RuntimeException and propagates up to the main thread.",
+      "B) The code will fail to compile because checked exception rules are enforced strictly at compile time.",
+      "C) The exception bubbles up to the JVM, which safely ignores it if it is a checked exception.",
+      "D) It causes a NullPointerException at runtime."
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option A is correct based on Java specification."
+  },
+  {
+    "id": "v_22",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "Veeva Core MCQ 22",
+    "question": "Analyze the code snippet and choose the correct output or statement:",
+    "code": "",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 3"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option A is correct based on Java specification."
+  },
+  {
+    "id": "v_23",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "Veeva Core MCQ 23",
+    "question": "Analyze the code snippet and choose the correct output or statement:",
+    "code": ".In a try-with-resources statement, if an exception is thrown inside the try block and another exception is thrown when closing the resource automatically, what happens to the second exception?",
+    "options": [
+      "A) It is added as a suppressed exception to the primary exception thrown by the try block.",
+      "B) It overwrites and replaces the original exception thrown inside the try block.",
+      "C) Both exceptions are thrown simultaneously as a compound multithreaded exception.",
+      "D) The second exception is completely swallowed and ignored by the runtime environment."
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option A is correct based on Java specification."
+  },
+  {
+    "id": "v_24",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "Veeva Core MCQ 24",
+    "question": ".Why is it critical to override both equals() and hashCode() when creating a custom object to be used as a key in a HashMap?",
+    "code": "",
+    "options": [
+      "A) Without hashCode(), the map throws an immediate ClassCastException during insertion.",
+      "B) It ensures the map stays sorted in ascending order according to key hashes.",
+      "C) It prevents duplicate keys from being created in memory globally across threads.",
+      "D) To ensure objects that are equal according to equals() share the same hash code, allowing the hash map to locate the correct bucket and retrieve values."
+    ],
+    "correctAnswer": 3,
+    "correctLetter": "D",
+    "explanation": "Overriding both equals() and hashCode() guarantees that equal objects land in the same hash bucket."
+  },
+  {
+    "id": "v_25",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "Veeva Core MCQ 25",
+    "question": "Analyze the code snippet and choose the correct output or statement:",
+    "code": ".What happens if you attempt to add custom, non-comparable objects to a TreeSet without passing a custom Comparator to its constructor?",
+    "options": [
+      "A) The elements are added in standard FIFO insertion order.",
+      "B) ",
+      "C) The elements are sorted automatically using their default system memory address hashes.",
+      "D) The code fails to compile because the compiler checks Comparable compliance."
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option A is correct based on Java specification."
+  },
+  {
+    "id": "v_26",
+    "category": "Java",
+    "subtopic": "Collections - ArrayList",
+    "title": "Veeva Core MCQ 26",
+    "question": ".Which of the following approaches is the correct and safe way to remove an element from an ArrayList while iterating through it using a standard loop?",
+    "code": "",
+    "options": [
+      "A) Using a standard enhanced for-each loop and calling list.remove(item).",
+      "B) Iterating backward with an indexed for loop without adjusting indices.",
+      "C) Using an Iterator object and calling its explicit remove() method.",
+      "D) Calling list.remove() directly inside a parallel stream without synchronization."
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Calling iterator.remove() is the safe and correct way to remove elements while iterating to avoid ConcurrentModificationException."
+  },
+  {
+    "id": "db_1",
+    "category": "DBMS",
+    "subtopic": "SQL & Normalization",
+    "title": "DBMS Q1",
+    "question": "Which normal form deals with removing partial functional dependencies on a composite primary key?",
+    "code": "",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) BCNF"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Second Normal Form (2NF) requires that the table is in 1NF and all non-key attributes are fully functionally dependent on the entire primary key."
+  },
+  {
+    "id": "db_2",
+    "category": "DBMS",
+    "subtopic": "Indexing & Transactions",
+    "title": "DBMS Q2",
+    "question": "What does the 'I' in ACID properties of database transactions stand for?",
+    "code": "",
+    "options": [
+      "A) Integrity",
+      "B) Isolation",
+      "C) Indexing",
+      "D) Immutability"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "ACID stands for Atomicity, Consistency, Isolation, and Durability. Isolation ensures concurrent transactions execute independently without interfering with each other."
+  },
+  {
+    "id": "apt_1",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Aptitude Q1",
+    "question": "If a chart shows sales grew from $40,000 to $50,000 in one quarter, what is the percentage increase?",
+    "code": "",
+    "options": [
+      "A) 20%",
+      "B) 25%",
+      "C) 15%",
+      "D) 30%"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Percentage Increase = ((50,000 - 40,000) / 40,000) * 100 = (10,000 / 40,000) * 100 = 25%."
+  },
+  {
+    "id": "st_1",
+    "category": "Software Testing",
+    "subtopic": "Manual Testing & Fundamentals",
+    "title": "Software Testing Q1",
+    "question": "Which testing technique is classified as a black-box testing method?",
+    "code": "",
+    "options": [
+      "A) Statement Coverage Testing",
+      "B) Equivalence Partitioning",
+      "C) Path Testing",
+      "D) Branch Coverage Testing"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Equivalence Partitioning is a black-box testing technique that divides input data into valid and invalid partitions without inspecting the internal code structure."
+  },
+  {
+    "id": "st_2",
+    "category": "Software Testing",
+    "subtopic": "Test Design Techniques",
+    "title": "Software Testing Q2",
+    "question": "If an input field accepts values between 1 and 100 inclusive, what are the Boundary Value Analysis (BVA) test boundary values?",
+    "code": "",
+    "options": [
+      "A) 0, 1, 100, 101",
+      "B) 1, 50, 100",
+      "C) 0, 50, 100, 150",
+      "D) 2, 99, 101"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Boundary Value Analysis tests min, min-1, max, and max+1. For range [1, 100], boundary values are 0, 1, 100, and 101."
+  },
+  {
+    "id": "st_3",
+    "category": "Software Testing",
+    "subtopic": "Automation Testing (Selenium)",
+    "title": "Software Testing Q3",
+    "question": "Which implicit wait configuration in Selenium WebDriver correctly sets the timeout for element location?",
+    "code": "driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));",
+    "options": [
+      "A) It pauses execution unconditionally for 10 seconds on every line.",
+      "B) It polls the DOM dynamically up to 10 seconds before throwing NoSuchElementException.",
+      "C) It waits only for page loading to complete within 10 seconds.",
+      "D) It executes asynchronously in a separate thread."
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Implicit wait tells WebDriver to poll the DOM for a specified duration when trying to find an element before throwing NoSuchElementException."
+  },
+  {
+    "id": "st_4",
+    "category": "Software Testing",
+    "subtopic": "Automation Testing (TestNG)",
+    "title": "Software Testing Q4",
+    "question": "In TestNG, which annotation is executed once before any test method belonging to the classes inside the <test> tag is run?",
+    "code": "",
+    "options": [
+      "A) @BeforeClass",
+      "B) @BeforeMethod",
+      "C) @BeforeTest",
+      "D) @BeforeSuite"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "@BeforeTest executes before any test method belonging to the classes inside the <test> tag in testng.xml."
+  },
+  {
+    "id": "st_5",
+    "category": "Software Testing",
+    "subtopic": "API Testing",
+    "title": "Software Testing Q5",
+    "question": "What does an HTTP status code 201 Created signify in RESTful API testing?",
+    "code": "",
+    "options": [
+      "A) The request was successful and a new resource was created on the server.",
+      "B) The request was accepted for background processing.",
+      "C) The client is unauthorized to access the endpoint.",
+      "D) The requested endpoint moved permanently."
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HTTP status code 201 Created indicates that the HTTP request succeeded and led to the creation of a new resource (commonly returned from POST requests)."
+  },
+  {
+    "id": "st_6",
+    "category": "Software Testing",
+    "subtopic": "Manual Testing & Fundamentals",
+    "title": "Software Testing Q6",
+    "question": "What is the key difference between Severity and Priority in defect management?",
+    "code": "",
+    "options": [
+      "A) Severity indicates urgency to fix; Priority indicates technical impact on system.",
+      "B) Severity indicates technical impact on the application; Priority indicates business urgency to fix.",
+      "C) Both mean the exact same thing.",
+      "D) Severity is assigned by developers; Priority is assigned by end users."
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Severity reflects the technical defect impact on system functionality, whereas Priority reflects business urgency for fixing the defect."
+  },
+  {
+    "id": "st_7",
+    "category": "Software Testing",
+    "subtopic": "Automation Testing (Selenium)",
+    "title": "Software Testing Q7",
+    "question": "Which locator strategy in Selenium is generally considered the fastest for locating web elements?",
+    "code": "",
+    "options": [
+      "A) XPath",
+      "B) ID",
+      "C) CSS Selector",
+      "D) Class Name"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Locating by ID is the fastest locator strategy because modern browsers implement native document.getElementById() direct DOM lookups."
+  },
+  {
+    "id": "st_8",
+    "category": "Software Testing",
+    "subtopic": "Test Design Techniques",
+    "title": "Software Testing Q8",
+    "question": "What type of testing ensures that recent code changes have not broken existing functionality?",
+    "code": "",
+    "options": [
+      "A) Sanity Testing",
+      "B) Smoke Testing",
+      "C) Regression Testing",
+      "D) Exploratory Testing"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Regression testing verifies that software previously developed and tested still performs correctly after modifications or enhancements."
+  }
+]
