@@ -1,11 +1,9 @@
 import React from 'react';
-import { CheckCircle2, PlayCircle, Home, Layers, PlusCircle, MessageSquare } from 'lucide-react';
+import { CheckCircle2, PlayCircle, Home, PlusCircle, MessageSquare } from 'lucide-react';
 
 export default function HeaderNavbar({
   activeMode,
   setActiveMode,
-  toggleSidebar,
-  isSidebarOpen,
   resetSelectedTopic,
   onOpenAskModal,
   onOpenFeedbackModal
@@ -20,11 +18,6 @@ export default function HeaderNavbar({
       </div>
 
       <div className="nav-actions">
-        <button className="sidebar-toggle-btn" onClick={toggleSidebar}>
-          <Layers size={18} />
-          <span>{isSidebarOpen ? 'Hide Topics' : 'Show Topics'}</span>
-        </button>
-
         <button
           className={`nav-btn ${activeMode === 'home' ? 'nav-btn-primary' : 'nav-btn-outline'}`}
           onClick={() => { setActiveMode('home'); resetSelectedTopic(); }}

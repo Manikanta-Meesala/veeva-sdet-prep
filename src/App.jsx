@@ -7,6 +7,7 @@ import PracticeQuizMode from './components/PracticeQuizMode';
 import RandomQuizMode from './components/RandomQuizMode';
 import AskQuestionModal from './components/AskQuestionModal';
 import FeedbackModal from './components/FeedbackModal';
+import { Layers } from 'lucide-react';
 
 import initialQuestions from './data/questions.json';
 
@@ -56,7 +57,6 @@ export default function App() {
   const handleAddQuestion = (newQuestion) => {
     setQuestions(prev => [newQuestion, ...prev]);
 
-    // Send to backend API if available
     fetch('/api/questions/add', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -71,8 +71,6 @@ export default function App() {
       <HeaderNavbar
         activeMode={activeMode}
         setActiveMode={setActiveMode}
-        toggleSidebar={() => setIsSidebarOpen(!isSidebarOpen)}
-        isSidebarOpen={isSidebarOpen}
         resetSelectedTopic={resetSelectedTopic}
         onOpenAskModal={() => setIsAskModalOpen(true)}
         onOpenFeedbackModal={() => setIsFeedbackModalOpen(true)}
@@ -85,7 +83,20 @@ export default function App() {
           selectedTopic={selectedTopic}
           onSelectTopic={handleSelectTopic}
           isOpen={isSidebarOpen}
+          onClose={() => setIsSidebarOpen(false)}
         />
+
+        {/* When Sidebar is closed, show Open Topics button */}
+        {!isSidebarOpen && (
+          <button
+            className="open-topics-btn"
+            onClick={() => setIsSidebarOpen(true)}
+            title="Open Topics Sidebar"
+          >
+            <Layers size={18} />
+            <span>Open Topics</span>
+          </button>
+        )}
 
         {/* Main Content Area */}
         <main className="page-body">
@@ -123,7 +134,7 @@ export default function App() {
         </main>
       </div>
 
-      {/* Interactive Modals */}
+      {/* Modals */}
       <AskQuestionModal
         isOpen={isAskModalOpen}
         onClose={() => setIsAskModalOpen(false)}

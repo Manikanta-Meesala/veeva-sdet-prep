@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Search, ChevronDown, ChevronRight, BookOpen, Layers } from 'lucide-react';
+import { Search, ChevronDown, ChevronRight, BookOpen, Layers, X } from 'lucide-react';
 
-export default function LeftSidebar({ questions, selectedTopic, onSelectTopic, isOpen }) {
+export default function LeftSidebar({ questions, selectedTopic, onSelectTopic, isOpen, onClose }) {
   const [searchTerm, setSearchTerm] = useState('');
   const [expandedCategories, setExpandedCategories] = useState({
     'Software Testing': true,
@@ -31,15 +31,31 @@ export default function LeftSidebar({ questions, selectedTopic, onSelectTopic, i
     setExpandedCategories(prev => ({ ...prev, [catName]: !prev[catName] }));
   };
 
+  const handleSubtopicClick = (catName, subtopicName) => {
+    onSelectTopic({ category: catName, subtopic: subtopicName });
+    // On mobile screens, auto-close sidebar after selection
+    if (window.innerWidth <= 900) {
+      onClose();
+    }
+  };
+
   if (!isOpen) return null;
 
   return (
     <aside className="left-sidebar">
       <div className="sidebar-header">
         <div className="sidebar-title">
-          <span>Topics & Modules</span>
-          <Layers size={18} color="var(--primary-500)" />
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+            <Layers size={18} color="var(--primary-500)" />
+            <span>Topics & Modules</span>
+          </div>
+
+          {/* Close X Button inside Sidebar Header */}
+          <button className="sidebar-close-btn" onClick={onClose} title="Close Navigation">
+            <X size={20} />
+          </button>
         </div>
+
         <div className="sidebar-search">
           <Search className="sidebar-search-icon" />
           <input
@@ -80,7 +96,7 @@ export default function LeftSidebar({ questions, selectedTopic, onSelectTopic, i
                       <li
                         key={subtopic.name}
                         className={`subtopic-item ${isSelected ? 'active' : ''}`}
-                        onClick={() => onSelectTopic({ category: category.name, subtopic: subtopic.name })}
+                        onClick={() => handleSubtopicClick(category.name, subtopic.name)}
                       >
                         <span style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
                           <BookOpen size={14} />
