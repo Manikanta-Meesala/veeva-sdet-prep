@@ -130,6 +130,21 @@ body {
   flex-wrap: wrap;
 }
 
+.mobile-header-topics-btn {
+  display: none;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.55rem 0.95rem;
+  border-radius: var(--radius-md);
+  font-size: 0.88rem;
+  font-weight: 700;
+  cursor: pointer;
+  background: var(--primary-500);
+  color: white;
+  border: none;
+  box-shadow: 0 2px 8px rgba(2, 132, 199, 0.3);
+}
+
 .nav-btn {
   display: inline-flex;
   align-items: center;
@@ -214,6 +229,7 @@ body {
   border-color: #fca5a5;
 }
 
+/* Floating Open Topics Button */
 .open-topics-btn {
   position: fixed;
   top: 78px;
@@ -749,27 +765,52 @@ body {
   color: var(--text-muted);
 }
 
+/* Mobile Backdrop Overlay */
+.mobile-sidebar-backdrop {
+  display: none;
+}
+
 /* Responsive Mobile & Tablet Rules */
 @media (max-width: 900px) {
   .header-navbar {
     padding: 0.75rem 1rem;
   }
 
+  .mobile-header-topics-btn {
+    display: inline-flex;
+  }
+
+  .mobile-sidebar-backdrop {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(15, 23, 42, 0.5);
+    backdrop-filter: blur(3px);
+    z-index: 95;
+  }
+
   .left-sidebar {
     position: fixed;
     left: 0;
-    top: 65px;
-    height: calc(100vh - 65px);
-    width: 290px;
-    box-shadow: 10px 0 25px rgba(0, 0, 0, 0.25);
+    top: 0;
+    height: 100vh;
+    width: 300px;
+    box-shadow: 10px 0 30px rgba(0, 0, 0, 0.3);
     z-index: 100;
   }
 
   .open-topics-btn {
-    top: 72px;
-    left: 10px;
-    padding: 0.5rem 0.9rem;
-    font-size: 0.82rem;
+    top: auto;
+    bottom: 24px;
+    left: 20px;
+    padding: 0.75rem 1.35rem;
+    font-size: 0.95rem;
+    border-radius: var(--radius-full);
+    box-shadow: 0 8px 25px rgba(2, 132, 199, 0.45);
+    z-index: 90;
   }
 
   .page-body {

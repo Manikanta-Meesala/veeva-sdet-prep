@@ -1,12 +1,14 @@
 import React from 'react';
-import { CheckCircle2, PlayCircle, Home, PlusCircle, MessageSquare } from 'lucide-react';
+import { CheckCircle2, PlayCircle, Home, PlusCircle, MessageSquare, Layers } from 'lucide-react';
 
 export default function HeaderNavbar({
   activeMode,
   setActiveMode,
   resetSelectedTopic,
   onOpenAskModal,
-  onOpenFeedbackModal
+  onOpenFeedbackModal,
+  onOpenSidebar,
+  isSidebarOpen
 }) {
   return (
     <header className="header-navbar">
@@ -18,6 +20,18 @@ export default function HeaderNavbar({
       </div>
 
       <div className="nav-actions">
+        {/* Mobile Topics Button in Header */}
+        {!isSidebarOpen && (
+          <button
+            className="mobile-header-topics-btn"
+            onClick={onOpenSidebar}
+            title="Open Topics Sidebar"
+          >
+            <Layers size={18} />
+            <span>Topics</span>
+          </button>
+        )}
+
         <button
           className={`nav-btn ${activeMode === 'home' ? 'nav-btn-primary' : 'nav-btn-outline'}`}
           onClick={() => { setActiveMode('home'); resetSelectedTopic(); }}

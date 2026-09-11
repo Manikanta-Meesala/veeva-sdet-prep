@@ -74,9 +74,19 @@ export default function App() {
         resetSelectedTopic={resetSelectedTopic}
         onOpenAskModal={() => setIsAskModalOpen(true)}
         onOpenFeedbackModal={() => setIsFeedbackModalOpen(true)}
+        onOpenSidebar={() => setIsSidebarOpen(true)}
+        isSidebarOpen={isSidebarOpen}
       />
 
       <div className="main-content-layout">
+        {/* Mobile Backdrop Overlay */}
+        {isSidebarOpen && (
+          <div
+            className="mobile-sidebar-backdrop"
+            onClick={() => setIsSidebarOpen(false)}
+          />
+        )}
+
         {/* Left Navigation Sidebar */}
         <LeftSidebar
           questions={questions}
@@ -86,7 +96,7 @@ export default function App() {
           onClose={() => setIsSidebarOpen(false)}
         />
 
-        {/* When Sidebar is closed, show Open Topics button */}
+        {/* Floating Open Topics Button when sidebar is closed */}
         {!isSidebarOpen && (
           <button
             className="open-topics-btn"
@@ -94,7 +104,7 @@ export default function App() {
             title="Open Topics Sidebar"
           >
             <Layers size={18} />
-            <span>Open Topics</span>
+            <span>Topics</span>
           </button>
         )}
 
