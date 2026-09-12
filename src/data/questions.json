@@ -178,7 +178,9 @@
     "code": "Can a Java class extend multiple classes?",
     "options": [
       "A) Yes",
-      "B) No"
+      "B) No",
+      "C) Yes, if interfaces are extended",
+      "D) Yes, if all classes are abstract"
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
@@ -363,7 +365,9 @@
     "code": "Can a private method in Java be accessed from outside the class it belongs to?",
     "options": [
       "A) Yes",
-      "B) No"
+      "B) No",
+      "C) Yes, if in the same package",
+      "D) Yes, if declared protected as well"
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
@@ -379,7 +383,8 @@
     "options": [
       "A) Null pointer exception",
       "B) Print on the console: 'value of i=4'",
-      "C) Print on the console: 'value of i=3'"
+      "C) Print on the console: 'value of i=3'",
+      "D) Compilation Error"
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
@@ -394,8 +399,9 @@
     "code": "",
     "options": [
       "A) Initialization of unused local variables",
-      "B) Reclaiming the memory occupied by the object that is no longer referenced by any reference variable",
-      "C) Assigning null to reference variables"
+      "B) Reclaiming memory occupied by objects that are no longer referenced",
+      "C) Assigning null to reference variables",
+      "D) Explicitly calling delete on pointer memory"
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
@@ -426,10 +432,9 @@
     "question": "Which statement is true regarding the synchronization of ArrayList?",
     "code": "",
     "options": [
-      "A) ArrayList is thread-safe and fully synchronize",
-      "D) ",
+      "A) ArrayList is thread-safe and fully synchronized.",
       "B) ArrayList methods are not synchronized, making it faster than Vector.",
-      "C) ArrayList can only be synchronized manually using the synchronized keyword on its reference.",
+      "C) ArrayList can only be synchronized manually using the synchronized keyword on reference.",
       "D) ArrayList automatically locks data during write modifications."
     ],
     "correctAnswer": 1,
@@ -496,11 +501,9 @@
     "code": "",
     "options": [
       "A) When you need fast random access to elements.",
-      "B) When frequent insertions and deletions are require",
-      "D) ",
-      "C) When memory usage needs to be minimize",
-      "D) ",
-      "D) When thread safety is a priority"
+      "B) When frequent insertions and deletions are required.",
+      "C) When memory usage needs to be minimized.",
+      "D) When thread safety is a priority."
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
@@ -803,9 +806,9 @@
     "question": "What is the behavior or output in HashMap Q12?",
     "code": "How is LinkedHashMap declared in Java",
     "options": [
-      "A) public class LinkedHashMap<K,\u200bV>",
-      "B) public class LinkedHashMap<K,\u200bV> implements Map<K,\u200bV>",
-      "C) public class LinkedHashMap<K,\u200bV>  extends HashMap<K,\u200bV> implements Map<K,\u200bV>",
+      "A) public class LinkedHashMap<K,​V>",
+      "B) public class LinkedHashMap<K,​V> implements Map<K,​V>",
+      "C) public class LinkedHashMap<K,​V>  extends HashMap<K,​V> implements Map<K,​V>",
       "D) None of these"
     ],
     "correctAnswer": 2,
@@ -1634,7 +1637,7 @@
     "subtopic": "General Core Java",
     "title": "Veeva Core MCQ 1",
     "question": "Analyze the code snippet and choose the correct output or statement:",
-    "code": "",
+    "code": "class Parent {\n    static void display() {\n        System.out.println(\"Parent\");\n    }\n}\nclass Child extends Parent {\n    static void display() {\n        System.out.println(\"Child\");\n    }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Parent obj = new Child();\n        obj.display();\n    }\n}",
     "options": [
       "A) Parent",
       "B) Child",
@@ -1643,7 +1646,7 @@
     ],
     "correctAnswer": 0,
     "correctLetter": "A",
-    "explanation": "Option A is correct based on Java specification."
+    "explanation": "Static methods in Java are resolved at compile time based on the declared reference type (Parent), not the runtime object instance (Child). This is known as method hiding."
   },
   {
     "id": "v_2",
@@ -1651,7 +1654,7 @@
     "subtopic": "General Core Java",
     "title": "Veeva Core MCQ 2",
     "question": "Analyze the code snippet and choose the correct output or statement:",
-    "code": "",
+    "code": "public class StringPoolTest {\n    public static void main(String[] args) {\n        String s1 = \"Veeva\";\n        String s2 = \"Veeva\";\n        String s3 = new String(\"Veeva\").intern();\n        System.out.println((s1 == s2) + \" \" + s1.equals(s3) + \" \" + (s1 == s3));\n    }\n}",
     "options": [
       "A) true true true",
       "B) false true false",
@@ -1660,7 +1663,7 @@
     ],
     "correctAnswer": 0,
     "correctLetter": "A",
-    "explanation": "Option A is correct based on Java specification."
+    "explanation": "s1 and s2 refer to the same literal string in the String Pool (s1 == s2 is true). s1.equals(s3) checks value equality (true). Calling .intern() on s3 returns the canonical pooled reference, so s1 == s3 is also true."
   },
   {
     "id": "v_3",
@@ -1677,7 +1680,7 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "The finally block always executes before the method returns and its return statement overrides any return statement in try/catch."
+    "explanation": "The finally block always executes before a method returns, and any explicit return statement in the finally block overrides return statements in try or catch blocks."
   },
   {
     "id": "v_4",
@@ -1687,8 +1690,8 @@
     "question": "Analyze the code snippet and choose the correct output or statement:",
     "code": "class Test {\n    static {\n        System.out.print(\"Static \");\n    }\n    {\n        System.out.print(\"Instance \");\n    }\n    public Test() {\n        System.out.print(\"Constructor \");\n    }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Test t1 = new Test();\n        Test t2 = new Test();\n    }\n}",
     "options": [
-      "A) Static Instance Constructor Static Instance Constructor",
-      "B) Static Instance Constructor",
+      "A) Static Instance Constructor Instance Constructor",
+      "B) Static Instance Constructor Static Instance Constructor",
       "C) Instance Constructor Instance Constructor Static",
       "D) Static Constructor Instance Constructor Instance"
     ],
@@ -1702,7 +1705,7 @@
     "subtopic": "General Core Java",
     "title": "Veeva Core MCQ 5",
     "question": "Analyze the code snippet and choose the correct output or statement:",
-    "code": "",
+    "code": "public class OverloadingTest {\n    public static void print(Object obj) {\n        System.out.println(\"Object\");\n    }\n    public static void print(String str) {\n        System.out.println(\"String\");\n    }\n    public static void main(String[] args) {\n        Object ref = \"Hello Veeva\";\n        print(ref);\n    }\n}",
     "options": [
       "A) Object",
       "B) String",
@@ -1711,7 +1714,7 @@
     ],
     "correctAnswer": 0,
     "correctLetter": "A",
-    "explanation": "Option A is correct based on Java specification."
+    "explanation": "Method overloading resolution is performed at compile time based on the declared type of the reference variable (Object ref), not the actual runtime object instance (String)."
   },
   {
     "id": "v_6",
@@ -1719,7 +1722,7 @@
     "subtopic": "General Core Java",
     "title": "Veeva Core MCQ 6",
     "question": "Analyze the code snippet and choose the correct output or statement:",
-    "code": "",
+    "code": "import java.util.ArrayList;\nimport java.util.List;\n\npublic class ListRemoveTest {\n    public static void main(String[] args) {\n        List<Integer> list = new ArrayList<>();\n        list.add(1);\n        list.add(2);\n        list.add(3);\n        list.remove(0);\n        System.out.println(list);\n    }\n}",
     "options": [
       "A) [2, 3]",
       "B) [1, 3]",
@@ -1728,7 +1731,7 @@
     ],
     "correctAnswer": 0,
     "correctLetter": "A",
-    "explanation": "Option A is correct based on Java specification."
+    "explanation": "list.remove(0) invokes remove(int index), which removes the element at index 0 (value 1), leaving [2, 3] in the list."
   },
   {
     "id": "v_7",
@@ -1736,7 +1739,7 @@
     "subtopic": "General Core Java",
     "title": "Veeva Core MCQ 7",
     "question": "Analyze the code snippet and choose the correct output or statement:",
-    "code": "",
+    "code": "public class IntegerCacheTest {\n    public static void main(String[] args) {\n        Integer a = 100;\n        Integer b = 100;\n        Integer c = Integer.valueOf(100);\n        System.out.println((a == b) + \" \" + (a == c));\n    }\n}",
     "options": [
       "A) true true",
       "B) false false",
@@ -1745,7 +1748,7 @@
     ],
     "correctAnswer": 0,
     "correctLetter": "A",
-    "explanation": "Option A is correct based on Java specification."
+    "explanation": "Java maintains an Integer Cache for values between -128 and 127. Auto-boxing (100) and Integer.valueOf(100) return the exact same cached reference, so both == comparisons return true."
   },
   {
     "id": "v_8",
@@ -1753,16 +1756,16 @@
     "subtopic": "General Core Java",
     "title": "Veeva Core MCQ 8",
     "question": "Analyze the code snippet and choose the correct output or statement:",
-    "code": "",
+    "code": "class FinalFieldTest {\n    final int x;\n    FinalFieldTest() {\n        x = 10;\n    }\n    public static void main(String[] args) {\n        FinalFieldTest obj = new FinalFieldTest();\n        System.out.println(obj.x);\n    }\n}",
     "options": [
       "A) 10",
       "B) 20",
-      "C) Compilation Error if line 6 is active due to modifying a final field",
+      "C) Compilation Error",
       "D) Runtime Exception"
     ],
     "correctAnswer": 0,
     "correctLetter": "A",
-    "explanation": "Option A is correct based on Java specification."
+    "explanation": "A blank final instance variable must be initialized in the constructor. Once assigned during object creation, its value is 10 and cannot be changed."
   },
   {
     "id": "v_9",
@@ -1770,16 +1773,16 @@
     "subtopic": "General Core Java",
     "title": "Veeva Core MCQ 9",
     "question": "Analyze the code snippet and choose the correct output or statement:",
-    "code": "",
+    "code": "class WorkerThread extends Thread {\n    public void run() {\n        System.out.print(\"Run \");\n    }\n}\npublic class ThreadRunTest {\n    public static void main(String[] args) {\n        System.out.print(\"Main \");\n        WorkerThread t = new WorkerThread();\n        t.run();\n    }\n}",
     "options": [
-      "A) Main Run",
-      "B) Run Main",
+      "A) Main Run ",
+      "B) Run Main ",
       "C) Output is unpredictable",
       "D) Compilation Error"
     ],
     "correctAnswer": 0,
     "correctLetter": "A",
-    "explanation": "Option A is correct based on Java specification."
+    "explanation": "Calling t.run() directly invokes the run method synchronously on the current thread (main thread) rather than starting a new thread (which requires t.start()). Hence, 'Main ' is printed first followed by 'Run '."
   },
   {
     "id": "v_10",
@@ -1787,7 +1790,7 @@
     "subtopic": "General Core Java",
     "title": "Veeva Core MCQ 10",
     "question": "Analyze the code snippet and choose the correct output or statement:",
-    "code": "",
+    "code": "public class TernaryEvaluation {\n    public static void main(String[] args) {\n        int a = 5;\n        int result = (a > 3) ? 1 : 2;\n        System.out.println(result);\n    }\n}",
     "options": [
       "A) 1",
       "B) RuntimeException",
@@ -1796,7 +1799,7 @@
     ],
     "correctAnswer": 0,
     "correctLetter": "A",
-    "explanation": "Option A is correct based on Java specification."
+    "explanation": "The condition (a > 3) evaluates to true since 5 > 3. Therefore, the ternary expression returns the first branch value, 1."
   },
   {
     "id": "v_11",
@@ -1804,7 +1807,7 @@
     "subtopic": "General Core Java",
     "title": "Veeva Core MCQ 11",
     "question": "Analyze the code snippet and choose the correct output or statement:",
-    "code": "",
+    "code": "class Counter {\n    static int count = 0;\n    Counter() {\n        count++;\n    }\n}\npublic class StaticCounterTest {\n    public static void main(String[] args) {\n        Counter c1 = new Counter();\n        Counter c2 = new Counter();\n        Counter c3 = new Counter();\n        System.out.println(c1.count + \" \" + c3.count);\n    }\n}",
     "options": [
       "A) 3 3",
       "B) 2 3",
@@ -1813,7 +1816,7 @@
     ],
     "correctAnswer": 0,
     "correctLetter": "A",
-    "explanation": "Option A is correct based on Java specification."
+    "explanation": "The static variable count is shared across all instances of Counter. Instantiating three objects increments count to 3, so accessing count through any reference yields 3."
   },
   {
     "id": "v_12",
@@ -1821,7 +1824,7 @@
     "subtopic": "General Core Java",
     "title": "Veeva Core MCQ 12",
     "question": "Analyze the code snippet and choose the correct output or statement:",
-    "code": "",
+    "code": "public class BitwiseOps {\n    public static void main(String[] args) {\n        int a = 5 | 2;   // Bitwise OR\n        int b = 18 & 26; // Bitwise AND\n        System.out.println(a + \" \" + b);\n    }\n}",
     "options": [
       "A) 7 18",
       "B) 8 19",
@@ -1830,7 +1833,7 @@
     ],
     "correctAnswer": 0,
     "correctLetter": "A",
-    "explanation": "Option A is correct based on Java specification."
+    "explanation": "5 | 2 converts to 101_2 | 010_2 = 111_2 = 7. 18 & 26 converts to 10010_2 & 11010_2 = 10010_2 = 18. Output is '7 18'."
   },
   {
     "id": "v_13",
@@ -1838,7 +1841,7 @@
     "subtopic": "General Core Java",
     "title": "Veeva Core MCQ 13",
     "question": "Analyze the code snippet and choose the correct output or statement:",
-    "code": "",
+    "code": "import java.util.ArrayList;\nimport java.util.List;\n\npublic class ConcurrentModTest {\n    public static void main(String[] args) {\n        List<String> list = new ArrayList<>();\n        list.add(\"Java\");\n        list.add(\"Python\");\n        list.add(\"C++\");\n        for (String item : list) {\n            if (\"Java\".equals(item)) {\n                list.remove(item);\n            }\n        }\n    }\n}",
     "options": [
       "A) Throws ConcurrentModificationException",
       "B) Prints 2",
@@ -1847,7 +1850,7 @@
     ],
     "correctAnswer": 0,
     "correctLetter": "A",
-    "explanation": "Option A is correct based on Java specification."
+    "explanation": "Modifying an ArrayList structure directly while iterating over it via an enhanced for-each loop triggers a ConcurrentModificationException due to fail-fast iterator checks."
   },
   {
     "id": "v_14",
@@ -1855,7 +1858,7 @@
     "subtopic": "General Core Java",
     "title": "Veeva Core MCQ 14",
     "question": "Analyze the code snippet and choose the correct output or statement:",
-    "code": "",
+    "code": "abstract class Appliance {\n    abstract void turnOn();\n}\nclass WashingMachine extends Appliance {\n    // Missing implementation of turnOn()\n}\npublic class TestAppliance {\n    public static void main(String[] args) {\n        Appliance a = new WashingMachine();\n    }\n}",
     "options": [
       "A) Compilation Error",
       "B) Loading Login",
@@ -1864,7 +1867,7 @@
     ],
     "correctAnswer": 0,
     "correctLetter": "A",
-    "explanation": "Option A is correct based on Java specification."
+    "explanation": "WashingMachine extends abstract class Appliance but does not implement abstract method turnOn() nor is declared abstract itself. This causes a Compilation Error."
   },
   {
     "id": "v_15",
@@ -1872,15 +1875,16 @@
     "subtopic": "General Core Java",
     "title": "Veeva Core MCQ 15",
     "question": "Analyze the code snippet and choose the correct output or statement:",
-    "code": "",
+    "code": "public class StringEqualsTest {\n    public static void main(String[] args) {\n        String str1 = \"Veeva\";\n        String str2 = \"Veeva\";\n        String str3 = new String(\"Veeva\");\n        System.out.println((str1 == str2) + \" \" + (str1 == str3));\n    }\n}",
     "options": [
-      "B) true false",
+      "A) true false",
+      "B) false true",
       "C) true true",
       "D) false false"
     ],
     "correctAnswer": 0,
     "correctLetter": "A",
-    "explanation": "Option A is correct based on Java specification."
+    "explanation": "str1 and str2 point to the same object in the String Constant Pool (str1 == str2 is true). str3 is created explicitly on the heap via new String(), so str1 == str3 is false."
   },
   {
     "id": "v_16",
@@ -1888,7 +1892,7 @@
     "subtopic": "General Core Java",
     "title": "Veeva Core MCQ 16",
     "question": "Analyze the code snippet and choose the correct output or statement:",
-    "code": "",
+    "code": "public class MultiCatchTest {\n    public static void main(String[] args) {\n        try {\n            String str = null;\n            System.out.println(str.toUpperCase());\n        } catch (NullPointerException e) {\n            System.out.print(\"NPE\");\n        } catch (Exception e) {\n            System.out.print(\" Exception\");\n        }\n    }\n}",
     "options": [
       "A) NPE",
       "B) Exception followed by NPE",
@@ -1897,15 +1901,15 @@
     ],
     "correctAnswer": 0,
     "correctLetter": "A",
-    "explanation": "Option A is correct based on Java specification."
+    "explanation": "str.toUpperCase() on a null reference throws NullPointerException. The first catch block explicitly matches and handles NullPointerException, printing 'NPE'."
   },
   {
     "id": "v_17",
     "category": "Java",
     "subtopic": "Strings & Memory",
     "title": "Veeva Core MCQ 17",
-    "question": "//...",
-    "code": "class Config { int timeout = 10; }\npublic static void update(Config c) {\n    c.timeout = 20;\n    c = new Config();\n    c.timeout = 30;\n}\npublic static void main(String[] args) {\n    Config cfg = new Config();\n    update(cfg);\n    System.out.println(cfg.timeout);\n}",
+    "question": "Analyze the code snippet and choose the correct output or statement:",
+    "code": "class Config {\n    int timeout = 10;\n}\npublic class PassByReferenceValue {\n    public static void update(Config c) {\n        c.timeout = 20;\n        c = new Config();\n        c.timeout = 30;\n    }\n    public static void main(String[] args) {\n        Config cfg = new Config();\n        update(cfg);\n        System.out.println(cfg.timeout);\n    }\n}",
     "options": [
       "A) 20",
       "B) 30",
@@ -1914,24 +1918,24 @@
     ],
     "correctAnswer": 0,
     "correctLetter": "A",
-    "explanation": "Java is pass-by-value for references. Reassigning c inside update() does not change cfg in main, but mutating c.timeout=20 affects the original object."
+    "explanation": "Java passes object reference copies by value. Modifying c.timeout = 20 changes the object referenced by cfg. Reassigning c = new Config() inside update() changes only the local parameter reference c, leaving cfg in main pointing to the modified object with timeout = 20."
   },
   {
     "id": "v_18",
     "category": "Java",
     "subtopic": "General Core Java",
     "title": "Veeva Core MCQ 18",
-    "question": "Analyze the code snippet and choose the correct output or statement:",
-    "code": ".Which of the following statements accurately describes how Java handles argument passing for primitive types versus object references?",
+    "question": "Which of the following statements accurately describes how Java handles argument passing for primitive types versus object references?",
+    "code": "",
     "options": [
-      "A) Java uses pass-by-value for primitives and pass-by-reference for objects.",
-      "B) Java uses pass-by-reference for both primitives and objects.",
-      "C) Java is strictly pass-by-value, meaning a copy of the variable's value (whether primitive or reference) is passed into the method.",
-      "D) Java uses pass-by-reference-value hybrid depending on whether the class is mutable or immutable."
+      "A) Java is strictly pass-by-value in all cases; for object references, a copy of the reference memory address is passed.",
+      "B) Java uses pass-by-value for primitives and pass-by-reference for object instances.",
+      "C) Java uses pass-by-reference for both primitive variables and object references.",
+      "D) Java switches dynamically between pass-by-value and pass-by-reference depending on mutability."
     ],
     "correctAnswer": 0,
     "correctLetter": "A",
-    "explanation": "Option A is correct based on Java specification."
+    "explanation": "Java is 100% pass-by-value. When an object reference is passed into a method, a copy of the reference value (the handle/address) is passed by value into the parameter."
   },
   {
     "id": "v_19",
@@ -1939,16 +1943,16 @@
     "subtopic": "OOPs - Polymorphism",
     "title": "Veeva Core MCQ 19",
     "question": "Analyze the code snippet and choose the correct output or statement:",
-    "code": ".Consider a parent class Parent and a child class Child that both define a static method display(). If you write Parent obj = new Child(); obj.display();, which method is executed and why?",
+    "code": "class Parent {\n    public static void display() {\n        System.out.println(\"Parent\");\n    }\n}\nclass Child extends Parent {\n    public static void display() {\n        System.out.println(\"Child\");\n    }\n}\npublic class StaticPolymorphism {\n    public static void main(String[] args) {\n        Parent obj = new Child();\n        obj.display();\n    }\n}",
     "options": [
       "A) Parent's display() method executes because static methods are resolved at compile time based on the reference type (method hiding).",
       "B) Child's display() method executes due to standard runtime dynamic method dispatch.",
-      "C) ",
-      "D) A ClassCastException is thrown at runtime during the method lookup."
+      "C) Compilation Error occurs because static methods cannot be invoked through object references.",
+      "D) A ClassCastException is thrown at runtime during method lookup."
     ],
-    "correctAnswer": 1,
-    "correctLetter": "B",
-    "explanation": "Because print() is an instance method, dynamic method dispatch invokes Child's overridden print() method at runtime."
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Static methods are hidden, not overridden. When invoked on a reference variable of type Parent, static method resolution resolves at compile time to Parent.display()."
   },
   {
     "id": "v_20",
@@ -1956,33 +1960,33 @@
     "subtopic": "General Core Java",
     "title": "Veeva Core MCQ 20",
     "question": "Analyze the code snippet and choose the correct output or statement:",
-    "code": "",
+    "code": "interface InterfaceA {\n    default void printInfo() {\n        System.out.println(\"A\");\n    }\n}\ninterface InterfaceB {\n    default void printInfo() {\n        System.out.println(\"B\");\n    }\n}\nclass MyClass implements InterfaceA, InterfaceB {\n    // Does not override printInfo()\n}",
     "options": [
-      "A) The code compiles automatically, and Java arbitrarily picks InterfaceA's default method at runtime.",
-      "B) The code will fail to compile unless one interface extends the other.",
-      "C) It is illegal for an interface to have default methods with duplicate signatures; a compilation error occurs in the interfaces themselves.",
-      "D) The implementing class must override printInfo() and can optionally invoke a specific interface version using InterfaceA.super.printInfo().Show"
+      "A) Compilation Error due to default method signature conflict",
+      "B) The code compiles and picks InterfaceA's method at runtime",
+      "C) The code compiles and picks InterfaceB's method at runtime",
+      "D) Runtime Exception occurs"
     ],
     "correctAnswer": 0,
     "correctLetter": "A",
-    "explanation": "Option A is correct based on Java specification."
+    "explanation": "If a class inherits duplicate default methods from unrelated interfaces, Java forces the class to explicitly override the method to resolve ambiguity; otherwise, a compilation error occurs."
   },
   {
     "id": "v_21",
     "category": "Java",
     "subtopic": "General Core Java",
     "title": "Veeva Core MCQ 21",
-    "question": "Analyze the code snippet and choose the correct output or statement:",
-    "code": "What happens during exception propagation if a checked exception is thrown inside a deeply nested method call, and none of the intermediate calling methods handle it or declare it in a throws clause?",
+    "question": "What happens during exception propagation if a checked exception is thrown inside a deeply nested method call, and none of the intermediate calling methods handle it or declare it in a throws clause?",
+    "code": "",
     "options": [
-      "A) The exception automatically converts to an unchecked RuntimeException and propagates up to the main thread.",
-      "B) The code will fail to compile because checked exception rules are enforced strictly at compile time.",
-      "C) The exception bubbles up to the JVM, which safely ignores it if it is a checked exception.",
+      "A) A compilation error occurs because checked exceptions must be handled or declared in a throws clause.",
+      "B) The exception automatically converts to an unchecked RuntimeException.",
+      "C) The exception bubbles up to the JVM and is safely ignored.",
       "D) It causes a NullPointerException at runtime."
     ],
     "correctAnswer": 0,
     "correctLetter": "A",
-    "explanation": "Option A is correct based on Java specification."
+    "explanation": "Java's catch-or-specify requirement mandates that checked exceptions (subclasses of Throwable/Exception excluding RuntimeException) must either be caught or declared in the throws clause of every method along the execution chain; failure to do so causes a compilation error."
   },
   {
     "id": "v_22",
@@ -1990,49 +1994,50 @@
     "subtopic": "General Core Java",
     "title": "Veeva Core MCQ 22",
     "question": "Analyze the code snippet and choose the correct output or statement:",
-    "code": "",
+    "code": "public class ArrayInitTest {\n    public static void main(String[] args) {\n        int[] arr = new int[3];\n        arr[0] = 1;\n        System.out.println(arr[0]);\n    }\n}",
     "options": [
       "A) 1",
-      "B) 2",
-      "C) 3"
+      "B) 0",
+      "C) Compilation Error",
+      "D) ArrayIndexOutOfBoundsException"
     ],
     "correctAnswer": 0,
     "correctLetter": "A",
-    "explanation": "Option A is correct based on Java specification."
+    "explanation": "An array of 3 integers is created with default zero values. arr[0] is explicitly set to 1 and printed, producing 1."
   },
   {
     "id": "v_23",
     "category": "Java",
     "subtopic": "General Core Java",
     "title": "Veeva Core MCQ 23",
-    "question": "Analyze the code snippet and choose the correct output or statement:",
-    "code": ".In a try-with-resources statement, if an exception is thrown inside the try block and another exception is thrown when closing the resource automatically, what happens to the second exception?",
+    "question": "In a try-with-resources statement, if an exception is thrown inside the try block and another exception is thrown when automatically closing the resource, what happens to the closing exception?",
+    "code": "",
     "options": [
       "A) It is added as a suppressed exception to the primary exception thrown by the try block.",
-      "B) It overwrites and replaces the original exception thrown inside the try block.",
+      "B) It overwrites and replaces the primary exception thrown inside the try block.",
       "C) Both exceptions are thrown simultaneously as a compound multithreaded exception.",
-      "D) The second exception is completely swallowed and ignored by the runtime environment."
+      "D) The closing exception is completely swallowed and lost by the JVM."
     ],
     "correctAnswer": 0,
     "correctLetter": "A",
-    "explanation": "Option A is correct based on Java specification."
+    "explanation": "In try-with-resources, the primary exception thrown inside the try block takes precedence. Any exception thrown during resource close() is attached to the primary exception as a suppressed exception (retrievable via e.getSuppressed())."
   },
   {
     "id": "v_24",
     "category": "Java",
     "subtopic": "Collections - HashMap",
     "title": "Veeva Core MCQ 24",
-    "question": ".Why is it critical to override both equals() and hashCode() when creating a custom object to be used as a key in a HashMap?",
+    "question": "Why is it critical to override both equals() and hashCode() when creating a custom object to be used as a key in a HashMap?",
     "code": "",
     "options": [
       "A) Without hashCode(), the map throws an immediate ClassCastException during insertion.",
       "B) It ensures the map stays sorted in ascending order according to key hashes.",
       "C) It prevents duplicate keys from being created in memory globally across threads.",
-      "D) To ensure objects that are equal according to equals() share the same hash code, allowing the hash map to locate the correct bucket and retrieve values."
+      "D) To ensure objects that are equal according to equals() share the same hash code, allowing HashMap to locate the correct bucket and retrieve values."
     ],
     "correctAnswer": 3,
     "correctLetter": "D",
-    "explanation": "Overriding both equals() and hashCode() guarantees that equal objects land in the same hash bucket."
+    "explanation": "The HashMap contract requires that if two objects are equal according to equals(), they MUST return the same hashCode(). This ensures HashMap computes the same bucket index for equal keys during put() and get() operations."
   },
   {
     "id": "v_25",
@@ -2040,33 +2045,33 @@
     "subtopic": "General Core Java",
     "title": "Veeva Core MCQ 25",
     "question": "Analyze the code snippet and choose the correct output or statement:",
-    "code": ".What happens if you attempt to add custom, non-comparable objects to a TreeSet without passing a custom Comparator to its constructor?",
+    "code": "import java.util.TreeSet;\n\nclass Item {\n    String name;\n    Item(String n) { this.name = n; }\n}\npublic class TreeSetTest {\n    public static void main(String[] args) {\n        TreeSet<Item> set = new TreeSet<>();\n        set.add(new Item(\"Widget\"));\n    }\n}",
     "options": [
-      "A) The elements are added in standard FIFO insertion order.",
-      "B) ",
-      "C) The elements are sorted automatically using their default system memory address hashes.",
-      "D) The code fails to compile because the compiler checks Comparable compliance."
+      "A) Throws ClassCastException at runtime",
+      "B) Item is added successfully in FIFO order",
+      "C) Compilation Error because Item does not implement Comparable",
+      "D) Item is sorted using its identity hash code"
     ],
     "correctAnswer": 0,
     "correctLetter": "A",
-    "explanation": "Option A is correct based on Java specification."
+    "explanation": "TreeSet requires objects to be mutually comparable. When set.add() is called without passing a custom Comparator to the constructor, Java attempts to cast Item to Comparable at runtime, resulting in a ClassCastException."
   },
   {
     "id": "v_26",
     "category": "Java",
     "subtopic": "Collections - ArrayList",
     "title": "Veeva Core MCQ 26",
-    "question": ".Which of the following approaches is the correct and safe way to remove an element from an ArrayList while iterating through it using a standard loop?",
+    "question": "Which of the following approaches is the correct and safe way to remove an element from an ArrayList while iterating through it?",
     "code": "",
     "options": [
       "A) Using a standard enhanced for-each loop and calling list.remove(item).",
       "B) Iterating backward with an indexed for loop without adjusting indices.",
-      "C) Using an Iterator object and calling its explicit remove() method.",
+      "C) Using an explicit Iterator object and calling iterator.remove().",
       "D) Calling list.remove() directly inside a parallel stream without synchronization."
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Calling iterator.remove() is the safe and correct way to remove elements while iterating to avoid ConcurrentModificationException."
+    "explanation": "Calling iterator.remove() correctly updates the internal modification count and index tracking during iteration, avoiding ConcurrentModificationException."
   },
   {
     "id": "db_1",
