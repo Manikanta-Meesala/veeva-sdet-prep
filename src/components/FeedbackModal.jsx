@@ -1,38 +1,61 @@
 import React, { useState } from 'react';
-import { X, Star, Send, CheckCircle, MessageSquare } from 'lucide-react';
+import { X, Star, Send, CheckCircle, MessageSquare, Mail } from 'lucide-react';
 
 export default function FeedbackModal({ isOpen, onClose }) {
   const [rating, setRating] = useState(5);
   const [feedbackType, setFeedbackType] = useState('General Feedback');
   const [comments, setComments] = useState('');
   const [contactEmail, setContactEmail] = useState('');
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
+
+  const RECIPIENT_EMAIL = 'manikantameesala2617@gmail.com';
 
   if (!isOpen) return null;
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (!comments.trim()) {
       alert('Please enter your feedback comments.');
       return;
     }
 
+    setIsSubmitting(true);
+
     const payload = {
-      rating,
+      recipient: RECIPIENT_EMAIL,
+      subject: `[VEEVA SDET Prep] New ${feedbackType} (${rating} Stars)`,
+      rating: `${rating} / 5 Stars`,
       type: feedbackType,
-      comments,
-      email: contactEmail
+      comments: comments,
+      user_email: contactEmail || 'Not Provided',
+      _replyto: contactEmail || RECIPIENT_EMAIL
     };
 
-    // Send to backend API if available
+    try {
+      // 1. Send email directly to manikantameesala2617@gmail.com via FormSubmit endpoint
+      await fetch(`https://formsubmit.co/ajax/${RECIPIENT_EMAIL}`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify(payload)
+      });
+    } catch (err) {
+      console.log('Online email routing notice:', err);
+    }
+
+    // 2. Also save to backend API / local database
     fetch('/api/feedback', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload)
+      body: JSON.stringify({ ...payload, targetEmail: RECIPIENT_EMAIL })
     }).catch(err => {
       console.log('Saved feedback locally.');
     });
 
+    setIsSubmitting(false);
     setSubmitted(true);
 
     setTimeout(() => {
@@ -40,7 +63,7 @@ export default function FeedbackModal({ isOpen, onClose }) {
       onClose();
       setComments('');
       setContactEmail('');
-    }, 1500);
+    }, 2000);
   };
 
   return (
@@ -91,18 +114,18 @@ export default function FeedbackModal({ isOpen, onClose }) {
           <MessageSquare size={24} color="var(--primary-500)" />
           <h2 style={{ fontSize: '1.35rem', fontWeight: '800' }}>Platform Feedback & Suggestions</h2>
         </div>
-        <p style={{ color: 'var(--text-muted)', fontSize: '0.88rem', marginBottom: '1.5rem' }}>
-          Share your feedback, report question issues, or request new dump subjects.
+        <p style={{ color: 'var(--text-muted)', fontSize: '0.88rem', marginBottom: '1rem' }}>
+          Share your feedback or report question issues. Feedback is delivered directly to <strong style={{ color: 'var(--primary-700)' }}>{RECIPIENT_EMAIL}</strong>.
         </p>
 
         {submitted ? (
           <div style={{ textAlign: 'center', padding: '2rem' }}>
             <CheckCircle size={48} color="var(--accent-green)" style={{ margin: '0 auto 1rem auto' }} />
             <h3 style={{ fontSize: '1.2rem', fontWeight: '700', color: 'var(--accent-green-dark)' }}>
-              Thank You for Your Feedback!
+              Feedback Delivered Successfully!
             </h3>
-            <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', marginTop: '0.5rem' }}>
-              Your response helps us continuously improve VEEVA SDET PREP.
+            <p style={{ color: 'var(--text-muted)', fontSize: '0.88rem', marginTop: '0.5rem' }}>
+              Your response has been dispatched to <strong>{RECIPIENT_EMAIL}</strong>. Thank you for helping us improve VEEVA SDET PREP!
             </p>
           </div>
         ) : (
@@ -173,11 +196,17 @@ export default function FeedbackModal({ isOpen, onClose }) {
               />
             </div>
 
+            <div style={{ background: '#f8fafc', border: '1px solid var(--border-light)', borderRadius: 'var(--radius-sm)', padding: '0.65rem', fontSize: '0.78rem', color: 'var(--text-muted)', display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+              <Mail size={14} color="var(--primary-600)" />
+              <span>Recipient: <strong>manikantameesala2617@gmail.com</strong></span>
+            </div>
+
             <div style={{ display: 'flex', gap: '0.75rem', justifyContent: 'flex-end', marginTop: '0.5rem' }}>
               <button
                 type="button"
                 className="nav-btn nav-btn-outline"
                 onClick={onClose}
+                disabled={isSubmitting}
               >
                 Cancel
               </button>
@@ -185,8 +214,9 @@ export default function FeedbackModal({ isOpen, onClose }) {
               <button
                 type="submit"
                 className="nav-btn nav-btn-primary"
+                disabled={isSubmitting}
               >
-                <Send size={18} /> Send Feedback
+                <Send size={18} /> {isSubmitting ? 'Sending...' : 'Send Feedback'}
               </button>
             </div>
           </form>
