@@ -1,8 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { BookOpen, CheckCircle, Lightbulb, ArrowLeft, ArrowRight } from 'lucide-react';
+import { BookOpen, CheckCircle, Lightbulb, ArrowLeft, ArrowRight, Maximize2, X } from 'lucide-react';
 
 export default function TopicStudyMode({ selectedTopic, questions }) {
   const [currentPage, setCurrentPage] = useState(1);
+  const [zoomImage, setZoomImage] = useState(null); // URL for full screen image modal
   const topRef = useRef(null);
   const ITEMS_PER_PAGE = 10;
 
@@ -41,6 +42,49 @@ export default function TopicStudyMode({ selectedTopic, questions }) {
 
   return (
     <div className="topic-study-mode" ref={topRef}>
+      {/* Image Zoom Modal */}
+      {zoomImage && (
+        <div style={{
+          position: 'fixed',
+          top: 0, left: 0, right: 0, bottom: 0,
+          background: 'rgba(15, 23, 42, 0.85)',
+          backdropFilter: 'blur(6px)',
+          zIndex: 300,
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          padding: '1.5rem'
+        }} onClick={() => setZoomImage(null)}>
+          <div style={{ position: 'relative', maxWidth: '95vw', maxHeight: '95vh' }}>
+            <button
+              onClick={() => setZoomImage(null)}
+              style={{
+                position: 'absolute',
+                top: '-1rem',
+                right: '-1rem',
+                background: 'white',
+                border: 'none',
+                borderRadius: '50%',
+                width: '36px',
+                height: '36px',
+                cursor: 'pointer',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                boxShadow: '0 4px 12px rgba(0,0,0,0.3)'
+              }}
+            >
+              <X size={20} />
+            </button>
+            <img
+              src={zoomImage}
+              alt="Data Interpretation Diagram"
+              style={{ maxWidth: '95vw', maxHeight: '90vh', borderRadius: '8px', objectFit: 'contain', background: 'white', padding: '0.5rem' }}
+            />
+          </div>
+        </div>
+      )}
+
       {/* Header Banner */}
       <div style={{ background: 'white', borderRadius: 'var(--radius-lg)', border: '1px solid var(--border-light)', padding: '1.5rem 1.75rem', marginBottom: '1.75rem', boxShadow: 'var(--shadow-sm)' }}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '1rem' }}>
@@ -75,6 +119,47 @@ export default function TopicStudyMode({ selectedTopic, questions }) {
                 <span className="tag-badge">Q{globalQIndex} of {filteredQuestions.length} • {q.subtopic}</span>
                 <span style={{ fontSize: '0.8rem', color: 'var(--text-light)', fontWeight: '600' }}>ID: {q.id}</span>
               </div>
+
+              {/* Data Interpretation Image / Diagram Display */}
+              {q.image && (
+                <div style={{ marginBottom: '1.25rem', position: 'relative', display: 'inline-block', width: '100%' }}>
+                  <div
+                    onClick={() => setZoomImage(q.image)}
+                    style={{
+                      position: 'relative',
+                      cursor: 'zoom-in',
+                      borderRadius: 'var(--radius-md)',
+                      overflow: 'hidden',
+                      border: '1.5px solid var(--primary-200)',
+                      background: 'white',
+                      boxShadow: 'var(--shadow-sm)'
+                    }}
+                  >
+                    <img
+                      src={q.image}
+                      alt={`Diagram for ${q.title}`}
+                      style={{ width: '100%', maxHeight: '450px', objectFit: 'contain', display: 'block', padding: '0.5rem', background: 'white' }}
+                    />
+                    <div style={{
+                      position: 'absolute',
+                      bottom: '0.5rem',
+                      right: '0.5rem',
+                      background: 'rgba(15, 23, 42, 0.75)',
+                      color: 'white',
+                      padding: '0.25rem 0.6rem',
+                      borderRadius: '12px',
+                      fontSize: '0.75rem',
+                      fontWeight: '700',
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: '0.3rem',
+                      backdropFilter: 'blur(4px)'
+                    }}>
+                      <Maximize2 size={12} /> Click Diagram to Enlarge
+                    </div>
+                  </div>
+                </div>
+              )}
 
               <h3 className="question-text">{q.question}</h3>
 
@@ -119,7 +204,7 @@ export default function TopicStudyMode({ selectedTopic, questions }) {
         })
       )}
 
-      {/* Prominent Bottom Pagination Bar (At the bottom of all 10 questions) */}
+      {/* Prominent Bottom Pagination Bar */}
       {filteredQuestions.length > 0 && (
         <div className="pagination-bar" style={{ marginTop: '2rem', padding: '1.25rem 1.5rem', background: 'white', borderRadius: 'var(--radius-lg)', border: '1.5px solid var(--primary-100)', boxShadow: 'var(--shadow-md)' }}>
           <button

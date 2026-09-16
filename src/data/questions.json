@@ -4417,7 +4417,8 @@
     ],
     "correctAnswer": 0,
     "correctLetter": "A",
-    "explanation": "Correct Answer: Option A. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option A. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_A.png"
   },
   {
     "id": "di_2",
@@ -4434,7 +4435,8 @@
     ],
     "correctAnswer": 0,
     "correctLetter": "A",
-    "explanation": "Correct Answer: Option A. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option A. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_A.png"
   },
   {
     "id": "di_3",
@@ -4451,7 +4453,8 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_A.png"
   },
   {
     "id": "di_4",
@@ -4468,7 +4471,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_A.png"
   },
   {
     "id": "di_5",
@@ -4485,7 +4489,8 @@
     ],
     "correctAnswer": 0,
     "correctLetter": "A",
-    "explanation": "Correct Answer: Option A. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option A. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_A.png"
   },
   {
     "id": "di_6",
@@ -4502,7 +4507,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_A.png"
   },
   {
     "id": "di_7",
@@ -4520,7 +4526,8 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_B.png"
   },
   {
     "id": "di_8",
@@ -4537,7 +4544,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_B.png"
   },
   {
     "id": "di_9",
@@ -4554,7 +4562,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_B.png"
   },
   {
     "id": "di_10",
@@ -4571,7 +4580,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_B.png"
   },
   {
     "id": "di_11",
@@ -4588,7 +4598,8 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_B.png"
   },
   {
     "id": "di_12",
@@ -4605,7 +4616,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_B.png"
   },
   {
     "id": "di_13",
@@ -4622,7 +4634,8 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_C.png"
   },
   {
     "id": "di_14",
@@ -4639,7 +4652,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_C.png"
   },
   {
     "id": "di_15",
@@ -4656,7 +4670,8 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_C.png"
   },
   {
     "id": "di_16",
@@ -4673,7 +4688,8 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_C.png"
   },
   {
     "id": "di_17",
@@ -4691,7 +4707,8 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_C.png"
   },
   {
     "id": "di_18",
@@ -4708,7 +4725,8 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_D.png"
   },
   {
     "id": "di_19",
@@ -4725,7 +4743,8 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_D.png"
   },
   {
     "id": "di_20",
@@ -4742,7 +4761,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_D.png"
   },
   {
     "id": "di_21",
@@ -4759,7 +4779,8 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_D.png"
   },
   {
     "id": "di_22",
@@ -4776,7 +4797,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_D.png"
   },
   {
     "id": "di_23",
@@ -4795,7 +4817,8 @@
     ],
     "correctAnswer": 5,
     "correctLetter": "F",
-    "explanation": "Correct Answer: Option F. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option F. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_E.png"
   },
   {
     "id": "di_24",
@@ -4812,7 +4835,8 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_E.png"
   },
   {
     "id": "di_25",
@@ -4829,7 +4853,8 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_E.png"
   },
   {
     "id": "di_26",
@@ -4848,7 +4873,8 @@
     ],
     "correctAnswer": 3,
     "correctLetter": "D",
-    "explanation": "Correct Answer: Option D. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option D. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_E.png"
   },
   {
     "id": "di_27",
@@ -4865,7 +4891,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_E.png"
   },
   {
     "id": "di_28",
@@ -4882,7 +4909,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_E.png"
   },
   {
     "id": "di_29",
@@ -4900,7 +4928,8 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_F.png"
   },
   {
     "id": "di_30",
@@ -4918,7 +4947,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_F.png"
   },
   {
     "id": "di_31",
@@ -4935,7 +4965,8 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_F.png"
   },
   {
     "id": "di_32",
@@ -4952,7 +4983,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_F.png"
   },
   {
     "id": "di_33",
@@ -4969,7 +5001,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_F.png"
   },
   {
     "id": "di_34",
@@ -4986,7 +5019,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_F.png"
   },
   {
     "id": "di_35",
@@ -5004,7 +5038,8 @@
     ],
     "correctAnswer": 0,
     "correctLetter": "A",
-    "explanation": "Correct Answer: Option A. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option A. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_G.png"
   },
   {
     "id": "di_36",
@@ -5021,7 +5056,8 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_G.png"
   },
   {
     "id": "di_37",
@@ -5038,7 +5074,8 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_G.png"
   },
   {
     "id": "di_38",
@@ -5055,7 +5092,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_G.png"
   },
   {
     "id": "di_39",
@@ -5072,7 +5110,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_G.png"
   },
   {
     "id": "di_40",
@@ -5089,7 +5128,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_H.png"
   },
   {
     "id": "di_41",
@@ -5107,7 +5147,8 @@
     ],
     "correctAnswer": 3,
     "correctLetter": "D",
-    "explanation": "Correct Answer: Option D. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option D. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_H.png"
   },
   {
     "id": "di_42",
@@ -5124,7 +5165,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_H.png"
   },
   {
     "id": "di_43",
@@ -5142,7 +5184,8 @@
     ],
     "correctAnswer": 4,
     "correctLetter": "E",
-    "explanation": "Correct Answer: Option E. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option E. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_H.png"
   },
   {
     "id": "di_44",
@@ -5159,7 +5202,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_H.png"
   },
   {
     "id": "di_45",
@@ -5177,7 +5221,8 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_H.png"
   },
   {
     "id": "di_46",
@@ -5197,7 +5242,8 @@
     ],
     "correctAnswer": 3,
     "correctLetter": "D",
-    "explanation": "Correct Answer: Option D. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option D. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_I.png"
   },
   {
     "id": "di_47",
@@ -5214,7 +5260,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_I.png"
   },
   {
     "id": "di_48",
@@ -5231,7 +5278,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_I.png"
   },
   {
     "id": "di_49",
@@ -5248,7 +5296,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_I.png"
   },
   {
     "id": "di_50",
@@ -5265,7 +5314,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_I.png"
   },
   {
     "id": "di_51",
@@ -5283,7 +5333,8 @@
     ],
     "correctAnswer": 4,
     "correctLetter": "E",
-    "explanation": "Correct Answer: Option E. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option E. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_J.png"
   },
   {
     "id": "di_52",
@@ -5300,7 +5351,8 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_J.png"
   },
   {
     "id": "di_53",
@@ -5317,7 +5369,8 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_J.png"
   },
   {
     "id": "di_54",
@@ -5334,7 +5387,8 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_J.png"
   },
   {
     "id": "di_55",
@@ -5352,7 +5406,8 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_J.png"
   },
   {
     "id": "di_56",
@@ -5369,7 +5424,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_J.png"
   },
   {
     "id": "di_57",
@@ -5390,7 +5446,8 @@
     ],
     "correctAnswer": 7,
     "correctLetter": "H",
-    "explanation": "Correct Answer: Option H. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option H. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_K.png"
   },
   {
     "id": "di_58",
@@ -5407,7 +5464,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_K.png"
   },
   {
     "id": "di_59",
@@ -5424,7 +5482,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_K.png"
   },
   {
     "id": "di_60",
@@ -5441,7 +5500,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_K.png"
   },
   {
     "id": "di_61",
@@ -5458,7 +5518,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_K.png"
   },
   {
     "id": "di_62",
@@ -5476,7 +5537,8 @@
     ],
     "correctAnswer": 0,
     "correctLetter": "A",
-    "explanation": "Correct Answer: Option A. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option A. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_L.png"
   },
   {
     "id": "di_63",
@@ -5493,7 +5555,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_L.png"
   },
   {
     "id": "di_64",
@@ -5510,7 +5573,8 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_L.png"
   },
   {
     "id": "di_65",
@@ -5527,7 +5591,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_L.png"
   },
   {
     "id": "di_66",
@@ -5544,7 +5609,8 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_L.png"
   },
   {
     "id": "di_67",
@@ -5563,7 +5629,8 @@
     ],
     "correctAnswer": 0,
     "correctLetter": "A",
-    "explanation": "Correct Answer: Option A. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option A. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_M.png"
   },
   {
     "id": "di_68",
@@ -5582,7 +5649,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_M.png"
   },
   {
     "id": "di_69",
@@ -5599,7 +5667,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_M.png"
   },
   {
     "id": "di_70",
@@ -5616,7 +5685,8 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_M.png"
   },
   {
     "id": "di_71",
@@ -5633,7 +5703,8 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_M.png"
   },
   {
     "id": "di_72",
@@ -5650,7 +5721,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_M.png"
   },
   {
     "id": "di_73",
@@ -5669,7 +5741,8 @@
     ],
     "correctAnswer": 4,
     "correctLetter": "E",
-    "explanation": "Correct Answer: Option E. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option E. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_N.png"
   },
   {
     "id": "di_74",
@@ -5686,7 +5759,8 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_N.png"
   },
   {
     "id": "di_75",
@@ -5703,7 +5777,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_N.png"
   },
   {
     "id": "di_76",
@@ -5720,7 +5795,8 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_N.png"
   },
   {
     "id": "di_77",
@@ -5737,7 +5813,8 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_N.png"
   },
   {
     "id": "di_78",
@@ -5756,7 +5833,8 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_O.png"
   },
   {
     "id": "di_79",
@@ -5773,7 +5851,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_O.png"
   },
   {
     "id": "di_80",
@@ -5790,7 +5869,8 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_O.png"
   },
   {
     "id": "di_81",
@@ -5807,7 +5887,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_O.png"
   },
   {
     "id": "di_82",
@@ -5824,7 +5905,8 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_O.png"
   },
   {
     "id": "di_83",
@@ -5841,7 +5923,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_O.png"
   },
   {
     "id": "di_84",
@@ -5859,7 +5942,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_P.png"
   },
   {
     "id": "di_85",
@@ -5876,7 +5960,8 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_P.png"
   },
   {
     "id": "di_86",
@@ -5893,7 +5978,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_P.png"
   },
   {
     "id": "di_87",
@@ -5910,7 +5996,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_P.png"
   },
   {
     "id": "di_88",
@@ -5928,7 +6015,8 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_P.png"
   },
   {
     "id": "di_89",
@@ -5945,7 +6033,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_P.png"
   },
   {
     "id": "di_90",
@@ -5963,7 +6052,8 @@
     ],
     "correctAnswer": 0,
     "correctLetter": "A",
-    "explanation": "Correct Answer: Option A. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option A. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_Q.png"
   },
   {
     "id": "di_91",
@@ -5980,7 +6070,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_Q.png"
   },
   {
     "id": "di_92",
@@ -5997,7 +6088,8 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_Q.png"
   },
   {
     "id": "di_93",
@@ -6014,7 +6106,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_Q.png"
   },
   {
     "id": "di_94",
@@ -6031,7 +6124,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_Q.png"
   },
   {
     "id": "di_95",
@@ -6048,7 +6142,8 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_R.png"
   },
   {
     "id": "di_96",
@@ -6066,7 +6161,8 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_R.png"
   },
   {
     "id": "di_97",
@@ -6083,7 +6179,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_R.png"
   },
   {
     "id": "di_98",
@@ -6100,7 +6197,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_R.png"
   },
   {
     "id": "di_99",
@@ -6117,7 +6215,8 @@
     ],
     "correctAnswer": 0,
     "correctLetter": "A",
-    "explanation": "Correct Answer: Option A. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option A. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_R.png"
   },
   {
     "id": "di_100",
@@ -6135,7 +6234,8 @@
     ],
     "correctAnswer": 4,
     "correctLetter": "E",
-    "explanation": "Correct Answer: Option E. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option E. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_S.png"
   },
   {
     "id": "di_101",
@@ -6152,7 +6252,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_S.png"
   },
   {
     "id": "di_102",
@@ -6169,7 +6270,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_S.png"
   },
   {
     "id": "di_103",
@@ -6186,7 +6288,8 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_S.png"
   },
   {
     "id": "di_104",
@@ -6203,7 +6306,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_S.png"
   },
   {
     "id": "di_105",
@@ -6223,7 +6327,8 @@
     ],
     "correctAnswer": 5,
     "correctLetter": "F",
-    "explanation": "Correct Answer: Option F. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option F. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_T.png"
   },
   {
     "id": "di_106",
@@ -6240,7 +6345,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_T.png"
   },
   {
     "id": "di_107",
@@ -6257,7 +6363,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_T.png"
   },
   {
     "id": "di_108",
@@ -6277,7 +6384,8 @@
     ],
     "correctAnswer": 0,
     "correctLetter": "A",
-    "explanation": "Correct Answer: Option A. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option A. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_T.png"
   },
   {
     "id": "di_109",
@@ -6294,7 +6402,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_T.png"
   },
   {
     "id": "di_110",
@@ -6311,7 +6420,8 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "image": "/di_diagrams/sec_T.png"
   },
   {
     "id": "tech_pdf_1",

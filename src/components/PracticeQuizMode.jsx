@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import { ArrowLeft, ArrowRight, CheckCircle2, XCircle, Lightbulb, RefreshCw, Zap } from 'lucide-react';
+import { ArrowLeft, ArrowRight, CheckCircle2, XCircle, Lightbulb, RefreshCw, Zap, Maximize2, X } from 'lucide-react';
 
 export default function PracticeQuizMode({ questions, selectedTopic, onReset }) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [userAnswers, setUserAnswers] = useState({}); // { [qId]: selectedOptIndex }
+  const [zoomImage, setZoomImage] = useState(null);
 
   // Filter questions by topic if selected
   const quizQuestions = questions.filter(q => {
@@ -52,6 +53,49 @@ export default function PracticeQuizMode({ questions, selectedTopic, onReset }) 
 
   return (
     <div className="practice-quiz-mode">
+      {/* Image Zoom Modal */}
+      {zoomImage && (
+        <div style={{
+          position: 'fixed',
+          top: 0, left: 0, right: 0, bottom: 0,
+          background: 'rgba(15, 23, 42, 0.85)',
+          backdropFilter: 'blur(6px)',
+          zIndex: 300,
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          padding: '1.5rem'
+        }} onClick={() => setZoomImage(null)}>
+          <div style={{ position: 'relative', maxWidth: '95vw', maxHeight: '95vh' }}>
+            <button
+              onClick={() => setZoomImage(null)}
+              style={{
+                position: 'absolute',
+                top: '-1rem',
+                right: '-1rem',
+                background: 'white',
+                border: 'none',
+                borderRadius: '50%',
+                width: '36px',
+                height: '36px',
+                cursor: 'pointer',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                boxShadow: '0 4px 12px rgba(0,0,0,0.3)'
+              }}
+            >
+              <X size={20} />
+            </button>
+            <img
+              src={zoomImage}
+              alt="Data Interpretation Diagram"
+              style={{ maxWidth: '95vw', maxHeight: '90vh', borderRadius: '8px', objectFit: 'contain', background: 'white', padding: '0.5rem' }}
+            />
+          </div>
+        </div>
+      )}
+
       {/* Top Header Controls */}
       <div className="quiz-top-bar">
         <div>
@@ -87,6 +131,47 @@ export default function PracticeQuizMode({ questions, selectedTopic, onReset }) 
           <span className="tag-badge">Q{currentIndex + 1} • {currentQ.subtopic}</span>
           <span style={{ fontSize: '0.8rem', color: 'var(--text-light)', fontWeight: '600' }}>ID: {currentQ.id}</span>
         </div>
+
+        {/* Data Interpretation Diagram Image */}
+        {currentQ.image && (
+          <div style={{ marginBottom: '1.25rem', position: 'relative', display: 'inline-block', width: '100%' }}>
+            <div
+              onClick={() => setZoomImage(currentQ.image)}
+              style={{
+                position: 'relative',
+                cursor: 'zoom-in',
+                borderRadius: 'var(--radius-md)',
+                overflow: 'hidden',
+                border: '1.5px solid var(--primary-200)',
+                background: 'white',
+                boxShadow: 'var(--shadow-sm)'
+              }}
+            >
+              <img
+                src={currentQ.image}
+                alt={`Diagram for ${currentQ.title}`}
+                style={{ width: '100%', maxHeight: '420px', objectFit: 'contain', display: 'block', padding: '0.5rem', background: 'white' }}
+              />
+              <div style={{
+                position: 'absolute',
+                bottom: '0.5rem',
+                right: '0.5rem',
+                background: 'rgba(15, 23, 42, 0.75)',
+                color: 'white',
+                padding: '0.25rem 0.6rem',
+                borderRadius: '12px',
+                fontSize: '0.75rem',
+                fontWeight: '700',
+                display: 'flex',
+                alignItems: 'center',
+                gap: '0.3rem',
+                backdropFilter: 'blur(4px)'
+              }}>
+                <Maximize2 size={12} /> Click Diagram to Enlarge
+              </div>
+            </div>
+          </div>
+        )}
 
         <h2 className="question-text">{currentQ.question}</h2>
 
