@@ -2701,5 +2701,3616 @@
     "correctAnswer": 2,
     "correctLetter": "C",
     "explanation": "Regression testing verifies that software previously developed and tested still performs correctly after modifications or enhancements."
+  },
+  {
+    "id": "qa_1",
+    "category": "Aptitude",
+    "subtopic": "Number System",
+    "title": "Number System Q1",
+    "question": "What\tis\tthe\tsum\tof\tthe\tfirst\t25\tnatural\tnumbers\tdivisible\tby\t4?",
+    "code": "",
+    "options": [
+      "A) 1200",
+      "B) 1250",
+      "C) 1300",
+      "D) 1350"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Number System formulas to solve."
+  },
+  {
+    "id": "qa_2",
+    "category": "Aptitude",
+    "subtopic": "Number System",
+    "title": "Number System Q2",
+    "question": "Find\tthe\tlargest\t4-digit\tnumber\texactly\tdivisible\tby\t27.",
+    "code": "",
+    "options": [
+      "A) 9963",
+      "B) 9972",
+      "C) 9981",
+      "D) 9990"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Number System formulas to solve."
+  },
+  {
+    "id": "qa_3",
+    "category": "Aptitude",
+    "subtopic": "Number System",
+    "title": "Number System Q3",
+    "question": "The\tsum\tof\ttwo\tnumbers\tis\t84\tand\ttheir\tHCF\tis\t12.\tHow\tmany\tsuch\tpairs\tof\tnumbers\texist?",
+    "code": "",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Number System formulas to solve."
+  },
+  {
+    "id": "qa_4",
+    "category": "Aptitude",
+    "subtopic": "Number System",
+    "title": "Number System Q4",
+    "question": "What\tis\tthe\tremainder\twhen\t2^50\tis\tdivided\tby\t7?",
+    "code": "",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 4",
+      "D) 6"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer is Option C. Apply Number System formulas to solve."
+  },
+  {
+    "id": "qa_5",
+    "category": "Aptitude",
+    "subtopic": "Number System",
+    "title": "Number System Q5",
+    "question": "Find\tthe\tsmallest\tnumber\twhich\twhen\tdivided\tby\t8,\t12,\tand\t15\tleaves\tremainder\t5\tin\teach\tcase.",
+    "code": "",
+    "options": [
+      "A) 120",
+      "B) 121",
+      "C) 125",
+      "D) 128"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Number System formulas to solve."
+  },
+  {
+    "id": "qa_6",
+    "category": "Aptitude",
+    "subtopic": "Number System",
+    "title": "Number System Q6",
+    "question": "How\tmany\tnumbers\tbetween\t100\tand\t300\tare\tdivisible\tby\tboth\t5\tand\t7?",
+    "code": "",
+    "options": [
+      "A) 5",
+      "B) 6",
+      "C) 7",
+      "D) 8"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Number System formulas to solve."
+  },
+  {
+    "id": "qa_7",
+    "category": "Aptitude",
+    "subtopic": "Number System",
+    "title": "Number System Q7",
+    "question": "If\ta\tnumber\tis\tincreased\tby\t20%\tand\tthen\tdecreased\tby\t20%,\tthe\tnet\tchange\tis:",
+    "code": "",
+    "options": [
+      "A) No\tchange",
+      "B) 4%\tdecrease",
+      "C) 4%\tincrease",
+      "D) 2%\tdecrease"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Number System formulas to solve."
+  },
+  {
+    "id": "qa_8",
+    "category": "Aptitude",
+    "subtopic": "Number System",
+    "title": "Number System Q8",
+    "question": "The\tproduct\tof\ttwo\tconsecutive\todd\tnumbers\tis\t483.\tFind\tthe\tsmaller\tnumber.",
+    "code": "",
+    "options": [
+      "A) 19",
+      "B) 21",
+      "C) 23",
+      "D) 25"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Number System formulas to solve."
+  },
+  {
+    "id": "qa_9",
+    "category": "Aptitude",
+    "subtopic": "Percentages",
+    "title": "Percentages Q9",
+    "question": "In\tan\telection\tbetween\ttwo\tcandidates,\tthe\twinner\tgets\t60%\tof\tthe\tvotes\tand\twins\tby\t4,800\tvotes. Find\tthe\ttotal\tnumber\tof\tvotes\tpolled.",
+    "code": "",
+    "options": [
+      "A) 20,000",
+      "B) 22,000",
+      "C) 24,000",
+      "D) 26,000"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer is Option C. Apply Percentages formulas to solve."
+  },
+  {
+    "id": "qa_10",
+    "category": "Aptitude",
+    "subtopic": "Percentages",
+    "title": "Percentages Q10",
+    "question": "A\tnumber\tis\tfirst\tincreased\tby\t25%\tand\tthen\tdecreased\tby\t25%.\tThe\tnet\tpercentage\tchange\tis:",
+    "code": "",
+    "options": [
+      "A) No\tchange",
+      "B) 6.25%\tdecrease",
+      "C) 6.25%\tincrease",
+      "D) 12.5%\tdecrease"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Percentages formulas to solve."
+  },
+  {
+    "id": "qa_11",
+    "category": "Aptitude",
+    "subtopic": "Percentages",
+    "title": "Percentages Q11",
+    "question": "If\tthe\tprice\tof\tsugar\tincreases\tby\t25%,\tby\twhat\tpercentage\tshould\tconsumption\tbe\treduced\tto\tkeep expenditure\tunchanged?",
+    "code": "",
+    "options": [
+      "A) 15%",
+      "B) 20%",
+      "C) 25%",
+      "D) 30%"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Percentages formulas to solve."
+  },
+  {
+    "id": "qa_12",
+    "category": "Aptitude",
+    "subtopic": "Percentages",
+    "title": "Percentages Q12",
+    "question": "40%\tof\ta\tnumber\tis\t12\tmore\tthan\t25%\tof\tthe\tsame\tnumber.\tFind\tthe\tnumber.",
+    "code": "",
+    "options": [
+      "A) 60",
+      "B) 70",
+      "C) 80",
+      "D) 90"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer is Option C. Apply Percentages formulas to solve."
+  },
+  {
+    "id": "qa_13",
+    "category": "Aptitude",
+    "subtopic": "Percentages",
+    "title": "Percentages Q13",
+    "question": "In\ta\tclass,\t65%\tof\tstudents\tpassed\tin\tMaths\tand\t55%\tpassed\tin\tScience.\tIf\t30%\tpassed\tin\tboth, what\tpercent\tfailed\tin\tboth?",
+    "code": "",
+    "options": [
+      "A) 5%",
+      "B) 10%",
+      "C) 15%",
+      "D) 20%"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Percentages formulas to solve."
+  },
+  {
+    "id": "qa_14",
+    "category": "Aptitude",
+    "subtopic": "Percentages",
+    "title": "Percentages Q14",
+    "question": "A\tstudent\tscores\t480\tmarks\tout\tof\t750\tand\tneeds\t65%\tto\tpass.\tBy\thow\tmany\tmarks\tdid\tthey\tfail?",
+    "code": "",
+    "options": [
+      "A) 7.5",
+      "B) 15",
+      "C) 22.5",
+      "D) 30"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer is Option C. Apply Percentages formulas to solve."
+  },
+  {
+    "id": "qa_15",
+    "category": "Aptitude",
+    "subtopic": "Percentages",
+    "title": "Percentages Q15",
+    "question": "The\tpopulation\tof\ta\ttown\tincreases\tby\t10%\tevery\tyear.\tIf\tthe\tcurrent\tpopulation\tis\t22,000,\twhat was\tit\t2\tyears\tago?",
+    "code": "",
+    "options": [
+      "A) 18,000",
+      "B) 18,182",
+      "C) 18,500",
+      "D) 20,000"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Percentages formulas to solve."
+  },
+  {
+    "id": "qa_16",
+    "category": "Aptitude",
+    "subtopic": "Percentages",
+    "title": "Percentages Q16",
+    "question": "A's\tsalary\tis\t30%\tmore\tthan\tB's.\tBy\twhat\tpercentage\tis\tB's\tsalary\tless\tthan\tA's?",
+    "code": "",
+    "options": [
+      "A) 20%",
+      "B) 23.08%",
+      "C) 25%",
+      "D) 30%"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Percentages formulas to solve."
+  },
+  {
+    "id": "qa_17",
+    "category": "Aptitude",
+    "subtopic": "Profit & Loss",
+    "title": "Profit & Loss Q17",
+    "question": "A\tshopkeeper\tmarks\tan\tarticle\t40%\tabove\tcost\tprice\tand\tgives\ta\tdiscount\tof\t15%.\tFind\this\tprofit percent.",
+    "code": "",
+    "options": [
+      "A) 17%",
+      "B) 19%",
+      "C) 21%",
+      "D) 25%"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Profit & Loss formulas to solve."
+  },
+  {
+    "id": "qa_18",
+    "category": "Aptitude",
+    "subtopic": "Profit & Loss",
+    "title": "Profit & Loss Q18",
+    "question": "By\tselling\tan\titem\tfor\t₹720,\ta\tman\tloses\t10%.\tTo\tgain\t10%,\tat\twhat\tprice\tshould\the\tsell\tit?",
+    "code": "",
+    "options": [
+      "A) ₹800",
+      "B) ₹850",
+      "C) ₹880",
+      "D) ₹900"
+    ],
+    "correctAnswer": 3,
+    "correctLetter": "D",
+    "explanation": "Correct Answer is Option D. Apply Profit & Loss formulas to solve."
+  },
+  {
+    "id": "qa_19",
+    "category": "Aptitude",
+    "subtopic": "Profit & Loss",
+    "title": "Profit & Loss Q19",
+    "question": "A\tdishonest\tdealer\tsells\tgoods\tat\tcost\tprice\tbut\tuses\ta\tweight\tof\t900\tg\tinstead\tof\t1\tkg.\tFind\this\tgain percent.",
+    "code": "",
+    "options": [
+      "A) 10%",
+      "B) 11.11%",
+      "C) 12%",
+      "D) 9%"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "(dishonest\tdealer):\tgain%\t=\t(100/900)×100\t=\t11.11%"
+  },
+  {
+    "id": "qa_20",
+    "category": "Aptitude",
+    "subtopic": "Profit & Loss",
+    "title": "Profit & Loss Q20",
+    "question": "The\tcost\tprice\tof\t20\tarticles\tequals\tthe\tselling\tprice\tof\t16\tarticles.\tFind\tthe\tprofit\tpercent.",
+    "code": "",
+    "options": [
+      "A) 20%",
+      "B) 25%",
+      "C) 30%",
+      "D) 33.33%"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Profit & Loss formulas to solve."
+  },
+  {
+    "id": "qa_21",
+    "category": "Aptitude",
+    "subtopic": "Profit & Loss",
+    "title": "Profit & Loss Q21",
+    "question": "A\ttrader\tmarks\this\tgoods\t25%\tabove\tcost\tprice\tand\tallows\ta\tdiscount\tof\t10%.\tHis\tprofit\tpercent\tis:",
+    "code": "",
+    "options": [
+      "A) 10%",
+      "B) 12.5%",
+      "C) 15%",
+      "D) 20%"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Profit & Loss formulas to solve."
+  },
+  {
+    "id": "qa_22",
+    "category": "Aptitude",
+    "subtopic": "Profit & Loss",
+    "title": "Profit & Loss Q22",
+    "question": "An\tarticle\tis\tsold\tat\ta\tloss\tof\t12%.\tHad\tit\tbeen\tsold\tfor\t₹66\tmore,\tthere\twould\thave\tbeen\ta\tgain\tof 10%.\tFind\tthe\tcost\tprice.",
+    "code": "",
+    "options": [
+      "A) ₹280",
+      "B) ₹300",
+      "C) ₹320",
+      "D) ₹350"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "12%\tloss\tto\t10%\tgain\tis\ta\t22%\tswing\t=\t₹66\t→\tCP\t=\t₹300"
+  },
+  {
+    "id": "qa_23",
+    "category": "Aptitude",
+    "subtopic": "Profit & Loss",
+    "title": "Profit & Loss Q23",
+    "question": "Successive\tdiscounts\tof\t20%\tand\t10%\tare\tequivalent\tto\ta\tsingle\tdiscount\tof:",
+    "code": "",
+    "options": [
+      "A) 26%",
+      "B) 28%",
+      "C) 30%",
+      "D) 32%"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Profit & Loss formulas to solve."
+  },
+  {
+    "id": "qa_24",
+    "category": "Aptitude",
+    "subtopic": "Profit & Loss",
+    "title": "Profit & Loss Q24",
+    "question": "A\tman\tbuys\tan\tarticle\tfor\t₹500\tand\tsells\tit\tto\ta\tfriend\tat\ta\t5%\tloss.\tThe\tfriend\tsells\tit\tat\ta\t10%\tgain. Find\tthe\tfriend's\tselling\tprice.",
+    "code": "",
+    "options": [
+      "A) ₹497",
+      "B) ₹522.50",
+      "C) ₹525",
+      "D) ₹530"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Profit & Loss formulas to solve."
+  },
+  {
+    "id": "qa_25",
+    "category": "Aptitude",
+    "subtopic": "Simple & Compound Interest",
+    "title": "Simple & Compound Interest Q25",
+    "question": "Find\tthe\tsimple\tinterest\ton\t₹8,000\tat\t9%\tper\tannum\tfor\t3\tyears.",
+    "code": "",
+    "options": [
+      "A) ₹1,960",
+      "B) ₹2,000",
+      "C) ₹2,160",
+      "D) ₹2,400"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer is Option C. Apply Simple & Compound Interest formulas to solve."
+  },
+  {
+    "id": "qa_26",
+    "category": "Aptitude",
+    "subtopic": "Simple & Compound Interest",
+    "title": "Simple & Compound Interest Q26",
+    "question": "A\tsum\tdoubles\titself\tin\t8\tyears\tat\tsimple\tinterest.\tFind\tthe\trate\tof\tinterest.",
+    "code": "",
+    "options": [
+      "A) 10%",
+      "B) 11.5%",
+      "C) 12.5%",
+      "D) 15%"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer is Option C. Apply Simple & Compound Interest formulas to solve."
+  },
+  {
+    "id": "qa_27",
+    "category": "Aptitude",
+    "subtopic": "Simple & Compound Interest",
+    "title": "Simple & Compound Interest Q27",
+    "question": "Find\tthe\tcompound\tinterest\ton\t₹10,000\tat\t10%\tper\tannum\tfor\t2\tyears,\tcompounded\tannually.",
+    "code": "",
+    "options": [
+      "A) ₹2,000",
+      "B) ₹2,050",
+      "C) ₹2,100",
+      "D) ₹2,200"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Simple & Compound Interest formulas to solve."
+  },
+  {
+    "id": "qa_28",
+    "category": "Aptitude",
+    "subtopic": "Simple & Compound Interest",
+    "title": "Simple & Compound Interest Q28",
+    "question": "The\tdifference\tbetween\tcompound\tinterest\tand\tsimple\tinterest\ton\t₹5,000\tfor\t2\tyears\tat\t8%\tper annum\tis:",
+    "code": "",
+    "options": [
+      "A) ₹28",
+      "B) ₹32",
+      "C) ₹36",
+      "D) ₹40"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Simple & Compound Interest formulas to solve."
+  },
+  {
+    "id": "qa_29",
+    "category": "Aptitude",
+    "subtopic": "Simple & Compound Interest",
+    "title": "Simple & Compound Interest Q29",
+    "question": "At\twhat\trate\tpercent\tper\tannum\twill\t₹1,200\tamount\tto\t₹1,452\tin\t2\tyears\tat\tcompound\tinterest?",
+    "code": "",
+    "options": [
+      "A) 8%",
+      "B) 9%",
+      "C) 10%",
+      "D) 12%"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer is Option C. Apply Simple & Compound Interest formulas to solve."
+  },
+  {
+    "id": "qa_30",
+    "category": "Aptitude",
+    "subtopic": "Simple & Compound Interest",
+    "title": "Simple & Compound Interest Q30",
+    "question": "A\tsum\tof\tmoney\tat\tsimple\tinterest\tamounts\tto\t₹6,200\tin\t2\tyears\tand\t₹7,400\tin\t5\tyears.\tFind\tthe sum.",
+    "code": "",
+    "options": [
+      "A) ₹4,800",
+      "B) ₹5,000",
+      "C) ₹5,200",
+      "D) ₹5,400"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Simple & Compound Interest formulas to solve."
+  },
+  {
+    "id": "qa_31",
+    "category": "Aptitude",
+    "subtopic": "Simple & Compound Interest",
+    "title": "Simple & Compound Interest Q31",
+    "question": "Find\tthe\tcompound\tinterest\ton\t₹15,000\tfor\t1.5\tyears\tat\t10%\tper\tannum,\tcompounded\thalf-yearly.",
+    "code": "",
+    "options": [
+      "A) ₹2,320.50",
+      "B) ₹2,365.50",
+      "C) ₹2,400",
+      "D) ₹2,450"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Simple & Compound Interest formulas to solve."
+  },
+  {
+    "id": "qa_32",
+    "category": "Aptitude",
+    "subtopic": "Simple & Compound Interest",
+    "title": "Simple & Compound Interest Q32",
+    "question": "A\tsum\tbecomes\t3\ttimes\titself\tin\t15\tyears\tat\tsimple\tinterest.\tIn\thow\tmany\tyears\twill\tit\tbecome\t5 times\titself?",
+    "code": "",
+    "options": [
+      "A) 20\tyears",
+      "B) 25\tyears",
+      "C) 30\tyears",
+      "D) 35\tyears"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer is Option C. Apply Simple & Compound Interest formulas to solve."
+  },
+  {
+    "id": "qa_33",
+    "category": "Aptitude",
+    "subtopic": "Ratio & Averages",
+    "title": "Ratio & Averages Q33",
+    "question": "Divide\t₹1,540\tamong\tA,\tB,\tand\tC\tin\tthe\tratio\t2:3:5.\tFind\tB's\tshare.",
+    "code": "",
+    "options": [
+      "A) ₹308",
+      "B) ₹462",
+      "C) ₹560",
+      "D) ₹770"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Ratio & Averages formulas to solve."
+  },
+  {
+    "id": "qa_34",
+    "category": "Aptitude",
+    "subtopic": "Ratio & Averages",
+    "title": "Ratio & Averages Q34",
+    "question": "Two\tnumbers\tare\tin\tthe\tratio\t3:5.\tIf\t10\tis\tadded\tto\teach,\tthe\tratio\tbecomes\t5:7.\tFind\tthe\tnumbers.",
+    "code": "",
+    "options": [
+      "A) 12,\t20",
+      "B) 15,\t25",
+      "C) 18,\t30",
+      "D) 21,\t35"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Ratio & Averages formulas to solve."
+  },
+  {
+    "id": "qa_35",
+    "category": "Aptitude",
+    "subtopic": "Ratio & Averages",
+    "title": "Ratio & Averages Q35",
+    "question": "If\ta:b\t=\t2:3\tand\tb:c\t=\t4:5,\tfind\ta:b:c.",
+    "code": "",
+    "options": [
+      "A) 8:12:15",
+      "B) 2:3:5",
+      "C) 6:9:10",
+      "D) 4:6:9"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Correct Answer is Option A. Apply Ratio & Averages formulas to solve."
+  },
+  {
+    "id": "qa_36",
+    "category": "Aptitude",
+    "subtopic": "Ratio & Averages",
+    "title": "Ratio & Averages Q36",
+    "question": "The\tratio\tof\tages\tof\tA\tand\tB\tis\t4:5.\tAfter\t6\tyears,\tthe\tratio\tbecomes\t6:7.\tFind\tA's\tpresent\tage.",
+    "code": "",
+    "options": [
+      "A) 8",
+      "B) 10",
+      "C) 12",
+      "D) 14"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer is Option C. Apply Ratio & Averages formulas to solve."
+  },
+  {
+    "id": "qa_37",
+    "category": "Aptitude",
+    "subtopic": "Ratio & Averages",
+    "title": "Ratio & Averages Q37",
+    "question": "Find\tthe\tfourth\tproportional\tto\t3,\t6,\tand\t15.",
+    "code": "",
+    "options": [
+      "A) 20",
+      "B) 25",
+      "C) 30",
+      "D) 35"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer is Option C. Apply Ratio & Averages formulas to solve."
+  },
+  {
+    "id": "qa_38",
+    "category": "Aptitude",
+    "subtopic": "Ratio & Averages",
+    "title": "Ratio & Averages Q38",
+    "question": "A\tsum\tof\t₹2,400\tis\tdivided\tamong\tA,\tB,\tC\tsuch\tthat\tA\tgets\ttwice\tas\tmuch\tas\tB,\tand\tB\tgets\tthrice\tas much\tas\tC.\tFind\tC's\tshare.",
+    "code": "",
+    "options": [
+      "A) ₹240",
+      "B) ₹300",
+      "C) ₹360",
+      "D) ₹400"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Ratio & Averages formulas to solve."
+  },
+  {
+    "id": "qa_39",
+    "category": "Aptitude",
+    "subtopic": "Ratio & Averages",
+    "title": "Ratio & Averages Q39",
+    "question": "The\taverage\tof\t5\tnumbers\tis\t42.\tIf\tone\tnumber\tis\texcluded,\tthe\taverage\tbecomes\t40.\tFind\tthe excluded\tnumber.",
+    "code": "",
+    "options": [
+      "A) 48",
+      "B) 50",
+      "C) 52",
+      "D) 54"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Ratio & Averages formulas to solve."
+  },
+  {
+    "id": "qa_40",
+    "category": "Aptitude",
+    "subtopic": "Ratio & Averages",
+    "title": "Ratio & Averages Q40",
+    "question": "The\taverage\tage\tof\ta\tclass\tof\t30\tstudents\tis\t15\tyears.\tIf\tthe\tteacher's\tage\t(45\tyears)\tis\tincluded, the\tnew\taverage\tis:",
+    "code": "",
+    "options": [
+      "A) 15.5",
+      "B) 16",
+      "C) 16.5",
+      "D) 17"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Ratio & Averages formulas to solve."
+  },
+  {
+    "id": "qa_41",
+    "category": "Aptitude",
+    "subtopic": "Ratio & Averages",
+    "title": "Ratio & Averages Q41",
+    "question": "The\taverage\tweight\tof\t8\tpersons\tincreases\tby\t2.5\tkg\twhen\ta\tnew\tperson\treplaces\tone\twho\tweighs 65\tkg.\tFind\tthe\tweight\tof\tthe\tnew\tperson.",
+    "code": "",
+    "options": [
+      "A) 80\tkg",
+      "B) 82.5\tkg",
+      "C) 85\tkg",
+      "D) 87.5\tkg"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "total\tweight\tincrease\t=\t8\t×\t2.5\t=\t20\tkg\t→\tnew\tperson\t=\t65\t+\t20\t=\t85\tkg"
+  },
+  {
+    "id": "qa_42",
+    "category": "Aptitude",
+    "subtopic": "Ratio & Averages",
+    "title": "Ratio & Averages Q42",
+    "question": "The\taverage\tof\tthe\tfirst\t50\tnatural\tnumbers\tis:",
+    "code": "",
+    "options": [
+      "A) 24.5",
+      "B) 25",
+      "C) 25.5",
+      "D) 26"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer is Option C. Apply Ratio & Averages formulas to solve."
+  },
+  {
+    "id": "qa_43",
+    "category": "Aptitude",
+    "subtopic": "Ratio & Averages",
+    "title": "Ratio & Averages Q43",
+    "question": "A\tbatsman's\taverage\tafter\t16\tinnings\tis\t42.\tAfter\tthe\t17th\tinnings,\tin\twhich\the\tscores\t74,\this average\tbecomes:",
+    "code": "",
+    "options": [
+      "A) 43",
+      "B) 44",
+      "C) 45",
+      "D) 46"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Ratio & Averages formulas to solve."
+  },
+  {
+    "id": "qa_44",
+    "category": "Aptitude",
+    "subtopic": "Ratio & Averages",
+    "title": "Ratio & Averages Q44",
+    "question": "Two\tnumbers\tare\tin\tthe\tratio\t5:7.\tIf\ttheir\tLCM\tis\t210,\tfind\ttheir\tsum.",
+    "code": "",
+    "options": [
+      "A) 60",
+      "B) 66",
+      "C) 72",
+      "D) 78"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer is Option C. Apply Ratio & Averages formulas to solve."
+  },
+  {
+    "id": "qa_45",
+    "category": "Aptitude",
+    "subtopic": "Ratio & Averages",
+    "title": "Ratio & Averages Q45",
+    "question": "The\taverage\tof\t11\tresults\tis\t50.\tIf\tthe\taverage\tof\tthe\tfirst\t6\tis\t49\tand\tthat\tof\tthe\tlast\t6\tis\t52,\tfind the\t6th\tresult.",
+    "code": "",
+    "options": [
+      "A) 50",
+      "B) 52",
+      "C) 55",
+      "D) 57"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer is Option C. Apply Ratio & Averages formulas to solve."
+  },
+  {
+    "id": "qa_46",
+    "category": "Aptitude",
+    "subtopic": "Time & Work",
+    "title": "Time & Work Q46",
+    "question": "A\tcan\tcomplete\ta\ttask\tin\t12\tdays\tand\tB\tin\t18\tdays.\tWorking\ttogether,\thow\tmany\tdays\twill\tthey take?",
+    "code": "",
+    "options": [
+      "A) 6.4\tdays",
+      "B) 7\tdays",
+      "C) 7.2\tdays",
+      "D) 8\tdays"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer is Option C. Apply Time & Work formulas to solve."
+  },
+  {
+    "id": "qa_47",
+    "category": "Aptitude",
+    "subtopic": "Time & Work",
+    "title": "Time & Work Q47",
+    "question": "A\tand\tB\ttogether\tcan\tfinish\ta\tjob\tin\t10\tdays.\tA\talone\tcan\tfinish\tit\tin\t15\tdays.\tIn\thow\tmany\tdays\tcan B\talone\tfinish\tit?",
+    "code": "",
+    "options": [
+      "A) 20\tdays",
+      "B) 25\tdays",
+      "C) 30\tdays",
+      "D) 35\tdays"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer is Option C. Apply Time & Work formulas to solve."
+  },
+  {
+    "id": "qa_48",
+    "category": "Aptitude",
+    "subtopic": "Time & Work",
+    "title": "Time & Work Q48",
+    "question": "15\tmen\tcan\tcomplete\ta\twall\tin\t20\tdays.\tHow\tmany\tmen\tare\tneeded\tto\tcomplete\tit\tin\t12\tdays?",
+    "code": "",
+    "options": [
+      "A) 20",
+      "B) 22",
+      "C) 25",
+      "D) 30"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Correct Answer is Option A. Apply Time & Work formulas to solve."
+  },
+  {
+    "id": "qa_49",
+    "category": "Aptitude",
+    "subtopic": "Time & Work",
+    "title": "Time & Work Q49",
+    "question": "A\tcan\tdo\ta\tpiece\tof\twork\tin\t20\tdays\tand\tB\tin\t30\tdays.\tThey\twork\ttogether\tfor\t4\tdays,\tthen\tA\tleaves. How\tmany\tmore\tdays\twill\tB\ttake\tto\tfinish?",
+    "code": "",
+    "options": [
+      "A) 12",
+      "B) 13.33",
+      "C) 14",
+      "D) 15"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "A's\t4-day\tshare\t=\t4/20\t=\t1/5;\tremaining\t4/5\tof\twork\t÷\t(1/30\tper\tday)\t=\t13.33\tdays"
+  },
+  {
+    "id": "qa_50",
+    "category": "Aptitude",
+    "subtopic": "Time & Work",
+    "title": "Time & Work Q50",
+    "question": "A,\tB,\tand\tC\tcan\tcomplete\ta\tjob\tin\t6,\t8,\tand\t12\tdays\trespectively.\tWorking\ttogether,\tthey\twill complete\tit\tin:",
+    "code": "",
+    "options": [
+      "A) 2.5\tdays",
+      "B) 2.67\tdays",
+      "C) 3\tdays",
+      "D) 3.2\tdays"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Time & Work formulas to solve."
+  },
+  {
+    "id": "qa_51",
+    "category": "Aptitude",
+    "subtopic": "Time & Work",
+    "title": "Time & Work Q51",
+    "question": "10\twomen\tcan\tcomplete\ta\ttask\tin\t6\tdays,\tand\t6\tmen\tcan\tcomplete\tthe\tsame\ttask\tin\t5\tdays.\tHow many\tdays\twill\t5\twomen\tand\t3\tmen\ttake\ttogether?",
+    "code": "",
+    "options": [
+      "A) 5\tdays",
+      "B) 6\tdays",
+      "C) 7\tdays",
+      "D) 8\tdays"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Time & Work formulas to solve."
+  },
+  {
+    "id": "qa_52",
+    "category": "Aptitude",
+    "subtopic": "Time & Work",
+    "title": "Time & Work Q52",
+    "question": "A\tpipe\tcan\tfill\ta\ttank\tin\t6\thours.\tDue\tto\ta\tleak,\tit\ttakes\t8\thours\tto\tfill.\tHow\tlong\twill\tthe\tleak\ttake\tto empty\ta\tfull\ttank?",
+    "code": "",
+    "options": [
+      "A) 20\thours",
+      "B) 22\thours",
+      "C) 24\thours",
+      "D) 26\thours"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer is Option C. Apply Time & Work formulas to solve."
+  },
+  {
+    "id": "qa_53",
+    "category": "Aptitude",
+    "subtopic": "Time & Work",
+    "title": "Time & Work Q53",
+    "question": "Two\tpipes\tA\tand\tB\tcan\tfill\ta\ttank\tin\t15\tand\t20\tminutes\trespectively.\tBoth\tpipes\tare\topened together,\tbut\tpipe\tA\tis\tclosed\tafter\t4\tminutes.\tHow\tlong\twill\tit\ttake\tto\tfill\tthe\ttank?",
+    "code": "",
+    "options": [
+      "A) 10.5\tmin",
+      "B) 11.2\tmin",
+      "C) 12\tmin",
+      "D) 13.5\tmin"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer is Option C. Apply Time & Work formulas to solve."
+  },
+  {
+    "id": "qa_54",
+    "category": "Aptitude",
+    "subtopic": "Time, Speed & Distance",
+    "title": "Time, Speed & Distance Q54",
+    "question": "A\tcar\tcovers\t300\tkm\tin\t5\thours.\tFind\tits\tspeed\tin\tm/s.",
+    "code": "",
+    "options": [
+      "A) 15\tm/s",
+      "B) 16.67\tm/s",
+      "C) 18\tm/s",
+      "D) 20\tm/s"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Time, Speed & Distance formulas to solve."
+  },
+  {
+    "id": "qa_55",
+    "category": "Aptitude",
+    "subtopic": "Time, Speed & Distance",
+    "title": "Time, Speed & Distance Q55",
+    "question": "A\ttrain\t150\tm\tlong\tcrosses\ta\tpole\tin\t9\tseconds.\tFind\tits\tspeed\tin\tkm/h.",
+    "code": "",
+    "options": [
+      "A) 54\tkm/h",
+      "B) 60\tkm/h",
+      "C) 64\tkm/h",
+      "D) 66\tkm/h"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Time, Speed & Distance formulas to solve."
+  },
+  {
+    "id": "qa_56",
+    "category": "Aptitude",
+    "subtopic": "Time, Speed & Distance",
+    "title": "Time, Speed & Distance Q56",
+    "question": "A\ttrain\t200\tm\tlong\tcrosses\ta\tplatform\t300\tm\tlong\tin\t25\tseconds.\tFind\tthe\tspeed\tof\tthe\ttrain\tin km/h.",
+    "code": "",
+    "options": [
+      "A) 64.8\tkm/h",
+      "B) 68.4\tkm/h",
+      "C) 72\tkm/h",
+      "D) 75.6\tkm/h"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer is Option C. Apply Time, Speed & Distance formulas to solve."
+  },
+  {
+    "id": "qa_57",
+    "category": "Aptitude",
+    "subtopic": "Time, Speed & Distance",
+    "title": "Time, Speed & Distance Q57",
+    "question": "Two\ttrains\t120\tm\tand\t180\tm\tlong\trun\tin\topposite\tdirections\tat\t54\tkm/h\tand\t36\tkm/h.\tFind\tthe\ttime taken\tto\tcross\teach\tother.",
+    "code": "",
+    "options": [
+      "A) 10\tsec",
+      "B) 12\tsec",
+      "C) 14\tsec",
+      "D) 16\tsec"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "relative\tspeed\t=\t90\tkm/h\t=\t25\tm/s;\ttotal\tlength\t=\t300\tm\t→\ttime\t=\t12\tsec"
+  },
+  {
+    "id": "qa_58",
+    "category": "Aptitude",
+    "subtopic": "Time, Speed & Distance",
+    "title": "Time, Speed & Distance Q58",
+    "question": "A\tman\ttravels\ta\tcertain\tdistance\tat\t40\tkm/h\tand\treturns\tat\t60\tkm/h.\tFind\this\taverage\tspeed\tfor\tthe whole\tjourney.",
+    "code": "",
+    "options": [
+      "A) 46\tkm/h",
+      "B) 48\tkm/h",
+      "C) 50\tkm/h",
+      "D) 52\tkm/h"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Time, Speed & Distance formulas to solve."
+  },
+  {
+    "id": "qa_59",
+    "category": "Aptitude",
+    "subtopic": "Time, Speed & Distance",
+    "title": "Time, Speed & Distance Q59",
+    "question": "A\tboy\twalking\tat\t4/5th\tof\this\tusual\tspeed\treaches\tschool\t10\tminutes\tlate.\tFind\this\tusual\ttime\tto reach\tschool.",
+    "code": "",
+    "options": [
+      "A) 30\tmin",
+      "B) 35\tmin",
+      "C) 40\tmin",
+      "D) 45\tmin"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer is Option C. Apply Time, Speed & Distance formulas to solve."
+  },
+  {
+    "id": "qa_60",
+    "category": "Aptitude",
+    "subtopic": "Time, Speed & Distance",
+    "title": "Time, Speed & Distance Q60",
+    "question": "A\tcar\ttravels\tthe\tfirst\thalf\tof\ta\tjourney\tat\t60\tkm/h\tand\tthe\tsecond\thalf\tat\t40\tkm/h.\tFind\tthe\taverage speed.",
+    "code": "",
+    "options": [
+      "A) 46\tkm/h",
+      "B) 48\tkm/h",
+      "C) 50\tkm/h",
+      "D) 52\tkm/h"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Time, Speed & Distance formulas to solve."
+  },
+  {
+    "id": "qa_61",
+    "category": "Aptitude",
+    "subtopic": "Time, Speed & Distance",
+    "title": "Time, Speed & Distance Q61",
+    "question": "Two\tcars\tstart\tfrom\tthe\tsame\tpoint\tat\tthe\tsame\ttime\tand\ttravel\tin\tthe\tsame\tdirection\tat\t50\tkm/h and\t65\tkm/h.\tAfter\thow\tmany\thours\twill\tthey\tbe\t45\tkm\tapart?",
+    "code": "",
+    "options": [
+      "A) 2\thrs",
+      "B) 3\thrs",
+      "C) 4\thrs",
+      "D) 5\thrs"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Time, Speed & Distance formulas to solve."
+  },
+  {
+    "id": "qa_62",
+    "category": "Aptitude",
+    "subtopic": "Time, Speed & Distance",
+    "title": "Time, Speed & Distance Q62",
+    "question": "A\tman\trows\ta\tboat\t12\tkm\tdownstream\tin\t1\thour\tand\treturns\tupstream\tin\t1.5\thours.\tFind\tthe\tspeed of\tthe\tcurrent.",
+    "code": "",
+    "options": [
+      "A) 1\tkm/h",
+      "B) 2\tkm/h",
+      "C) 3\tkm/h",
+      "D) 4\tkm/h"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Time, Speed & Distance formulas to solve."
+  },
+  {
+    "id": "qa_63",
+    "category": "Aptitude",
+    "subtopic": "Time, Speed & Distance",
+    "title": "Time, Speed & Distance Q63",
+    "question": "A\tboat's\tspeed\tin\tstill\twater\tis\t10\tkm/h\tand\tthe\tspeed\tof\tthe\tcurrent\tis\t2\tkm/h.\tFind\tthe\ttime\ttaken to\trow\t24\tkm\tdownstream.",
+    "code": "",
+    "options": [
+      "A) 2\thrs",
+      "B) 2.2\thrs",
+      "C) 2.5\thrs",
+      "D) 2.8\thrs"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Correct Answer is Option A. Apply Time, Speed & Distance formulas to solve."
+  },
+  {
+    "id": "qa_64",
+    "category": "Aptitude",
+    "subtopic": "Time, Speed & Distance",
+    "title": "Time, Speed & Distance Q64",
+    "question": "A\ttrain\tovertakes\ttwo\tpersons\twalking\tat\t3\tkm/h\tand\t5\tkm/h\tin\tthe\tsame\tdirection,\tand\tpasses them\tin\t12\tand\t15\tseconds\trespectively.\tFind\tthe\tlength\tof\tthe\ttrain.",
+    "code": "",
+    "options": [
+      "A) 90\tm",
+      "B) 100\tm",
+      "C) 110\tm",
+      "D) 120\tm"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "relative\tspeeds\tconvert\tto\tm/s;\tsolve\ttwo\tequations\tfor\ttrain\tlength\t→\t100\tm"
+  },
+  {
+    "id": "qa_65",
+    "category": "Aptitude",
+    "subtopic": "Time, Speed & Distance",
+    "title": "Time, Speed & Distance Q65",
+    "question": "A\tperson\tcrosses\ta\t600\tm\tlong\tstreet\tin\t5\tminutes.\tFind\ttheir\tspeed\tin\tkm/h.",
+    "code": "",
+    "options": [
+      "A) 6.2\tkm/h",
+      "B) 6.8\tkm/h",
+      "C) 7.2\tkm/h",
+      "D) 7.5\tkm/h"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer is Option C. Apply Time, Speed & Distance formulas to solve."
+  },
+  {
+    "id": "qa_66",
+    "category": "Aptitude",
+    "subtopic": "Time, Speed & Distance",
+    "title": "Time, Speed & Distance Q66",
+    "question": "Excluding\tstoppages,\ta\ttrain's\tspeed\tis\t60\tkm/h;\tincluding\tstoppages,\tit\tis\t48\tkm/h.\tFor\thow\tmany minutes\tdoes\tthe\ttrain\tstop\tper\thour?",
+    "code": "",
+    "options": [
+      "A) 10\tmin",
+      "B) 12\tmin",
+      "C) 14\tmin",
+      "D) 15\tmin"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Time, Speed & Distance formulas to solve."
+  },
+  {
+    "id": "qa_67",
+    "category": "Aptitude",
+    "subtopic": "Permutations & Probability",
+    "title": "Permutations & Probability Q67",
+    "question": "In\thow\tmany\tways\tcan\tthe\tletters\tof\tthe\tword\t\"TABLE\"\tbe\tarranged?",
+    "code": "",
+    "options": [
+      "A) 60",
+      "B) 100",
+      "C) 120",
+      "D) 720"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer is Option C. Apply Permutations & Probability formulas to solve."
+  },
+  {
+    "id": "qa_68",
+    "category": "Aptitude",
+    "subtopic": "Permutations & Probability",
+    "title": "Permutations & Probability Q68",
+    "question": "How\tmany\t3-digit\tnumbers\tcan\tbe\tformed\tusing\tthe\tdigits\t1–9\twithout\trepetition?",
+    "code": "",
+    "options": [
+      "A) 448",
+      "B) 504",
+      "C) 512",
+      "D) 729"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Permutations & Probability formulas to solve."
+  },
+  {
+    "id": "qa_69",
+    "category": "Aptitude",
+    "subtopic": "Permutations & Probability",
+    "title": "Permutations & Probability Q69",
+    "question": "In\thow\tmany\tways\tcan\ta\tcommittee\tof\t3\tbe\tselected\tfrom\t5\tmen\tand\t4\twomen?",
+    "code": "",
+    "options": [
+      "A) 56",
+      "B) 60",
+      "C) 72",
+      "D) 84"
+    ],
+    "correctAnswer": 3,
+    "correctLetter": "D",
+    "explanation": "Correct Answer is Option D. Apply Permutations & Probability formulas to solve."
+  },
+  {
+    "id": "qa_70",
+    "category": "Aptitude",
+    "subtopic": "Permutations & Probability",
+    "title": "Permutations & Probability Q70",
+    "question": "From\ta\tgroup\tof\t6\tmen\tand\t4\twomen,\thow\tmany\tcommittees\tof\t3\tmen\tand\t2\twomen\tcan\tbe formed?",
+    "code": "",
+    "options": [
+      "A) 100",
+      "B) 110",
+      "C) 120",
+      "D) 130"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer is Option C. Apply Permutations & Probability formulas to solve."
+  },
+  {
+    "id": "qa_71",
+    "category": "Aptitude",
+    "subtopic": "Permutations & Probability",
+    "title": "Permutations & Probability Q71",
+    "question": "How\tmany\twords\t(with\tor\twithout\tmeaning)\tcan\tbe\tformed\tusing\tall\tletters\tof\t\"STUDY\"\tusing\teach letter\texactly\tonce?",
+    "code": "",
+    "options": [
+      "A) 60",
+      "B) 100",
+      "C) 120",
+      "D) 240"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer is Option C. Apply Permutations & Probability formulas to solve."
+  },
+  {
+    "id": "qa_72",
+    "category": "Aptitude",
+    "subtopic": "Permutations & Probability",
+    "title": "Permutations & Probability Q72",
+    "question": "In\thow\tmany\tways\tcan\t5\tpeople\tbe\tseated\tin\ta\trow\tsuch\tthat\ttwo\tparticular\tpeople\talways\tsit together?",
+    "code": "",
+    "options": [
+      "A) 24",
+      "B) 48",
+      "C) 72",
+      "D) 120"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Permutations & Probability formulas to solve."
+  },
+  {
+    "id": "qa_73",
+    "category": "Aptitude",
+    "subtopic": "Permutations & Probability",
+    "title": "Permutations & Probability Q73",
+    "question": "A\tbag\tcontains\t5\tred\tand\t4\tblue\tballs.\tTwo\tballs\tare\tdrawn\tat\trandom.\tFind\tthe\tprobability\tthat both\tare\tred.",
+    "code": "",
+    "options": [
+      "A) 5/18",
+      "B) 4/9",
+      "C) 5/12",
+      "D) 1/3"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Correct Answer is Option A. Apply Permutations & Probability formulas to solve."
+  },
+  {
+    "id": "qa_74",
+    "category": "Aptitude",
+    "subtopic": "Permutations & Probability",
+    "title": "Permutations & Probability Q74",
+    "question": "Two\tdice\tare\tthrown\ttogether.\tFind\tthe\tprobability\tof\tgetting\ta\tsum\tof\t8.",
+    "code": "",
+    "options": [
+      "A) 5/36",
+      "B) 1/6",
+      "C) 7/36",
+      "D) 1/4"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Correct Answer is Option A. Apply Permutations & Probability formulas to solve."
+  },
+  {
+    "id": "qa_75",
+    "category": "Aptitude",
+    "subtopic": "Permutations & Probability",
+    "title": "Permutations & Probability Q75",
+    "question": "A\tcard\tis\tdrawn\tfrom\ta\twell-shuffled\tdeck\tof\t52\tcards.\tFind\tthe\tprobability\tthat\tit\tis\ta\tking\tor\ta queen.",
+    "code": "",
+    "options": [
+      "A) 1/13",
+      "B) 2/13",
+      "C) 1/26",
+      "D) 4/13"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Permutations & Probability formulas to solve."
+  },
+  {
+    "id": "qa_76",
+    "category": "Aptitude",
+    "subtopic": "Permutations & Probability",
+    "title": "Permutations & Probability Q76",
+    "question": "A\tbag\tcontains\t4\twhite\tand\t6\tblack\tballs.\tOne\tball\tis\tdrawn\tat\trandom.\tFind\tthe\tprobability\tthat\tit\tis white.",
+    "code": "",
+    "options": [
+      "A) 0.3",
+      "B) 0.4",
+      "C) 0.5",
+      "D) 0.6"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Permutations & Probability formulas to solve."
+  },
+  {
+    "id": "qa_77",
+    "category": "Aptitude",
+    "subtopic": "Permutations & Probability",
+    "title": "Permutations & Probability Q77",
+    "question": "Three\tcoins\tare\ttossed\ttogether.\tFind\tthe\tprobability\tof\tgetting\tat\tleast\ttwo\theads.",
+    "code": "",
+    "options": [
+      "A) 1/4",
+      "B) 3/8",
+      "C) 1/2",
+      "D) 5/8"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer is Option C. Apply Permutations & Probability formulas to solve."
+  },
+  {
+    "id": "qa_78",
+    "category": "Aptitude",
+    "subtopic": "Permutations & Probability",
+    "title": "Permutations & Probability Q78",
+    "question": "From\ta\twell-shuffled\tdeck\tof\t52\tcards,\tone\tcard\tis\tdrawn.\tFind\tthe\tprobability\tit's\ta\tred\tface\tcard.",
+    "code": "",
+    "options": [
+      "A) 3/26",
+      "B) 3/13",
+      "C) 1/13",
+      "D) 6/13"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Correct Answer is Option A. Apply Permutations & Probability formulas to solve."
+  },
+  {
+    "id": "qa_79",
+    "category": "Aptitude",
+    "subtopic": "Ages, Mixtures & Alligations",
+    "title": "Ages, Mixtures & Alligations Q79",
+    "question": "The\tpresent\tage\tof\ta\tfather\tis\t3\ttimes\tthat\tof\this\tson.\tAfter\t12\tyears,\tthe\tfather's\tage\twill\tbe\ttwice that\tof\this\tson.\tFind\tthe\tson's\tpresent\tage.",
+    "code": "",
+    "options": [
+      "A) 10",
+      "B) 12",
+      "C) 14",
+      "D) 16"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Ages, Mixtures & Alligations formulas to solve."
+  },
+  {
+    "id": "qa_80",
+    "category": "Aptitude",
+    "subtopic": "Ages, Mixtures & Alligations",
+    "title": "Ages, Mixtures & Alligations Q80",
+    "question": "Five\tyears\tago,\tA\twas\tthrice\tas\told\tas\tB.\tTen\tyears\tfrom\tnow,\tA\twill\tbe\ttwice\tas\told\tas\tB.\tFind\tA's present\tage.",
+    "code": "",
+    "options": [
+      "A) 30",
+      "B) 35",
+      "C) 40",
+      "D) 45"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer is Option C. Apply Ages, Mixtures & Alligations formulas to solve."
+  },
+  {
+    "id": "qa_81",
+    "category": "Aptitude",
+    "subtopic": "Ages, Mixtures & Alligations",
+    "title": "Ages, Mixtures & Alligations Q81",
+    "question": "The\tratio\tof\tages\tof\tP\tand\tQ\tis\t3:4.\tTen\tyears\thence,\tthe\tratio\twill\tbe\t4:5.\tFind\tP's\tcurrent\tage.",
+    "code": "",
+    "options": [
+      "A) 20",
+      "B) 24",
+      "C) 30",
+      "D) 36"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Ages, Mixtures & Alligations formulas to solve."
+  },
+  {
+    "id": "qa_82",
+    "category": "Aptitude",
+    "subtopic": "Ages, Mixtures & Alligations",
+    "title": "Ages, Mixtures & Alligations Q82",
+    "question": "In\twhat\tratio\tmust\ta\tshopkeeper\tmix\ttwo\tvarieties\tof\ttea\tcosting\t₹60/kg\tand\t₹80/kg\tso\tthat\tthe mixture\tcosts\t₹65/kg?",
+    "code": "",
+    "options": [
+      "A) 1:3",
+      "B) 2:3",
+      "C) 3:1",
+      "D) 3:2"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer is Option C. Apply Ages, Mixtures & Alligations formulas to solve."
+  },
+  {
+    "id": "qa_83",
+    "category": "Aptitude",
+    "subtopic": "Ages, Mixtures & Alligations",
+    "title": "Ages, Mixtures & Alligations Q83",
+    "question": "A\tvessel\tcontains\ta\tmixture\tof\tmilk\tand\twater\tin\tthe\tratio\t4:1.\tHow\tmuch\tof\tthe\tmixture\tmust\tbe replaced\twith\twater\tso\tthat\tthe\tnew\tratio\tbecomes\t2:3?",
+    "code": "",
+    "options": [
+      "A) 50%",
+      "B) 60%",
+      "C) 65%",
+      "D) 70%"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "replace\tx\tfraction\tof\tmixture\twith\twater;\tsolve\t4(1−x)/(4(1−x)+1+4x)\t=\t2/5\t→\tx\t=\t60%"
+  },
+  {
+    "id": "qa_84",
+    "category": "Aptitude",
+    "subtopic": "Ages, Mixtures & Alligations",
+    "title": "Ages, Mixtures & Alligations Q84",
+    "question": "How\tmany\tkg\tof\trice\tcosting\t₹40/kg\tmust\tbe\tmixed\twith\t20\tkg\tof\trice\tcosting\t₹25/kg\tto\tget\ta mixture\tworth\t₹30/kg?",
+    "code": "",
+    "options": [
+      "A) 8\tkg",
+      "B) 10\tkg",
+      "C) 12\tkg",
+      "D) 15\tkg"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Ages, Mixtures & Alligations formulas to solve."
+  },
+  {
+    "id": "qa_85",
+    "category": "Aptitude",
+    "subtopic": "Ages, Mixtures & Alligations",
+    "title": "Ages, Mixtures & Alligations Q85",
+    "question": "A\tcontainer\thas\t40\tlitres\tof\tmilk.\t4\tlitres\tis\twithdrawn\tand\treplaced\twith\twater,\tand\tthis\tis\trepeated once\tmore.\tFind\tthe\tquantity\tof\tmilk\tleft.",
+    "code": "",
+    "options": [
+      "A) 32.4\tL",
+      "B) 33\tL",
+      "C) 34.5\tL",
+      "D) 36\tL"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Correct Answer is Option A. Apply Ages, Mixtures & Alligations formulas to solve."
+  },
+  {
+    "id": "qa_86",
+    "category": "Aptitude",
+    "subtopic": "Ages, Mixtures & Alligations",
+    "title": "Ages, Mixtures & Alligations Q86",
+    "question": "In\twhat\tratio\tshould\twater\tbe\tmixed\twith\tmilk\tto\tgain\t20%\ton\tselling\tthe\tmixture\tat\tcost\tprice?",
+    "code": "",
+    "options": [
+      "A) 1:4",
+      "B) 1:5",
+      "C) 1:6",
+      "D) 2:5"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer is Option C. Apply Ages, Mixtures & Alligations formulas to solve."
+  },
+  {
+    "id": "qa_87",
+    "category": "Aptitude",
+    "subtopic": "Ages, Mixtures & Alligations",
+    "title": "Ages, Mixtures & Alligations Q87",
+    "question": "A\talone\tcan\tdo\ta\tpiece\tof\twork\tin\t10\tdays\twhich\tB\talone\tcan\tdo\tin\t15\tdays.\tIf\tA\tis\t25\tyears\told,\tand A's\tage\tplus\tB's\tage\tequals\t65,\tfind\tB's\tage.",
+    "code": "",
+    "options": [
+      "A) 35",
+      "B) 38",
+      "C) 40",
+      "D) 42"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer is Option C. Apply Ages, Mixtures & Alligations formulas to solve."
+  },
+  {
+    "id": "qa_88",
+    "category": "Aptitude",
+    "subtopic": "Ages, Mixtures & Alligations",
+    "title": "Ages, Mixtures & Alligations Q88",
+    "question": "A\tsum\tof\t₹1,200\tbecomes\t₹1,560\tin\t3\tyears\tat\tsimple\tinterest.\tIf\tthe\trate\tincreases\tby\t3%,\tfind\tthe new\tinterest\tamount\tfor\tthe\tsame\tperiod.",
+    "code": "",
+    "options": [
+      "A) ₹1,656",
+      "B) ₹1,668",
+      "C) ₹1,680",
+      "D) ₹1,692"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer is Option C. Apply Ages, Mixtures & Alligations formulas to solve."
+  },
+  {
+    "id": "qa_89",
+    "category": "Aptitude",
+    "subtopic": "Number Series & Simplification",
+    "title": "Number Series & Simplification Q89",
+    "question": "Find\tthe\tnext\tnumber\tin\tthe\tseries:\t2,\t6,\t12,\t20,\t30,\t?",
+    "code": "",
+    "options": [
+      "A) 40",
+      "B) 42",
+      "C) 44",
+      "D) 46"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Number Series & Simplification formulas to solve."
+  },
+  {
+    "id": "qa_90",
+    "category": "Aptitude",
+    "subtopic": "Number Series & Simplification",
+    "title": "Number Series & Simplification Q90",
+    "question": "Find\tthe\tmissing\tnumber:\t3,\t7,\t15,\t31,\t?",
+    "code": "",
+    "options": [
+      "A) 47",
+      "B) 55",
+      "C) 63",
+      "D) 71"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer is Option C. Apply Number Series & Simplification formulas to solve."
+  },
+  {
+    "id": "qa_91",
+    "category": "Aptitude",
+    "subtopic": "Number Series & Simplification",
+    "title": "Number Series & Simplification Q91",
+    "question": "Find\tthe\todd\tone\tout:\t8,\t27,\t64,\t100,\t125",
+    "code": "",
+    "options": [
+      "A) 27",
+      "B) 64",
+      "C) 100",
+      "D) 125"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer is Option C. Apply Number Series & Simplification formulas to solve."
+  },
+  {
+    "id": "qa_92",
+    "category": "Aptitude",
+    "subtopic": "Number Series & Simplification",
+    "title": "Number Series & Simplification Q92",
+    "question": "Simplify:\t(0.75\t×\t0.75\t+\t0.75\t×\t0.25\t+\t0.25\t×\t0.25)",
+    "code": "",
+    "options": [
+      "A) 0.75",
+      "B) 1",
+      "C) 1.25",
+      "D) 1.5"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Number Series & Simplification formulas to solve."
+  },
+  {
+    "id": "qa_93",
+    "category": "Aptitude",
+    "subtopic": "Number Series & Simplification",
+    "title": "Number Series & Simplification Q93",
+    "question": "Find\tthe\tvalue\tof:\t12\t+\t22\t÷\t2\t×\t3\t−\t4",
+    "code": "",
+    "options": [
+      "A) 33",
+      "B) 39",
+      "C) 41",
+      "D) 45"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Number Series & Simplification formulas to solve."
+  },
+  {
+    "id": "qa_94",
+    "category": "Aptitude",
+    "subtopic": "Number Series & Simplification",
+    "title": "Number Series & Simplification Q94",
+    "question": "What\tis\tthe\tsquare\troot\tof\t7396?",
+    "code": "",
+    "options": [
+      "A) 84",
+      "B) 86",
+      "C) 88",
+      "D) 90"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Number Series & Simplification formulas to solve."
+  },
+  {
+    "id": "qa_95",
+    "category": "Aptitude",
+    "subtopic": "Number Series & Simplification",
+    "title": "Number Series & Simplification Q95",
+    "question": "Find\tthe\tnext\tterm:\tA,\tC,\tF,\tJ,\tO,\t?",
+    "code": "",
+    "options": [
+      "A) T",
+      "B) U",
+      "C) V",
+      "D) W"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Number Series & Simplification formulas to solve."
+  },
+  {
+    "id": "qa_96",
+    "category": "Aptitude",
+    "subtopic": "Number Series & Simplification",
+    "title": "Number Series & Simplification Q96",
+    "question": "If\tthe\tsum\tof\t3\tconsecutive\teven\tnumbers\tis\t48,\tfind\tthe\tlargest.",
+    "code": "",
+    "options": [
+      "A) 16",
+      "B) 18",
+      "C) 20",
+      "D) 22"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer is Option C. Apply Number Series & Simplification formulas to solve."
+  },
+  {
+    "id": "qa_97",
+    "category": "Aptitude",
+    "subtopic": "Number Series & Simplification",
+    "title": "Number Series & Simplification Q97",
+    "question": "Simplify:\t3.5\t×\t3.5\t−\t1.5\t×\t1.5",
+    "code": "",
+    "options": [
+      "A) 8",
+      "B) 9",
+      "C) 10",
+      "D) 11"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer is Option C. Apply Number Series & Simplification formulas to solve."
+  },
+  {
+    "id": "qa_98",
+    "category": "Aptitude",
+    "subtopic": "Number Series & Simplification",
+    "title": "Number Series & Simplification Q98",
+    "question": "A\tclock\tloses\t15\tminutes\tevery\t24\thours.\tHow\tmany\tminutes\twill\tit\tlose\tin\t7\tdays?",
+    "code": "",
+    "options": [
+      "A) 90\tmin",
+      "B) 105\tmin",
+      "C) 120\tmin",
+      "D) 135\tmin"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "loses\t15\tmin/day\t×\t7\t=\t105\tmin"
+  },
+  {
+    "id": "qa_99",
+    "category": "Aptitude",
+    "subtopic": "Number Series & Simplification",
+    "title": "Number Series & Simplification Q99",
+    "question": "The\tangle\tbetween\tthe\thour\tand\tminute\thand\tat\t4:00\tis:",
+    "code": "",
+    "options": [
+      "A) 100°",
+      "B) 110°",
+      "C) 120°",
+      "D) 130°"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "at\t4:00,\thour\thand\tat\t120°,\tminute\thand\tat\t0°\t→\tangle\t=\t120°"
+  },
+  {
+    "id": "qa_100",
+    "category": "Aptitude",
+    "subtopic": "Number Series & Simplification",
+    "title": "Number Series & Simplification Q100",
+    "question": "Find\tthe\tvalue\tof\tx:\t2^(x+1)\t=\t32",
+    "code": "",
+    "options": [
+      "A) 3",
+      "B) 4",
+      "C) 5",
+      "D) 6"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer is Option B. Apply Number Series & Simplification formulas to solve."
+  },
+  {
+    "id": "di_1",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q1",
+    "question": "What\tis\tthe\ttotal\tsales\tof\tAlpha\tover\tthe\t4\tyears\t(in\t₹\tlakhs)?",
+    "code": "Table: Annual Sales of 5 Companies (in ₹ lakhs)\nCompanies: Alpha, Beta, Gamma, Delta, Epsilon (2019-2022)",
+    "options": [
+      "A) 585",
+      "B) 565",
+      "C) 545",
+      "D) 605"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Correct Answer: Option A. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_2",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q2",
+    "question": "What\tis\tthe\taverage\tannual\tsales\tof\tGamma\tover\tthe\t4\tyears?",
+    "code": "Table: Annual Sales of 5 Companies (in ₹ lakhs)\nCompanies: Alpha, Beta, Gamma, Delta, Epsilon (2019-2022)",
+    "options": [
+      "A) 161.25",
+      "B) 171.25",
+      "C) 181.25",
+      "D) 151.25"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Correct Answer: Option A. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_3",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q3",
+    "question": "What\tis\tthe\tpercentage\tgrowth\tin\tDelta's\tsales\tfrom\t2019\tto\t2022?",
+    "code": "Table: Annual Sales of 5 Companies (in ₹ lakhs)\nCompanies: Alpha, Beta, Gamma, Delta, Epsilon (2019-2022)",
+    "options": [
+      "A) 46.25%",
+      "B) 50%",
+      "C) 56.25%",
+      "D) 60%"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_4",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q4",
+    "question": "Which\tcompany\thad\tthe\thighest\tsales\tin\t2021,\tand\twhat\twas\tit?",
+    "code": "Table: Annual Sales of 5 Companies (in ₹ lakhs)\nCompanies: Alpha, Beta, Gamma, Delta, Epsilon (2019-2022)",
+    "options": [
+      "A) Alpha,\t150",
+      "B) Gamma,\t175",
+      "C) Delta,\t100",
+      "D) Epsilon,\t115"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_5",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q5",
+    "question": "What\tis\tthe\tcombined\tsales\tof\tBeta\tand\tEpsilon\tin\t2020?",
+    "code": "Table: Annual Sales of 5 Companies (in ₹ lakhs)\nCompanies: Alpha, Beta, Gamma, Delta, Epsilon (2019-2022)",
+    "options": [
+      "A) 230",
+      "B) 220",
+      "C) 240",
+      "D) 210"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Correct Answer: Option A. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_6",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q6",
+    "question": "By\thow\tmuch\tdid\tGamma's\t2022\tsales\texceed\tBeta's\t2022\tsales?",
+    "code": "Table: Annual Sales of 5 Companies (in ₹ lakhs)\nCompanies: Alpha, Beta, Gamma, Delta, Epsilon (2019-2022)",
+    "options": [
+      "A) 50",
+      "B) 60",
+      "C) 70",
+      "D) 80"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_7",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q7",
+    "question": "Which\tteam\texecuted\tthe\thighest\tnumber\tof\ttest\tcases?",
+    "code": "Bar Chart: Test Cases Executed by QA Teams (Sprint 14)\nTeams: Falcon (420), Orion (380), Nova (510), Comet (460), Zenith (390)",
+    "options": [
+      "A) Team\tFalcon",
+      "B) Team\tOrion",
+      "C) Team\tNova",
+      "D) Team\tComet",
+      "E) Team\tZenith"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_8",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q8",
+    "question": "What\tis\tthe\ttotal\tnumber\tof\ttest\tcases\texecuted\tacross\tall\tteams?",
+    "code": "Bar Chart: Test Cases Executed by QA Teams (Sprint 14)\nTeams: Falcon (420), Orion (380), Nova (510), Comet (460), Zenith (390)",
+    "options": [
+      "A) 2100",
+      "B) 2160",
+      "C) 2200",
+      "D) 2260"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_9",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q9",
+    "question": "What\tis\tthe\taverage\tnumber\tof\ttest\tcases\texecuted\tper\tteam?",
+    "code": "Bar Chart: Test Cases Executed by QA Teams (Sprint 14)\nTeams: Falcon (420), Orion (380), Nova (510), Comet (460), Zenith (390)",
+    "options": [
+      "A) 420",
+      "B) 432",
+      "C) 438",
+      "D) 445"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_10",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q10",
+    "question": "Team\tNova's\ttest\tcases\taccount\tfor\tapproximately\twhat\tpercentage\tof\tthe\ttotal?",
+    "code": "Bar Chart: Test Cases Executed by QA Teams (Sprint 14)\nTeams: Falcon (420), Orion (380), Nova (510), Comet (460), Zenith (390)",
+    "options": [
+      "A) 21.5%",
+      "B) 23.6%",
+      "C) 25.4%",
+      "D) 27.1%"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_11",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q11",
+    "question": "What\tis\tthe\tdifference\tbetween\tthe\ttest\tcases\texecuted\tby\tTeam\tNova\tand\tTeam\tOrion?",
+    "code": "Bar Chart: Test Cases Executed by QA Teams (Sprint 14)\nTeams: Falcon (420), Orion (380), Nova (510), Comet (460), Zenith (390)",
+    "options": [
+      "A) 110",
+      "B) 120",
+      "C) 130",
+      "D) 140"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_12",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q12",
+    "question": "How\tmany\tteams\texecuted\tmore\tthan\t400\ttest\tcases?",
+    "code": "Bar Chart: Test Cases Executed by QA Teams (Sprint 14)\nTeams: Falcon (420), Orion (380), Nova (510), Comet (460), Zenith (390)",
+    "options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 5"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_13",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q13",
+    "question": "If\tthe\ttotal\tnumber\tof\tbugs\tlogged\tis\t400,\thow\tmany\tare\tof\tMedium\tseverity?",
+    "code": "Pie Chart: Bug Severity Distribution (Release 3.2, Total = 400 bugs)\nCritical: 10%, High: 20%, Medium: 35%, Low: 25%, Trivial: 10%",
+    "options": [
+      "A) 120",
+      "B) 130",
+      "C) 140",
+      "D) 150"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_14",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q14",
+    "question": "What\tpercentage\tof\tbugs\tare\teither\tCritical\tor\tHigh\tseverity?",
+    "code": "Pie Chart: Bug Severity Distribution (Release 3.2, Total = 400 bugs)\nCritical: 10%, High: 20%, Medium: 35%, Low: 25%, Trivial: 10%",
+    "options": [
+      "A) 25%",
+      "B) 30%",
+      "C) 35%",
+      "D) 40%"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_15",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q15",
+    "question": "How\tmany\tCritical\tseverity\tbugs\tare\tthere\t(out\tof\t400\ttotal)?",
+    "code": "Pie Chart: Bug Severity Distribution (Release 3.2, Total = 400 bugs)\nCritical: 10%, High: 20%, Medium: 35%, Low: 25%, Trivial: 10%",
+    "options": [
+      "A) 30",
+      "B) 35",
+      "C) 40",
+      "D) 45"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_16",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q16",
+    "question": "How\tmany\tbugs\tare\tclassified\tas\tLow\tor\tTrivial\tseverity\tcombined?",
+    "code": "Pie Chart: Bug Severity Distribution (Release 3.2, Total = 400 bugs)\nCritical: 10%, High: 20%, Medium: 35%, Low: 25%, Trivial: 10%",
+    "options": [
+      "A) 120",
+      "B) 130",
+      "C) 140",
+      "D) 150"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_17",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q17",
+    "question": "Which\tseverity\tcategory\thas\tthe\tlargest\tshare?",
+    "code": "Pie Chart: Bug Severity Distribution (Release 3.2, Total = 400 bugs)\nCritical: 10%, High: 20%, Medium: 35%, Low: 25%, Trivial: 10%",
+    "options": [
+      "A) Critical",
+      "B) High",
+      "C) Medium",
+      "D) Low",
+      "E) Trivial"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_18",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q18",
+    "question": "Between\twhich\ttwo\tconsecutive\tmonths\twas\tthe\tincrease\tin\tMAU\tthe\thighest?",
+    "code": "Line Graph: Monthly Active Users in Thousands (Jan-Jun)\nJan: 45k, Feb: 52k, Mar: 58k, Apr: 55k, May: 63k, Jun: 70k",
+    "options": [
+      "A) Jan-Feb",
+      "B) Feb-Mar",
+      "C) Apr-May",
+      "D) May-Jun"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_19",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q19",
+    "question": "In\twhich\tmonth\tdid\tMAU\tdecrease\tcompared\tto\tthe\tprevious\tmonth?",
+    "code": "Line Graph: Monthly Active Users in Thousands (Jan-Jun)\nJan: 45k, Feb: 52k, Mar: 58k, Apr: 55k, May: 63k, Jun: 70k",
+    "options": [
+      "A) Feb",
+      "B) Mar",
+      "C) Apr",
+      "D) May"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_20",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q20",
+    "question": "What\tis\tthe\taverage\tMAU\tover\tthe\t6\tmonths\t(in\tthousands)?",
+    "code": "Line Graph: Monthly Active Users in Thousands (Jan-Jun)\nJan: 45k, Feb: 52k, Mar: 58k, Apr: 55k, May: 63k, Jun: 70k",
+    "options": [
+      "A) 57.2",
+      "B) 58.8",
+      "C) 60.5",
+      "D) 62.1"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_21",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q21",
+    "question": "What\tis\tthe\toverall\tpercentage\tgrowth\tin\tMAU\tfrom\tJanuary\tto\tJune?",
+    "code": "Line Graph: Monthly Active Users in Thousands (Jan-Jun)\nJan: 45k, Feb: 52k, Mar: 58k, Apr: 55k, May: 63k, Jun: 70k",
+    "options": [
+      "A) 44.4%",
+      "B) 51.1%",
+      "C) 55.6%",
+      "D) 60%"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_22",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q22",
+    "question": "What\twas\tthe\ttotal\tMAU\trecorded\tin\tQ1\t(Jan-Mar)?",
+    "code": "Line Graph: Monthly Active Users in Thousands (Jan-Jun)\nJan: 45k, Feb: 52k, Mar: 58k, Apr: 55k, May: 63k, Jun: 70k",
+    "options": [
+      "A) 150",
+      "B) 155",
+      "C) 160",
+      "D) 165"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_23",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q23",
+    "question": "Which\tstudent\tscored\tthe\thighest\ttotal\tmarks\tacross\tall\t5\tsubjects?",
+    "code": "Table: Marks Scored by Students in 5 Subjects (out of 100 each)\nStudents: Riya, Karan, Sneha, Arjun, Divya, Manoj",
+    "options": [
+      "A) Riya",
+      "B) Karan",
+      "C) Sneha",
+      "D) Arjun",
+      "E) Divya",
+      "F) Manoj"
+    ],
+    "correctAnswer": 5,
+    "correctLetter": "F",
+    "explanation": "Correct Answer: Option F. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_24",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q24",
+    "question": "What\tis\tSneha's\toverall\tpercentage\t(out\tof\t500\ttotal\tmarks)?",
+    "code": "Table: Marks Scored by Students in 5 Subjects (out of 100 each)\nStudents: Riya, Karan, Sneha, Arjun, Divya, Manoj",
+    "options": [
+      "A) 86%",
+      "B) 88%",
+      "C) 90%",
+      "D) 92%"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_25",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q25",
+    "question": "What\tis\tthe\tclass\taverage\tin\tComputer\tScience?",
+    "code": "Table: Marks Scored by Students in 5 Subjects (out of 100 each)\nStudents: Riya, Karan, Sneha, Arjun, Divya, Manoj",
+    "options": [
+      "A) 79.5",
+      "B) 81.2",
+      "C) 83.5",
+      "D) 85.8"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_26",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q26",
+    "question": "Who\tscored\tthe\tlowest\ttotal\tmarks?",
+    "code": "Table: Marks Scored by Students in 5 Subjects (out of 100 each)\nStudents: Riya, Karan, Sneha, Arjun, Divya, Manoj",
+    "options": [
+      "A) Riya",
+      "B) Karan",
+      "C) Sneha",
+      "D) Arjun",
+      "E) Divya",
+      "F) Manoj"
+    ],
+    "correctAnswer": 3,
+    "correctLetter": "D",
+    "explanation": "Correct Answer: Option D. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_27",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q27",
+    "question": "What\tis\tthe\tdifference\tbetween\tManoj's\tand\tKaran's\ttotal\tmarks?",
+    "code": "Table: Marks Scored by Students in 5 Subjects (out of 100 each)\nStudents: Riya, Karan, Sneha, Arjun, Divya, Manoj",
+    "options": [
+      "A) 96",
+      "B) 101",
+      "C) 106",
+      "D) 111"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_28",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q28",
+    "question": "How\tmany\tstudents\tscored\tabove\t80\tin\tMaths?",
+    "code": "Table: Marks Scored by Students in 5 Subjects (out of 100 each)\nStudents: Riya, Karan, Sneha, Arjun, Divya, Manoj",
+    "options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 5"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_29",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q29",
+    "question": "Which\tteam\thas\tthe\thighest\tpercentage\tof\tautomated\ttest\tcoverage?",
+    "code": "Bar Chart: Automated vs Manual Test Coverage by Team\nTeams A to E",
+    "options": [
+      "A) Team\tA",
+      "B) Team\tB",
+      "C) Team\tC",
+      "D) Team\tD",
+      "E) Team\tE"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_30",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q30",
+    "question": "Which\tteam\trelies\tmost\theavily\ton\tmanual\ttesting?",
+    "code": "Bar Chart: Automated vs Manual Test Coverage by Team\nTeams A to E",
+    "options": [
+      "A) Team\tA",
+      "B) Team\tB",
+      "C) Team\tC",
+      "D) Team\tD",
+      "E) Team\tE"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_31",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q31",
+    "question": "What\tis\tthe\taverage\tautomated\ttest\tcoverage\tacross\tall\tteams?",
+    "code": "Bar Chart: Automated vs Manual Test Coverage by Team\nTeams A to E",
+    "options": [
+      "A) 64",
+      "B) 66",
+      "C) 68",
+      "D) 70"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_32",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q32",
+    "question": "What\tis\tthe\tdifference\tin\tautomated\tcoverage\tbetween\tTeam\tC\tand\tTeam\tB?",
+    "code": "Bar Chart: Automated vs Manual Test Coverage by Team\nTeams A to E",
+    "options": [
+      "A) 20",
+      "B) 25",
+      "C) 30",
+      "D) 35"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_33",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q33",
+    "question": "For\tTeam\tD,\twhat\tfraction\tof\ttesting\tis\tmanual?",
+    "code": "Bar Chart: Automated vs Manual Test Coverage by Team\nTeams A to E",
+    "options": [
+      "A) 1/4",
+      "B) 7/20",
+      "C) 1/3",
+      "D) 2/5"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_34",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q34",
+    "question": "How\tmany\tteams\thave\tautomated\tcoverage\tof\t65%\tor\tmore?",
+    "code": "Bar Chart: Automated vs Manual Test Coverage by Team\nTeams A to E",
+    "options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 5"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_35",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q35",
+    "question": "Which\tcompany\tholds\tthe\tlargest\tmarket\tshare?",
+    "code": "Pie Chart: Market Share of Testing-Tool Vendors\nVertex: 32%, Nimbus: 24%, Solace: 18%, Quanta: 14%, Others: 12%",
+    "options": [
+      "A) Vertex\tCorp",
+      "B) Nimbus\tTech",
+      "C) Solace\tInc",
+      "D) Quanta\tLabs",
+      "E) Others"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Correct Answer: Option A. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_36",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q36",
+    "question": "What\tis\tthe\tcombined\tmarket\tshare\tof\tNimbus\tTech\tand\tSolace\tInc?",
+    "code": "Pie Chart: Market Share of Testing-Tool Vendors\nVertex: 32%, Nimbus: 24%, Solace: 18%, Quanta: 14%, Others: 12%",
+    "options": [
+      "A) 38%",
+      "B) 40%",
+      "C) 42%",
+      "D) 44%"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_37",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q37",
+    "question": "If\tthe\ttotal\tmarket\tsize\tis\t₹500\tcrore,\twhat\tis\tQuanta\tLabs'\trevenue\tshare?",
+    "code": "Pie Chart: Market Share of Testing-Tool Vendors\nVertex: 32%, Nimbus: 24%, Solace: 18%, Quanta: 14%, Others: 12%",
+    "options": [
+      "A) ₹60\tcr",
+      "B) ₹65\tcr",
+      "C) ₹70\tcr",
+      "D) ₹75\tcr"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_38",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q38",
+    "question": "By\thow\tmany\tpercentage\tpoints\tdoes\tVertex\tCorp\tlead\tNimbus\tTech?",
+    "code": "Pie Chart: Market Share of Testing-Tool Vendors\nVertex: 32%, Nimbus: 24%, Solace: 18%, Quanta: 14%, Others: 12%",
+    "options": [
+      "A) 6%",
+      "B) 8%",
+      "C) 10%",
+      "D) 12%"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_39",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q39",
+    "question": "What\tpercentage\tshare\tdo\tcompanies\tother\tthan\tthe\ttop\ttwo\thold?",
+    "code": "Pie Chart: Market Share of Testing-Tool Vendors\nVertex: 32%, Nimbus: 24%, Solace: 18%, Quanta: 14%, Others: 12%",
+    "options": [
+      "A) 40%",
+      "B) 44%",
+      "C) 48%",
+      "D) 52%"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_40",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q40",
+    "question": "What\tis\tthe\tpercentage\tgrowth\tof\tBayport's\tpopulation\tfrom\t2018\tto\t2022?",
+    "code": "Table: Population of 5 Cities 2018-2022 (in lakhs)\nRivertown, Hillcrest, Bayport, Lakeview, Meadowbrook",
+    "options": [
+      "A) 15.8%",
+      "B) 17.5%",
+      "C) 19.2%",
+      "D) 21%"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_41",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q41",
+    "question": "Which\tcity\thad\tthe\tsmallest\tpopulation\tthroughout\tthe\tgiven\tperiod?",
+    "code": "Table: Population of 5 Cities 2018-2022 (in lakhs)\nRivertown, Hillcrest, Bayport, Lakeview, Meadowbrook",
+    "options": [
+      "A) Rivertown",
+      "B) Hillcrest",
+      "C) Bayport",
+      "D) Lakeview",
+      "E) Meadowbrook"
+    ],
+    "correctAnswer": 3,
+    "correctLetter": "D",
+    "explanation": "Correct Answer: Option D. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_42",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q42",
+    "question": "What\tis\tthe\tcombined\tpopulation\tof\tall\t5\tcities\tin\t2022\t(in\tlakhs)?",
+    "code": "Table: Population of 5 Cities 2018-2022 (in lakhs)\nRivertown, Hillcrest, Bayport, Lakeview, Meadowbrook",
+    "options": [
+      "A) 40.0",
+      "B) 41.0",
+      "C) 42.0",
+      "D) 43.0"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_43",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q43",
+    "question": "Which\tcity\tshowed\tthe\tmost\tconsistent\t(steady)\tyear-on-year\tgrowth?",
+    "code": "Table: Population of 5 Cities 2018-2022 (in lakhs)\nRivertown, Hillcrest, Bayport, Lakeview, Meadowbrook",
+    "options": [
+      "A) Rivertown",
+      "B) Hillcrest",
+      "C) Bayport",
+      "D) Lakeview",
+      "E) Meadowbrook"
+    ],
+    "correctAnswer": 4,
+    "correctLetter": "E",
+    "explanation": "Correct Answer: Option E. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_44",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q44",
+    "question": "What\tis\tthe\tdifference\tbetween\tRivertown's\tand\tHillcrest's\tpopulation\tin\t2022?",
+    "code": "Table: Population of 5 Cities 2018-2022 (in lakhs)\nRivertown, Hillcrest, Bayport, Lakeview, Meadowbrook",
+    "options": [
+      "A) 3.4",
+      "B) 3.6",
+      "C) 3.8",
+      "D) 4.0"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_45",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q45",
+    "question": "Between\t2020\tand\t2021,\twhich\tcity\thad\tthe\thighest\tabsolute\tpopulation\tincrease?",
+    "code": "Table: Population of 5 Cities 2018-2022 (in lakhs)\nRivertown, Hillcrest, Bayport, Lakeview, Meadowbrook",
+    "options": [
+      "A) Rivertown",
+      "B) Hillcrest",
+      "C) Bayport",
+      "D) Lakeview",
+      "E) Meadowbrook"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_46",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q46",
+    "question": "At\twhat\ttime\twas\tthe\tserver\tresponse\ttime\tthe\thighest?",
+    "code": "Line Graph: Average Server Response Time (8AM-8PM)\n8AM: 120ms, 10AM: 150ms, 12PM: 210ms, 2PM: 240ms, 4PM: 190ms, 6PM: 160ms, 8PM: 130ms",
+    "options": [
+      "A) 8AM",
+      "B) 10AM",
+      "C) 12PM",
+      "D) 2PM",
+      "E) 4PM",
+      "F) 6PM",
+      "G) 8PM"
+    ],
+    "correctAnswer": 3,
+    "correctLetter": "D",
+    "explanation": "Correct Answer: Option D. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_47",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q47",
+    "question": "What\tis\tthe\taverage\tresponse\ttime\tacross\tall\trecorded\thours?",
+    "code": "Line Graph: Average Server Response Time (8AM-8PM)\n8AM: 120ms, 10AM: 150ms, 12PM: 210ms, 2PM: 240ms, 4PM: 190ms, 6PM: 160ms, 8PM: 130ms",
+    "options": [
+      "A) 165.7\tms",
+      "B) 172.9\tms",
+      "C) 178.6\tms",
+      "D) 181.4\tms"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_48",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q48",
+    "question": "Between\twhich\ttwo\tconsecutive\treadings\tdid\tresponse\ttime\tincrease\tthe\tmost?",
+    "code": "Line Graph: Average Server Response Time (8AM-8PM)\n8AM: 120ms, 10AM: 150ms, 12PM: 210ms, 2PM: 240ms, 4PM: 190ms, 6PM: 160ms, 8PM: 130ms",
+    "options": [
+      "A) 8AM-10AM",
+      "B) 10AM-12PM",
+      "C) 12PM-2PM",
+      "D) 4PM-6PM"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_49",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q49",
+    "question": "What\tis\tthe\tpercentage\tdrop\tin\tresponse\ttime\tfrom\t2PM\tto\t8PM?",
+    "code": "Line Graph: Average Server Response Time (8AM-8PM)\n8AM: 120ms, 10AM: 150ms, 12PM: 210ms, 2PM: 240ms, 4PM: 190ms, 6PM: 160ms, 8PM: 130ms",
+    "options": [
+      "A) 44.5%",
+      "B) 45.8%",
+      "C) 47.9%",
+      "D) 50%"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_50",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q50",
+    "question": "How\tmany\treadings\texceeded\t180\tms?",
+    "code": "Line Graph: Average Server Response Time (8AM-8PM)\n8AM: 120ms, 10AM: 150ms, 12PM: 210ms, 2PM: 240ms, 4PM: 190ms, 6PM: 160ms, 8PM: 130ms",
+    "options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 5"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_51",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q51",
+    "question": "In\twhich\tyear\twas\tthe\tprofit\tmargin\t(profit/revenue)\tthe\thighest?",
+    "code": "Table: Company Revenue & Profit 2018-2022 (in ₹ cr)\nRevenue: 200, 230, 210, 260, 300 | Profit: 30, 38, 25, 45, 60",
+    "options": [
+      "A) 2018",
+      "B) 2019",
+      "C) 2020",
+      "D) 2021",
+      "E) 2022"
+    ],
+    "correctAnswer": 4,
+    "correctLetter": "E",
+    "explanation": "Correct Answer: Option E. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_52",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q52",
+    "question": "What\twas\tthe\ttotal\trevenue\tover\tthe\t5\tyears?",
+    "code": "Table: Company Revenue & Profit 2018-2022 (in ₹ cr)\nRevenue: 200, 230, 210, 260, 300 | Profit: 30, 38, 25, 45, 60",
+    "options": [
+      "A) 1180",
+      "B) 1200",
+      "C) 1220",
+      "D) 1240"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_53",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q53",
+    "question": "What\tis\tthe\taverage\tannual\tprofit\t(in\t₹\tcr)?",
+    "code": "Table: Company Revenue & Profit 2018-2022 (in ₹ cr)\nRevenue: 200, 230, 210, 260, 300 | Profit: 30, 38, 25, 45, 60",
+    "options": [
+      "A) 38.6",
+      "B) 39.6",
+      "C) 40.6",
+      "D) 41.6"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_54",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q54",
+    "question": "What\tis\tthe\toverall\tpercentage\tgrowth\tin\trevenue\tfrom\t2018\tto\t2022?",
+    "code": "Table: Company Revenue & Profit 2018-2022 (in ₹ cr)\nRevenue: 200, 230, 210, 260, 300 | Profit: 30, 38, 25, 45, 60",
+    "options": [
+      "A) 40%",
+      "B) 45%",
+      "C) 50%",
+      "D) 55%"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_55",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q55",
+    "question": "In\twhich\tyear\tdid\tthe\tcompany\tsee\ta\tdecline\tin\tboth\trevenue\tand\tprofit\tcompared\tto\tthe\tprevious year?",
+    "code": "Table: Company Revenue & Profit 2018-2022 (in ₹ cr)\nRevenue: 200, 230, 210, 260, 300 | Profit: 30, 38, 25, 45, 60",
+    "options": [
+      "A) 2018",
+      "B) 2019",
+      "C) 2020",
+      "D) 2021",
+      "E) 2022"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_56",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q56",
+    "question": "What\twas\tthe\tprofit\tmargin\tin\t2022?",
+    "code": "Table: Company Revenue & Profit 2018-2022 (in ₹ cr)\nRevenue: 200, 230, 210, 260, 300 | Profit: 30, 38, 25, 45, 60",
+    "options": [
+      "A) 18%",
+      "B) 20%",
+      "C) 22%",
+      "D) 25%"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_57",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q57",
+    "question": "In\twhich\tquarter\twere\tapp\tdownloads\tthe\thighest?",
+    "code": "Bar Chart: Quarterly App Downloads (Q1'21 to Q4'22 in thousands)\n12k, 15k, 14k, 18k, 20k, 22k, 21k, 26k",
+    "options": [
+      "A) Q1'21",
+      "B) Q2'21",
+      "C) Q3'21",
+      "D) Q4'21",
+      "E) Q1'22",
+      "F) Q2'22",
+      "G) Q3'22",
+      "H) Q4'22"
+    ],
+    "correctAnswer": 7,
+    "correctLetter": "H",
+    "explanation": "Correct Answer: Option H. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_58",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q58",
+    "question": "What\tis\tthe\ttotal\tnumber\tof\tdownloads\tin\t2022?",
+    "code": "Bar Chart: Quarterly App Downloads (Q1'21 to Q4'22 in thousands)\n12k, 15k, 14k, 18k, 20k, 22k, 21k, 26k",
+    "options": [
+      "A) 87000",
+      "B) 89000",
+      "C) 91000",
+      "D) 93000"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_59",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q59",
+    "question": "What\tis\tthe\tpercentage\tgrowth\tin\ttotal\tdownloads\tfrom\t2021\tto\t2022?",
+    "code": "Bar Chart: Quarterly App Downloads (Q1'21 to Q4'22 in thousands)\n12k, 15k, 14k, 18k, 20k, 22k, 21k, 26k",
+    "options": [
+      "A) 45.8%",
+      "B) 50.8%",
+      "C) 55.8%",
+      "D) 60.8%"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_60",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q60",
+    "question": "What\twas\tthe\taverage\tquarterly\tdownloads\tin\t2021\t(in\tthousands)?",
+    "code": "Bar Chart: Quarterly App Downloads (Q1'21 to Q4'22 in thousands)\n12k, 15k, 14k, 18k, 20k, 22k, 21k, 26k",
+    "options": [
+      "A) 13.75",
+      "B) 14.75",
+      "C) 15.75",
+      "D) 16.75"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_61",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q61",
+    "question": "Between\twhich\ttwo\tconsecutive\tquarters\twas\tthere\ta\tdecline\tin\tdownloads?",
+    "code": "Bar Chart: Quarterly App Downloads (Q1'21 to Q4'22 in thousands)\n12k, 15k, 14k, 18k, 20k, 22k, 21k, 26k",
+    "options": [
+      "A) Q1'21-Q2'21",
+      "B) Q2'21-Q3'21",
+      "C) Q3'21-Q4'21",
+      "D) Q2'22-Q3'22"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_62",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q62",
+    "question": "Which\tactivity\ttakes\tup\tthe\tlargest\tshare\tof\tan\tSDET's\tworkday?",
+    "code": "Pie Chart: Time Allocation in SDET Workday\nTest Execution: 35%, Test/Code Dev: 30%, Meetings: 15%, Documentation: 10%, Bug Triage: 10%",
+    "options": [
+      "A) Test\tExecution",
+      "B) Meetings",
+      "C) Test/Code\tDevelopment",
+      "D) Documentation",
+      "E) Bug\tTriage"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Correct Answer: Option A. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_63",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q63",
+    "question": "If\ta\tworkday\tis\t8\thours,\thow\tmuch\ttime\tis\tspent\ton\tTest/Code\tDevelopment?",
+    "code": "Pie Chart: Time Allocation in SDET Workday\nTest Execution: 35%, Test/Code Dev: 30%, Meetings: 15%, Documentation: 10%, Bug Triage: 10%",
+    "options": [
+      "A) 2\thrs\t12\tmin",
+      "B) 2\thrs\t24\tmin",
+      "C) 2\thrs\t36\tmin",
+      "D) 2\thrs\t48\tmin"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_64",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q64",
+    "question": "What\tpercentage\tof\tthe\tday\tis\tspent\ton\tDocumentation\tand\tBug\tTriage\tcombined?",
+    "code": "Pie Chart: Time Allocation in SDET Workday\nTest Execution: 35%, Test/Code Dev: 30%, Meetings: 15%, Documentation: 10%, Bug Triage: 10%",
+    "options": [
+      "A) 15%",
+      "B) 18%",
+      "C) 20%",
+      "D) 22%"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_65",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q65",
+    "question": "How\tmany\thours\t(out\tof\tan\t8-hour\tday)\tare\tspent\tin\tmeetings?",
+    "code": "Pie Chart: Time Allocation in SDET Workday\nTest Execution: 35%, Test/Code Dev: 30%, Meetings: 15%, Documentation: 10%, Bug Triage: 10%",
+    "options": [
+      "A) 1.0",
+      "B) 1.2",
+      "C) 1.4",
+      "D) 1.6"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_66",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q66",
+    "question": "Test\tExecution\ttakes\thow\tmany\tmore\tpercentage\tpoints\tthan\tMeetings?",
+    "code": "Pie Chart: Time Allocation in SDET Workday\nTest Execution: 35%, Test/Code Dev: 30%, Meetings: 15%, Documentation: 10%, Bug Triage: 10%",
+    "options": [
+      "A) 15%",
+      "B) 18%",
+      "C) 20%",
+      "D) 22%"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_67",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q67",
+    "question": "Which\tmodule\thas\tthe\thighest\tpass\tpercentage?",
+    "code": "Table: Test Module Pass/Fail Summary (Regression Cycle 5)\nModules: Login, Payments, Search, Cart, Profile, Notifications",
+    "options": [
+      "A) Login",
+      "B) Payments",
+      "C) Search",
+      "D) Cart",
+      "E) Profile",
+      "F) Notifications"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Correct Answer: Option A. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_68",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q68",
+    "question": "Which\tmodule\thas\tthe\tlowest\tpass\tpercentage?",
+    "code": "Table: Test Module Pass/Fail Summary (Regression Cycle 5)\nModules: Login, Payments, Search, Cart, Profile, Notifications",
+    "options": [
+      "A) Login",
+      "B) Payments",
+      "C) Search",
+      "D) Cart",
+      "E) Profile",
+      "F) Notifications"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_69",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q69",
+    "question": "What\tis\tthe\ttotal\tnumber\tof\ttest\tcases\texecuted\tacross\tall\tmodules?",
+    "code": "Table: Test Module Pass/Fail Summary (Regression Cycle 5)\nModules: Login, Payments, Search, Cart, Profile, Notifications",
+    "options": [
+      "A) 830",
+      "B) 840",
+      "C) 850",
+      "D) 860"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_70",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q70",
+    "question": "What\tis\tthe\toverall\tpass\tpercentage\tacross\tall\tmodules?",
+    "code": "Table: Test Module Pass/Fail Summary (Regression Cycle 5)\nModules: Login, Payments, Search, Cart, Profile, Notifications",
+    "options": [
+      "A) 89.3%",
+      "B) 90.7%",
+      "C) 91.9%",
+      "D) 93.1%"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_71",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q71",
+    "question": "How\tmany\ttest\tcases\tfailed\tin\tthe\tPayments\tmodule?",
+    "code": "Table: Test Module Pass/Fail Summary (Regression Cycle 5)\nModules: Login, Payments, Search, Cart, Profile, Notifications",
+    "options": [
+      "A) 20",
+      "B) 25",
+      "C) 30",
+      "D) 35"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_72",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q72",
+    "question": "Which\ttwo\tmodules\ttogether\taccount\tfor\tthe\tmost\tfailed\ttest\tcases?",
+    "code": "Table: Test Module Pass/Fail Summary (Regression Cycle 5)\nModules: Login, Payments, Search, Cart, Profile, Notifications",
+    "options": [
+      "A) Login\t&\tCart",
+      "B) Payments\t&\tSearch",
+      "C) Payments\t&\tNotifications",
+      "D) Search\t&\tProfile"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_73",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q73",
+    "question": "In\twhich\tmonth\tdid\tthe\tstock\tprice\tpeak?",
+    "code": "Line Graph: Stock Price Movement in ₹ (Jan-Jun)\nJan: 340, Feb: 365, Mar: 350, Apr: 390, May: 410, Jun: 395",
+    "options": [
+      "A) Jan",
+      "B) Feb",
+      "C) Mar",
+      "D) Apr",
+      "E) May",
+      "F) Jun"
+    ],
+    "correctAnswer": 4,
+    "correctLetter": "E",
+    "explanation": "Correct Answer: Option E. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_74",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q74",
+    "question": "What\tis\tthe\tpercentage\tchange\tin\tprice\tfrom\tJanuary\tto\tJune?",
+    "code": "Line Graph: Stock Price Movement in ₹ (Jan-Jun)\nJan: 340, Feb: 365, Mar: 350, Apr: 390, May: 410, Jun: 395",
+    "options": [
+      "A) 12.5%",
+      "B) 14.3%",
+      "C) 16.2%",
+      "D) 18.5%"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_75",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q75",
+    "question": "Between\twhich\ttwo\tmonths\tdid\tthe\tprice\tfall?",
+    "code": "Line Graph: Stock Price Movement in ₹ (Jan-Jun)\nJan: 340, Feb: 365, Mar: 350, Apr: 390, May: 410, Jun: 395",
+    "options": [
+      "A) Jan-Feb",
+      "B) Feb-Mar",
+      "C) Mar-Apr",
+      "D) May-Jun"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_76",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q76",
+    "question": "What\tis\tthe\taverage\tstock\tprice\tover\tthe\t6\tmonths?",
+    "code": "Line Graph: Stock Price Movement in ₹ (Jan-Jun)\nJan: 340, Feb: 365, Mar: 350, Apr: 390, May: 410, Jun: 395",
+    "options": [
+      "A) 370",
+      "B) 375",
+      "C) 378.3",
+      "D) 381.7"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_77",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q77",
+    "question": "What\twas\tthe\tabsolute\tincrease\tin\tprice\tfrom\tMarch\tto\tApril?",
+    "code": "Line Graph: Stock Price Movement in ₹ (Jan-Jun)\nJan: 340, Feb: 365, Mar: 350, Apr: 390, May: 410, Jun: 395",
+    "options": [
+      "A) 30",
+      "B) 35",
+      "C) 40",
+      "D) 45"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_78",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q78",
+    "question": "In\twhich\tsprint\twere\tthe\tmost\tdefects\tfound?",
+    "code": "Bar Chart: Defects Found per Sprint (Sprints 1-6)\n45, 38, 52, 30, 28, 22",
+    "options": [
+      "A) Sprint\t1",
+      "B) Sprint\t2",
+      "C) Sprint\t3",
+      "D) Sprint\t4",
+      "E) Sprint\t5",
+      "F) Sprint\t6"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_79",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q79",
+    "question": "What\tis\tthe\toverall\ttrend\tin\tdefects\tfrom\tSprint\t3\tto\tSprint\t6?",
+    "code": "Bar Chart: Defects Found per Sprint (Sprints 1-6)\n45, 38, 52, 30, 28, 22",
+    "options": [
+      "A) Increasing",
+      "B) Decreasing",
+      "C) Constant",
+      "D) Fluctuating"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_80",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q80",
+    "question": "What\tis\tthe\ttotal\tnumber\tof\tdefects\tfound\tacross\tall\t6\tsprints?",
+    "code": "Bar Chart: Defects Found per Sprint (Sprints 1-6)\n45, 38, 52, 30, 28, 22",
+    "options": [
+      "A) 205",
+      "B) 210",
+      "C) 215",
+      "D) 220"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_81",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q81",
+    "question": "What\tis\tthe\taverage\tnumber\tof\tdefects\tper\tsprint?",
+    "code": "Bar Chart: Defects Found per Sprint (Sprints 1-6)\n45, 38, 52, 30, 28, 22",
+    "options": [
+      "A) 33.8",
+      "B) 35.8",
+      "C) 37.8",
+      "D) 39.8"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_82",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q82",
+    "question": "By\twhat\tpercentage\tdid\tdefects\tdecrease\tfrom\tSprint\t1\tto\tSprint\t6?",
+    "code": "Bar Chart: Defects Found per Sprint (Sprints 1-6)\n45, 38, 52, 30, 28, 22",
+    "options": [
+      "A) 41.1%",
+      "B) 44.4%",
+      "C) 48.9%",
+      "D) 51.1%"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_83",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q83",
+    "question": "How\tmany\tsprints\thad\tfewer\tthan\t30\tdefects?",
+    "code": "Bar Chart: Defects Found per Sprint (Sprints 1-6)\n45, 38, 52, 30, 28, 22",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_84",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q84",
+    "question": "Which\tdepartment\thad\tthe\thighest\tpercentage\tgrowth\tin\theadcount\tfrom\t2020\tto\t2022?",
+    "code": "Table: Employee Headcount by Department 2020-2022\nEngineering, QA, Product, Sales, Support",
+    "options": [
+      "A) Engineering",
+      "B) QA",
+      "C) Product",
+      "D) Sales",
+      "E) Support"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_85",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q85",
+    "question": "What\tis\tthe\ttotal\theadcount\tacross\tall\tdepartments\tin\t2022?",
+    "code": "Table: Employee Headcount by Department 2020-2022\nEngineering, QA, Product, Sales, Support",
+    "options": [
+      "A) 305",
+      "B) 315",
+      "C) 325",
+      "D) 335"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_86",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q86",
+    "question": "What\twas\tthe\ttotal\theadcount\tin\t2020?",
+    "code": "Table: Employee Headcount by Department 2020-2022\nEngineering, QA, Product, Sales, Support",
+    "options": [
+      "A) 220",
+      "B) 230",
+      "C) 240",
+      "D) 250"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_87",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q87",
+    "question": "What\tis\tthe\tpercentage\tshare\tof\tQA\tin\tthe\ttotal\t2022\theadcount?",
+    "code": "Table: Employee Headcount by Department 2020-2022\nEngineering, QA, Product, Sales, Support",
+    "options": [
+      "A) 12.8%",
+      "B) 14.8%",
+      "C) 16.8%",
+      "D) 18.8%"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_88",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q88",
+    "question": "Which\tdepartment\thad\tthe\tsmallest\theadcount\tevery\tyear?",
+    "code": "Table: Employee Headcount by Department 2020-2022\nEngineering, QA, Product, Sales, Support",
+    "options": [
+      "A) Engineering",
+      "B) QA",
+      "C) Product",
+      "D) Sales",
+      "E) Support"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_89",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q89",
+    "question": "By\thow\tmany\temployees\tdid\tthe\tEngineering\tteam\tgrow\tfrom\t2020\tto\t2022?",
+    "code": "Table: Employee Headcount by Department 2020-2022\nEngineering, QA, Product, Sales, Support",
+    "options": [
+      "A) 40",
+      "B) 45",
+      "C) 50",
+      "D) 55"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_90",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q90",
+    "question": "Which\tbrowser\thas\tthe\thighest\tusage\tshare\tfor\tcross-browser\ttesting\tprioritization?",
+    "code": "Pie Chart: Browser Usage Share\nChrome: 58%, Safari: 19%, Edge: 10%, Firefox: 8%, Others: 5%",
+    "options": [
+      "A) Chrome",
+      "B) Safari",
+      "C) Edge",
+      "D) Firefox",
+      "E) Others"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Correct Answer: Option A. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_91",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q91",
+    "question": "What\tis\tthe\tcombined\tshare\tof\tEdge\tand\tFirefox?",
+    "code": "Pie Chart: Browser Usage Share\nChrome: 58%, Safari: 19%, Edge: 10%, Firefox: 8%, Others: 5%",
+    "options": [
+      "A) 16%",
+      "B) 18%",
+      "C) 20%",
+      "D) 22%"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_92",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q92",
+    "question": "If\t5,000\ttest\tsessions\tare\trun\tproportionally\tto\tusage\tshare,\thow\tmany\tshould\ttarget\tSafari?",
+    "code": "Pie Chart: Browser Usage Share\nChrome: 58%, Safari: 19%, Edge: 10%, Firefox: 8%, Others: 5%",
+    "options": [
+      "A) 750",
+      "B) 850",
+      "C) 950",
+      "D) 1050"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_93",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q93",
+    "question": "By\thow\tmany\tpercentage\tpoints\tdoes\tChrome\texceed\tSafari?",
+    "code": "Pie Chart: Browser Usage Share\nChrome: 58%, Safari: 19%, Edge: 10%, Firefox: 8%, Others: 5%",
+    "options": [
+      "A) 37%",
+      "B) 39%",
+      "C) 41%",
+      "D) 43%"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_94",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q94",
+    "question": "What\tpercentage\tof\tusage\tfalls\toutside\tthe\ttop\t2\tbrowsers?",
+    "code": "Pie Chart: Browser Usage Share\nChrome: 58%, Safari: 19%, Edge: 10%, Firefox: 8%, Others: 5%",
+    "options": [
+      "A) 21%",
+      "B) 23%",
+      "C) 25%",
+      "D) 27%"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_95",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q95",
+    "question": "If\tthe\tcutoff\tto\tqualify\tRound\t1\tis\t70%\t(280/400),\thow\tmany\tcandidates\tqualify?",
+    "code": "Table: Candidate Scores Across Interview Rounds (out of 400 total)\nCandidates S1 to S5",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_96",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q96",
+    "question": "Which\tcandidate\tscored\tthe\thighest\toverall?",
+    "code": "Table: Candidate Scores Across Interview Rounds (out of 400 total)\nCandidates S1 to S5",
+    "options": [
+      "A) S1",
+      "B) S2",
+      "C) S3",
+      "D) S4",
+      "E) S5"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_97",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q97",
+    "question": "What\tis\tS4's\toverall\tpercentage?",
+    "code": "Table: Candidate Scores Across Interview Rounds (out of 400 total)\nCandidates S1 to S5",
+    "options": [
+      "A) 57.5%",
+      "B) 58.75%",
+      "C) 60%",
+      "D) 61.25%"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_98",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q98",
+    "question": "What\tis\tthe\taverage\tCoding\tscore\tacross\tall\tcandidates?",
+    "code": "Table: Candidate Scores Across Interview Rounds (out of 400 total)\nCandidates S1 to S5",
+    "options": [
+      "A) 74.6",
+      "B) 76.6",
+      "C) 78.6",
+      "D) 80.6"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_99",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q99",
+    "question": "How\tmany\tcandidates\tscored\tabove\t80\tin\tAptitude?",
+    "code": "Table: Candidate Scores Across Interview Rounds (out of 400 total)\nCandidates S1 to S5",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Correct Answer: Option A. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_100",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q100",
+    "question": "Which\trelease\thad\tthe\tshortest\tregression\texecution\ttime?",
+    "code": "Bar Chart: Regression Suite Execution Time by Release\nR1.0: 180m, R1.1: 165m, R1.2: 150m, R1.3: 120m, R1.4: 95m",
+    "options": [
+      "A) R1.0",
+      "B) R1.1",
+      "C) R1.2",
+      "D) R1.3",
+      "E) R1.4"
+    ],
+    "correctAnswer": 4,
+    "correctLetter": "E",
+    "explanation": "Correct Answer: Option E. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_101",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q101",
+    "question": "What\tis\tthe\tpercentage\treduction\tin\texecution\ttime\tfrom\tR1.0\tto\tR1.4?",
+    "code": "Bar Chart: Regression Suite Execution Time by Release\nR1.0: 180m, R1.1: 165m, R1.2: 150m, R1.3: 120m, R1.4: 95m",
+    "options": [
+      "A) 42.2%",
+      "B) 47.2%",
+      "C) 52.2%",
+      "D) 57.2%"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_102",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q102",
+    "question": "What\tis\tthe\taverage\tregression\texecution\ttime\tacross\tall\treleases?",
+    "code": "Bar Chart: Regression Suite Execution Time by Release\nR1.0: 180m, R1.1: 165m, R1.2: 150m, R1.3: 120m, R1.4: 95m",
+    "options": [
+      "A) 138",
+      "B) 142",
+      "C) 146",
+      "D) 150"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_103",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q103",
+    "question": "Between\twhich\ttwo\tconsecutive\treleases\twas\tthe\tbiggest\tdrop\tin\texecution\ttime?",
+    "code": "Bar Chart: Regression Suite Execution Time by Release\nR1.0: 180m, R1.1: 165m, R1.2: 150m, R1.3: 120m, R1.4: 95m",
+    "options": [
+      "A) R1.0-R1.1",
+      "B) R1.1-R1.2",
+      "C) R1.2-R1.3",
+      "D) R1.3-R1.4"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_104",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q104",
+    "question": "How\tmany\treleases\thad\texecution\ttime\tunder\t150\tminutes?",
+    "code": "Bar Chart: Regression Suite Execution Time by Release\nR1.0: 180m, R1.1: 165m, R1.2: 150m, R1.3: 120m, R1.4: 95m",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_105",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q105",
+    "question": "On\twhich\tday\twas\tDAU\tthe\thighest?",
+    "code": "Line Graph: Daily Active Users Over One Week (Mon-Sun)\n8.2k, 8.5k, 8.3k, 8.7k, 9.5k, 11.2k, 10.8k",
+    "options": [
+      "A) Mon",
+      "B) Tue",
+      "C) Wed",
+      "D) Thu",
+      "E) Fri",
+      "F) Sat",
+      "G) Sun"
+    ],
+    "correctAnswer": 5,
+    "correctLetter": "F",
+    "explanation": "Correct Answer: Option F. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_106",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q106",
+    "question": "What\tis\tthe\taverage\tDAU\tover\tthe\tweek?",
+    "code": "Line Graph: Daily Active Users Over One Week (Mon-Sun)\n8.2k, 8.5k, 8.3k, 8.7k, 9.5k, 11.2k, 10.8k",
+    "options": [
+      "A) 9.03k",
+      "B) 9.31k",
+      "C) 9.46k",
+      "D) 9.60k"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_107",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q107",
+    "question": "What\tis\tthe\tpercentage\tincrease\tin\tDAU\tfrom\tFriday\tto\tSaturday?",
+    "code": "Line Graph: Daily Active Users Over One Week (Mon-Sun)\n8.2k, 8.5k, 8.3k, 8.7k, 9.5k, 11.2k, 10.8k",
+    "options": [
+      "A) 15.8%",
+      "B) 17.9%",
+      "C) 20.1%",
+      "D) 22.4%"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_108",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q108",
+    "question": "Which\tday\thad\tthe\tlowest\tDAU?",
+    "code": "Line Graph: Daily Active Users Over One Week (Mon-Sun)\n8.2k, 8.5k, 8.3k, 8.7k, 9.5k, 11.2k, 10.8k",
+    "options": [
+      "A) Mon",
+      "B) Tue",
+      "C) Wed",
+      "D) Thu",
+      "E) Fri",
+      "F) Sat",
+      "G) Sun"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Correct Answer: Option A. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_109",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q109",
+    "question": "What\tis\tthe\tcombined\tDAU\tfor\tthe\tweekend\t(Sat+Sun)?",
+    "code": "Line Graph: Daily Active Users Over One Week (Mon-Sun)\n8.2k, 8.5k, 8.3k, 8.7k, 9.5k, 11.2k, 10.8k",
+    "options": [
+      "A) 21.0",
+      "B) 22.0",
+      "C) 23.0",
+      "D) 24.0"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "di_110",
+    "category": "Aptitude",
+    "subtopic": "Data Interpretation",
+    "title": "Data Interpretation Q110",
+    "question": "By\thow\tmuch\tdid\tDAU\tdrop\tfrom\tSaturday\tto\tSunday?",
+    "code": "Line Graph: Daily Active Users Over One Week (Mon-Sun)\n8.2k, 8.5k, 8.3k, 8.7k, 9.5k, 11.2k, 10.8k",
+    "options": [
+      "A) 0.2",
+      "B) 0.4",
+      "C) 0.6",
+      "D) 0.8"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
   }
 ]
