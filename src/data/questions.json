@@ -6312,5 +6312,2244 @@
     "correctAnswer": 1,
     "correctLetter": "B",
     "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation."
+  },
+  {
+    "id": "tech_pdf_1",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "General Core Java Q",
+    "question": "Which\tof\tthe\tfollowing\tis\tNOT\ta\tprimitive\tdata\ttype\tin\tJava?",
+    "code": "",
+    "options": [
+      "A) int",
+      "B) float",
+      "C) String",
+      "D) boolean"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "String\tis\ta\tclass,\tnot\ta\tprimitive."
+  },
+  {
+    "id": "tech_pdf_2",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "General Core Java Q",
+    "question": "What\tis\tthe\tdefault\tvalue\tof\ta\tboolean\tinstance\tvariable\tin\tJava?",
+    "code": "",
+    "options": [
+      "A) true",
+      "B) false",
+      "C) 0",
+      "D) null"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Default\tis\tfalse."
+  },
+  {
+    "id": "tech_pdf_3",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "General Core Java Q",
+    "question": "Which\tkeyword\tis\tused\tto\tprevent\ta\tclass\tfrom\tbeing\tinherited?",
+    "code": "",
+    "options": [
+      "A) static",
+      "B) final",
+      "C) private",
+      "D) abstract"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "'final'\tprevents\tinheritance/overriding."
+  },
+  {
+    "id": "tech_pdf_4",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "General Core Java Q",
+    "question": "What\tis\tthe\tsize\tof\tan\tint\tin\tJava?",
+    "code": "",
+    "options": [
+      "A) 16\tbits",
+      "B) 32\tbits",
+      "C) 64\tbits",
+      "D) Depends\ton\tplatform"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "int\tis\talways\t32\tbits\t(4\tbytes),\tplatform-independent."
+  },
+  {
+    "id": "tech_pdf_5",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "General Core Java Q",
+    "question": "Which\tof\tthese\tis\tthe\tcorrect\tway\tto\tdeclare\ta\tconstant\tin\tJava?",
+    "code": "",
+    "options": [
+      "A) const\tint\tX\t=\t10;",
+      "B) final\tint\tX\t=\t10;",
+      "C) static\tint\tX\t=\t10;",
+      "D) readonly\tint\tX\t=\t10;"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Java\tuses\t'final',\tnot\t'const'\t(which\tis\ta\treserved\tbut\tunused\tkeyword)."
+  },
+  {
+    "id": "tech_pdf_6",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "General Core Java Q",
+    "question": "What\twill\t`System.out.println(10\t+\t20\t+\t\"Java\");`\tprint?",
+    "code": "",
+    "options": [
+      "A) 30Java",
+      "B) 1020Java",
+      "C) Java30",
+      "D) 10+20Java"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Left-to-right\tevaluation:\t10+20=30,\tthen\tconcatenated\twith\t'Java'."
+  },
+  {
+    "id": "tech_pdf_7",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "General Core Java Q",
+    "question": "Which\taccess\tmodifier\tmakes\ta\tmember\taccessible\tonly\twithin\tthe\tsame\tclass?",
+    "code": "",
+    "options": [
+      "A) public",
+      "B) protected",
+      "C) default",
+      "D) private"
+    ],
+    "correctAnswer": 3,
+    "correctLetter": "D",
+    "explanation": "private\trestricts\taccess\tto\tthe\tdeclaring\tclass\tonly."
+  },
+  {
+    "id": "tech_pdf_8",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "General Core Java Q",
+    "question": "What\thappens\twhen\tyou\tdivide\tan\tinteger\tby\tzero\tin\tJava\t(e.g.,\t5/0)?",
+    "code": "",
+    "options": [
+      "A) Returns\t0",
+      "B) Returns\tInfinity",
+      "C) Throws\tArithmeticException",
+      "D) Compilation\terror"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Integer\tdivision\tby\tzero\tthrows\tArithmeticException\tat\truntime."
+  },
+  {
+    "id": "tech_pdf_9",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "General Core Java Q",
+    "question": "What\tdoes\tthe\t`static`\tkeyword\tmean\twhen\tapplied\tto\ta\tmethod?",
+    "code": "",
+    "options": [
+      "A) It\tcan\tonly\tbe\tcalled\tonce",
+      "B) It\tbelongs\tto\tthe\tclass,\tnot\tan\tinstance",
+      "C) It\tcannot\tbe\toverridden",
+      "D) It\truns\tbefore\tmain()"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Static\tmethods\tbelong\tto\tthe\tclass\tand\tcan\tbe\tcalled\twithout\tan\tobject."
+  },
+  {
+    "id": "tech_pdf_10",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "General Core Java Q",
+    "question": "Which\tof\tthe\tfollowing\tloops\tis\tguaranteed\tto\texecute\tat\tleast\tonce?",
+    "code": "",
+    "options": [
+      "A) for",
+      "B) while",
+      "C) do-while",
+      "D) for-each"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "do-while\tchecks\tthe\tcondition\tafter\texecuting\tthe\tloop\tbody."
+  },
+  {
+    "id": "tech_pdf_11",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "General Core Java Q",
+    "question": "What\tis\tautoboxing\tin\tJava?",
+    "code": "",
+    "options": [
+      "A) Converting\ta\tprimitive\tto\tits\twrapper\tclass\tautomatically",
+      "B) Converting\tan\tobject\tto\ta\tprimitive\tmanually",
+      "C) Automatic\tgarbage\tcollection",
+      "D) Automatic\ttype\tcasting\tbetween\tprimitives"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Autoboxing:\tint\t->\tInteger\tautomatically."
+  },
+  {
+    "id": "tech_pdf_12",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "General Core Java Q",
+    "question": "Which\tof\tthese\tis\ttrue\tabout\tthe\t`final`\tkeyword\twhen\tapplied\tto\ta\tvariable?",
+    "code": "",
+    "options": [
+      "A) Its\tvalue\tcan\tbe\tchanged\tonce",
+      "B) Its\tvalue\tcannot\tbe\tchanged\tafter\tinitialization",
+      "C) It\tmust\tbe\tstatic",
+      "D) It\tis\tonly\tfor\tmethod\tparameters"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "A\tfinal\tvariable's\treference/value\tcannot\tchange\tafter\tfirst\tassignment."
+  },
+  {
+    "id": "tech_pdf_13",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "General Core Java Q",
+    "question": "What\tis\tthe\toutput\tof\t`System.out.println(0.1\t+\t0.2\t==\t0.3);`\tin\tJava?",
+    "code": "",
+    "options": [
+      "A) true",
+      "B) false",
+      "C) Compilation\terror",
+      "D) Runtime\texception"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Floating-point\tprecision\tissues\tmake\t0.1+0.2\t!=\t0.3\texactly."
+  },
+  {
+    "id": "tech_pdf_14",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "General Core Java Q",
+    "question": "Which\tof\tthe\tfollowing\tis\tused\tto\thandle\tmultiple\tinheritance\tof\ttype\tin\tJava?",
+    "code": "",
+    "options": [
+      "A) Abstract\tclasses",
+      "B) Interfaces",
+      "C) Multiple\tconstructors",
+      "D) Static\tblocks"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "A\tclass\tcan\timplement\tmultiple\tinterfaces,\tachieving\tmultiple\tinheritance\tof\ttype."
+  },
+  {
+    "id": "tech_pdf_15",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "General Core Java Q",
+    "question": "What\tis\tthe\tpurpose\tof\tthe\t`this`\tkeyword?",
+    "code": "",
+    "options": [
+      "A) Refers\tto\tthe\tparent\tclass",
+      "B) Refers\tto\tthe\tcurrent\tinstance\tof\tthe\tclass",
+      "C) Used\tto\tcreate\ta\tnew\tobject",
+      "D) Used\tto\tcall\tstatic\tmethods"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "'this'\trefers\tto\tthe\tcurrent\tobject\tinstance."
+  },
+  {
+    "id": "tech_pdf_16",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "General Core Java Q",
+    "question": "Which\tof\tthese\tcorrectly\tdescribes\tmethod\toverloading?",
+    "code": "",
+    "options": [
+      "A) Same\tmethod\tname,\tdifferent\tclass",
+      "B) Same\tmethod\tname,\tsame\tparameters,\tdifferent\treturn\ttype",
+      "C) Same\tmethod\tname,\tdifferent\tparameter\tlist,\twithin\tthe\tsame\tclass",
+      "D) Redefining\ta\tparent\tclass\tmethod\tin\ta\tchild\tclass"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Overloading\t=\tsame\tname,\tdifferent\tparameter\tlist,\tsame\tclass."
+  },
+  {
+    "id": "tech_pdf_17",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "General Core Java Q",
+    "question": "What\tis\tthe\tparent\tclass\tof\tall\tclasses\tin\tJava?",
+    "code": "",
+    "options": [
+      "A) Object",
+      "B) Class",
+      "C) Main",
+      "D) System"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "java.lang.Object\tis\tthe\troot\tof\tthe\tclass\thierarchy."
+  },
+  {
+    "id": "tech_pdf_18",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "General Core Java Q",
+    "question": "Which\tof\tthe\tfollowing\tis\ttrue\tregarding\tJava's\tgarbage\tcollector?",
+    "code": "",
+    "options": [
+      "A) It\tcan\tbe\tforced\tto\trun\timmediately\twith\ta\tguarantee",
+      "B) It\tautomatically\treclaims\tmemory\tof\tunreachable\tobjects",
+      "C) It\tmust\tbe\tmanually\tinvoked\tto\tfree\tmemory",
+      "D) It\tonly\truns\twhen\tthe\tJVM\tshuts\tdown"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "GC\tautomatically\treclaims\tmemory\tfrom\tunreachable\tobjects;\tSystem.gc()\tis\tonly\ta\tsuggestion."
+  },
+  {
+    "id": "tech_pdf_19",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "General Core Java Q",
+    "question": "What\tdoes\tJVM\tstand\tfor?",
+    "code": "",
+    "options": [
+      "A) Java\tVirtual\tMachine",
+      "B) Java\tVerified\tMethod",
+      "C) Java\tVariable\tManagement",
+      "D) Java\tVirtual\tMethod"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "JVM\t=\tJava\tVirtual\tMachine,\texecutes\tbytecode."
+  },
+  {
+    "id": "tech_pdf_20",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "General Core Java Q",
+    "question": "Which\tof\tthe\tfollowing\tis\tNOT\ta\tvalid\tJava\taccess\tmodifier?",
+    "code": "",
+    "options": [
+      "A) public",
+      "B) private",
+      "C) protected",
+      "D) internal"
+    ],
+    "correctAnswer": 3,
+    "correctLetter": "D",
+    "explanation": "'internal'\tis\ta\tC#\tmodifier,\tnot\tJava."
+  },
+  {
+    "id": "tech_pdf_21",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "OOPs Q",
+    "question": "Which\tOOP\tprinciple\tallows\ta\tsubclass\tto\tprovide\tits\town\timplementation\tof\ta\tmethod\talready defined\tin\tits\tparent\tclass?",
+    "code": "",
+    "options": [
+      "A) Encapsulation",
+      "B) Abstraction",
+      "C) Polymorphism\t(Overriding)",
+      "D) Composition"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Method\toverriding\tis\truntime\tpolymorphism."
+  },
+  {
+    "id": "tech_pdf_22",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "OOPs Q",
+    "question": "Which\tof\tthe\tfollowing\tbest\tdescribes\tencapsulation?",
+    "code": "",
+    "options": [
+      "A) Hiding\timplementation\tdetails\tand\texposing\tonly\tnecessary\tparts",
+      "B) Allowing\ta\tclass\tto\tinherit\tfrom\tmultiple\tclasses",
+      "C) Creating\tmultiple\tmethods\twith\tthe\tsame\tname",
+      "D) Converting\tobjects\tinto\tprimitive\ttypes"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Encapsulation\t=\tbundling\tdata\tand\thiding\tinternal\tdetails."
+  },
+  {
+    "id": "tech_pdf_23",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "OOPs Q",
+    "question": "What\tis\tthe\tmain\tdifference\tbetween\tan\tabstract\tclass\tand\tan\tinterface\t(pre-Java\t8)?",
+    "code": "",
+    "options": [
+      "A) Abstract\tclasses\tcannot\thave\tconstructors,\tinterfaces\tcan",
+      "B) Interfaces\tcan\thave\tmethod\tbodies,\tabstract\tclasses\tcannot",
+      "C) Abstract\tclasses\tcan\thave\tboth\tabstract\tand\tconcrete\tmethods;\tinterfaces\tcould\tonly\thave\tabstract\tmethods",
+      "D) There\tis\tno\tdifference"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Pre-Java\t8,\tinterfaces\tonly\thad\tabstract\tmethods;\tabstract\tclasses\tcould\tmix\tboth."
+  },
+  {
+    "id": "tech_pdf_24",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "OOPs Q",
+    "question": "Which\ttype\tof\tpolymorphism\tis\tachieved\tthrough\tmethod\toverloading?",
+    "code": "",
+    "options": [
+      "A) Runtime\tpolymorphism",
+      "B) Compile-time\tpolymorphism",
+      "C) Dynamic\tpolymorphism",
+      "D) Interface\tpolymorphism"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Overloading\tis\tresolved\tat\tcompile\ttime."
+  },
+  {
+    "id": "tech_pdf_25",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "OOPs Q",
+    "question": "What\tis\tthe\trelationship\tcalled\twhen\tone\tclass\tcontains\ta\treference\tto\tanother\tclass\tas\ta\tfield?",
+    "code": "",
+    "options": [
+      "A) Inheritance",
+      "B) Composition",
+      "C) Overriding",
+      "D) Encapsulation"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "This\t'has-a'\trelationship\tis\tcomposition."
+  },
+  {
+    "id": "tech_pdf_26",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "OOPs Q",
+    "question": "Can\ta\tconstructor\tbe\tinherited\tin\tJava?",
+    "code": "",
+    "options": [
+      "A) Yes,\talways",
+      "B) No,\tconstructors\tare\tnot\tinherited",
+      "C) Only\tstatic\tconstructors\tare\tinherited",
+      "D) Only\tif\tmarked\tpublic"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Constructors\tare\tnot\tinherited,\tthough\ta\tsubclass\tcan\tcall\tthe\tparent's\tconstructor\tvia\tsuper()."
+  },
+  {
+    "id": "tech_pdf_27",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "OOPs Q",
+    "question": "Which\tof\tthese\tis\tan\texample\tof\truntime\tpolymorphism?",
+    "code": "",
+    "options": [
+      "A) Method\toverloading",
+      "B) Operator\toverloading",
+      "C) Method\toverriding",
+      "D) Constructor\tchaining"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Overriding\tis\tresolved\tat\truntime\tvia\tdynamic\tdispatch."
+  },
+  {
+    "id": "tech_pdf_28",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "OOPs Q",
+    "question": "What\tis\tan\tabstract\tmethod?",
+    "code": "",
+    "options": [
+      "A) A\tmethod\twith\tno\taccess\tmodifier",
+      "B) A\tmethod\twith\ta\tbody\tbut\tno\tname",
+      "C) A\tmethod\tdeclared\twithout\tan\timplementation,\tto\tbe\timplemented\tby\tsubclasses",
+      "D) A\tprivate\tmethod\tthat\tcannot\tbe\tinherited"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Abstract\tmethods\thave\tno\tbody\tand\tmust\tbe\timplemented\tby\tconcrete\tsubclasses."
+  },
+  {
+    "id": "tech_pdf_29",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "OOPs Q",
+    "question": "Which\tkeyword\tis\tused\tto\tachieve\tinheritance\tin\tJava?",
+    "code": "",
+    "options": [
+      "A) implements",
+      "B) extends",
+      "C) inherits",
+      "D) super"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "'extends'\tis\tused\tfor\tclass\tinheritance\t('implements'\tis\tfor\tinterfaces)."
+  },
+  {
+    "id": "tech_pdf_30",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "OOPs Q",
+    "question": "What\tdoes\t'IS-A'\trelationship\trepresent\tin\tOOP?",
+    "code": "",
+    "options": [
+      "A) Composition",
+      "B) Aggregation",
+      "C) Inheritance",
+      "D) Encapsulation"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Inheritance\trepresents\tan\tIS-A\trelationship\t(e.g.,\tDog\tIS-A\tAnimal)."
+  },
+  {
+    "id": "tech_pdf_31",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "OOPs Q",
+    "question": "Which\tof\tthe\tfollowing\tcannot\tbe\tinstantiated\tdirectly?",
+    "code": "",
+    "options": [
+      "A) A\tfinal\tclass",
+      "B) A\tconcrete\tclass",
+      "C) An\tabstract\tclass",
+      "D) A\tstatic\tclass"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Abstract\tclasses\tcannot\tbe\tinstantiated\tdirectly."
+  },
+  {
+    "id": "tech_pdf_32",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "OOPs Q",
+    "question": "What\tis\tmethod\toverriding\tprimarily\tused\tfor?",
+    "code": "",
+    "options": [
+      "A) To\tprovide\tmultiple\tversions\tof\ta\tmethod\twithin\tthe\tsame\tclass",
+      "B) To\tchange\ta\tmethod's\taccess\tmodifier\tonly",
+      "C) To\tprovide\ta\tspecific\timplementation\tof\ta\tmethod\talready\tdefined\tin\tthe\tsuperclass",
+      "D) To\trename\ta\tmethod\tin\ta\tsubclass"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Overriding\tlets\ta\tsubclass\tredefine\ta\tsuperclass\tmethod's\tbehavior."
+  },
+  {
+    "id": "tech_pdf_33",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "OOPs Q",
+    "question": "Which\tannotation\tis\tused\tin\tJava\tto\tindicate\tthat\ta\tmethod\toverrides\ta\tsuperclass\tmethod?",
+    "code": "",
+    "options": [
+      "A) @Override",
+      "B) @Overload",
+      "C) @Inherited",
+      "D) @SuppressWarnings"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "@Override\tsignals\tintent\tto\toverride\tand\tlets\tthe\tcompiler\tcheck\tcorrectness."
+  },
+  {
+    "id": "tech_pdf_34",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "OOPs Q",
+    "question": "What\tis\taggregation\tin\tOOP?",
+    "code": "",
+    "options": [
+      "A) A\tstrong\t'has-a'\trelationship\twhere\tthe\tcontained\tobject\tcannot\texist\tindependently",
+      "B) A\tweak\t'has-a'\trelationship\twhere\tthe\tcontained\tobject\tcan\texist\tindependently",
+      "C) Another\tname\tfor\tinheritance",
+      "D) A\tform\tof\tpolymorphism"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Aggregation\tis\ta\t'has-a'\trelation\twith\tindependent\tlifecycles\t(e.g.,\tDepartment\thas\tEmployees)."
+  },
+  {
+    "id": "tech_pdf_35",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "OOPs Q",
+    "question": "Why\tcan't\tstatic\tmethods\tbe\toverridden\tin\tJava\t(only\thidden)?",
+    "code": "",
+    "options": [
+      "A) Because\tstatic\tmethods\tare\tresolved\tat\tcompile-time\tbased\ton\treference\ttype,\tnot\truntime\tobject\ttype",
+      "B) Because\tstatic\tmethods\thave\tno\taccess\tmodifiers",
+      "C) Because\tstatic\tmethods\tcannot\thave\tparameters",
+      "D) Because\tstatic\tmethods\tbelong\tto\tinterfaces\tonly"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Static\tmethod\tbinding\tis\tcompile-time\t(method\thiding),\tnot\tdynamic\tdispatch."
+  },
+  {
+    "id": "tech_pdf_36",
+    "category": "Java",
+    "subtopic": "Collections - Overview",
+    "title": "Collections - Overview Q",
+    "question": "Which\tinterface\tdoes\tthe\t`ArrayList`\tclass\timplement?",
+    "code": "",
+    "options": [
+      "A) Set",
+      "B) List",
+      "C) Map",
+      "D) Queue"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "ArrayList\timplements\tthe\tList\tinterface."
+  },
+  {
+    "id": "tech_pdf_37",
+    "category": "Java",
+    "subtopic": "Collections - Overview",
+    "title": "Collections - Overview Q",
+    "question": "What\tis\tthe\tkey\tdifference\tbetween\t`ArrayList`\tand\t`LinkedList`?",
+    "code": "",
+    "options": [
+      "A) ArrayList\tuses\ta\tdynamic\tarray;\tLinkedList\tuses\ta\tdoubly\tlinked\tlist",
+      "B) ArrayList\tcannot\tstore\tduplicates;\tLinkedList\tcan",
+      "C) LinkedList\tallows\tonly\tunique\telements",
+      "D) ArrayList\tis\tsynchronized\tby\tdefault;\tLinkedList\tis\tnot"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "ArrayList\t=\tdynamic\tarray\t(fast\trandom\taccess);\tLinkedList\t=\tdoubly\tlinked\tlist\t(fast\tinsert/delete)."
+  },
+  {
+    "id": "tech_pdf_38",
+    "category": "Java",
+    "subtopic": "Collections - Overview",
+    "title": "Collections - Overview Q",
+    "question": "Which\tcollection\tclass\tdoes\tNOT\tallow\tduplicate\telements?",
+    "code": "",
+    "options": [
+      "A) ArrayList",
+      "B) LinkedList",
+      "C) HashSet",
+      "D) Vector"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Set\timplementations\tlike\tHashSet\tdisallow\tduplicates."
+  },
+  {
+    "id": "tech_pdf_39",
+    "category": "Java",
+    "subtopic": "Collections - Overview",
+    "title": "Collections - Overview Q",
+    "question": "Which\tMap\timplementation\tmaintains\tinsertion\torder?",
+    "code": "",
+    "options": [
+      "A) HashMap",
+      "B) TreeMap",
+      "C) LinkedHashMap",
+      "D) Hashtable"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "LinkedHashMap\tpreserves\tinsertion\torder\tusing\ta\tlinked\tlist\tinternally."
+  },
+  {
+    "id": "tech_pdf_40",
+    "category": "Java",
+    "subtopic": "Collections - Overview",
+    "title": "Collections - Overview Q",
+    "question": "What\tis\tthe\ttime\tcomplexity\tof\tretrieving\tan\telement\tby\tkey\tfrom\ta\tHashMap\t(average\tcase)?",
+    "code": "",
+    "options": [
+      "A) O(n)",
+      "B) O(log\tn)",
+      "C) O(1)",
+      "D) O(n\tlog\tn)"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "HashMap\toffers\taverage\tO(1)\tget/put\tdue\tto\thashing."
+  },
+  {
+    "id": "tech_pdf_41",
+    "category": "Java",
+    "subtopic": "Collections - Overview",
+    "title": "Collections - Overview Q",
+    "question": "Which\tinterface\tmust\tan\tobject\timplement\tto\tbe\tused\tas\ta\tkey\tin\ta\t`TreeMap`,\tor\tto\tbe\tsorted\twith `Collections.sort()`?",
+    "code": "",
+    "options": [
+      "A) Serializable",
+      "B) Comparable",
+      "C) Cloneable",
+      "D) Iterable"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Comparable's\tcompareTo()\tdefines\tnatural\tordering\tused\tby\tTreeMap\tand\tCollections.sort()."
+  },
+  {
+    "id": "tech_pdf_42",
+    "category": "Java",
+    "subtopic": "Collections - Overview",
+    "title": "Collections - Overview Q",
+    "question": "What\tis\tthe\tmain\tdifference\tbetween\t`Comparable`\tand\t`Comparator`?",
+    "code": "",
+    "options": [
+      "A) Comparable\tdefines\tnatural\tordering\twithin\tthe\tclass\titself;\tComparator\tdefines\texternal,\tcustom\tordering",
+      "B) Comparator\tcan\tonly\tbe\tused\twith\tarrays",
+      "C) Comparable\tis\tused\tonly\tfor\tStrings",
+      "D) There\tis\tno\tdifference"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Comparable\t=\tcompareTo()\tinside\tthe\tclass;\tComparator\t=\tseparate\tcompare()\tlogic,\tallows\tmultiple"
+  },
+  {
+    "id": "tech_pdf_43",
+    "category": "Java",
+    "subtopic": "Collections - Overview",
+    "title": "Collections - Overview Q",
+    "question": "Which\tcollection\tclass\tis\tsynchronized\t(thread-safe)\tby\tdefault?",
+    "code": "",
+    "options": [
+      "A) ArrayList",
+      "B) HashMap",
+      "C) Vector",
+      "D) HashSet"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Vector\t(and\tHashtable)\tare\tlegacy\tsynchronized\tclasses."
+  },
+  {
+    "id": "tech_pdf_44",
+    "category": "Java",
+    "subtopic": "Collections - Overview",
+    "title": "Collections - Overview Q",
+    "question": "What\tdoes\tthe\t`Iterator`\tinterface's\t`remove()`\tmethod\tdo?",
+    "code": "",
+    "options": [
+      "A) Removes\tthe\tlast\telement\tadded",
+      "B) Removes\tthe\tcurrent\telement\tsafely\tduring\titeration",
+      "C) Removes\tall\telements",
+      "D) Throws\tUnsupportedOperationException\talways"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Iterator.remove()\tsafely\tremoves\tthe\tcurrent\telement\twithout\tConcurrentModificationException."
+  },
+  {
+    "id": "tech_pdf_45",
+    "category": "Java",
+    "subtopic": "Collections - Overview",
+    "title": "Collections - Overview Q",
+    "question": "Which\tof\tthese\tbest\tdescribes\ta\t`HashSet`'s\tordering?",
+    "code": "",
+    "options": [
+      "A) Sorted\torder",
+      "B) Insertion\torder",
+      "C) No\tguaranteed\torder",
+      "D) Reverse\tinsertion\torder"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "HashSet\tdoes\tnot\tguarantee\tany\titeration\torder."
+  },
+  {
+    "id": "tech_pdf_46",
+    "category": "Java",
+    "subtopic": "Collections - Overview",
+    "title": "Collections - Overview Q",
+    "question": "Which\tcollection\twould\tyou\tuse\tfor\tFIFO\t(First-In-First-Out)\tprocessing?",
+    "code": "",
+    "options": [
+      "A) Stack",
+      "B) Queue",
+      "C) Set",
+      "D) Map"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Queue\tinterface\timplementations\t(e.g.,\tLinkedList\tas\tQueue)\tfollow\tFIFO."
+  },
+  {
+    "id": "tech_pdf_47",
+    "category": "Java",
+    "subtopic": "Collections - Overview",
+    "title": "Collections - Overview Q",
+    "question": "Which\tclass\timplements\ta\tLIFO\t(Last-In-First-Out)\tstructure\tin\tJava's\tlegacy\tcollections?",
+    "code": "",
+    "options": [
+      "A) ArrayDeque",
+      "B) Stack",
+      "C) PriorityQueue",
+      "D) LinkedHashSet"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "The\tStack\tclass\tis\ta\tclassic\tLIFO\tstructure\t(though\tArrayDeque\tis\tnow\toften\tpreferred)."
+  },
+  {
+    "id": "tech_pdf_48",
+    "category": "Java",
+    "subtopic": "Collections - Overview",
+    "title": "Collections - Overview Q",
+    "question": "What\texception\tis\tthrown\twhen\tyou\tmodify\ta\tList\twhile\titerating\tover\tit\tusing\ta\tfor-each\tloop (without\tthe\titerator's\town\tremove)?",
+    "code": "",
+    "options": [
+      "A) IllegalStateException",
+      "B) ConcurrentModificationException",
+      "C) UnsupportedOperationException",
+      "D) NoSuchElementException"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Structural\tmodification\tduring\titeration\t(outside\tIterator.remove)\tthrows\tConcurrentModificationException."
+  },
+  {
+    "id": "tech_pdf_49",
+    "category": "Java",
+    "subtopic": "Collections - Overview",
+    "title": "Collections - Overview Q",
+    "question": "Which\tof\tthese\tMap\timplementations\tsorts\tits\tkeys\tautomatically?",
+    "code": "",
+    "options": [
+      "A) HashMap",
+      "B) LinkedHashMap",
+      "C) TreeMap",
+      "D) IdentityHashMap"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "TreeMap\tkeeps\tkeys\tsorted\t(natural\torder\tor\tvia\tComparator)."
+  },
+  {
+    "id": "tech_pdf_50",
+    "category": "Java",
+    "subtopic": "Collections - Overview",
+    "title": "Collections - Overview Q",
+    "question": "What\tis\tthe\tload\tfactor\tin\ta\tHashMap\tused\tfor?",
+    "code": "",
+    "options": [
+      "A) Determines\tthe\tnumber\tof\tthreads",
+      "B) Determines\twhen\tthe\tHashMap\tresizes\t(rehashes)",
+      "C) Sets\tthe\tmaximum\tkey\tlength",
+      "D) Controls\tnull\tkey\tinsertion"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Default\tload\tfactor\t0.75\ttriggers\tresizing\twhen\t75%\tcapacity\tis\tfilled."
+  },
+  {
+    "id": "tech_pdf_51",
+    "category": "Java",
+    "subtopic": "Collections - Overview",
+    "title": "Collections - Overview Q",
+    "question": "Which\tof\tthese\tallows\t`null`\tkeys\tand\tvalues?",
+    "code": "",
+    "options": [
+      "A) Hashtable",
+      "B) ConcurrentHashMap",
+      "C) HashMap",
+      "D) TreeMap\t(default)"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "HashMap\tallows\tone\tnull\tkey\tand\tmultiple\tnull\tvalues;\tHashtable\tand\tConcurrentHashMap\tdo\tnot\tallow\tnulls."
+  },
+  {
+    "id": "tech_pdf_52",
+    "category": "Java",
+    "subtopic": "Collections - Overview",
+    "title": "Collections - Overview Q",
+    "question": "What\tdoes\t`List.of(1,\t2,\t3)`\treturn\tin\tmodern\tJava\t(9+)?",
+    "code": "",
+    "options": [
+      "A) A\tmutable\tArrayList",
+      "B) An\timmutable\tList",
+      "C) A\tLinkedList",
+      "D) A\tSet"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "List.of()\tcreates\tan\timmutable\tlist;\tadding/removing\tthrows\tUnsupportedOperationException."
+  },
+  {
+    "id": "tech_pdf_53",
+    "category": "Java",
+    "subtopic": "Collections - Overview",
+    "title": "Collections - Overview Q",
+    "question": "Which\tcollection\tis\tbest\tsuited\tfor\tmaintaining\ta\tpriority-based\torder\tfor\tprocessing?",
+    "code": "",
+    "options": [
+      "A) ArrayList",
+      "B) PriorityQueue",
+      "C) HashSet",
+      "D) LinkedList"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "PriorityQueue\torders\telements\tby\tnatural\tordering\tor\ta\tgiven\tComparator."
+  },
+  {
+    "id": "tech_pdf_54",
+    "category": "Java",
+    "subtopic": "Collections - Overview",
+    "title": "Collections - Overview Q",
+    "question": "What\tis\tthe\tmain\tadvantage\tof\t`ArrayDeque`\tover\t`Stack`?",
+    "code": "",
+    "options": [
+      "A) ArrayDeque\tis\tsynchronized,\tStack\tis\tnot",
+      "B) ArrayDeque\tis\tgenerally\tfaster\tand\tnot\tlegacy/synchronized",
+      "C) ArrayDeque\tcan\tonly\thold\tStrings",
+      "D) Stack\tallows\tduplicate\tremoval,\tArrayDeque\tdoesn't"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "ArrayDeque\tis\ta\tmore\tmodern,\tfaster,\tnon-synchronized\talternative\tto\tthe\tlegacy\tStack\tclass."
+  },
+  {
+    "id": "tech_pdf_55",
+    "category": "Java",
+    "subtopic": "Collections - Overview",
+    "title": "Collections - Overview Q",
+    "question": "Which\tof\tthe\tfollowing\tcorrectly\tconverts\tan\tarray\tto\ta\tList?",
+    "code": "",
+    "options": [
+      "A) Arrays.asList(array)",
+      "B) List.toArray(array)",
+      "C) Collections.toList(array)",
+      "D) array.asList()"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Arrays.asList()\twraps\tan\tarray\tas\ta\tfixed-size\tList."
+  },
+  {
+    "id": "tech_pdf_56",
+    "category": "Java",
+    "subtopic": "Collections - Overview",
+    "title": "Collections - Overview Q",
+    "question": "What\twill\thappen\tif\tyou\ttry\tto\tadd\ta\tduplicate\tkey\tto\ta\tHashMap?",
+    "code": "",
+    "options": [
+      "A) Throws\tan\texception",
+      "B) The\told\tvalue\tis\toverwritten\tby\tthe\tnew\tvalue",
+      "C) Both\tkey-value\tpairs\tare\tstored",
+      "D) The\tnew\tentry\tis\tignored"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "put()\twith\tan\texisting\tkey\treplaces\tthe\told\tvalue\tand\treturns\tit."
+  },
+  {
+    "id": "tech_pdf_57",
+    "category": "Java",
+    "subtopic": "Collections - Overview",
+    "title": "Collections - Overview Q",
+    "question": "Which\tof\tthese\tis\ttrue\tabout\t`Set<E>`?",
+    "code": "",
+    "options": [
+      "A) It\tallows\tindexed\taccess\tlike\ta\tList",
+      "B) It\tstores\tunique\telements\tonly",
+      "C) It\talways\tmaintains\tsorted\torder",
+      "D) It\tcannot\tuse\tgenerics"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Set\tis\tdefined\tto\thold\tunique\telements\t(no\tduplicates)."
+  },
+  {
+    "id": "tech_pdf_58",
+    "category": "Java",
+    "subtopic": "Collections - Overview",
+    "title": "Collections - Overview Q",
+    "question": "Which\tmethod\tis\tused\tto\tget\ta\tread-only,\tthread-safe\tview\tof\ta\tcollection\tquickly\t(legacy approach)?",
+    "code": "",
+    "options": [
+      "A) Collections.unmodifiableList()",
+      "B) Collections.synchronizedList()",
+      "C) Both\tA\tand\tB\tmay\tbe\trelevant\tdepending\ton\tthe\tneed\t(unmodifiable\tfor\tread-only,\tsynchronized\tfor\tthread-safety)",
+      "D) Arrays.asList()"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "unmodifiableList()\tprevents\tmodification;\tsynchronizedList()\tadds\tthread-safety\t—\tthey\tsolve\tdifferent"
+  },
+  {
+    "id": "tech_pdf_59",
+    "category": "Java",
+    "subtopic": "Collections - Overview",
+    "title": "Collections - Overview Q",
+    "question": "What\tis\tthe\tinitial\tdefault\tcapacity\tof\tan\tArrayList\tin\tJava?",
+    "code": "",
+    "options": [
+      "A) 0",
+      "B) 5",
+      "C) 10",
+      "D) 16"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Default\tinitial\tcapacity\tof\tArrayList\tis\t10\t(though\tit\tgrows\tdynamically)."
+  },
+  {
+    "id": "tech_pdf_60",
+    "category": "Java",
+    "subtopic": "Collections - Overview",
+    "title": "Collections - Overview Q",
+    "question": "Which\tof\tthe\tfollowing\tdata\tstructures\tunderlies\ta\t`HashMap`\tinternally\t(Java\t8+)?",
+    "code": "",
+    "options": [
+      "A) Array\tof\tlinked\tlists\t(buckets),\twhich\tconvert\tto\tbalanced\ttrees\tfor\tlarge\tbuckets",
+      "B) A\tsingle\tlinked\tlist",
+      "C) A\tbinary\tsearch\ttree\tonly",
+      "D) A\tsorted\tarray"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap\tuses\tan\tarray\tof\tbuckets;\tfrom\tJava\t8,\tlarge\tbuckets\ttreeify\tinto\tred-black\ttrees\tfor\tperformance."
+  },
+  {
+    "id": "tech_pdf_61",
+    "category": "Software Testing",
+    "subtopic": "STLC & Testing Frameworks",
+    "title": "STLC & Testing Frameworks Q",
+    "question": "What\tdoes\tSTLC\tstand\tfor?",
+    "code": "",
+    "options": [
+      "A) Software\tTest\tLife\tCycle",
+      "B) System\tTesting\tLife\tControl",
+      "C) Software\tTesting\tLanguage\tCompiler",
+      "D) Software\tTechnical\tLife\tCycle"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "STLC\t=\tSoftware\tTest\tLife\tCycle,\tthe\tsequence\tof\ttesting\tactivities."
+  },
+  {
+    "id": "tech_pdf_62",
+    "category": "Software Testing",
+    "subtopic": "STLC & Testing Frameworks",
+    "title": "STLC & Testing Frameworks Q",
+    "question": "Which\tof\tthese\tis\tthe\tcorrect\torder\tof\tSTLC\tphases?",
+    "code": "",
+    "options": [
+      "A) Test\tExecution\t→\tTest\tPlanning\t→\tRequirement\tAnalysis\t→\tTest\tClosure",
+      "B) Requirement\tAnalysis\t→\tTest\tPlanning\t→\tTest\tCase\tDevelopment\t→\tTest\tEnvironment\tSetup\t→\tTest\tExecution\t→",
+      "C) Test\tClosure\t→\tTest\tExecution\t→\tTest\tPlanning\t→\tRequirement\tAnalysis",
+      "D) Test\tCase\tDevelopment\t→\tRequirement\tAnalysis\t→\tTest\tExecution"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Standard\tSTLC\torder:\tRequirement\tAnalysis,\tPlanning,\tCase\tDevelopment,\tEnvironment\tSetup,\tExecution,"
+  },
+  {
+    "id": "tech_pdf_63",
+    "category": "Software Testing",
+    "subtopic": "STLC & Testing Frameworks",
+    "title": "STLC & Testing Frameworks Q",
+    "question": "What\tis\tthe\tmain\tdifference\tbetween\tSmoke\tTesting\tand\tSanity\tTesting?",
+    "code": "",
+    "options": [
+      "A) Smoke\ttesting\tchecks\tthe\tstability\tof\tthe\twhole\tbuild\tbroadly;\tsanity\ttesting\tverifies\tspecific\tfunctionality\tafter",
+      "B) They\tare\texactly\tthe\tsame\tthing",
+      "C) Sanity\ttesting\tis\tdone\tbefore\tsmoke\ttesting",
+      "D) Smoke\ttesting\tis\tonly\tfor\tUI,\tsanity\tis\tonly\tfor\tbackend"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Smoke\t=\tbroad,\tshallow\tcheck\tof\tbuild\tstability;\tSanity\t=\tnarrow,\tdeep\tcheck\tof\tspecific\tfunctionality."
+  },
+  {
+    "id": "tech_pdf_64",
+    "category": "Software Testing",
+    "subtopic": "STLC & Testing Frameworks",
+    "title": "STLC & Testing Frameworks Q",
+    "question": "What\tis\ta\t'defect\tlife\tcycle'?",
+    "code": "",
+    "options": [
+      "A) The\tstages\ta\tbug\tgoes\tthrough\tfrom\tbeing\tlogged\tto\tclosure",
+      "B) The\ttime\tit\ttakes\tto\twrite\ttest\tcases",
+      "C) The\tprocess\tof\twriting\trequirement\tdocuments",
+      "D) The\tduration\tof\ta\ttesting\tsprint"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Defect\tlife\tcycle:\tNew\t→\tAssigned\t→\tOpen\t→\tFixed\t→\tRetest\t→\tClosed\t(or\tReopened),\tetc."
+  },
+  {
+    "id": "tech_pdf_65",
+    "category": "Software Testing",
+    "subtopic": "STLC & Testing Frameworks",
+    "title": "STLC & Testing Frameworks Q",
+    "question": "Which\ttesting\ttechnique\tinvolves\ttesting\twithout\tknowledge\tof\tinternal\tcode\tstructure?",
+    "code": "",
+    "options": [
+      "A) White\tBox\tTesting",
+      "B) Black\tBox\tTesting",
+      "C) Gray\tBox\tTesting",
+      "D) Unit\tTesting"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Black\tbox\ttesting\tfocuses\ton\tinputs/outputs,\tnot\tinternal\tlogic."
+  },
+  {
+    "id": "tech_pdf_66",
+    "category": "Software Testing",
+    "subtopic": "STLC & Testing Frameworks",
+    "title": "STLC & Testing Frameworks Q",
+    "question": "Which\ttesting\ttype\tverifies\tthat\tnew\tcode\tchanges\thaven't\tbroken\texisting\tfunctionality?",
+    "code": "",
+    "options": [
+      "A) Regression\tTesting",
+      "B) Smoke\tTesting",
+      "C) Load\tTesting",
+      "D) Exploratory\tTesting"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Regression\ttesting\tre-runs\texisting\ttests\tafter\tchanges\tto\tcatch\tnew\tdefects."
+  },
+  {
+    "id": "tech_pdf_67",
+    "category": "Software Testing",
+    "subtopic": "STLC & Testing Frameworks",
+    "title": "STLC & Testing Frameworks Q",
+    "question": "In\tJUnit,\twhich\tannotation\tis\tused\tto\tmark\ta\tmethod\tthat\tshould\trun\tonce\tbefore\tany\ttest\tin\tthe class?",
+    "code": "",
+    "options": [
+      "A) @Before",
+      "B) @BeforeEach",
+      "C) @BeforeAll",
+      "D) @BeforeClass\t(JUnit\t4)\t/\t@BeforeAll\t(JUnit\t5)"
+    ],
+    "correctAnswer": 3,
+    "correctLetter": "D",
+    "explanation": "JUnit\t4\tuses\t@BeforeClass;\tJUnit\t5\tuses\t@BeforeAll\t(both\tstatic,\trun\tonce\tper\tclass)."
+  },
+  {
+    "id": "tech_pdf_68",
+    "category": "Software Testing",
+    "subtopic": "STLC & Testing Frameworks",
+    "title": "STLC & Testing Frameworks Q",
+    "question": "Which\tannotation\tin\tTestNG\tis\tused\tto\tspecify\tthe\texecution\torder\tor\tgrouping\tof\ttest\tmethods?",
+    "code": "",
+    "options": [
+      "A) @Test(priority=)",
+      "B) @Order",
+      "C) @Sequence",
+      "D) @TestOrder"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "TestNG's\t@Test(priority=n)\tattribute\tcontrols\texecution\torder."
+  },
+  {
+    "id": "tech_pdf_69",
+    "category": "Software Testing",
+    "subtopic": "STLC & Testing Frameworks",
+    "title": "STLC & Testing Frameworks Q",
+    "question": "What\tis\tthe\tprimary\tpurpose\tof\ta\tPage\tObject\tModel\t(POM)\tin\tautomation\ttesting?",
+    "code": "",
+    "options": [
+      "A) To\tincrease\ttest\texecution\tspeed",
+      "B) To\tseparate\tpage-specific\tlocators/actions\tfrom\ttest\tlogic,\timproving\tmaintainability",
+      "C) To\treplace\tthe\tneed\tfor\tassertions",
+      "D) To\tgenerate\ttest\tdata\tautomatically"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "POM\tencapsulates\tUI\telements\tand\tactions\tper\tpage,\tmaking\ttests\tmore\tmaintainable\tand\treusable."
+  },
+  {
+    "id": "tech_pdf_70",
+    "category": "Software Testing",
+    "subtopic": "STLC & Testing Frameworks",
+    "title": "STLC & Testing Frameworks Q",
+    "question": "Which\tof\tthese\tis\tan\texample\tof\ta\tnon-functional\ttesting\ttype?",
+    "code": "",
+    "options": [
+      "A) Unit\tTesting",
+      "B) Performance\tTesting",
+      "C) Integration\tTesting",
+      "D) Regression\tTesting"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Performance\ttesting\tevaluates\tnon-functional\taspects\tlike\tspeed\tand\tscalability."
+  },
+  {
+    "id": "tech_pdf_71",
+    "category": "Software Testing",
+    "subtopic": "STLC & Testing Frameworks",
+    "title": "STLC & Testing Frameworks Q",
+    "question": "What\tis\tthe\tpurpose\tof\tan\tassertion\tin\tautomated\ttesting?",
+    "code": "",
+    "options": [
+      "A) To\tlog\ttest\texecution\tsteps",
+      "B) To\tverify\tthat\tan\tactual\tresult\tmatches\tthe\texpected\tresult",
+      "C) To\tset\tup\ttest\tdata",
+      "D) To\tskip\ta\tfailing\ttest"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Assertions\tcompare\tactual\tvs\texpected\toutcomes\tand\tfail\tthe\ttest\tif\tthey\tdon't\tmatch."
+  },
+  {
+    "id": "tech_pdf_72",
+    "category": "Software Testing",
+    "subtopic": "STLC & Testing Frameworks",
+    "title": "STLC & Testing Frameworks Q",
+    "question": "Which\tof\tthe\tfollowing\tbest\tdescribes\t'Test\tCase'\tvs\t'Test\tScenario'?",
+    "code": "",
+    "options": [
+      "A) A\ttest\tscenario\tis\ta\thigh-level\tidea\tof\twhat\tto\ttest;\ta\ttest\tcase\tis\ta\tdetailed\tstep-by-step\tprocedure\tto\tverify\tit",
+      "B) They\tmean\texactly\tthe\tsame\tthing",
+      "C) A\ttest\tcase\tis\tbroader\tthan\ta\ttest\tscenario",
+      "D) Test\tscenarios\tare\tonly\tused\tin\tmanual\ttesting"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Test\tscenario\t=\thigh-level\t'what\tto\ttest';\ttest\tcase\t=\tdetailed\t'how\tto\ttest\tit'."
+  },
+  {
+    "id": "tech_pdf_73",
+    "category": "Software Testing",
+    "subtopic": "STLC & Testing Frameworks",
+    "title": "STLC & Testing Frameworks Q",
+    "question": "In\tSelenium\tWebDriver,\twhich\tmethod\tis\tused\tto\tlocate\ta\tsingle\tweb\telement?",
+    "code": "",
+    "options": [
+      "A) findElements()",
+      "B) findElement()",
+      "C) getElement()",
+      "D) locateElement()"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "findElement()\treturns\ta\tsingle\tWebElement;\tfindElements()\treturns\ta\tlist."
+  },
+  {
+    "id": "tech_pdf_74",
+    "category": "Software Testing",
+    "subtopic": "STLC & Testing Frameworks",
+    "title": "STLC & Testing Frameworks Q",
+    "question": "What\tis\tthe\tpurpose\tof\tan\timplicit\twait\tin\tSelenium?",
+    "code": "",
+    "options": [
+      "A) To\tpause\texecution\tfor\ta\tfixed\ttime\tregardless\tof\telement\tstate",
+      "B) To\ttell\tthe\tWebDriver\tto\twait\tfor\ta\tcertain\ttime\twhen\ttrying\tto\tfind\tan\telement\tbefore\tthrowing\tan\texception",
+      "C) To\twait\tonly\tfor\tAJAX\tcalls",
+      "D) To\twait\tfor\tthe\tentire\ttest\tsuite\tto\tfinish"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Implicit\twait\tsets\ta\tdefault\tpolling\ttime\tfor\telement\tlookups\tacross\tthe\tdriver\tinstance."
+  },
+  {
+    "id": "tech_pdf_75",
+    "category": "Software Testing",
+    "subtopic": "STLC & Testing Frameworks",
+    "title": "STLC & Testing Frameworks Q",
+    "question": "Which\tof\tthese\tis\ta\tkey\tdifference\tbetween\t'Verification'\tand\t'Validation'\tin\ttesting?",
+    "code": "",
+    "options": [
+      "A) Verification\tchecks\t'Are\twe\tbuilding\tthe\tproduct\tright?'\t(process-focused);\tValidation\tchecks\t'Are\twe\tbuilding\tthe",
+      "B) They\tare\tidentical\tprocesses",
+      "C) Validation\thappens\tonly\tin\tunit\ttesting",
+      "D) Verification\tis\tdone\tonly\tby\tend\tusers"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Verification\t=\tprocess/documentation\treview;\tValidation\t=\ttesting\tthe\tactual\tproduct\tagainst\trequirements."
+  },
+  {
+    "id": "tech_pdf_76",
+    "category": "Software Testing",
+    "subtopic": "STLC & Testing Frameworks",
+    "title": "STLC & Testing Frameworks Q",
+    "question": "What\tdoes\t'Test\tCoverage'\ttypically\tmeasure?",
+    "code": "",
+    "options": [
+      "A) The\tnumber\tof\ttesters\ton\ta\tproject",
+      "B) The\textent\tto\twhich\tthe\tsource\tcode\tor\trequirements\tare\texercised\tby\ttests",
+      "C) The\tspeed\tof\ttest\texecution",
+      "D) The\tnumber\tof\tdefects\tfound"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Test\tcoverage\tmeasures\thow\tmuch\tof\tthe\tcode/requirements\tare\tcovered\tby\ttests."
+  },
+  {
+    "id": "tech_pdf_77",
+    "category": "Software Testing",
+    "subtopic": "STLC & Testing Frameworks",
+    "title": "STLC & Testing Frameworks Q",
+    "question": "Which\tof\tthe\tfollowing\tis\tNOT\tone\tof\tthe\tstandard\tlevels\tof\ttesting?",
+    "code": "",
+    "options": [
+      "A) Unit\tTesting",
+      "B) Integration\tTesting",
+      "C) System\tTesting",
+      "D) Documentation\tTesting"
+    ],
+    "correctAnswer": 3,
+    "correctLetter": "D",
+    "explanation": "The\tstandard\tlevels\tare\tUnit,\tIntegration,\tSystem,\tand\tAcceptance\tTesting."
+  },
+  {
+    "id": "tech_pdf_78",
+    "category": "Software Testing",
+    "subtopic": "STLC & Testing Frameworks",
+    "title": "STLC & Testing Frameworks Q",
+    "question": "In\tthe\tcontext\tof\tAgile/Scrum,\twhat\tis\ta\tcommon\ttesting\tapproach\tused\talongside\tdevelopment sprints?",
+    "code": "",
+    "options": [
+      "A) Waterfall\ttesting\tonly\tat\tthe\tend",
+      "B) Continuous/Shift-left\ttesting\tthroughout\tthe\tsprint",
+      "C) Testing\tis\tskipped\tin\tAgile",
+      "D) Only\tmanual\tregression\tat\trelease"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Agile\tfavors\tcontinuous,\tshift-left\ttesting\tintegrated\tinto\teach\tsprint."
+  },
+  {
+    "id": "tech_pdf_79",
+    "category": "Software Testing",
+    "subtopic": "STLC & Testing Frameworks",
+    "title": "STLC & Testing Frameworks Q",
+    "question": "What\tis\ta\t'stub'\tused\tfor\tin\ttesting?",
+    "code": "",
+    "options": [
+      "A) A\tdummy\timplementation\tof\ta\tcalled\t(lower-level)\tcomponent,\tused\tin\ttop-down\tintegration\ttesting",
+      "B) A\ttool\tto\tgenerate\trandom\ttest\tdata",
+      "C) A\tfull\tworking\treplica\tof\tthe\tproduction\tsystem",
+      "D) A\ttype\tof\tdefect\treport"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Stubs\tsimulate\tlower-level\tmodules\tthat\thaven't\tbeen\tdeveloped\tyet,\tfor\ttop-down\ttesting."
+  },
+  {
+    "id": "tech_pdf_80",
+    "category": "Software Testing",
+    "subtopic": "STLC & Testing Frameworks",
+    "title": "STLC & Testing Frameworks Q",
+    "question": "What\tis\tthe\tmain\tgoal\tof\t'exploratory\ttesting'?",
+    "code": "",
+    "options": [
+      "A) Following\ta\tstrict,\tpre-written\tscript\twith\tno\tdeviation",
+      "B) Simultaneous\tlearning,\ttest\tdesign,\tand\ttest\texecution\twithout\tpredefined\tscripts",
+      "C) Only\ttesting\tperformance\tunder\tload",
+      "D) Testing\tonly\tthe\tdatabase\tlayer"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Exploratory\ttesting\tis\tunscripted,\trelying\ton\tthe\ttester's\tknowledge\tand\tcreativity\tin\treal\ttime."
+  },
+  {
+    "id": "hm_txt_1",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q",
+    "question": "What is the primary role of the hash function in a HashMap implementation?",
+    "code": "",
+    "options": [
+      "A) To encrypt the values for secure storage.",
+      "B) To sort the entries alphabetically by key.",
+      "C) To compute an integer hash code from the key and map it to a valid bucket index.",
+      "D) To dynamically resize the underlying array when it becomes full."
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap implementation question. Re-evaluates bucket indexing, load factor, and hashing logic."
+  },
+  {
+    "id": "hm_txt_2",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q",
+    "question": "Why do many HashMap implementations (like Java's) enforce that the capacity (number of buckets) is always a power of two?",
+    "code": "",
+    "options": [
+      "A) It allows fast modulo operations using efficient bitwise AND (h & (length - 1)) instead of slow division.",
+      "B) It guarantees that collisions will never occur regardless of the number of elements inserted.",
+      "C) It ensures that all elements are automatically sorted in natural order.",
+      "D) It prevents the load factor from ever exceeding 0.75."
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap implementation question. Re-evaluates bucket indexing, load factor, and hashing logic."
+  },
+  {
+    "id": "hm_txt_3",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q",
+    "question": "What happens operationally when a HashMap's size exceeds the threshold (Capacity \\(\\times \\) Load Factor)?",
+    "code": "",
+    "options": [
+      "A) The map throws a CapacityExceededException and stops accepting new keys.",
+      "B) Existing keys are deleted to free up space for new entries.",
+      "C) The load factor is automatically doubled while keeping the capacity the same.",
+      "D) The internal array is resized (usually doubled) and all existing entries are rehashed into the new buckets."
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap implementation question. Re-evaluates bucket indexing, load factor, and hashing logic."
+  },
+  {
+    "id": "hm_txt_6",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q",
+    "question": "Assuming a good hash function and a well-distributed load factor, what is the average-case time complexity for get(key) and put(key, value) operations in a HashMap?",
+    "code": "",
+    "options": [
+      "A) (O(N))",
+      "B) (O(log N))",
+      "C) (O(1))",
+      "D) (O(N log N)"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap implementation question. Re-evaluates bucket indexing, load factor, and hashing logic."
+  },
+  {
+    "id": "hm_txt_7",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q",
+    "question": "In the worst-case scenario where every single key inserted into a standard HashMap hashes to the same exact bucket index (using linked lists for chaining), what is the time complexity of a lookup operation?",
+    "code": "",
+    "options": [
+      "A) \\(O(1)\\)",
+      "B) \\(O(\\log N)\\)",
+      "C) \\(O(N \\log N)\\)",
+      "D) \\(O(N)\\)"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap implementation question. Re-evaluates bucket indexing, load factor, and hashing logic."
+  },
+  {
+    "id": "hm_txt_8",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q",
+    "question": "Which of the following statements is true about the HashMap class in Java?",
+    "code": "",
+    "options": [
+      "A) It maintains the insertion of the Map interface",
+      "B) It is synchronized",
+      "C) It is an implementation of the Map interface",
+      "D) None of these"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap implementation question. Re-evaluates bucket indexing, load factor, and hashing logic."
+  },
+  {
+    "id": "hm_txt_9",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q",
+    "question": "Which of the following statements is true about the LinkedHashMap class in Java?",
+    "code": "",
+    "options": [
+      "A) It does not allow null keys or values.",
+      "B) It is an implementation of the Map interface.",
+      "C) It is an implementation of the HashMap interface.",
+      "D) None of these"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap implementation question. Re-evaluates bucket indexing, load factor, and hashing logic."
+  },
+  {
+    "id": "hm_txt_10",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q",
+    "question": "What is the time complexity of the get() method in a HashMap in the worst case?",
+    "code": "",
+    "options": [
+      "A) O(1)",
+      "B) O(n)",
+      "C) O(n logn)",
+      "D) O( log n )"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap implementation question. Re-evaluates bucket indexing, load factor, and hashing logic."
+  },
+  {
+    "id": "hm_txt_12",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q",
+    "question": "How is LinkedHashMap declared in Java",
+    "code": "",
+    "options": [
+      "A) public class LinkedHashMap<K,​V>",
+      "B) public class LinkedHashMap<K,​V> implements Map<K,​V>",
+      "C) public class LinkedHashMap<K,​V>  extends HashMap<K,​V> implements Map<K,​V>",
+      "D) None of these"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap implementation question. Re-evaluates bucket indexing, load factor, and hashing logic."
+  },
+  {
+    "id": "hm_txt_14",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q",
+    "question": "What is the output of following code public static void main(String[] args) { for( Map.Entry< String, Integer >e: m.entrySet()) } }",
+    "code": "import java.util.*;\nclass HelloWorld {\nHashMap<String, Integer> m = new HashMap<String, Integer>();\nm.put(\"gfg\", 10);\nm.put(\"ide\", 16);\nm.put(\"courses\", 25);\nSystem.out.print(m);\nSystem.out.print(m.size());\nSystem.out.print(e.getKey() + \" \" + e.getValue());",
+    "options": [
+      "A) 3courses 25gfg 10ide 16",
+      "B) Error",
+      "C) {courses=25, gfg=10, ide=16}3courses 25gfg 10ide 16",
+      "D) None of these"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap implementation question. Re-evaluates bucket indexing, load factor, and hashing logic."
+  },
+  {
+    "id": "hm_txt_15",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q",
+    "question": "What is the output of the code, public static void main(String[] args) { if( m.containsKey(\"ide\")) else m.remove(\"ide\"); } }",
+    "code": "import java.util.*;\nclass HelloWorld {\nHashMap<String, Integer> m = new HashMap<String, Integer>();\nm.put(\"gfg\", 10);\nm.put(\"ide\", 16);\nm.put(\"courses\", 25);\nSystem.out.println(\"yes\");\nSystem.out.println(\"no\");\nSystem.out.println(m.size());",
+    "options": [
+      "A) no 3",
+      "B) yes 3",
+      "C) yes 2",
+      "D) no 2"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap implementation question. Re-evaluates bucket indexing, load factor, and hashing logic."
+  },
+  {
+    "id": "hm_txt_16",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q",
+    "question": "What is the output of the code, public static void main(String[] args) { m.remove( 25 ); } }",
+    "code": "import java.util.*;\nclass HelloWorld {\nLinkedHashMap<Integer, String> m = new LinkedHashMap<>();\nm.put(10, \"gfg\");\nm.put(16, \"IDE\");\nm.put(25, \"courses\");\nm.put( 20, \"practice\" );\nSystem.out.println(m);",
+    "options": [
+      "A) Throws an error",
+      "B) {10=gfg, 16=IDE, 20=practice}",
+      "C) {10=gfg, 16=IDE, 25=courses, 20=practice}",
+      "D) None of these"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap implementation question. Re-evaluates bucket indexing, load factor, and hashing logic."
+  },
+  {
+    "id": "hm_txt_17",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q",
+    "question": "What is the purpose of the 'equals' method in the HashMap key-value pairs?",
+    "code": "",
+    "options": [
+      "A) To compare the values of two keys",
+      "B) To determine if two keys are equal",
+      "C) To compare the hash codes of two keys",
+      "D) To establish the order of keys in the HashMap"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap implementation question. Re-evaluates bucket indexing, load factor, and hashing logic."
+  },
+  {
+    "id": "hm_txt_18",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q",
+    "question": "What is the default initial capacity of a HashMap in Java?",
+    "code": "",
+    "options": [
+      "A) 0",
+      "B) 10",
+      "C) 16",
+      "D) It depends on the JVM"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap implementation question. Re-evaluates bucket indexing, load factor, and hashing logic."
+  },
+  {
+    "id": "hm_txt_19",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q",
+    "question": "What is the default load factor of a HashMap in Java?",
+    "code": "",
+    "options": [
+      "A) 0.25",
+      "B) 0.5",
+      "C) 0.75",
+      "D) 1.0"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap implementation question. Re-evaluates bucket indexing, load factor, and hashing logic."
+  },
+  {
+    "id": "hm_txt_20",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q",
+    "question": "What is the time complexity of inserting a key-value pair into a HashMap?",
+    "code": "",
+    "options": [
+      "A) O(1)",
+      "B) O(log n)",
+      "C) O(n)",
+      "D) O(n log n)"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap implementation question. Re-evaluates bucket indexing, load factor, and hashing logic."
+  },
+  {
+    "id": "hm_txt_21",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q",
+    "question": "What is the time complexity of retrieving a value from a HashMap using its key?",
+    "code": "",
+    "options": [
+      "A) O(1)",
+      "B) O(log n)",
+      "C) O(n)",
+      "D) O(n log n)"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap implementation question. Re-evaluates bucket indexing, load factor, and hashing logic."
+  },
+  {
+    "id": "hm_txt_22",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q",
+    "question": "What is the output of the following code snippet? map.put(\"one\", 1); map.put(\"two\", 2); map.put(\"three\", 3);",
+    "code": "HashMap<String, Integer> map = new HashMap<>();\nSystem.out.println(map.get(\"two\"));",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) null"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap implementation question. Re-evaluates bucket indexing, load factor, and hashing logic."
+  },
+  {
+    "id": "hm_txt_23",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q",
+    "question": "What is the output of the following code snippet? map.put(\"one\", 1); map.put(\"two\", 2); map.put(\"one\", 3);",
+    "code": "HashMap<String, Integer> map = new HashMap<>();\nSystem.out.println(map.get(\"one\"));",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) null"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap implementation question. Re-evaluates bucket indexing, load factor, and hashing logic."
+  },
+  {
+    "id": "hm_txt_24",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q",
+    "question": "What is the output of the following code snippet? map.put(\"one\", 1); map.put(\"two\", 2); map.remove(\"one\");",
+    "code": "HashMap<String, Integer> map = new HashMap<>();\nSystem.out.println(map.containsKey(\"one\"));",
+    "options": [
+      "A) true",
+      "B) false",
+      "C) null",
+      "D) An error occurs"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap implementation question. Re-evaluates bucket indexing, load factor, and hashing logic."
+  },
+  {
+    "id": "hm_txt_25",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q",
+    "question": "What is the purpose of the 'hashCode' method in the HashMap key-value pairs?",
+    "code": "",
+    "options": [
+      "A) To compare the values of two keys",
+      "B) To determine if two keys are equal",
+      "C) To generate a unique identifier for each key",
+      "D) To establish the order of keys in the HashMap"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap implementation question. Re-evaluates bucket indexing, load factor, and hashing logic."
+  },
+  {
+    "id": "hm_txt_31",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q",
+    "question": "What is the output of the following code snippet? map.put(\"one\", 1); map.put(\"two\", 2); map.put(\"three\", 3); map.clear();",
+    "code": "HashMap<String, Integer> map = new HashMap<>();\nSystem.out.println(map.size());",
+    "options": [
+      "A) 0",
+      "B) 1",
+      "C) 2",
+      "D) 3"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap implementation question. Re-evaluates bucket indexing, load factor, and hashing logic."
+  },
+  {
+    "id": "hm_txt_32",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q",
+    "question": "What is the output of the following code? map.put(\"one\", 1); map.put(\"two\", 2); map.put(\"three\", 3);",
+    "code": "HashMap<String, Integer> map = new HashMap<>();\nSystem.out.println(map.get(\"two\"));",
+    "options": [
+      "A) 2",
+      "B) null",
+      "C) Exception: Key not found",
+      "D) 1"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap implementation question. Re-evaluates bucket indexing, load factor, and hashing logic."
+  },
+  {
+    "id": "hm_txt_33",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q",
+    "question": "What will be the output of the following code? map.put(\"one\", 1); map.put(\"two\", 2); map.put(\"one\", 11);",
+    "code": "HashMap<String, Integer> map = new HashMap<>();\nSystem.out.println(map.get(\"one\"));",
+    "options": [
+      "A) 1",
+      "B) 11",
+      "C) null",
+      "D) Exception: Duplicate key"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap implementation question. Re-evaluates bucket indexing, load factor, and hashing logic."
+  },
+  {
+    "id": "hm_txt_34",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q",
+    "question": "What will be the output of the following code? map.put(\"one\", 1); map.put(\"two\", 2); map.remove(\"one\");",
+    "code": "HashMap<String, Integer> map = new HashMap<>();\nSystem.out.println(map.containsKey(\"one\"));",
+    "options": [
+      "A) true",
+      "B) false",
+      "C) null",
+      "D) Exception: Key not found"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap implementation question. Re-evaluates bucket indexing, load factor, and hashing logic."
+  },
+  {
+    "id": "hm_txt_35",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q",
+    "question": "What will be the output of the following code? map.put(\"one\", 1); map.put(\"two\", 2); map.keySet().remove(\"one\");",
+    "code": "HashMap<String, Integer> map = new HashMap<>();\nSystem.out.println(map.get(\"one\"));",
+    "options": [
+      "A) 1",
+      "B) null",
+      "C) Exception: Key not found",
+      "D) Exception: Invalid operation"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap implementation question. Re-evaluates bucket indexing, load factor, and hashing logic."
+  },
+  {
+    "id": "hm_txt_36",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q",
+    "question": "What will be the output of the following code? map.put(\"one\", 1); map.put(\"two\", 2); map.clear();",
+    "code": "HashMap<String, Integer> map = new HashMap<>();\nSystem.out.println(map.isEmpty());",
+    "options": [
+      "A) true",
+      "B) false",
+      "C) null",
+      "D) Exception: Map is not empty"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap implementation question. Re-evaluates bucket indexing, load factor, and hashing logic."
+  },
+  {
+    "id": "hm_txt_37",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q",
+    "question": "What will be the output of the following code? map.put(\"one\", 1); map.put(\"two\", 2); map.putIfAbsent(\"one\", 11);",
+    "code": "HashMap<String, Integer> map = new HashMap<>();\nSystem.out.println(map.get(\"one\"));",
+    "options": [
+      "A) 1",
+      "B) 11",
+      "C) null",
+      "D) Exception: Duplicate key"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap implementation question. Re-evaluates bucket indexing, load factor, and hashing logic."
+  },
+  {
+    "id": "hm_txt_38",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q",
+    "question": "What will be the output of the following code? map.put(\"one\", 1); map.put(\"two\", 2); map.computeIfAbsent(\"three\", k -> 3);",
+    "code": "HashMap<String, Integer> map = new HashMap<>();\nSystem.out.println(map.get(\"three\"));",
+    "options": [
+      "A) 3",
+      "B) null",
+      "C) Exception: Key not found",
+      "D) Exception: Invalid key"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap implementation question. Re-evaluates bucket indexing, load factor, and hashing logic."
+  },
+  {
+    "id": "hm_txt_39",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q",
+    "question": "What will be the output of the following code? map.put(\"one\", 1); map.put(\"two\", 2); map.computeIfPresent(\"one\", (k, v) -> v * 2);",
+    "code": "HashMap<String, Integer> map = new HashMap<>();\nSystem.out.println(map.get(\"one\"));",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) null",
+      "D) Exception: Key not found"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap implementation question. Re-evaluates bucket indexing, load factor, and hashing logic."
+  },
+  {
+    "id": "hm_txt_40",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q",
+    "question": "What will be the output of the following code? map.put(\"one\", 1); map.put(\"two\", 2); map.merge(\"one\", 11, Integer::sum);",
+    "code": "HashMap<String, Integer> map = new HashMap<>();\nSystem.out.println(map.get(\"one\"));",
+    "options": [
+      "A) 12",
+      "B) 11",
+      "C) 1",
+      "D) Exception: Duplicate key"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap implementation question. Re-evaluates bucket indexing, load factor, and hashing logic."
+  },
+  {
+    "id": "hm_txt_41",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q",
+    "question": "What will be the output of the following code? map.put(\"one\", 1); map.put(\"two\", 2); map.replaceAll((k, v) -> v * 2);",
+    "code": "HashMap<String, Integer> map = new HashMap<>();\nSystem.out.println(map.get(\"one\"));\nSystem.out.println(map.get(\"two\"));",
+    "options": [
+      "A) 2 4",
+      "B) 1 2",
+      "C) null null",
+      "D) Exception: Invalid operation"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap implementation question. Re-evaluates bucket indexing, load factor, and hashing logic."
+  },
+  {
+    "id": "hm_txt_43",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q",
+    "question": "Which iteration order does HashMap guarantee?",
+    "code": "",
+    "options": [
+      "A) Insertion order",
+      "B) Natural key order",
+      "C) No guaranteed order",
+      "D) Reverse insertion order"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap implementation question. Re-evaluates bucket indexing, load factor, and hashing logic."
+  },
+  {
+    "id": "hm_txt_44",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q",
+    "question": "How do you create a thread-safe HashMap alternative?",
+    "code": "",
+    "options": [
+      "A) Collections.synchronizedMap(new HashMap<>())",
+      "B) new Hashtable<>()",
+      "C) new ConcurrentHashMap<>()",
+      "D) All of the above"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap implementation question. Re-evaluates bucket indexing, load factor, and hashing logic."
+  },
+  {
+    "id": "hm_txt_48",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q",
+    "question": "What does `clear()` do on a HashMap?",
+    "code": "",
+    "options": [
+      "A) Removes all entries",
+      "B) Shrinks capacity to zero",
+      "C) Removes half the entries",
+      "D) Throws UnsupportedOperationException"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap implementation question. Re-evaluates bucket indexing, load factor, and hashing logic."
+  },
+  {
+    "id": "hm_txt_51",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q",
+    "question": "Which interface do HashMap keys and values generically implement?",
+    "code": "",
+    "options": [
+      "A) Serializable",
+      "B) Cloneable",
+      "C) No interface is required; any Object works",
+      "D) Comparable"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap implementation question. Re-evaluates bucket indexing, load factor, and hashing logic."
+  },
+  {
+    "id": "hm_txt_56",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q",
+    "question": "Which statement is true about fail-fast iterators of HashMap?",
+    "code": "",
+    "options": [
+      "A) They never throw exceptions",
+      "B) They throw ConcurrentModificationException on structural change",
+      "C) They automatically synchronize modifications",
+      "D) They reorder entries to avoid conflicts"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap implementation question. Re-evaluates bucket indexing, load factor, and hashing logic."
+  },
+  {
+    "id": "hm_txt_58",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q",
+    "question": "What is returned by `clone()` on a HashMap?",
+    "code": "",
+    "options": [
+      "A) Deep copy of keys/values",
+      "B) Shallow copy of the map structure",
+      "C) Empty map",
+      "D) Immutable copy"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap implementation question. Re-evaluates bucket indexing, load factor, and hashing logic."
+  },
+  {
+    "id": "hm_txt_59",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Q",
+    "question": "Which statement about nulls is true for HashMap?",
+    "code": "",
+    "options": [
+      "A) Allows one null key and multiple null values",
+      "B) Forbids null keys but allows null values",
+      "C) Forbids all nulls",
+      "D) Allows unlimited null keys"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashMap implementation question. Re-evaluates bucket indexing, load factor, and hashing logic."
+  },
+  {
+    "id": "co_txt_4",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "Classes & Objects Q",
+    "question": "What is a class in Java?",
+    "code": "",
+    "options": [
+      "A) A data type",
+      "B) A blueprint for objects",
+      "C) A collection of methods",
+      "D) A single method"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Option B is the correct Java OOPs answer."
+  },
+  {
+    "id": "co_txt_5",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "Classes & Objects Q",
+    "question": "What is the correct way to define a class in Java?",
+    "code": "",
+    "options": [
+      "A) public Example {}",
+      "B) class Example {}",
+      "C) void Example {}",
+      "D) object Example {}"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Option B is the correct Java OOPs answer."
+  },
+  {
+    "id": "co_txt_7",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "Classes & Objects Q",
+    "question": "Which keyword refers to the immediate parent class object?",
+    "code": "",
+    "options": [
+      "A) base",
+      "B) super",
+      "C) parent",
+      "D) this"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Option B is the correct Java OOPs answer."
+  },
+  {
+    "id": "co_txt_10",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "Classes & Objects Q",
+    "question": "Which keyword is used to inherit a class in Java?",
+    "code": "",
+    "options": [
+      "A) super",
+      "B) this",
+      "C) extends",
+      "D) implements"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Option C is the correct Java OOPs answer."
+  },
+  {
+    "id": "co_txt_11",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "Classes & Objects Q",
+    "question": "Can a Java class extend multiple classes?",
+    "code": "",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Option B is the correct Java OOPs answer."
+  },
+  {
+    "id": "co_txt_12",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "Classes & Objects Q",
+    "question": "What is the difference between an object and a class in Java?",
+    "code": "",
+    "options": [
+      "A) An object is created from a class",
+      "B) A class is created from an object",
+      "C) An object defines behavior",
+      "D) A class defines behavior"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option A is the correct Java OOPs answer."
+  },
+  {
+    "id": "co_txt_13",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "Classes & Objects Q",
+    "question": "What is the default access modifier for class members in Java?",
+    "code": "",
+    "options": [
+      "A) private",
+      "B) protected",
+      "C) public",
+      "D) package-private"
+    ],
+    "correctAnswer": 3,
+    "correctLetter": "D",
+    "explanation": "Option D is the correct Java OOPs answer."
+  },
+  {
+    "id": "co_txt_17",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "Classes & Objects Q",
+    "question": "What is the difference between a class member and an instance member in Java?",
+    "code": "",
+    "options": [
+      "A) A class member is static, an instance member is non-static",
+      "B) A class member is non-static, an instance member is static",
+      "C) A class member is private, an instance member is public",
+      "D) A class member is public, an instance member is private"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option A is the correct Java OOPs answer."
+  },
+  {
+    "id": "co_txt_18",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "Classes & Objects Q",
+    "question": "What is the default access modifier in Java for class members if no access modifier is specified?",
+    "code": "",
+    "options": [
+      "A) Default",
+      "B) Private",
+      "C) Public",
+      "D) Protected"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Option A is the correct Java OOPs answer."
+  },
+  {
+    "id": "co_txt_19",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "Classes & Objects Q",
+    "question": "What is the output of the following Java code snippet? private int number = 10; public void display() { System.out.println(number); } } public static void main(String[] args) { System.out.println(obj.number); } }",
+    "code": "public class MyClass {\npublic class Main {\nMyClass obj = new MyClass();",
+    "options": [
+      "A) 10",
+      "B) Error: Access Denied",
+      "C) 0",
+      "D) Compilation Error"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Option B is the correct Java OOPs answer."
+  },
+  {
+    "id": "co_txt_20",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "Classes & Objects Q",
+    "question": "Which access modifier makes a class member accessible only within the same package?",
+    "code": "",
+    "options": [
+      "A) Private",
+      "B) Default",
+      "C) Public",
+      "D) Protected"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Option B is the correct Java OOPs answer."
+  },
+  {
+    "id": "co_txt_22",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "Classes & Objects Q",
+    "question": "Can a private method in Java be accessed from outside the class it belongs to?",
+    "code": "",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Option B is the correct Java OOPs answer."
+  },
+  {
+    "id": "co_txt_23",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "Classes & Objects Q",
+    "question": "int i; i=x+1; System.out.println(\"Value of i=\"+i); return i; } } abc obj1,obj2; public xyz(){ obj1=new abc(); obj2=obj1; obj2.a(3); } public static void main(String[] args) { } }",
+    "code": "public class abc {\npublic int a(int x){\npublic class xyz {\nxyz x=new xyz();",
+    "options": [
+      "A) Null pointer exception",
+      "B) Print on the console: 'value of i=4'",
+      "C) Print on the console: 'value of i=3'"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Option B is the correct Java OOPs answer."
   }
 ]
