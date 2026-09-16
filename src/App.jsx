@@ -5,15 +5,18 @@ import HomeScreen from './components/HomeScreen';
 import TopicStudyMode from './components/TopicStudyMode';
 import PracticeQuizMode from './components/PracticeQuizMode';
 import RandomQuizMode from './components/RandomQuizMode';
+import CodingQuestionsMode from './components/CodingQuestionsMode';
 import AskQuestionModal from './components/AskQuestionModal';
 import FeedbackModal from './components/FeedbackModal';
 import { Layers } from 'lucide-react';
 
 import initialQuestions from './data/questions.json';
+import initialCodingQuestions from './data/coding_questions.json';
 
 export default function App() {
   const [questions, setQuestions] = useState(initialQuestions);
-  const [activeMode, setActiveMode] = useState('home'); // 'home' | 'study' | 'practice' | 'random'
+  const [codingQuestions, setCodingQuestions] = useState(initialCodingQuestions);
+  const [activeMode, setActiveMode] = useState('home'); // 'home' | 'coding' | 'study' | 'practice' | 'random'
   const [selectedTopic, setSelectedTopic] = useState(null); // { category, subtopic }
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
   const [randomCount, setRandomCount] = useState(25);
@@ -32,11 +35,22 @@ export default function App() {
       .catch(err => {
         console.log('Using bundled static dataset.');
       });
+
+    fetch('/api/coding-questions')
+      .then(res => res.json())
+      .then(data => {
+        if (data.success && data.questions && data.questions.length > 0) {
+          setCodingQuestions(data.questions);
+        }
+      })
+      .catch(err => {
+        console.log('Using bundled static coding dataset.');
+      });
   }, []);
 
   const handleSelectTopic = (topicObj) => {
     setSelectedTopic(topicObj);
-    if (activeMode === 'home') {
+    if (activeMode === 'home' || activeMode === 'coding') {
       setActiveMode('study');
     }
   };
@@ -92,6 +106,8 @@ export default function App() {
           questions={questions}
           selectedTopic={selectedTopic}
           onSelectTopic={handleSelectTopic}
+          onSelectCoding={() => { setActiveMode('coding'); setSelectedTopic(null); }}
+          activeMode={activeMode}
           isOpen={isSidebarOpen}
           onClose={() => setIsSidebarOpen(false)}
         />
@@ -110,16 +126,23 @@ export default function App() {
 
         {/* Main Content Area */}
         <main className="page-body">
+          {activeMode === 'coding' && (
+            <CodingQuestionsMode
+              codingQuestions={codingQuestions}
+            />
+          )}
+
           {activeMode === 'home' && !selectedTopic && (
             <HomeScreen
               questions={questions}
               onStartRandomQuiz={handleStartRandomQuiz}
               onStartPracticeQuiz={handleStartPracticeQuiz}
               onSelectTopic={handleSelectTopic}
+              onOpenCoding={() => setActiveMode('coding')}
             />
           )}
 
-          {(activeMode === 'study' || selectedTopic) && activeMode !== 'practice' && activeMode !== 'random' && (
+          {(activeMode === 'study' || selectedTopic) && activeMode !== 'coding' && activeMode !== 'practice' && activeMode !== 'random' && (
             <TopicStudyMode
               selectedTopic={selectedTopic}
               questions={questions}
@@ -149,6 +172,7 @@ export default function App() {
         isOpen={isAskModalOpen}
         onClose={() => setIsAskModalOpen(false)}
         onAddQuestion={handleAddQuestion}
+        questions={questions}
       />
 
       <FeedbackModal

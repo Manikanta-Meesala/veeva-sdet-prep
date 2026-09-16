@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Search, ChevronDown, ChevronRight, BookOpen, Layers, X } from 'lucide-react';
+import { Search, ChevronDown, ChevronRight, BookOpen, Layers, X, Code2 } from 'lucide-react';
 
-export default function LeftSidebar({ questions, selectedTopic, onSelectTopic, isOpen, onClose }) {
+export default function LeftSidebar({ questions, selectedTopic, onSelectTopic, onSelectCoding, activeMode, isOpen, onClose }) {
   const [searchTerm, setSearchTerm] = useState('');
   const [expandedCategories, setExpandedCategories] = useState({
     'Software Testing': true,
@@ -68,6 +68,43 @@ export default function LeftSidebar({ questions, selectedTopic, onSelectTopic, i
       </div>
 
       <div className="sidebar-content">
+        {/* Dedicated Coding Section Link in Sidebar */}
+        <div
+          onClick={() => {
+            if (onSelectCoding) onSelectCoding();
+            if (window.innerWidth <= 900) onClose();
+          }}
+          style={{
+            background: activeMode === 'coding' ? 'linear-gradient(135deg, #1e293b, #0f172a)' : 'var(--bg-surface-alt)',
+            color: activeMode === 'coding' ? '#38bdf8' : 'var(--text-main)',
+            border: activeMode === 'coding' ? '1px solid #3b82f6' : '1px solid var(--border-light)',
+            padding: '0.85rem 1rem',
+            borderRadius: 'var(--radius-md)',
+            marginBottom: '1.25rem',
+            cursor: 'pointer',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            fontWeight: '800',
+            fontSize: '0.9rem',
+            transition: 'all 0.2s ease'
+          }}
+        >
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
+            <Code2 size={18} color={activeMode === 'coding' ? '#38bdf8' : 'var(--primary-600)'} />
+            <span>Java Coding Questions</span>
+          </div>
+          <span style={{
+            background: activeMode === 'coding' ? 'rgba(56, 189, 248, 0.2)' : 'var(--primary-50)',
+            color: activeMode === 'coding' ? '#38bdf8' : 'var(--primary-700)',
+            fontSize: '0.75rem',
+            padding: '0.2rem 0.55rem',
+            borderRadius: '12px'
+          }}>
+            8 Qs
+          </span>
+        </div>
+
         {Object.values(tree).map(category => {
           const matchingSubtopics = Object.values(category.subtopics).filter(s => 
             s.name.toLowerCase().includes(searchTerm.toLowerCase()) || 
@@ -91,7 +128,7 @@ export default function LeftSidebar({ questions, selectedTopic, onSelectTopic, i
               {isExpanded && (
                 <ul className="subtopic-list">
                   {matchingSubtopics.map(subtopic => {
-                    const isSelected = selectedTopic && selectedTopic.category === category.name && selectedTopic.subtopic === subtopic.name;
+                    const isSelected = selectedTopic && selectedTopic.category === category.name && selectedTopic.subtopic === subtopic.name && activeMode !== 'coding';
                     return (
                       <li
                         key={subtopic.name}

@@ -1,0 +1,224 @@
+[
+  {
+    "id": "code_1",
+    "title": "Sum of Numeric Characters in Alphanumeric String",
+    "category": "Coding Problems",
+    "subtopic": "String Manipulation",
+    "dataStructure": "String & Primitive Accumulator",
+    "difficulty": "Easy",
+    "problemStatement": "Given an alphanumeric string, extract all contiguous numeric characters (numbers) and compute their total sum.\n\n### Examples / Test Cases:\n- **Test Case 1**: Input: `abc123xyz` → Output: `123`\n- **Test Case 2**: Input: `10a20b30` → Output: `60` (10 + 20 + 30)\n- **Test Case 3**: Input: `geeks4geeks` → Output: `4`\n- **Test Case 4**: Input: `\"9\"` → Output: `9`\n- **Test Case 5**: Input: `abcDEFghj` → Output: `0`\n- **Test Case 6**: Input: `12345` → Output: `12345`\n- **Test Case 7**: Input: `000abc000` → Output: `0`\n- **Test Case 8**: Input: `00abc12ghj` → Output: `12`\n- **Test Case 9**: Input: `5 5 5` → Output: `15` (5 + 5 + 5)",
+    "explanation": "To solve this problem, we iterate through the input string character by character. When a digit ('0'-'9') is encountered, we accumulate it into a running number (`currentNum = currentNum * 10 + digit`). When a non-digit character (like a letter or space) is met, we add `currentNum` to `totalSum` and reset `currentNum` to 0. Finally, after the loop finishes, we add any remaining `currentNum` to `totalSum`.",
+    "dataStructuresUsed": [
+      "String / Character Array",
+      "Primitive Integers (`currentNum`, `totalSum`)"
+    ],
+    "bruteForce": {
+      "approach": "Regex Splitting with Split Pattern `\\D+`",
+      "description": "Split the string using the regex pattern `\\D+` (one or more non-digit characters) to get an array of number strings, then parse each token into an integer and sum them.",
+      "timeComplexity": "O(N) - Regex scanning of string of length N.",
+      "spaceComplexity": "O(N) - Splitting creates an array of substring tokens in heap memory.",
+      "code": "public class SumNumericCharacters {\n    // Brute Force Approach using Regex Split\n    public static int sumNumericBruteForce(String s) {\n        if (s == null || s.trim().isEmpty()) return 0;\n        \n        // Split by all non-digit sequences\n        String[] tokens = s.trim().split(\"\\\\D+\");\n        int sum = 0;\n        \n        for (String token : tokens) {\n            if (!token.isEmpty()) {\n                sum += Integer.parseInt(token);\n            }\n        }\n        return sum;\n    }\n\n    public static void main(String[] args) {\n        System.out.println(sumNumericBruteForce(\"10a20b30\")); // Output: 60\n        System.out.println(sumNumericBruteForce(\"abc123xyz\")); // Output: 123\n    }\n}"
+    },
+    "optimized": {
+      "approach": "Single-Pass In-Place Character Iteration",
+      "description": "Traverse the string character by character. Avoid regex allocations and substring creation. Maintain primitive counters to convert character digits directly using ASCII math `ch - '0'`.",
+      "timeComplexity": "O(N) - Single linear scan through the string of length N.",
+      "spaceComplexity": "O(1) - Constant auxiliary space (no array or object allocations).",
+      "code": "public class SumNumericCharacters {\n    // Optimized Approach: O(N) time, O(1) space\n    public static int sumNumericOptimized(String s) {\n        if (s == null || s.isEmpty()) return 0;\n        \n        int totalSum = 0;\n        int currentNum = 0;\n        \n        for (int i = 0; i < s.length(); i++) {\n            char ch = s.charAt(i);\n            \n            if (Character.isDigit(ch)) {\n                // Multiply currentNum by 10 and add the integer value of character digit\n                currentNum = currentNum * 10 + (ch - '0');\n            } else {\n                // Flush current sequence of digits to total sum\n                totalSum += currentNum;\n                currentNum = 0;\n            }\n        }\n        // Add any remaining number accumulated at the end of string\n        totalSum += currentNum;\n        \n        return totalSum;\n    }\n\n    public static void main(String[] args) {\n        System.out.println(sumNumericOptimized(\"10a20b30\"));  // 60\n        System.out.println(sumNumericOptimized(\"abc123xyz\")); // 123\n        System.out.println(sumNumericOptimized(\"00abc12ghj\"));// 12\n        System.out.println(sumNumericOptimized(\"5 5 5\"));     // 15\n    }\n}"
+    }
+  },
+  {
+    "id": "code_2",
+    "title": "Frequency of Each String in an Array of Strings",
+    "category": "Coding Problems",
+    "subtopic": "Hashing & Maps",
+    "dataStructure": "HashMap / LinkedHashMap",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of strings, count the frequency of each unique string and return the frequencies in a map/dictionary structure. Handle case normalization where appropriate.\n\n### Examples / Test Cases:\n- **Test Case 1**: Input: `[\"apple\", \"banana\", \"apple\"]` → Output: `{\"apple\": 2, \"banana\": 1}`\n- **Test Case 2**: Input: `[\"cat\", \"dog\", \"fish\"]` → Output: `{\"cat\": 1, \"dog\": 1, \"fish\": 1}`\n- **Test Case 3**: Input: `[\"test\", \"test\", \"test\"]` → Output: `{\"test\": 3}`\n- **Test Case 4**: Input: `[\"hello\"]` → Output: `{\"hello\": 1}`\n- **Test Case 5**: Input: `[\"\", \"a\", \"\"]` → Output: `{\"\": 2, \"a\": 1}`\n- **Test Case 6**: Input: `[\"Apple\", \"apple\", \"APPLE\"]` (Case-Insensitive Mode) → Output: `{\"apple\": 3}`\n- **Test Case 7**: Input: `[\"hello world\", \" test \", \"hello world\"]` → Output: `{\"hello world\": 2, \" test \": 1}`",
+    "explanation": "We can count the frequency of items by storing occurrences in a Hash Map (`Map<String, Integer>`). We iterate through each element in the input array. For each string, we retrieve its current frequency from the map (defaulting to 0 if not seen before), increment it by 1, and store it back into the map using `map.put(key, count)`.",
+    "dataStructuresUsed": [
+      "Array (`String[]`)",
+      "Map (`HashMap<String, Integer>` or `LinkedHashMap<String, Integer>` to maintain order)"
+    ],
+    "bruteForce": {
+      "approach": "Nested Loops with Boolean Visited Tracker",
+      "description": "Iterate through the array with an outer loop. For each string, check if it was counted previously. If not, use an inner loop to scan the rest of the array and count identical matches.",
+      "timeComplexity": "O(N² * K) - Where N is number of strings and K is maximum string length.",
+      "spaceComplexity": "O(N) - Visited boolean array to avoid re-counting elements.",
+      "code": "import java.util.*;\n\npublic class StringFrequency {\n    // Brute Force Approach: Double loop\n    public static Map<String, Integer> countFrequencyBruteForce(String[] arr) {\n        Map<String, Integer> result = new LinkedHashMap<>();\n        boolean[] visited = new boolean[arr.length];\n        \n        for (int i = 0; i < arr.length; i++) {\n            if (visited[i]) continue;\n            int count = 1;\n            visited[i] = true;\n            \n            for (int j = i + 1; j < arr.length; j++) {\n                if (arr[i].equalsIgnoreCase(arr[j])) {\n                    count++;\n                    visited[j] = true;\n                }\n            }\n            result.put(arr[i].toLowerCase(), count);\n        }\n        return result;\n    }\n}"
+    },
+    "optimized": {
+      "approach": "Single Pass HashMap using `getOrDefault()`",
+      "description": "Traverse the string array once. Use a HashMap to store string frequency mapping in O(1) average lookup and insertion time.",
+      "timeComplexity": "O(N * K) - Single pass over N items, hashing takes O(K) where K is string length.",
+      "spaceComplexity": "O(U * K) - Where U is the number of unique strings stored in the map.",
+      "code": "import java.util.*;\n\npublic class StringFrequency {\n    // Optimized Approach: HashMap in O(N) time\n    public static Map<String, Integer> countFrequency(String[] arr, boolean ignoreCase) {\n        Map<String, Integer> freqMap = new LinkedHashMap<>();\n        \n        for (String str : arr) {\n            if (str == null) continue;\n            String key = ignoreCase ? str.toLowerCase() : str;\n            freqMap.put(key, freqMap.getOrDefault(key, 0) + 1);\n        }\n        return freqMap;\n    }\n\n    public static void main(String[] args) {\n        String[] input1 = {\"apple\", \"banana\", \"apple\"};\n        System.out.println(countFrequency(input1, false)); // {\"apple\": 2, \"banana\": 1}\n        \n        String[] input6 = {\"Apple\", \"apple\", \"APPLE\"};\n        System.out.println(countFrequency(input6, true));  // {\"apple\": 3}\n    }\n}"
+    }
+  },
+  {
+    "id": "code_3",
+    "title": "Frequency of Each Character in a Given String",
+    "category": "Coding Problems",
+    "subtopic": "String & Character Processing",
+    "dataStructure": "LinkedHashMap / Character Frequency Array",
+    "difficulty": "Easy",
+    "problemStatement": "Find the count/frequency of every character in a given string, including spaces, special characters, numbers, and escape characters like `\\n`.\n\n### Examples / Test Cases:\n- **Test Case 1**: Input: `\"programming\"` → Output: `p: 1, r: 2, o: 1, g: 2, a: 1, m: 2, i: 1, n: 1`\n- **Test Case 2**: Input: `\"Hello\"` → Output: `H: 1, e: 1, l: 2, o: 1`\n- **Test Case 3**: Input: `\"abcde\"` → Output: `a: 1, b: 1, c: 1, d: 1, e: 1`\n- **Test Case 4**: Input: `\"aaaaa\"` → Output: `a: 5`\n- **Test Case 5**: Input: `\"z\"` → Output: `z: 1`\n- **Test Case 6**: Input: `\"a b c\"` → Output: `' ': 2, a: 1, b: 1, c: 1`\n- **Test Case 7**: Input: `\"a!@a#\"` → Output: `a: 2, '!': 1, '@': 1, '#': 1`\n- **Test Case 8**: Input: `\"ab121\\n\"` → Output: `a: 1, b: 1, '1': 2, '2': 1, '\\n': 1`",
+    "explanation": "To preserve insertion order and handle all Unicode/ASCII characters (spaces, newlines, special symbols), we can use a `LinkedHashMap<Character, Integer>`. We loop through each character in `str.toCharArray()`, updating its count in the map. Alternatively, for ASCII strings, a 256-element integer array can be used.",
+    "dataStructuresUsed": [
+      "LinkedHashMap<Character, Integer> (Preserves character first-appearance order)",
+      "Primitive Frequency Array `int[256]` (for fixed ASCII set)"
+    ],
+    "bruteForce": {
+      "approach": "Double Loop Character Comparison",
+      "description": "For each character at index i, check if it was previously processed. If not, scan the rest of the string to count total occurrences.",
+      "timeComplexity": "O(N²) - Nested traversal over string length N.",
+      "spaceComplexity": "O(N) - Visited array to skip duplicate checks.",
+      "code": "import java.util.*;\n\npublic class CharFrequency {\n    public static void charFreqBruteForce(String str) {\n        boolean[] visited = new boolean[str.length()];\n        for (int i = 0; i < str.length(); i++) {\n            if (visited[i]) continue;\n            int count = 1;\n            for (int j = i + 1; j < str.length(); j++) {\n                if (str.charAt(i) == str.charAt(j)) {\n                    count++;\n                    visited[j] = true;\n                }\n            }\n            System.out.println(str.charAt(i) + \": \" + count);\n        }\n    }\n}"
+    },
+    "optimized": {
+      "approach": "Single Pass LinkedHashMap or Frequency Array",
+      "description": "Iterate through string characters once and insert into `LinkedHashMap<Character, Integer>`. Lookup and put operations execute in O(1) time.",
+      "timeComplexity": "O(N) - Single pass through string of length N.",
+      "spaceComplexity": "O(U) - Where U is unique characters (maximum 256 for standard ASCII / extended charset).",
+      "code": "import java.util.*;\n\npublic class CharFrequency {\n    // Optimized Approach using LinkedHashMap\n    public static Map<Character, Integer> getCharFrequency(String str) {\n        Map<Character, Integer> map = new LinkedHashMap<>();\n        if (str == null) return map;\n        \n        for (char ch : str.toCharArray()) {\n            map.put(ch, map.getOrDefault(ch, 0) + 1);\n        }\n        return map;\n    }\n\n    public static void main(String[] args) {\n        System.out.println(getCharFrequency(\"programming\"));\n        // Output: {p=1, r=2, o=1, g=2, a=1, m=2, i=1, n=1}\n        \n        System.out.println(getCharFrequency(\"a!@a#\"));\n        // Output: {a=2, !=1, @=1, #=1}\n    }\n}"
+    }
+  },
+  {
+    "id": "code_4",
+    "title": "Remove All Duplicate Elements from an Unsorted Array",
+    "category": "Coding Problems",
+    "subtopic": "Arrays & Collections",
+    "dataStructure": "LinkedHashSet / Set",
+    "difficulty": "Easy",
+    "problemStatement": "Remove all duplicate numbers from an unsorted integer array / ArrayList while maintaining original insertion order.\n\n### Examples / Test Cases:\n- **Test Case 1**: Input: `[4, 1, 2, 1, 5, 2]` → Output: `[4, 1, 2, 5]`\n- **Test Case 2**: Input: `[1, 2, 3, 4]` → Output: `[1, 2, 3, 4]`\n- **Test Case 3**: Input: `[7, 7, 7, 7]` → Output: `[7]`\n- **Test Case 4**: Input: `[42]` → Output: `[42]`",
+    "explanation": "To maintain insertion order while eliminating duplicates in O(1) time per element, `LinkedHashSet<Integer>` is the ideal data structure. It combines a Hash Table with a Doubly Linked List to preserve order and guarantee uniqueness.",
+    "dataStructuresUsed": [
+      "LinkedHashSet<Integer> (Preserves insertion order + O(1) uniqueness enforcement)",
+      "ArrayList<Integer>"
+    ],
+    "bruteForce": {
+      "approach": "Linear Lookup in Result List",
+      "description": "Create a result list. For each element in the original array, check if it already exists in the result list using `.contains()`. If not, append it.",
+      "timeComplexity": "O(N²) - `.contains()` on ArrayList takes O(N) time for each of the N elements.",
+      "spaceComplexity": "O(N) - Space for result list.",
+      "code": "import java.util.*;\n\npublic class RemoveDuplicates {\n    // Brute Force: Linear search in list O(N^2)\n    public static List<Integer> removeDuplicatesBrute(int[] arr) {\n        List<Integer> result = new ArrayList<>();\n        for (int num : arr) {\n            if (!result.contains(num)) { // O(N) search\n                result.add(num);\n            }\n        }\n        return result;\n    }\n}"
+    },
+    "optimized": {
+      "approach": "LinkedHashSet Single-Pass Insertion",
+      "description": "Construct a `LinkedHashSet` directly from array elements. Duplicates are ignored automatically in O(1) time.",
+      "timeComplexity": "O(N) - Single pass insertion into set with O(1) average lookup.",
+      "spaceComplexity": "O(N) - Memory to store unique elements in LinkedHashSet.",
+      "code": "import java.util.*;\n\npublic class RemoveDuplicates {\n    // Optimized: O(N) time using LinkedHashSet\n    public static List<Integer> removeDuplicates(int[] arr) {\n        Set<Integer> set = new LinkedHashSet<>();\n        for (int num : arr) {\n            set.add(num);\n        }\n        return new ArrayList<>(set);\n    }\n\n    public static void main(String[] args) {\n        int[] input1 = {4, 1, 2, 1, 5, 2};\n        System.out.println(removeDuplicates(input1)); // Output: [4, 1, 2, 5]\n        \n        int[] input3 = {7, 7, 7, 7};\n        System.out.println(removeDuplicates(input3)); // Output: [7]\n    }\n}"
+    }
+  },
+  {
+    "id": "code_5",
+    "title": "Calculate Day of Week for September 14th (Jan 1st = Monday)",
+    "category": "Coding Problems",
+    "subtopic": "Date & Mathematical Logic",
+    "dataStructure": "Month Days Array / Calendar Logic",
+    "difficulty": "Medium",
+    "problemStatement": "Given that January 1st of a given year is a Monday, write Java code to calculate what day of the week September 14th lands on. Your solution must account for leap years versus non-leap years.\n\n### Examples / Test Cases:\n- **Test Case 1**: Input Year: `2018` (Non-leap year) → Output: `Friday`\n- **Test Case 2**: Input Year: `2020` (Leap year) → Output: `Saturday`",
+    "explanation": "1. Determine if the year is a leap year: `(year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)`. If leap year, February has 29 days, else 28 days.\n2. Calculate the total days elapsed between Jan 1st and Sept 14th.\n   - Month days array for non-leap year: `[31, 28, 31, 30, 31, 30, 31, 31, 14]`.\n   - Days elapsed from Jan 1st = (Days in Jan + Feb + Mar + Apr + May + Jun + Jul + Aug + 14) - 1.\n3. Compute offset: `(totalDaysElapsed % 7)`. Map `0 -> Monday, 1 -> Tuesday, ..., 4 -> Friday, 5 -> Saturday, 6 -> Sunday`.",
+    "dataStructuresUsed": [
+      "Integer Array `int[] daysInMonth`",
+      "String Array `String[] daysOfWeek`"
+    ],
+    "bruteForce": {
+      "approach": "Day-by-Day Loop Increment",
+      "description": "Start at January 1st (Monday). Loop day-by-day incrementing a counter and rolling over days of week until September 14th is reached.",
+      "timeComplexity": "O(1) - Constant number of iterations (approx 257 days).",
+      "spaceComplexity": "O(1) - Constant variables.",
+      "code": "public class DayOfWeekCalculator {\n    public static String getDayBruteForce(int year) {\n        boolean isLeap = (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);\n        int[] daysInMonth = {31, isLeap ? 29 : 28, 31, 30, 31, 30, 31, 31, 14};\n        \n        String[] days = {\"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\", \"Sunday\"};\n        int dayIdx = 0; // Jan 1st is Monday\n        \n        for (int m = 0; m < daysInMonth.length; m++) {\n            int maxDays = daysInMonth[m];\n            int startDay = (m == 0) ? 2 : 1; // skip Jan 1 since dayIdx starts at Jan 1\n            for (int d = startDay; d <= maxDays; d++) {\n                dayIdx = (dayIdx + 1) % 7;\n            }\n        }\n        return days[dayIdx];\n    }\n}"
+    },
+    "optimized": {
+      "approach": "Direct Month Sum & Modular Arithmetic / Java Time API",
+      "description": "Sum the total number of days up to Sept 14th directly and compute remainder modulo 7.",
+      "timeComplexity": "O(1) - Constant time direct arithmetic.",
+      "spaceComplexity": "O(1) - Primitive variables.",
+      "code": "import java.time.LocalDate;\nimport java.time.DayOfWeek;\n\npublic class DayOfWeekCalculator {\n    // Method 1: Mathematical Direct Calculation\n    public static String calculateSept14Day(int year) {\n        boolean isLeap = (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);\n        \n        // Days in Jan, Feb, Mar, Apr, May, Jun, Jul, Aug\n        int daysBeforeSept = 31 + (isLeap ? 29 : 28) + 31 + 30 + 31 + 30 + 31 + 31;\n        // Days elapsed from Jan 1st to Sept 14th\n        int totalElapsedDays = (daysBeforeSept + 14) - 1;\n        \n        String[] daysOfWeek = {\"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\", \"Sunday\"};\n        int targetDayIndex = totalElapsedDays % 7;\n        \n        return daysOfWeek[targetDayIndex];\n    }\n\n    // Method 2: Standard Java LocalDate API\n    public static String getUsingJavaTime(int year) {\n        LocalDate sept14 = LocalDate.of(year, 9, 14);\n        return sept14.getDayOfWeek().toString();\n    }\n\n    public static void main(String[] args) {\n        System.out.println(\"2018 Sept 14: \" + calculateSept14Day(2018)); // Friday\n        System.out.println(\"2020 Sept 14: \" + calculateSept14Day(2020)); // Monday (actual calendar) / Saturday (if Jan 1 forced to Monday)\n    }\n}"
+    }
+  },
+  {
+    "id": "code_6",
+    "title": "Two Sum - Find Two Numbers in Array Adding to Target",
+    "category": "Coding Problems",
+    "subtopic": "Arrays & Hashing",
+    "dataStructure": "HashMap",
+    "difficulty": "Easy-Medium",
+    "problemStatement": "Given an array of integers `nums` and an integer `target`, return the 0-based indices of the two numbers such that they add up to `target`.\n\n### Examples / Test Cases:\n- **Test Case 1**: Input: `nums = [2, 7, 11, 15], target = 9` → Output: `[0, 1]` (2 + 7 = 9)\n- **Test Case 2**: Input: `nums = [3, 2, 4], target = 6` → Output: `[1, 2]` (2 + 4 = 6)\n- **Test Case 3**: Input: `nums = [3, 3], target = 6` → Output: `[0, 1]`\n- **Test Case 4**: Input: `nums = [5, 10], target = 15` → Output: `[0, 1]`\n- **Test Case 5**: Input: `nums = [-3, 4, 3, 90], target = 0` → Output: `[0, 2]` (-3 + 3 = 0)\n- **Test Case 6**: Input: `nums = [-1, -2, -3, -4, -5], target = -8` → Output: `[2, 4]` (-3 + -5 = -8)\n- **Test Case 7**: Input: `nums = [0, 4, 3, 0], target = 0` → Output: `[0, 3]`",
+    "explanation": "For each element `nums[i]`, we need to find if there exists another element equal to `complement = target - nums[i]`. Instead of scanning the entire array repeatedly in O(N²), we store visited numbers and their indices in a `HashMap<Integer, Integer>`. While iterating, we check if `map.containsKey(complement)`. If found, we immediately return `[map.get(complement), i]`.",
+    "dataStructuresUsed": [
+      "HashMap<Integer, Integer> (Key: element value, Value: index in array)"
+    ],
+    "bruteForce": {
+      "approach": "Double Nested Loop (Checking all pairs)",
+      "description": "Check every pair `(i, j)` where `i < j` to see if `nums[i] + nums[j] == target`.",
+      "timeComplexity": "O(N²) - Two nested loops over N items.",
+      "spaceComplexity": "O(1) - Constant extra space.",
+      "code": "public class TwoSum {\n    // Brute Force: O(N^2) Time, O(1) Space\n    public static int[] twoSumBruteForce(int[] nums, int target) {\n        for (int i = 0; i < nums.length; i++) {\n            for (int j = i + 1; j < nums.length; j++) {\n                if (nums[i] + nums[j] == target) {\n                    return new int[]{i, j};\n                }\n            }\n        }\n        return new int[]{};\n    }\n}"
+    },
+    "optimized": {
+      "approach": "One-Pass HashMap Complement Lookup",
+      "description": "Iterate through the array once. For each element `nums[i]`, compute `complement = target - nums[i]`. If complement exists in map, return indices. Otherwise, insert `(nums[i], i)` into map.",
+      "timeComplexity": "O(N) - Single traversal with O(1) average map operations.",
+      "spaceComplexity": "O(N) - Storage for up to N elements in HashMap.",
+      "code": "import java.util.*;\n\npublic class TwoSum {\n    // Optimized: O(N) Time, O(N) Space\n    public static int[] twoSumOptimized(int[] nums, int target) {\n        Map<Integer, Integer> map = new HashMap<>();\n        \n        for (int i = 0; i < nums.length; i++) {\n            int complement = target - nums[i];\n            if (map.containsKey(complement)) {\n                return new int[]{map.get(complement), i};\n            }\n            map.put(nums[i], i);\n        }\n        return new int[]{};\n    }\n\n    public static void main(String[] args) {\n        int[] res1 = twoSumOptimized(new int[]{2, 7, 11, 15}, 9);\n        System.out.println(Arrays.toString(res1)); // [0, 1]\n        \n        int[] res5 = twoSumOptimized(new int[]{-3, 4, 3, 90}, 0);\n        System.out.println(Arrays.toString(res5)); // [0, 2]\n    }\n}"
+    }
+  },
+  {
+    "id": "code_7",
+    "title": "Valid Parentheses & Matching Brackets",
+    "category": "Coding Problems",
+    "subtopic": "Stack Data Structure",
+    "dataStructure": "Stack / ArrayDeque",
+    "difficulty": "Easy-Medium",
+    "problemStatement": "Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.\nAn input string is valid if:\n1. Open brackets are closed by the same type of brackets.\n2. Open brackets are closed in the correct order.\n3. Every close bracket has a corresponding open bracket of the same type.\n\n### Examples / Test Cases:\n- **s = \"()\"** → `true`\n- **s = \"[]\"** → `true`\n- **s = \"{}\"** → `true`\n- **s = \"()[]{}\"** → `true`\n- **s = \"([])\"** → `true`\n- **s = \"{[]}\"** → `true`\n- **s = \"((([{}]))[{}])\"** → `true`\n- **s = \"(]\"** → `false`\n- **s = \"{]\"** → `false`\n- **s = \"([)]\"** → `false`\n- **s = \"{[}]\"** → `false`",
+    "explanation": "This problem follows Last-In, First-Out (LIFO) order, making a `Stack<Character>` the standard solution. Whenever we encounter an opening bracket `(`, `{`, `[`, we push its matching closing bracket `)`, `}`, `]` onto the stack. When we encounter a closing bracket, we pop from the stack and check if it matches. If the stack is empty or the popped character does not match, return `false`. Return `stack.isEmpty()` at the end.",
+    "dataStructuresUsed": [
+      "Stack<Character> or ArrayDeque<Character> (LIFO Stack for bracket matching)"
+    ],
+    "bruteForce": {
+      "approach": "String Replacement Loop",
+      "description": "Repeatedly replace adjacent matching pairs `()`, `[]`, `{}` with empty strings until string length stops changing.",
+      "timeComplexity": "O(N²) - String replacement creates new string copies and scans O(N) times.",
+      "spaceComplexity": "O(N) - String allocation copies.",
+      "code": "public class ValidParentheses {\n    // Brute Force: String replacement O(N^2)\n    public static boolean isValidBrute(String s) {\n        int length;\n        do {\n            length = s.length();\n            s = s.replace(\"()\", \"\")\n                 .replace(\"[]\", \"\")\n                 .replace(\"{}\", \"\");\n        } while (s.length() < length);\n        \n        return s.isEmpty();\n    }\n}"
+    },
+    "optimized": {
+      "approach": "Stack (ArrayDeque) Single Pass",
+      "description": "Push expected closing brackets onto stack when encountering opening brackets. Pop and verify when closing brackets are met.",
+      "timeComplexity": "O(N) - Single scan over string of length N.",
+      "spaceComplexity": "O(N) - Stack memory up to N characters.",
+      "code": "import java.util.*;\n\npublic class ValidParentheses {\n    // Optimized: Stack O(N) Time, O(N) Space\n    public static boolean isValid(String s) {\n        if (s == null || s.length() % 2 != 0) return false;\n        \n        Deque<Character> stack = new ArrayDeque<>();\n        \n        for (char ch : s.toCharArray()) {\n            if (ch == '(') stack.push(')');\n            else if (ch == '{') stack.push('}');\n            else if (ch == '[') stack.push(']');\n            else {\n                if (stack.isEmpty() || stack.pop() != ch) {\n                    return false;\n                }\n            }\n        }\n        return stack.isEmpty();\n    }\n\n    public static void main(String[] args) {\n        System.out.println(isValid(\"((([{}]))[{}])\")); // true\n        System.out.println(isValid(\"([)]\"));            // false\n    }\n}"
+    }
+  },
+  {
+    "id": "code_8",
+    "title": "Majority Element in Array (Boyer-Moore Voting Algorithm)",
+    "category": "Coding Problems",
+    "subtopic": "Algorithms & Arrays",
+    "dataStructure": "Boyer-Moore Candidate Counter / HashMap",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array `nums` of size `n`, find the majority element that appears more than `⌊n / 2⌋` times. You may assume that the majority element always exists in the array.\n\n### Examples / Test Cases:\n- **Test Case 1**: Input: `[1]` → Output: `1`\n- **Test Case 2**: Input: `[4, 4]` → Output: `4`\n- **Test Case 3**: Input: `[3, 2, 3]` → Output: `3`\n- **Test Case 4**: Input: `[2, 2, 1, 1, 2, 2]` → Output: `2`\n- **Test Case 5**: Input: `[7, 1, 7, 2, 7, 7, 3]` → Output: `7`\n- **Test Case 6**: Input: `[-5, -5, 2, -5]` → Output: `-5`\n- **Test Case 7**: Input: `[0, 0, 8, 0, 0]` → Output: `0`",
+    "explanation": "The optimal solution uses **Boyer-Moore Voting Algorithm**. We maintain two variables: `candidate` and `count`.\n- As we scan through the array: if `count == 0`, we pick the current number as our `candidate`.\n- If the current number equals `candidate`, we increment `count++`.\n- Otherwise, we decrement `count--`.\nSince the majority element appears more than `n/2` times, its count will always remain positive at the end of the scan!",
+    "dataStructuresUsed": [
+      "Primitive integers (`candidate`, `count`) for Boyer-Moore Voting",
+      "HashMap<Integer, Integer> for frequency counting (Brute Force / Alternative)"
+    ],
+    "bruteForce": {
+      "approach": "HashMap Frequency Count",
+      "description": "Store element frequencies in a HashMap and return the key whose count > n/2.",
+      "timeComplexity": "O(N) - Traversal and insertion.",
+      "spaceComplexity": "O(N) - Storage for map entries.",
+      "code": "import java.util.*;\n\npublic class MajorityElement {\n    // Frequency Map Approach O(N) space\n    public static int majorityElementMap(int[] nums) {\n        Map<Integer, Integer> counts = new HashMap<>();\n        for (int num : nums) {\n            counts.put(num, counts.getOrDefault(num, 0) + 1);\n            if (counts.get(num) > nums.length / 2) {\n                return num;\n            }\n        }\n        return nums[0];\n    }\n}"
+    },
+    "optimized": {
+      "approach": "Boyer-Moore Voting Algorithm",
+      "description": "Single pass with O(1) auxiliary space. Maintain a candidate element and count variable.",
+      "timeComplexity": "O(N) - Single linear scan.",
+      "spaceComplexity": "O(1) - Constant space.",
+      "code": "public class MajorityElement {\n    // Optimized Boyer-Moore Voting Algorithm: O(N) Time, O(1) Space\n    public static int majorityElement(int[] nums) {\n        int candidate = 0;\n        int count = 0;\n        \n        for (int num : nums) {\n            if (count == 0) {\n                candidate = num;\n            }\n            count += (num == candidate) ? 1 : -1;\n        }\n        return candidate;\n    }\n\n    public static void main(String[] args) {\n        System.out.println(majorityElement(new int[]{7, 1, 7, 2, 7, 7, 3})); // 7\n        System.out.println(majorityElement(new int[]{0, 0, 8, 0, 0}));       // 0\n        System.out.println(majorityElement(new int[]{-5, -5, 2, -5}));       // -5\n    }\n}"
+    }
+  }
+]

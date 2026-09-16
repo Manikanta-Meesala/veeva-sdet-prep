@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import { X, Send, PlusCircle, CheckCircle, HelpCircle } from 'lucide-react';
 
-export default function AskQuestionModal({ isOpen, onClose, onAddQuestion }) {
-  const [category, setCategory] = useState('Software Testing');
-  const [subtopic, setSubtopic] = useState('General');
+export default function AskQuestionModal({ isOpen, onClose, onAddQuestion, questions = [] }) {
+  const [category, setCategory] = useState('Java');
+  const [selectedSubtopic, setSelectedSubtopic] = useState('OOPs');
+  const [customSubtopic, setCustomSubtopic] = useState('');
   const [questionText, setQuestionText] = useState('');
   const [codeSnippet, setCodeSnippet] = useState('');
   const [optA, setOptA] = useState('');
@@ -14,6 +15,29 @@ export default function AskQuestionModal({ isOpen, onClose, onAddQuestion }) {
   const [explanation, setExplanation] = useState('');
   const [submitted, setSubmitted] = useState(false);
 
+  // Extract all existing subtopics grouped by Category and overall
+  const { existingSubtopicsForCat, allKnownSubtopics } = useMemo(() => {
+    const catMap = {};
+    const globalSet = new Set(['OOPs', 'Collections - ArrayList', 'Collections - HashMap', 'General Core Java', 'Exception Handling', 'Strings & Memory']);
+
+    questions.forEach(q => {
+      const cat = q.category || 'Java';
+      const sub = q.subtopic;
+      if (sub) {
+        globalSet.add(sub);
+        if (!catMap[cat]) catMap[cat] = new Set();
+        catMap[cat].add(sub);
+      }
+    });
+
+    const currentCatSubs = catMap[category] ? Array.from(catMap[category]) : Array.from(globalSet);
+
+    return {
+      existingSubtopicsForCat: currentCatSubs.sort(),
+      allKnownSubtopics: Array.from(globalSet)
+    };
+  }, [questions, category]);
+
   if (!isOpen) return null;
 
   const handleSubmit = (e) => {
@@ -22,6 +46,18 @@ export default function AskQuestionModal({ isOpen, onClose, onAddQuestion }) {
       alert('Please fill in the question and at least options A & B.');
       return;
     }
+
+    // Determine subtopic name & perform case-insensitive deduplication
+    let rawSubtopic = selectedSubtopic === '__NEW_CUSTOM__' ? customSubtopic : selectedSubtopic;
+    rawSubtopic = (rawSubtopic || '').trim();
+
+    // Check case-insensitively against all known subtopics in dataset
+    const matchedSubtopic = allKnownSubtopics.find(
+      s => s.toLowerCase() === rawSubtopic.toLowerCase()
+    );
+
+    // If case-insensitive match found, use exact existing casing (e.g. 'oops' -> 'OOPs')
+    const finalSubtopic = matchedSubtopic || rawSubtopic || 'General Core';
 
     const options = [
       `A) ${optA}`,
@@ -35,7 +71,7 @@ export default function AskQuestionModal({ isOpen, onClose, onAddQuestion }) {
     const newQuestion = {
       id: `custom_${Date.now()}`,
       category,
-      subtopic: subtopic || 'User Contributed',
+      subtopic: finalSubtopic,
       title: `Submitted Q`,
       question: questionText,
       code: codeSnippet,
@@ -59,6 +95,7 @@ export default function AskQuestionModal({ isOpen, onClose, onAddQuestion }) {
       setOptC('');
       setOptD('');
       setExplanation('');
+      setCustomSubtopic('');
     }, 1500);
   };
 
@@ -125,7 +162,7 @@ export default function AskQuestionModal({ isOpen, onClose, onAddQuestion }) {
               Question Added Successfully!
             </h3>
             <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', marginTop: '0.5rem' }}>
-              Your question is now live and ready to practice.
+              Your question has been automatically categorized and added to the practice database.
             </p>
           </div>
         ) : (
@@ -140,8 +177,8 @@ export default function AskQuestionModal({ isOpen, onClose, onAddQuestion }) {
                   onChange={(e) => setCategory(e.target.value)}
                   style={{ width: '100%', padding: '0.55rem', borderRadius: 'var(--radius-sm)', border: '1px solid var(--border-light)' }}
                 >
-                  <option value="Software Testing">Software Testing</option>
                   <option value="Java">Java Core & Collections</option>
+                  <option value="Software Testing">Software Testing</option>
                   <option value="DBMS">DBMS</option>
                   <option value="Aptitude">Aptitude</option>
                 </select>
@@ -149,17 +186,40 @@ export default function AskQuestionModal({ isOpen, onClose, onAddQuestion }) {
 
               <div>
                 <label style={{ fontSize: '0.82rem', fontWeight: '700', display: 'block', marginBottom: '0.3rem' }}>
-                  Subtopic Module:
+                  Subtopic / Module:
+                </label>
+                <select
+                  value={selectedSubtopic}
+                  onChange={(e) => setSelectedSubtopic(e.target.value)}
+                  style={{ width: '100%', padding: '0.55rem', borderRadius: 'var(--radius-sm)', border: '1px solid var(--border-light)', fontWeight: '600' }}
+                >
+                  {existingSubtopicsForCat.map(sub => (
+                    <option key={sub} value={sub}>{sub}</option>
+                  ))}
+                  <option value="__NEW_CUSTOM__">+ Enter New Custom Submodule...</option>
+                </select>
+              </div>
+            </div>
+
+            {/* Custom Submodule text input if selected */}
+            {selectedSubtopic === '__NEW_CUSTOM__' && (
+              <div>
+                <label style={{ fontSize: '0.82rem', fontWeight: '700', display: 'block', marginBottom: '0.3rem', color: 'var(--primary-700)' }}>
+                  New Submodule Name:
                 </label>
                 <input
                   type="text"
-                  placeholder="e.g. Selenium / HashMap / BVA"
-                  value={subtopic}
-                  onChange={(e) => setSubtopic(e.target.value)}
-                  style={{ width: '100%', padding: '0.55rem', borderRadius: 'var(--radius-sm)', border: '1px solid var(--border-light)' }}
+                  placeholder="e.g. OOPs / Multithreading / Selenium"
+                  value={customSubtopic}
+                  onChange={(e) => setCustomSubtopic(e.target.value)}
+                  style={{ width: '100%', padding: '0.55rem', borderRadius: 'var(--radius-sm)', border: '1px solid var(--primary-300)', background: 'var(--primary-50)' }}
+                  required
                 />
+                <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)', marginTop: '0.2rem', display: 'block' }}>
+                  * If this topic exists under a different case (e.g. "oops"), it will automatically attach to the existing "OOPs" module.
+                </span>
               </div>
-            </div>
+            )}
 
             <div>
               <label style={{ fontSize: '0.82rem', fontWeight: '700', display: 'block', marginBottom: '0.3rem' }}>

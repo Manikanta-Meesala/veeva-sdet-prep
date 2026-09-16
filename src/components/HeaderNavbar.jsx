@@ -1,5 +1,5 @@
 import React from 'react';
-import { CheckCircle2, PlayCircle, Home, PlusCircle, MessageSquare, Layers } from 'lucide-react';
+import { CheckCircle2, PlayCircle, Home, PlusCircle, MessageSquare, Layers, Code2 } from 'lucide-react';
 
 export default function HeaderNavbar({
   activeMode,
@@ -37,6 +37,19 @@ export default function HeaderNavbar({
           onClick={() => { setActiveMode('home'); resetSelectedTopic(); }}
         >
           <Home size={18} /> Home
+        </button>
+
+        <button
+          className={`nav-btn ${activeMode === 'coding' ? 'nav-btn-primary' : 'nav-btn-outline'}`}
+          onClick={() => setActiveMode('coding')}
+          style={{
+            background: activeMode === 'coding' ? 'linear-gradient(135deg, #1e293b, #0f172a)' : 'white',
+            borderColor: activeMode === 'coding' ? '#1e293b' : 'var(--border-light)',
+            color: activeMode === 'coding' ? '#38bdf8' : 'var(--text-main)',
+            fontWeight: '700'
+          }}
+        >
+          <Code2 size={18} color={activeMode === 'coding' ? '#38bdf8' : 'var(--primary-600)'} /> Coding Questions
         </button>
 
         <button

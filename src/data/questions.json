@@ -1,5 +1,447 @@
 [
   {
+    "id": "vm_1",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "Method Overriding & Dynamic Binding",
+    "question": "What will be the output of the following Java program?",
+    "code": "class Parent {\n    public void print() {\n        System.out.println(\"Parent\");\n    }\n}\nclass Child extends Parent {\n    public void print() {\n        System.out.println(\"Child\");\n    }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Parent obj = new Child();\n        obj.print();\n    }\n}",
+    "options": [
+      "A) Parent",
+      "B) Child",
+      "C) Compilation Error",
+      "D) Runtime Exception"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Method overriding uses dynamic method dispatch (runtime polymorphism). Since the actual object instance created on heap is Child, Child's print() method is executed."
+  },
+  {
+    "id": "vm_2",
+    "category": "Java",
+    "subtopic": "Strings & Memory",
+    "title": "String Equality & Memory Pool",
+    "question": "What will be printed when executing this String comparison code?",
+    "code": "public class StringTest {\n    public static void main(String[] args) {\n        String s1 = \"Veeva\";\n        String s2 = new String(\"Veeva\");\n        String s3 = \"Veeva\";\n        \n        System.out.print((s1 == s2) + \" \");\n        System.out.print(s1.equals(s2) + \" \");\n        System.out.print(s1 == s3);\n    }\n}",
+    "options": [
+      "A) true true true",
+      "B) false true false",
+      "C) false true true",
+      "D) true false true"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "(s1 == s2) is false because s2 is created in heap memory outside the String pool. s1.equals(s2) is true (same sequence). s1 == s3 is true because both point to the identical String pool literal."
+  },
+  {
+    "id": "vm_3",
+    "category": "Java",
+    "subtopic": "Exception Handling",
+    "title": "Try-Catch-Finally Return Precedence",
+    "question": "What is the return value of getValue() in this snippet?",
+    "code": "public class ExceptionTest {\n    public static int getValue() {\n        try {\n            return 10;\n        } catch (Exception e) {\n            return 20;\n        } finally {\n            return 30;\n        }\n    }\n    public static void main(String[] args) {\n        System.out.println(getValue());\n    }\n}",
+    "options": [
+      "A) 10",
+      "B) 20",
+      "C) 30",
+      "D) Compilation Error"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "The finally block always executes before a method returns. Its return statement (30) overrides any return statement executed inside try or catch."
+  },
+  {
+    "id": "vm_4",
+    "category": "Java",
+    "subtopic": "Core Java - Initialization",
+    "title": "Static and Instance Block Order",
+    "question": "What is the console output of instantiating Test twice?",
+    "code": "class Test {\n    static {\n        System.out.print(\"Static \");\n    }\n    {\n        System.out.print(\"Instance \");\n    }\n    public Test() {\n        System.out.print(\"Constructor \");\n    }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Test t1 = new Test();\n        Test t2 = new Test();\n    }\n}",
+    "options": [
+      "A) Static Instance Constructor Instance Constructor",
+      "B) Static Instance Constructor",
+      "C) Instance Constructor Instance Constructor Static",
+      "D) Static Constructor Instance Constructor Instance"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Static blocks run once when class loading occurs. Instance blocks run every time an object is instantiated, right before the constructor body executes."
+  },
+  {
+    "id": "vm_5",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "Prefix Increment in Loop Evaluation",
+    "question": "What will be printed by the following loop?",
+    "code": "public class LoopTest {\n    public static void main(String[] args) {\n        int count = 0;\n        for (int i = 0; i < 3; i++) {\n            count += ++count;\n        }\n        System.out.println(count);\n    }\n}",
+    "options": [
+      "A) 3",
+      "B) 7",
+      "C) 11",
+      "D) 15"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Iteration 1 (i=0): count += ++count evaluates LHS count (0), ++count sets count to 1, 0+1=1. Iteration 2 (i=1): count=1, LHS 1 + ++count(2) = 3. Iteration 3 (i=2): count=3, LHS 3 + ++count(4) = 7."
+  },
+  {
+    "id": "vm_6",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "Method Overloading Null Argument Resolution",
+    "question": "Which overloaded method will be invoked when passing null?",
+    "code": "public class OverloadTest {\n    public static void printVal(Object obj) {\n        System.out.println(\"Object\");\n    }\n    public static void printVal(String str) {\n        System.out.println(\"String\");\n    }\n    public static void main(String[] args) {\n        printVal(null);\n    }\n}",
+    "options": [
+      "A) Object",
+      "B) String",
+      "C) Compilation Error (Ambiguous method call)",
+      "D) Runtime NullPointerException"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "When overloading methods with sub/super parameter types, Java compiler selects the most specific type matching the argument. Since String is a subclass of Object, String is chosen."
+  },
+  {
+    "id": "vm_7",
+    "category": "Java",
+    "subtopic": "Collections - ArrayList",
+    "title": "ArrayList remove(int index) Behavior",
+    "question": "What is the output after calling list.remove(1)?",
+    "code": "import java.util.*;\n\npublic class CollectionTest {\n    public static void main(String[] args) {\n        List<Integer> list = new ArrayList<>();\n        list.add(1);\n        list.add(2);\n        list.add(3);\n        \n        list.remove(1);\n        System.out.println(list);\n    }\n}",
+    "options": [
+      "A) [2, 3]",
+      "B) [1, 3]",
+      "C) [1, 2]",
+      "D) [1, 2, 3]"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "list.remove(1) removes the element at index 1 (which is integer value 2). The remaining list is [1, 3]."
+  },
+  {
+    "id": "vm_8",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "Integer Wrapper Objects Caching",
+    "question": "What is the output of comparing Integer objects using == ?",
+    "code": "public class CacheTest {\n    public static void main(String[] args) {\n        Integer num1 = 100;\n        Integer num2 = 100;\n        Integer num3 = 200;\n        Integer num4 = 200;\n        \n        System.out.print((num1 == num2) + \" \");\n        System.out.print(num3 == num4);\n    }\n}",
+    "options": [
+      "A) true true",
+      "B) false false",
+      "C) true false",
+      "D) false true"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Java caches Integer objects in range -128 to 127. num1 == num2 evaluates to true (same cached reference), while 200 is outside cache range, creating separate object instances on heap (false)."
+  },
+  {
+    "id": "vm_9",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "Implicit Modifiers of Interface Variables",
+    "question": "What is printed when accessing field x from an implemented interface?",
+    "code": "interface Sample {\n    int x = 10;\n}\npublic class InterfaceTest implements Sample {\n    public static void main(String[] args) {\n        System.out.println(x);\n    }\n}",
+    "options": [
+      "A) 10",
+      "B) 20",
+      "C) Compilation Error if modified final field",
+      "D) Runtime Exception"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Interface variables are implicitly public static final. Printing x displays 10. Attempting to reassign x would cause a compilation error."
+  },
+  {
+    "id": "vm_10",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "Calling Thread.run() Directly",
+    "question": "What happens when calling t.run() instead of t.start()?",
+    "code": "class MyRunnable implements Runnable {\n    public void run() {\n        System.out.print(\"Run \");\n    }\n}\npublic class ThreadTest {\n    public static void main(String[] args) {\n        Thread t = new Thread(new MyRunnable());\n        t.run();\n        System.out.print(\"Main \");\n    }\n}",
+    "options": [
+      "A) Main Run",
+      "B) Run Main",
+      "C) Output is unpredictable",
+      "D) Compilation Error"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Calling t.run() directly does NOT spawn a new thread. It executes synchronously on the main thread, outputting \"Run \" then \"Main \"."
+  },
+  {
+    "id": "vm_11",
+    "category": "Java",
+    "subtopic": "Exception Handling",
+    "title": "Overriding Try Return in Finally",
+    "question": "What value does testMethod() return?",
+    "code": "public int testMethod() {\n    try {\n        return 1;\n    } finally {\n        return 2;\n    }\n}",
+    "options": [
+      "A) 1",
+      "B) RuntimeException",
+      "C) Compilation Error",
+      "D) 2"
+    ],
+    "correctAnswer": 3,
+    "correctLetter": "D",
+    "explanation": "The finally block executes before method exit and its return statement (2) overrides the return statement in try block (1)."
+  },
+  {
+    "id": "vm_12",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashMap Duplicate Key Overwrite",
+    "question": "What is printed by map.size() and map.get(\"Chrome\")?",
+    "code": "Map<String, Integer> map = new HashMap<>();\nmap.put(\"Chrome\", 1);\nmap.put(\"Firefox\", 2);\nmap.put(\"Chrome\", 3);\nSystem.out.println(map.size() + \" \" + map.get(\"Chrome\"));",
+    "options": [
+      "A) 3 3",
+      "B) 2 3",
+      "C) 2 1",
+      "D) 3 1"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Putting duplicate key \"Chrome\" updates value from 1 to 3 without increasing size. Total map size is 2, map.get(\"Chrome\") returns 3."
+  },
+  {
+    "id": "vm_13",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "Combined Prefix & Postfix Increments",
+    "question": "What is printed for x and y?",
+    "code": "int x = 5;\nint y = ++x + x++ + ++x;\nSystem.out.println(x + \" \" + y);",
+    "options": [
+      "A) 7 18",
+      "B) 8 19",
+      "C) 8 20",
+      "D) 6 20"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "1) ++x sets x=6 (val 6). 2) x++ uses 6, then increments x to 7. 3) ++x increments x to 8 (val 8). Sum y = 6 + 6 + 8 = 20, final x = 8."
+  },
+  {
+    "id": "vm_14",
+    "category": "Java",
+    "subtopic": "Collections - ArrayList",
+    "title": "Modifying List During Enhanced Loop",
+    "question": "What happens when calling list.remove() inside an enhanced for-each loop?",
+    "code": "List<String> list = new ArrayList<>(Arrays.asList(\"A\", \"B\", \"C\"));\nfor (String s : list) {\n    if (s.equals(\"B\")) {\n        list.remove(s);\n    }\n}\nSystem.out.println(list.size());",
+    "options": [
+      "A) Throws ConcurrentModificationException",
+      "B) Prints 2",
+      "C) Prints 3",
+      "D) Throws UnsupportedOperationException"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Modifying a collection directly while iterating via an enhanced for loop triggers a ConcurrentModificationException."
+  },
+  {
+    "id": "vm_15",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "Abstract Base Class Non-Abstract Method Call",
+    "question": "What is printed when calling page.display()?",
+    "code": "abstract class BasePage {\n    abstract void load();\n    void display() { System.out.println(\"Displaying\"); }\n}\nclass LoginPage extends BasePage {\n    void load() { System.out.println(\"Loading Login\"); }\n}\n// Main:\nBasePage page = new LoginPage();\npage.display();",
+    "options": [
+      "A) Compilation Error",
+      "B) Loading Login",
+      "C) Runtime Error",
+      "D) Displaying"
+    ],
+    "correctAnswer": 3,
+    "correctLetter": "D",
+    "explanation": "display() is a non-abstract concrete method defined in BasePage and inherited by LoginPage. Calling page.display() prints \"Displaying\"."
+  },
+  {
+    "id": "vm_16",
+    "category": "Java",
+    "subtopic": "Strings & Memory",
+    "title": "StringBuilder toString() Reference Comparison",
+    "question": "What will be printed by s.equals(\"VeevaCRM\") + \" \" + (s == \"VeevaCRM\")?",
+    "code": "StringBuilder sb = new StringBuilder(\"Veeva\");\nsb.append(\"CRM\");\nString s = sb.toString();\nSystem.out.println(s.equals(\"VeevaCRM\") + \" \" + (s == \"VeevaCRM\"));",
+    "options": [
+      "A) false true",
+      "B) true false",
+      "C) true true",
+      "D) false false"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "s.equals(\"VeevaCRM\") checks sequence equality (true). s == \"VeevaCRM\" compares object references; sb.toString() creates a new heap object (false)."
+  },
+  {
+    "id": "vm_17",
+    "category": "Java",
+    "subtopic": "Exception Handling",
+    "title": "Catch Block Exception Hierarchy Ordering",
+    "question": "What occurs when catching Exception before NullPointerException?",
+    "code": "try {\n    String str = null;\n    str.length();\n} catch (Exception e) {\n    System.out.println(\"Exception\");\n} catch (NullPointerException npe) {\n    System.out.println(\"NPE\");\n}",
+    "options": [
+      "A) NPE",
+      "B) Exception followed by NPE",
+      "C) Compilation Error (Unreachable catch block)",
+      "D) Runtime Exception uncaught"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Catching superclass Exception before subclass NullPointerException makes the second catch block unreachable, triggering a compile-time error."
+  },
+  {
+    "id": "vm_18",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "Object Reference Reassignment in Method",
+    "question": "What will cfg.timeout print after update(cfg) executes?",
+    "code": "class Config { int timeout = 10; }\n\npublic static void update(Config c) {\n    c.timeout = 20;\n    c = new Config();\n    c.timeout = 30;\n}\npublic static void main(String[] args) {\n    Config cfg = new Config();\n    update(cfg);\n    System.out.println(cfg.timeout);\n}",
+    "options": [
+      "A) 20",
+      "B) 30",
+      "C) 10",
+      "D) Compilation Error"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Java passes object references by value. c.timeout = 20 mutates underlying heap object. Reassigning c = new Config() changes local parameter reference, so cfg.timeout remains 20."
+  },
+  {
+    "id": "vm_19",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "Java Pass-By-Value Semantics",
+    "question": "Which statement accurately describes how Java handles argument passing for primitive types versus object references?",
+    "code": "",
+    "options": [
+      "A) Java uses pass-by-value for primitives and pass-by-reference for objects.",
+      "B) Java uses pass-by-reference for both primitives and objects.",
+      "C) Java is strictly pass-by-value, meaning a copy of the variable's value (whether primitive or reference) is passed into the method.",
+      "D) Java uses pass-by-reference-value hybrid depending on whether the class is mutable or immutable."
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Java is strictly pass-by-value. For primitives, a copy of primitive value is passed. For objects, a copy of reference address value is passed."
+  },
+  {
+    "id": "vm_20",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "Static Method Hiding vs Overriding",
+    "question": "If Parent and Child both define static display(), which method is executed when calling Parent obj = new Child(); obj.display();?",
+    "code": "Parent obj = new Child();\nobj.display(); // static display() in both Parent and Child",
+    "options": [
+      "A) Parent's display() method executes because static methods are resolved at compile time based on the reference type (method hiding).",
+      "B) Child's display() method executes due to standard runtime dynamic method dispatch.",
+      "C) A compilation error occurs because static methods cannot be shadowed or redefined in subclasses.",
+      "D) A ClassCastException is thrown at runtime during the method lookup."
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Static methods cannot be overridden, only hidden. Static method calls are resolved at compile-time based on declared reference type (Parent)."
+  },
+  {
+    "id": "vm_21",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "Resolving Duplicate Default Method Conflict",
+    "question": "If a class implements two interfaces with identical default method signatures printInfo(), how must the conflict be resolved?",
+    "code": "",
+    "options": [
+      "A) The code compiles automatically, and Java arbitrarily picks InterfaceA's default method at runtime.",
+      "B) The code will fail to compile unless one interface extends the other.",
+      "C) It is illegal for an interface to have default methods with duplicate signatures; compilation fails.",
+      "D) The implementing class must override printInfo() and can optionally invoke a specific interface version using InterfaceA.super.printInfo()."
+    ],
+    "correctAnswer": 3,
+    "correctLetter": "D",
+    "explanation": "To resolve multiple inheritance conflict from duplicate default methods, the implementing class must explicitly override the method, optionally delegating via InterfaceA.super.printInfo()."
+  },
+  {
+    "id": "vm_22",
+    "category": "Java",
+    "subtopic": "Exception Handling",
+    "title": "Checked Exception Propagation Rules",
+    "question": "What happens during exception propagation if a checked exception is thrown inside a nested method without handling or throws declaration?",
+    "code": "",
+    "options": [
+      "A) The exception automatically converts to an unchecked RuntimeException and propagates up to main.",
+      "B) The code will fail to compile because checked exception rules are enforced strictly at compile time.",
+      "C) The exception bubbles up to the JVM, which safely ignores it.",
+      "D) It causes a NullPointerException at runtime."
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Checked exceptions in Java are checked at compile time. Any method throwing a checked exception must catch it or declare it in throws clause."
+  },
+  {
+    "id": "vm_23",
+    "category": "Java",
+    "subtopic": "Exception Handling",
+    "title": "Try-Catch-Finally Multi-Return Output",
+    "question": "What value does testMethod() return when called?",
+    "code": "public int testMethod() {\n    try {\n        return 1;\n    } catch (Exception e) {\n        return 2;\n    } finally {\n        return 3;\n    }\n}",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) An exception is thrown because of multiple return statements."
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "The finally block always executes and its return 3 statement supersedes return values from both try and catch blocks."
+  },
+  {
+    "id": "vm_24",
+    "category": "Java",
+    "subtopic": "Exception Handling",
+    "title": "Try-With-Resources Suppressed Exceptions",
+    "question": "In try-with-resources, if an exception is thrown in try block AND during automatic resource close(), what happens to the second exception?",
+    "code": "",
+    "options": [
+      "A) It is added as a suppressed exception to the primary exception thrown by the try block.",
+      "B) It overwrites and replaces the original exception thrown inside the try block.",
+      "C) Both exceptions are thrown simultaneously as a compound multithreaded exception.",
+      "D) The second exception is completely swallowed and ignored by the runtime environment."
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "The primary exception thrown in the try block takes precedence. The close() exception is attached to it as a suppressed exception (retrievable via e.getSuppressed())."
+  },
+  {
+    "id": "vm_25",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "Equals and HashCode Contract in HashMap Keys",
+    "question": "Why is it critical to override both equals() and hashCode() when creating custom object keys for a HashMap?",
+    "code": "",
+    "options": [
+      "A) Without hashCode(), the map throws an immediate ClassCastException during insertion.",
+      "B) It ensures the map stays sorted in ascending order according to key hashes.",
+      "C) It prevents duplicate keys from being created in memory globally across threads.",
+      "D) To ensure objects that are equal according to equals() share the same hash code, allowing the hash map to locate the correct bucket and retrieve values."
+    ],
+    "correctAnswer": 3,
+    "correctLetter": "D",
+    "explanation": "HashMap relies on hashCode() to determine bucket location and equals() to find exact key in bucket chain. Violating contract causes lookup failures."
+  },
+  {
+    "id": "vm_26",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "TreeSet Non-Comparable Elements Insertion",
+    "question": "What happens if you attempt to add custom, non-comparable objects to a TreeSet without passing a custom Comparator?",
+    "code": "",
+    "options": [
+      "A) The elements are added in standard FIFO insertion order.",
+      "B) A ClassCastException is thrown at runtime when the elements are inserted.",
+      "C) The elements are sorted automatically using their default system memory address hashes.",
+      "D) The code fails to compile because the compiler checks Comparable compliance."
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "TreeSet relies on elements implementing Comparable to sort items. Inserting non-comparable object without Comparator causes ClassCastException at runtime."
+  },
+  {
     "id": "co_1",
     "category": "Java",
     "subtopic": "OOPs",
