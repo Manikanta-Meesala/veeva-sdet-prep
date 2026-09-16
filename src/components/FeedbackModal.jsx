@@ -33,7 +33,7 @@ export default function FeedbackModal({ isOpen, onClose }) {
     };
 
     try {
-      // 1. Send email directly to manikantameesala2617@gmail.com via FormSubmit endpoint
+      // Send email directly to manikantameesala2617@gmail.com via FormSubmit endpoint
       await fetch(`https://formsubmit.co/ajax/${RECIPIENT_EMAIL}`, {
         method: 'POST',
         headers: {
@@ -46,7 +46,7 @@ export default function FeedbackModal({ isOpen, onClose }) {
       console.log('Online email routing notice:', err);
     }
 
-    // 2. Also save to backend API / local database
+    // Also save to backend API / local database
     fetch('/api/feedback', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -115,7 +115,7 @@ export default function FeedbackModal({ isOpen, onClose }) {
           <h2 style={{ fontSize: '1.35rem', fontWeight: '800' }}>Platform Feedback & Suggestions</h2>
         </div>
         <p style={{ color: 'var(--text-muted)', fontSize: '0.88rem', marginBottom: '1rem' }}>
-          Share your feedback or report question issues. Feedback is delivered directly to <strong style={{ color: 'var(--primary-700)' }}>{RECIPIENT_EMAIL}</strong>.
+          Share your feedback or report question issues. Submissions are delivered directly to <strong style={{ color: 'var(--primary-700)' }}>{RECIPIENT_EMAIL}</strong>.
         </p>
 
         {submitted ? (
