@@ -220,5 +220,283 @@
       "spaceComplexity": "O(1) - Constant space.",
       "code": "public class MajorityElement {\n    // Optimized Boyer-Moore Voting Algorithm: O(N) Time, O(1) Space\n    public static int majorityElement(int[] nums) {\n        int candidate = 0;\n        int count = 0;\n        \n        for (int num : nums) {\n            if (count == 0) {\n                candidate = num;\n            }\n            count += (num == candidate) ? 1 : -1;\n        }\n        return candidate;\n    }\n\n    public static void main(String[] args) {\n        System.out.println(majorityElement(new int[]{7, 1, 7, 2, 7, 7, 3})); // 7\n        System.out.println(majorityElement(new int[]{0, 0, 8, 0, 0}));       // 0\n        System.out.println(majorityElement(new int[]{-5, -5, 2, -5}));       // -5\n    }\n}"
     }
+  },
+  {
+    "id": "code_9",
+    "title": "Filter Person Records by First Name Prefix and Last Name Suffix",
+    "category": "Coding Problems",
+    "subtopic": "Object Filtering & Java Streams",
+    "dataStructure": "List<Person> / Java 8 Stream API",
+    "difficulty": "Easy",
+    "problemStatement": "A `Person` class contains `firstName` and `lastName` data members. Given a list of $N$ person records, write Java code to:\n1. Filter and display all persons whose **first name starts with 'A' or 'a'** (case-insensitive).\n2. Filter and display all persons whose **last name ends with 'O' or 'o'** (case-insensitive).\n\n### Examples / Test Cases:\n- **Input**: `[Person(\"Alice\", \"Smith\"), Person(\"Bob\", \"Orlando\"), Person(\"Andrew\", \"Monaco\"), Person(\"Charlie\", \"Brown\"), Person(\"adam\", \"Caldero\")]`\n- **Output 1 (First name starts with 'A'/'a')**: `[Alice Smith, Andrew Monaco, adam Caldero]`\n- **Output 2 (Last name ends with 'O'/'o')**: `[Bob Orlando, Andrew Monaco, adam Caldero]`",
+    "explanation": "We define a custom `Person` class with getters for `firstName` and `lastName`. Using Java 8 Streams, we apply predicate functions:\n- `p.getFirstName().toLowerCase().startsWith(\"a\")` to match first names starting with 'a'.\n- `p.getLastName().toLowerCase().endsWith(\"o\")` to match last names ending with 'o'.\nBoth operations run in linear $O(N)$ time.",
+    "dataStructuresUsed": [
+      "Custom Class `Person`",
+      "List<Person>",
+      "Java 8 Streams / Predicates"
+    ],
+    "bruteForce": {
+      "approach": "Imperative For-Each Loop with Manual Lists",
+      "description": "Iterate through person records using a standard loop and manually add matching elements into separate result lists.",
+      "timeComplexity": "O(N) - Linear scan of N person records.",
+      "spaceComplexity": "O(N) - Storage for filtered result lists.",
+      "code": "import java.util.*;\n\nclass Person {\n    private String firstName;\n    private String lastName;\n\n    public Person(String firstName, String lastName) {\n        this.firstName = firstName;\n        this.lastName = lastName;\n    }\n    public String getFirstName() { return firstName; }\n    public String getLastName() { return lastName; }\n\n    @Override\n    public String toString() {\n        return firstName + \" \" + lastName;\n    }\n}\n\npublic class PersonFilter {\n    // Brute Force Imperative Filtering\n    public static void filterPersonsImperative(List<Person> persons) {\n        List<Person> fnStartsA = new ArrayList<>();\n        List<Person> lnEndsO = new ArrayList<>();\n\n        for (Person p : persons) {\n            if (p.getFirstName() != null && p.getFirstName().toLowerCase().startsWith(\"a\")) {\n                fnStartsA.add(p);\n            }\n            if (p.getLastName() != null && p.getLastName().toLowerCase().endsWith(\"o\")) {\n                lnEndsO.add(p);\n            }\n        }\n\n        System.out.println(\"First name starts with 'A/a': \" + fnStartsA);\n        System.out.println(\"Last name ends with 'O/o': \" + lnEndsO);\n    }\n}"
+    },
+    "optimized": {
+      "approach": "Declarative Java 8 Stream API Filtering",
+      "description": "Use stream pipeline `.filter()` with clean predicate methods to produce filtered lists in parallel or sequential streams.",
+      "timeComplexity": "O(N) - Single pass stream processing.",
+      "spaceComplexity": "O(N) - Result list collection.",
+      "code": "import java.util.*;\nimport java.util.stream.Collectors;\n\npublic class PersonFilter {\n    public static void main(String[] args) {\n        List<Person> persons = Arrays.asList(\n            new Person(\"Alice\", \"Smith\"),\n            new Person(\"Bob\", \"Orlando\"),\n            new Person(\"Andrew\", \"Monaco\"),\n            new Person(\"Charlie\", \"Brown\"),\n            new Person(\"adam\", \"Caldero\")\n        );\n\n        // 1. Filter First Name starts with 'a' or 'A'\n        List<Person> firstNameStartsA = persons.stream()\n            .filter(p -> p.getFirstName() != null && p.getFirstName().toLowerCase().startsWith(\"a\"))\n            .collect(Collectors.toList());\n\n        // 2. Filter Last Name ends with 'o' or 'O'\n        List<Person> lastNameEndsO = persons.stream()\n            .filter(p -> p.getLastName() != null && p.getLastName().toLowerCase().endsWith(\"o\"))\n            .collect(Collectors.toList());\n\n        System.out.println(\"First Name starts with 'A/a': \" + firstNameStartsA);\n        // Output: [Alice Smith, Andrew Monaco, adam Caldero]\n\n        System.out.println(\"Last Name ends with 'O/o': \" + lastNameEndsO);\n        // Output: [Bob Orlando, Andrew Monaco, adam Caldero]\n    }\n}"
+    }
+  },
+  {
+    "id": "code_10",
+    "title": "Find All Strings Across Two Arrays Sharing Common Prefixes",
+    "category": "Coding Problems",
+    "subtopic": "String & Prefix Matching",
+    "dataStructure": "Array / Set / Prefix Bucketing",
+    "difficulty": "Easy-Medium",
+    "problemStatement": "Given two arrays of strings `s1` and `s2`, find all strings across **both arrays** that share a common non-empty prefix (e.g. sharing at least the first character) with at least one string in the opposite array.\n\n### Examples / Test Cases:\n- **Input**: `s1 = [\"abc\", \"xyz\", \"a\", \"bx\"]`, `s2 = [\"adb\", \"wxy\", \"pqr\", \"bz\"]` \n- **Output**: `[\"abc\", \"adb\", \"a\", \"bx\", \"bz\"]` \n- **Explanation of Matches**:\n  - `\"abc\"`, `\"adb\"`, and `\"a\"` share common prefix `'a'`.\n  - `\"bx\"` and `\"bz\"` share common prefix `'b'`.\n  - `\"xyz\"`, `\"wxy\"`, `\"pqr\"` have no common prefix with any string in the opposite array.",
+    "explanation": "To identify all strings in `s1` and `s2` that share common prefixes with strings in the other array:\n1. Extract the initial prefix character (or first $k$ characters) of every string in `s1` into a `Set<Character> prefixSet1`.\n2. Extract the initial prefix character of every string in `s2` into `Set<Character> prefixSet2`.\n3. Find intersection of prefixes `commonPrefixes = prefixSet1 ∩ prefixSet2`.\n4. Filter strings from both arrays whose initial prefix character exists in `commonPrefixes`.",
+    "dataStructuresUsed": [
+      "Set<Character> (For O(1) prefix lookup)",
+      "Set<String> (To guarantee output uniqueness)"
+    ],
+    "bruteForce": {
+      "approach": "Nested Pairwise Comparison",
+      "description": "Compare every string in `s1` with every string in `s2` using custom prefix checking.",
+      "timeComplexity": "O(N * M * K) - Where N = len(s1), M = len(s2), K = string length.",
+      "spaceComplexity": "O(N + M) - Result collection storage.",
+      "code": "import java.util.*;\n\npublic class CommonPrefixBothArrays {\n    public static List<String> findCommonPrefixBrute(String[] s1, String[] s2) {\n        Set<String> result = new LinkedHashSet<>();\n        for (String str1 : s1) {\n            for (String str2 : s2) {\n                if (hasCommonPrefix(str1, str2)) {\n                    result.add(str1);\n                    result.add(str2);\n                }\n            }\n        }\n        return new ArrayList<>(result);\n    }\n\n    private static boolean hasCommonPrefix(String a, String b) {\n        if (a == null || b == null || a.isEmpty() || b.isEmpty()) return false;\n        return a.charAt(0) == b.charAt(0);\n    }\n}"
+    },
+    "optimized": {
+      "approach": "Prefix Set Intersection Bucketing",
+      "description": "Extract first-character prefixes into HashSet sets and intersect them. Filter items in linear O(N + M) time.",
+      "timeComplexity": "O((N + M) * K) - Single pass over both string arrays.",
+      "spaceComplexity": "O(N + M) - Sets for prefix character lookup and result output.",
+      "code": "import java.util.*;\n\npublic class CommonPrefixBothArrays {\n    public static List<String> findCommonPrefixBoth(String[] s1, String[] s2) {\n        Set<Character> p1 = new HashSet<>();\n        Set<Character> p2 = new HashSet<>();\n\n        for (String s : s1) if (s != null && !s.isEmpty()) p1.add(s.charAt(0));\n        for (String s : s2) if (s != null && !s.isEmpty()) p2.add(s.charAt(0));\n\n        // Retain only overlapping prefix characters\n        p1.retainAll(p2);\n\n        Set<String> result = new LinkedHashSet<>();\n        for (String s : s1) if (s != null && !s.isEmpty() && p1.contains(s.charAt(0))) result.add(s);\n        for (String s : s2) if (s != null && !s.isEmpty() && p1.contains(s.charAt(0))) result.add(s);\n\n        return new ArrayList<>(result);\n    }\n\n    public static void main(String[] args) {\n        String[] s1 = {\"abc\", \"xyz\", \"a\", \"bx\"};\n        String[] s2 = {\"adb\", \"wxy\", \"pqr\", \"bz\"};\n        System.out.println(findCommonPrefixBoth(s1, s2));\n        // Output: [abc, a, bx, adb, bz]\n    }\n}"
+    }
+  },
+  {
+    "id": "code_11",
+    "title": "Filter Strings in First Array Having Matching Prefix in Second Array",
+    "category": "Coding Problems",
+    "subtopic": "String & Prefix Matching",
+    "dataStructure": "Set<Character> / Trie",
+    "difficulty": "Easy-Medium",
+    "problemStatement": "Given two arrays of strings `s1` and `s2`, filter and return **only the strings from the first array (`s1`)** that share a non-empty common prefix (starting character/substring) with at least one string in the second array (`s2`).\n\n### Examples / Test Cases:\n- **Input**: `s1 = [\"abc\", \"xyz\", \"a\", \"bx\"]`, `s2 = [\"adb\", \"wxy\", \"pqr\", \"bz\"]` \n- **Output**: `[\"abc\", \"a\", \"bx\"]` \n- **Explanation**:\n  - `\"abc\"` and `\"a\"` match prefix `'a'` with `\"adb\"` in `s2`.\n  - `\"bx\"` matches prefix `'b'` with `\"bz\"` in `s2`.\n  - `\"xyz\"` has prefix `'x'`, which does not exist in `s2`.",
+    "explanation": "To solve this efficiently:\n1. Collect all starting prefix characters from array `s2` into a `Set<Character> s2Prefixes`.\n2. Iterate through array `s1` and keep elements whose starting character is present in `s2Prefixes`.\nThis achieves $O(N + M)$ time complexity.",
+    "dataStructuresUsed": [
+      "HashSet<Character> (For O(1) prefix lookup from array s2)",
+      "ArrayList<String> (For collected result)"
+    ],
+    "bruteForce": {
+      "approach": "Nested Comparison against s2",
+      "description": "For every string in `s1`, iterate through `s2` to check if any string shares a matching prefix.",
+      "timeComplexity": "O(N * M) - Nested loop comparison.",
+      "spaceComplexity": "O(N) - Output list.",
+      "code": "import java.util.*;\n\npublic class CommonPrefixFirstArrayOnly {\n    public static List<String> filterS1Brute(String[] s1, String[] s2) {\n        List<String> result = new ArrayList<>();\n        for (String str1 : s1) {\n            if (str1 == null || str1.isEmpty()) continue;\n            for (String str2 : s2) {\n                if (str2 != null && !str2.isEmpty() && str1.charAt(0) == str2.charAt(0)) {\n                    result.add(str1);\n                    break;\n                }\n            }\n        }\n        return result;\n    }\n}"
+    },
+    "optimized": {
+      "approach": "HashSet Prefix Lookup in O(N + M)",
+      "description": "Pre-populate a HashSet with prefix characters from `s2` and perform O(1) lookup during `s1` iteration.",
+      "timeComplexity": "O(N + M) - Single pass over both arrays.",
+      "spaceComplexity": "O(M) - HashSet space for s2 prefixes.",
+      "code": "import java.util.*;\n\npublic class CommonPrefixFirstArrayOnly {\n    public static List<String> filterS1Optimized(String[] s1, String[] s2) {\n        Set<Character> s2Prefixes = new HashSet<>();\n        for (String s : s2) {\n            if (s != null && !s.isEmpty()) {\n                s2Prefixes.add(s.charAt(0));\n            }\n        }\n\n        List<String> result = new ArrayList<>();\n        for (String s : s1) {\n            if (s != null && !s.isEmpty() && s2Prefixes.contains(s.charAt(0))) {\n                result.add(s);\n            }\n        }\n        return result;\n    }\n\n    public static void main(String[] args) {\n        String[] s1 = {\"abc\", \"xyz\", \"a\", \"bx\"};\n        String[] s2 = {\"adb\", \"wxy\", \"pqr\", \"bz\"};\n        System.out.println(filterS1Optimized(s1, s2));\n        // Output: [abc, a, bx]\n    }\n}"
+    }
+  },
+  {
+    "id": "code_12",
+    "title": "Filter Strings in Second Array Having Matching Prefix in First Array",
+    "category": "Coding Problems",
+    "subtopic": "String & Prefix Matching",
+    "dataStructure": "Set<Character> / Trie",
+    "difficulty": "Easy-Medium",
+    "problemStatement": "Given two arrays of strings `s1` and `s2`, filter and return **only the strings from the second array (`s2`)** that share a non-empty common prefix with at least one string in the first array (`s1`).\n\n### Examples / Test Cases:\n- **Input**: `s1 = [\"abc\", \"xyz\", \"a\", \"bx\"]`, `s2 = [\"adb\", \"wxy\", \"pqr\", \"bz\"]` \n- **Output**: `[\"adb\", \"bz\"]` \n- **Explanation**:\n  - `\"adb\"` (prefix `'a'`) matches prefix `'a'` in `\"abc\"`/`\"a\"` from `s1`.\n  - `\"bz\"` (prefix `'b'`) matches prefix `'b'` in `\"bx\"` from `s1`.\n  - `\"wxy\"` (prefix `'w'`) and `\"pqr\"` (prefix `'p'`) do not exist in `s1`.",
+    "explanation": "To solve this efficiently:\n1. Collect all starting prefix characters from array `s1` into `Set<Character> s1Prefixes`.\n2. Iterate through array `s2` and filter strings whose starting character exists in `s1Prefixes`.\nTime complexity is $O(N + M)$.",
+    "dataStructuresUsed": [
+      "HashSet<Character> (Prefix character store from s1)",
+      "ArrayList<String> (Result storage)"
+    ],
+    "bruteForce": {
+      "approach": "Nested Iteration over s1",
+      "description": "Iterate through each element of `s2` and scan `s1` for matching prefixes.",
+      "timeComplexity": "O(N * M) - Quadratic comparisons.",
+      "spaceComplexity": "O(M) - Storage for matching results.",
+      "code": "import java.util.*;\n\npublic class CommonPrefixSecondArrayOnly {\n    public static List<String> filterS2Brute(String[] s1, String[] s2) {\n        List<String> result = new ArrayList<>();\n        for (String str2 : s2) {\n            if (str2 == null || str2.isEmpty()) continue;\n            for (String str1 : s1) {\n                if (str1 != null && !str1.isEmpty() && str2.charAt(0) == str1.charAt(0)) {\n                    result.add(str2);\n                    break;\n                }\n            }\n        }\n        return result;\n    }\n}"
+    },
+    "optimized": {
+      "approach": "HashSet Prefix Lookup in O(N + M)",
+      "description": "Pre-hash starting characters from `s1` into a set and perform O(1) checks while looping over `s2`.",
+      "timeComplexity": "O(N + M) - Linear time scan.",
+      "spaceComplexity": "O(N) - Space for s1 prefix set.",
+      "code": "import java.util.*;\n\npublic class CommonPrefixSecondArrayOnly {\n    public static List<String> filterS2Optimized(String[] s1, String[] s2) {\n        Set<Character> s1Prefixes = new HashSet<>();\n        for (String s : s1) {\n            if (s != null && !s.isEmpty()) {\n                s1Prefixes.add(s.charAt(0));\n            }\n        }\n\n        List<String> result = new ArrayList<>();\n        for (String s : s2) {\n            if (s != null && !s.isEmpty() && s1Prefixes.contains(s.charAt(0))) {\n                result.add(s);\n            }\n        }\n        return result;\n    }\n\n    public static void main(String[] args) {\n        String[] s1 = {\"abc\", \"xyz\", \"a\", \"bx\"};\n        String[] s2 = {\"adb\", \"wxy\", \"pqr\", \"bz\"};\n        System.out.println(filterS2Optimized(s1, s2));\n        // Output: [adb, bz]\n    }\n}"
+    }
+  },
+  {
+    "id": "code_13",
+    "title": "Count Words With and Without Vowels from Text Input / File Stream",
+    "category": "Coding Problems",
+    "subtopic": "File I/O & Character Scanning",
+    "dataStructure": "BufferedReader / String Tokenizer",
+    "difficulty": "Easy-Medium",
+    "problemStatement": "Write a Java method that reads text content (from a file or input string), tokenizes it into words, and counts:\n1. Total number of words that **contain at least one vowel** (`a, e, i, o, u` case-insensitive).\n2. Total number of words that **do not contain any vowels** (e.g. `\"rhythm\"`, `\"my\"`, `\"fly\"`, `\"123\"`, `\"sky\"`).\n\n### Examples / Test Cases:\n- **Input Text**: `\"The rhythm of my fly crypt is 123 sky high\"` \n- **Words with Vowels**: `[\"The\", \"of\", \"is\", \"high\"]` → Count: `4`\n- **Words without Vowels**: `[\"rhythm\", \"my\", \"fly\", \"crypt\", \"123\", \"sky\"]` → Count: `6`",
+    "explanation": "We parse text using word boundary tokenization (`\\s+` or `\\W+`). For each word, we test using regular expression `(?i).*[aeiou].*` or character scan:\n- If it contains any vowel `a, e, i, o, u`, we increment `wordsWithVowels`.\n- Otherwise, we increment `wordsWithoutVowels`.\nUsing `BufferedReader` ensures efficient line-by-line reading for large files.",
+    "dataStructuresUsed": [
+      "BufferedReader / Scanner (File / String reading)",
+      "Primitive counters (`wordsWithVowels`, `wordsWithoutVowels`)"
+    ],
+    "bruteForce": {
+      "approach": "String Split & Manual Loop Character Scanning",
+      "description": "Split text by spaces and check each character of every word against vowels.",
+      "timeComplexity": "O(N * K) - N words of average length K.",
+      "spaceComplexity": "O(N) - Memory to store split array in heap.",
+      "code": "import java.util.*;\n\npublic class VowelWordCounter {\n    public static void countVowelsBrute(String text) {\n        String[] words = text.trim().split(\"\\\\s+\");\n        int withVowel = 0, noVowel = 0;\n        \n        for (String w : words) {\n            if (w.isEmpty()) continue;\n            boolean hasVowel = false;\n            for (char ch : w.toLowerCase().toCharArray()) {\n                if (\"aeiou\".indexOf(ch) != -1) {\n                    hasVowel = true;\n                    break;\n                }\n            }\n            if (hasVowel) withVowel++;\n            else noVowel++;\n        }\n        System.out.println(\"With Vowels: \" + withVowel + \", Without Vowels: \" + noVowel);\n    }\n}"
+    },
+    "optimized": {
+      "approach": "Stream Scanner / Regex Vowel Checking",
+      "description": "Single-pass stream tokenization using `(?i).*[aeiou].*` regex matching.",
+      "timeComplexity": "O(N * K) - Single linear scan of file bytes.",
+      "spaceComplexity": "O(1) - Constant memory overhead.",
+      "code": "import java.io.*;\nimport java.util.regex.Pattern;\n\npublic class VowelWordCounter {\n    private static final Pattern VOWEL_PATTERN = Pattern.compile(\"(?i).*[aeiou].*\");\n\n    public static int[] countWords(String text) {\n        int wordsWithVowels = 0;\n        int wordsWithoutVowels = 0;\n\n        if (text == null || text.trim().isEmpty()) {\n            return new int[]{0, 0};\n        }\n\n        String[] words = text.trim().split(\"\\\\s+\");\n        for (String word : words) {\n            if (VOWEL_PATTERN.matcher(word).matches()) {\n                wordsWithVowels++;\n            } else {\n                wordsWithoutVowels++;\n            }\n        }\n        return new int[]{wordsWithVowels, wordsWithoutVowels};\n    }\n\n    public static void main(String[] args) {\n        String sample = \"The rhythm of my fly crypt is 123 sky high\";\n        int[] result = countWords(sample);\n        System.out.println(\"Words WITH vowels: \" + result[0]);     // 4\n        System.out.println(\"Words WITHOUT vowels: \" + result[1]);  // 6\n    }\n}"
+    }
+  },
+  {
+    "id": "code_14",
+    "title": "Find Minimum, Maximum, and Second Largest Element in Unsorted Array",
+    "category": "Coding Problems",
+    "subtopic": "Array Optimization & Linear Scan",
+    "dataStructure": "Primitive Accumulator Variables",
+    "difficulty": "Easy-Medium",
+    "problemStatement": "Given an unsorted integer array, find the **minimum element**, **maximum element**, and **second largest element** in a **single pass without sorting** the array.\n\n### Examples / Test Cases:\n- **Test Case 1**: Input: `[12, 35, 1, 10, 34, 1]` → Output: `Min: 1, Max: 35, 2nd Max: 34`\n- **Test Case 2**: Input: `[10, 10, 10]` → Output: `Min: 10, Max: 10, 2nd Max: None`\n- **Test Case 3**: Input: `[-5, -1, -10, -2]` → Output: `Min: -10, Max: -1, 2nd Max: -2`\n- **Test Case 4**: Input: `[7]` → Output: `Min: 7, Max: 7, 2nd Max: None`",
+    "explanation": "We maintain 3 tracking variables initialized carefully:\n- `min = Integer.MAX_VALUE`, `max = Integer.MIN_VALUE`, `secondMax = Integer.MIN_VALUE`.\nDuring a single pass linear scan:\n1. Update `min = Math.min(min, num)`.\n2. If `num > max`: shift previous `max` into `secondMax`, then update `max = num`.\n3. Else if `num > secondMax` and `num != max`: update `secondMax = num`.\nThis achieves optimal $O(N)$ time and $O(1)$ auxiliary space without sorting.",
+    "dataStructuresUsed": [
+      "Primitive Integers (`min`, `max`, `secondMax`)"
+    ],
+    "bruteForce": {
+      "approach": "Array Sorting Approach",
+      "description": "Sort array using `Arrays.sort()` in O(N log N) time, then read first element as min, last element as max, and traverse backwards for distinct second max.",
+      "timeComplexity": "O(N log N) - Due to sorting overhead.",
+      "spaceComplexity": "O(1) - Dual-pivot Quicksort memory.",
+      "code": "import java.util.*;\n\npublic class ArrayStatsBrute {\n    public static void findStatsBrute(int[] arr) {\n        if (arr == null || arr.length == 0) return;\n        int[] copy = arr.clone();\n        Arrays.sort(copy);\n        int min = copy[0];\n        int max = copy[copy.length - 1];\n        Integer secondMax = null;\n        for (int i = copy.length - 2; i >= 0; i--) {\n            if (copy[i] != max) {\n                secondMax = copy[i];\n                break;\n            }\n        }\n        System.out.println(\"Min: \" + min + \", Max: \" + max + \", 2nd Max: \" + secondMax);\n    }\n}"
+    },
+    "optimized": {
+      "approach": "Single-Pass O(N) Linear Scan Without Sorting",
+      "description": "Traverse array once updating min, max, and second max in O(1) space.",
+      "timeComplexity": "O(N) - Single pass linear traversal.",
+      "spaceComplexity": "O(1) - Constant auxiliary space.",
+      "code": "public class ArrayStatsOptimized {\n    public static void findStats(int[] arr) {\n        if (arr == null || arr.length == 0) {\n            System.out.println(\"Array is empty.\");\n            return;\n        }\n\n        int min = arr[0];\n        int max = arr[0];\n        int secondMax = Integer.MIN_VALUE;\n        boolean hasSecondMax = false;\n\n        for (int num : arr) {\n            // Update min\n            if (num < min) min = num;\n\n            // Update max and second max\n            if (num > max) {\n                secondMax = max;\n                max = num;\n                hasSecondMax = true;\n            } else if (num < max && num > secondMax) {\n                secondMax = num;\n                hasSecondMax = true;\n            }\n        }\n\n        System.out.println(\"Min: \" + min);\n        System.out.println(\"Max: \" + max);\n        System.out.println(\"Second Largest: \" + (hasSecondMax ? secondMax : \"None (All elements equal)\"));\n    }\n\n    public static void main(String[] args) {\n        findStats(new int[]{12, 35, 1, 10, 34, 1}); // Min: 1, Max: 35, 2nd Max: 34\n        findStats(new int[]{-5, -1, -10, -2});      // Min: -10, Max: -1, 2nd Max: -2\n    }\n}"
+    }
+  },
+  {
+    "id": "code_15",
+    "title": "Search Element in a Clockwise Rotated Sorted Array",
+    "category": "Coding Problems",
+    "subtopic": "Binary Search & Rotated Arrays",
+    "dataStructure": "Binary Search Pointers (low, high, mid)",
+    "difficulty": "Medium",
+    "problemStatement": "Given a clockwise rotated sorted integer array `nums` of distinct values and a target integer `target`, return the 0-based index of `target` if present, or `-1` if not present. Your solution must run in **$O(\\log N)$ time complexity**.\n\n### Examples / Test Cases:\n- **Test Case 1**: `nums = [4, 5, 6, 7, 0, 1, 2], target = 0` → Output: `4`\n- **Test Case 2**: `nums = [4, 5, 6, 7, 0, 1, 2], target = 3` → Output: `-1`\n- **Test Case 3**: `nums = [1], target = 0` → Output: `-1`\n- **Test Case 4**: `nums = [6, 7, 1, 2, 3, 4, 5], target = 6` → Output: `0`",
+    "explanation": "Even though the array is rotated, **at least one half (`[low..mid]` or `[mid..high]`) is always strictly sorted**:\n1. Compute `mid = low + (high - low) / 2`.\n2. If `nums[mid] == target`, return `mid`.\n3. Check if left half `nums[low] <= nums[mid]` is sorted:\n   - If `nums[low] <= target && target < nums[mid]`, search left half (`high = mid - 1`), else search right (`low = mid + 1`).\n4. Otherwise, right half is sorted:\n   - If `nums[mid] < target && target <= nums[high]`, search right half (`low = mid + 1`), else search left (`high = mid - 1`).",
+    "dataStructuresUsed": [
+      "Primitive pointers (`low`, `high`, `mid`)"
+    ],
+    "bruteForce": {
+      "approach": "Linear Search Traversal",
+      "description": "Iterate through the array from start to end checking `nums[i] == target`.",
+      "timeComplexity": "O(N) - Linear time scan.",
+      "spaceComplexity": "O(1) - Constant space.",
+      "code": "public class RotatedArraySearch {\n    // Brute Force: O(N) Linear Search\n    public static int searchBrute(int[] nums, int target) {\n        for (int i = 0; i < nums.length; i++) {\n            if (nums[i] == target) return i;\n        }\n        return -1;\n    }\n}"
+    },
+    "optimized": {
+      "approach": "Modified Binary Search in O(log N)",
+      "description": "Identify sorted half in each step and eliminate half of search space.",
+      "timeComplexity": "O(log N) - Logarithmic binary search.",
+      "spaceComplexity": "O(1) - Constant auxiliary space.",
+      "code": "public class RotatedArraySearch {\n    // Optimized: Modified Binary Search O(log N)\n    public static int searchRotated(int[] nums, int target) {\n        if (nums == null || nums.length == 0) return -1;\n\n        int low = 0;\n        int high = nums.length - 1;\n\n        while (low <= high) {\n            int mid = low + (high - low) / 2;\n\n            if (nums[mid] == target) return mid;\n\n            // Left half is sorted\n            if (nums[low] <= nums[mid]) {\n                if (nums[low] <= target && target < nums[mid]) {\n                    high = mid - 1;\n                } else {\n                    low = mid + 1;\n                }\n            }\n            // Right half is sorted\n            else {\n                if (nums[mid] < target && target <= nums[high]) {\n                    low = mid + 1;\n                } else {\n                    high = mid - 1;\n                }\n            }\n        }\n        return -1;\n    }\n\n    public static void main(String[] args) {\n        int[] nums = {4, 5, 6, 7, 0, 1, 2};\n        System.out.println(searchRotated(nums, 0)); // Output: 4\n        System.out.println(searchRotated(nums, 3)); // Output: -1\n    }\n}"
+    }
+  },
+  {
+    "id": "code_16",
+    "title": "Extract All Numbers from Alphanumeric String and Find Min/Max",
+    "category": "Coding Problems",
+    "subtopic": "String Parsing & Math Bounds",
+    "dataStructure": "String & Primitive Accumulators",
+    "difficulty": "Medium",
+    "problemStatement": "Given an alphanumeric string containing letters, symbols, and digits, extract all contiguous numeric integer sequences and find the **minimum** and **maximum** integer values among them.\n\n### Examples / Test Cases:\n- **Test Case 1**: Input: `\"abc123xyz45def678ghj9\"` → Extracted: `[123, 45, 678, 9]` → Output: `Min: 9, Max: 678`\n- **Test Case 2**: Input: `\"foo007bar0005baz\"` → Extracted: `[7, 5]` → Output: `Min: 5, Max: 7`\n- **Test Case 3**: Input: `\"noDigitsHere\"` → Output: `No numbers found`\n- **Test Case 4**: Input: `\"100a20b50\"` → Extracted: `[100, 20, 50]` → Output: `Min: 20, Max: 100`",
+    "explanation": "We iterate through the input string character by character while maintaining a running number accumulator (`currentNum`):\n- When a digit is encountered: `currentNum = currentNum * 10 + (ch - '0')`.\n- When a non-digit character is met: if a number was accumulating, we compare it against `min` and `max` accumulators (`min = Math.min(min, currentNum)`, `max = Math.max(max, currentNum)`), and reset `currentNum`.\n- After loop finishes, flush any remaining number.",
+    "dataStructuresUsed": [
+      "Primitive Integers / Longs (`currentNum`, `minVal`, `maxVal`)"
+    ],
+    "bruteForce": {
+      "approach": "Regex Splitting with Long Parsing",
+      "description": "Split string using regex pattern `\\\\D+` into array of number string tokens, parse each into Long, and find min/max.",
+      "timeComplexity": "O(N) - String splitting and parsing.",
+      "spaceComplexity": "O(N) - Token array storage.",
+      "code": "import java.util.*;\n\npublic class ExtractMinMaxBrute {\n    public static void findMinMaxRegex(String str) {\n        if (str == null || str.trim().isEmpty()) return;\n        String[] tokens = str.trim().split(\"\\\\D+\");\n        long min = Long.MAX_VALUE;\n        long max = Long.MIN_VALUE;\n        boolean found = false;\n        for (String t : tokens) {\n            if (!t.isEmpty()) {\n                long val = Long.parseLong(t);\n                min = Math.min(min, val);\n                max = Math.max(max, val);\n                found = true;\n            }\n        }\n        if (found) System.out.println(\"Min: \" + min + \", Max: \" + max);\n        else System.out.println(\"No numbers found\");\n    }\n}"
+    },
+    "optimized": {
+      "approach": "Single-Pass In-Place ASCII Math Scan",
+      "description": "Iterate character by character accumulating primitive numbers in O(1) space.",
+      "timeComplexity": "O(N) - Linear single scan.",
+      "spaceComplexity": "O(1) - Constant auxiliary space.",
+      "code": "public class ExtractMinMaxOptimized {\n    public static void findMinMaxNumbers(String s) {\n        if (s == null || s.isEmpty()) {\n            System.out.println(\"No numbers found.\");\n            return;\n        }\n\n        long min = Long.MAX_VALUE;\n        long max = Long.MIN_VALUE;\n        long currentNum = 0;\n        boolean buildingNum = false;\n        boolean numberFound = false;\n\n        for (int i = 0; i < s.length(); i++) {\n            char ch = s.charAt(i);\n            if (Character.isDigit(ch)) {\n                currentNum = currentNum * 10 + (ch - '0');\n                buildingNum = true;\n            } else {\n                if (buildingNum) {\n                    min = Math.min(min, currentNum);\n                    max = Math.max(max, currentNum);\n                    numberFound = true;\n                    currentNum = 0;\n                    buildingNum = false;\n                }\n            }\n        }\n        // Flush trailing number if string ends with digit\n        if (buildingNum) {\n            min = Math.min(min, currentNum);\n            max = Math.max(max, currentNum);\n            numberFound = true;\n        }\n\n        if (numberFound) {\n            System.out.println(\"Min Number: \" + min);\n            System.out.println(\"Max Number: \" + max);\n        } else {\n            System.out.println(\"No numbers found in string.\");\n        }\n    }\n\n    public static void main(String[] args) {\n        findMinMaxNumbers(\"abc123xyz45def678ghj9\"); // Min: 9, Max: 678\n        findMinMaxNumbers(\"foo007bar0005baz\");      // Min: 5, Max: 7\n    }\n}"
+    }
+  },
+  {
+    "id": "code_17",
+    "title": "Recursively Scan Directory to Count .class, .txt, and .obj Files",
+    "category": "Coding Problems",
+    "subtopic": "File I/O & Directory Recursion",
+    "dataStructure": "File / Path / Map<String, Integer>",
+    "difficulty": "Medium",
+    "problemStatement": "Write a Java program to recursively scan a target directory tree and count the total number of `.class` files, `.txt` files, and `.obj` / `.object` files present.\n\n### Examples / Test Cases:\n- **Input Directory**: `\"/project/build\"` \n- **Output Summary**:\n  - `.class` files count: `15`\n  - `.txt` files count: `4`\n  - `.obj` files count: `2`\n  - Other files count: `5`",
+    "explanation": "We can traverse the directory tree using recursive `File.listFiles()` or modern Java NIO `Files.walk(Paths.get(dirPath))`:\n1. For each file, extract the extension substring after the last `.` index.\n2. Convert extension to lowercase (e.g. `.class`, `.txt`, `.obj`).\n3. Update counts in a `Map<String, Integer>` map.",
+    "dataStructuresUsed": [
+      "File / Path API",
+      "HashMap<String, Integer> (Extension counters)"
+    ],
+    "bruteForce": {
+      "approach": "Recursive File.listFiles() Traversal",
+      "description": "Standard recursive function traversing folder directories.",
+      "timeComplexity": "O(N) - Where N is total files and subfolders.",
+      "spaceComplexity": "O(D) - Call stack depth for directory nesting.",
+      "code": "import java.io.File;\nimport java.util.*;\n\npublic class DirectoryFileCounter {\n    public static void countFilesRecursive(File dir, Map<String, Integer> counts) {\n        if (dir == null || !dir.exists()) return;\n        File[] files = dir.listFiles();\n        if (files == null) return;\n        for (File f : files) {\n            if (f.isDirectory()) {\n                countFilesRecursive(f, counts);\n            } else {\n                String name = f.getName().toLowerCase();\n                if (name.endsWith(\".class\")) counts.put(\"class\", counts.getOrDefault(\"class\", 0) + 1);\n                else if (name.endsWith(\".txt\")) counts.put(\"txt\", counts.getOrDefault(\"txt\", 0) + 1);\n                else if (name.endsWith(\".obj\") || name.endsWith(\".object\")) counts.put(\"obj\", counts.getOrDefault(\"obj\", 0) + 1);\n                else counts.put(\"other\", counts.getOrDefault(\"other\", 0) + 1);\n            }\n        }\n    }\n}"
+    },
+    "optimized": {
+      "approach": "Java 8+ NIO Files.walk Stream Traversal",
+      "description": "Efficient non-blocking directory walk using Java NIO `Files.walk` and Stream Collectors.",
+      "timeComplexity": "O(N) - Linear pass over directory nodes.",
+      "spaceComplexity": "O(D) - Memory for directory stream.",
+      "code": "import java.io.File;\nimport java.nio.file.*;\nimport java.util.*;\nimport java.util.stream.Stream;\n\npublic class DirectoryFileCounter {\n    public static Map<String, Integer> countFileTypeExtensions(String directoryPath) {\n        Map<String, Integer> extensionMap = new HashMap<>();\n        extensionMap.put(\"class\", 0);\n        extensionMap.put(\"txt\", 0);\n        extensionMap.put(\"obj\", 0);\n        extensionMap.put(\"other\", 0);\n\n        Path path = Paths.get(directoryPath);\n        if (!Files.exists(path)) return extensionMap;\n\n        try (Stream<Path> stream = Files.walk(path)) {\n            stream.filter(Files::isRegularFile).forEach(p -> {\n                String filename = p.getFileName().toString().toLowerCase();\n                if (filename.endsWith(\".class\")) {\n                    extensionMap.put(\"class\", extensionMap.get(\"class\") + 1);\n                } else if (filename.endsWith(\".txt\")) {\n                    extensionMap.put(\"txt\", extensionMap.get(\"txt\") + 1);\n                } else if (filename.endsWith(\".obj\") || filename.endsWith(\".object\")) {\n                    extensionMap.put(\"obj\", extensionMap.get(\"obj\") + 1);\n                } else {\n                    extensionMap.put(\"other\", extensionMap.get(\"other\") + 1);\n                }\n            });\n        } catch (Exception e) {\n            System.err.println(\"Error walking directory: \" + e.getMessage());\n        }\n\n        return extensionMap;\n    }\n\n    public static void main(String[] args) {\n        Map<String, Integer> counts = countFileTypeExtensions(\"./\");\n        System.out.println(\".class files: \" + counts.get(\"class\"));\n        System.out.println(\".txt files:   \" + counts.get(\"txt\"));\n        System.out.println(\".obj files:   \" + counts.get(\"obj\"));\n    }\n}"
+    }
+  },
+  {
+    "id": "code_18",
+    "title": "Decode Encoded String with Repeat Counts (e.g. 3[a2[c]] -> accaccacc)",
+    "category": "Coding Problems",
+    "subtopic": "Stack & String Expansion",
+    "dataStructure": "Stack<Integer> & Stack<StringBuilder>",
+    "difficulty": "Medium-Hard",
+    "problemStatement": "Given an encoded string where patterns of `k[string]` are used to repeat `string` exactly `k` times (with potential nesting), write Java code to decode and return the expanded string.\n\n### Examples / Test Cases:\n- **Test Case 1**: Input: `\"3[a] 2[bc]\"` → Output: `\"aabcbc\"` \n- **Test Case 2**: Input: `\"3[a2[c]]\"` → Output: `\"accaccacc\"` (Inner `2[c]` becomes `\"cc\"`, then `3[acc]` becomes `\"accaccacc\"`)\n- **Test Case 3**: Input: `\"2[abc]3[cd]ef\"` → Output: `\"abcabccdcdcdef\"` \n- **Test Case 4**: Input: `\"10[a]\"` → Output: `\"aaaaaaaaaa\"`",
+    "explanation": "We use **two stacks** (`countStack` for multipliers, `stringStack` for accumulated string builders) to handle nested brackets LIFO:\n1. Digits `0-9`: Build multiplier `k = k * 10 + (ch - '0')`.\n2. `'['`: Push current multiplier `k` onto `countStack` and current `currentStr` onto `stringStack`. Reset `k = 0` and `currentStr = new StringBuilder()`.\n3. `']'`: Pop count `repeatTimes` from `countStack` and previous prefix `prevStr` from `stringStack`. Append `currentStr` repeated `repeatTimes` onto `prevStr`, then set `currentStr = prevStr`.\n4. Letters: Append directly to `currentStr`.",
+    "dataStructuresUsed": [
+      "Stack<Integer> / Deque<Integer> (For repeat counts)",
+      "Stack<StringBuilder> / Deque<StringBuilder> (For nested string states)"
+    ],
+    "bruteForce": {
+      "approach": "Innermost Bracket Regex Replacement",
+      "description": "Repeatedly find innermost bracket pattern `\\\\d+\\\\[[a-zA-Z]+\\\\]` and replace with repeated string until no brackets remain.",
+      "timeComplexity": "O(N² * K) - Repeated regex matching and string allocation.",
+      "spaceComplexity": "O(N) - Heap memory allocations.",
+      "code": "import java.util.regex.*;\n\npublic class DecodeStringBrute {\n    public static String decodeStringBrute(String s) {\n        Pattern p = Pattern.compile(\"(\\\\d+)\\\\[([a-zA-Z]+)\\\\]\");\n        while (s.contains(\"[\")) {\n            Matcher m = p.matcher(s);\n            if (m.find()) {\n                int count = Integer.parseInt(m.group(1));\n                String str = m.group(2);\n                StringBuilder sb = new StringBuilder();\n                for (int i = 0; i < count; i++) sb.append(str);\n                s = s.substring(0, m.start()) + sb.toString() + s.substring(m.end());\n            }\n        }\n        return s;\n    }\n}"
+    },
+    "optimized": {
+      "approach": "Dual Stack LIFO Processing in O(N)",
+      "description": "Maintain countStack and stringStack to evaluate nested brackets in single pass O(N) time.",
+      "timeComplexity": "O(N) - Where N is length of decoded string output.",
+      "spaceComplexity": "O(N) - Stack memory for bracket levels.",
+      "code": "import java.util.*;\n\npublic class DecodeStringOptimized {\n    public static String decodeString(String s) {\n        Deque<Integer> countStack = new ArrayDeque<>();\n        Deque<StringBuilder> stringStack = new ArrayDeque<>();\n        StringBuilder currentStr = new StringBuilder();\n        int k = 0;\n\n        for (int i = 0; i < s.length(); i++) {\n            char ch = s.charAt(i);\n\n            if (Character.isDigit(ch)) {\n                k = k * 10 + (ch - '0');\n            } else if (ch == '[') {\n                countStack.push(k);\n                stringStack.push(currentStr);\n                currentStr = new StringBuilder();\n                k = 0;\n            } else if (ch == ']') {\n                StringBuilder decoded = stringStack.pop();\n                int count = countStack.pop();\n                for (int c = 0; c < count; c++) {\n                    decoded.append(currentStr);\n                }\n                currentStr = decoded;\n            } else if (Character.isLetter(ch)) {\n                currentStr.append(ch);\n            }\n        }\n\n        return currentStr.toString();\n    }\n\n    public static void main(String[] args) {\n        System.out.println(decodeString(\"3[a] 2[bc]\")); // aabcbc\n        System.out.println(decodeString(\"3[a2[c]]\"));   // accaccacc\n        System.out.println(decodeString(\"2[abc]3[cd]ef\")); // abcabccdcdcdef\n    }\n}"
+    }
   }
 ]

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Search, ChevronDown, ChevronRight, BookOpen, Layers, X, Code2 } from 'lucide-react';
 
-export default function LeftSidebar({ questions, selectedTopic, onSelectTopic, onSelectCoding, activeMode, isOpen, onClose }) {
+export default function LeftSidebar({ questions, codingQuestions = [], selectedTopic, onSelectTopic, onSelectCoding, activeMode, isOpen, onClose }) {
   const [searchTerm, setSearchTerm] = useState('');
   const [expandedCategories, setExpandedCategories] = useState({
     'Software Testing': true,
@@ -101,7 +101,7 @@ export default function LeftSidebar({ questions, selectedTopic, onSelectTopic, o
             padding: '0.2rem 0.55rem',
             borderRadius: '12px'
           }}>
-            8 Qs
+            {codingQuestions.length || 18} Qs
           </span>
         </div>
 

@@ -104,6 +104,7 @@ export default function App() {
         {/* Left Navigation Sidebar */}
         <LeftSidebar
           questions={questions}
+          codingQuestions={codingQuestions}
           selectedTopic={selectedTopic}
           onSelectTopic={handleSelectTopic}
           onSelectCoding={() => { setActiveMode('coding'); setSelectedTopic(null); }}
