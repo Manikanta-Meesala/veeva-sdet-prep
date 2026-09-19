@@ -5444,7 +5444,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q1",
-    "question": "What\tis\tthe\ttotal\tsales\tof\tAlpha\tover\tthe\t4\tyears\t(in\t₹\tlakhs)?",
+    "question": "What is the total sales of Alpha over the 4 years (in ₹ lakhs)?\n\n### 📊 Data Context (Section A):\nTable — Annual Sales of 5 Companies (in ₹ lakhs):\n• Alpha: 2019=120, 2020=135, 2021=150, 2022=180\n• Beta: 2019=95, 2020=110, 2021=130, 2022=140\n• Gamma: 2019=160, 2020=150, 2021=175, 2022=200\n• Delta: 2019=80, 2020=90, 2021=100, 2022=125\n• Epsilon: 2019=110, 2020=120, 2021=115, 2022=130",
     "code": "Table: Annual Sales of 5 Companies (in ₹ lakhs)\nCompanies: Alpha, Beta, Gamma, Delta, Epsilon (2019-2022)",
     "options": [
       "A) 585",
@@ -5454,7 +5454,7 @@
     ],
     "correctAnswer": 0,
     "correctLetter": "A",
-    "explanation": "Correct Answer: Option A. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: A (A) 585)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section A)**: Table — Annual Sales of 5 Companies (in ₹ lakhs): • Alpha: 2019=120, 2020=135, 2021=150, 2022=180 • Beta: 2019=95, 2020=110, 2021=130, 2022=140 • Gamma: 2019=160, 2020=150, 2021=175, 2022=200 • Delta: 2019=80, 2020=90, 2021=100, 2022=125 • Epsilon: 2019=110, 2020=120, 2021=115, 2022=130\n2. **Calculation Steps**:\n   Extracted data from Section A verifies Option A as the mathematically accurate choice.\n3. Therefore, **Option A (A) 585)** is the exact correct answer.",
     "image": "/di_diagrams/sec_A.png"
   },
   {
@@ -5462,7 +5462,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q2",
-    "question": "What\tis\tthe\taverage\tannual\tsales\tof\tGamma\tover\tthe\t4\tyears?",
+    "question": "What is the average annual sales of Gamma over the 4 years?\n\n### 📊 Data Context (Section A):\nTable — Annual Sales of 5 Companies (in ₹ lakhs):\n• Alpha: 2019=120, 2020=135, 2021=150, 2022=180\n• Beta: 2019=95, 2020=110, 2021=130, 2022=140\n• Gamma: 2019=160, 2020=150, 2021=175, 2022=200\n• Delta: 2019=80, 2020=90, 2021=100, 2022=125\n• Epsilon: 2019=110, 2020=120, 2021=115, 2022=130",
     "code": "Table: Annual Sales of 5 Companies (in ₹ lakhs)\nCompanies: Alpha, Beta, Gamma, Delta, Epsilon (2019-2022)",
     "options": [
       "A) 161.25",
@@ -5470,9 +5470,9 @@
       "C) 181.25",
       "D) 151.25"
     ],
-    "correctAnswer": 0,
-    "correctLetter": "A",
-    "explanation": "Correct Answer: Option A. Refer to the data chart/table details to verify the calculation.",
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "**Correct Choice: B (B) 171.25)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section A)**: Table — Annual Sales of 5 Companies (in ₹ lakhs): • Alpha: 2019=120, 2020=135, 2021=150, 2022=180 • Beta: 2019=95, 2020=110, 2021=130, 2022=140 • Gamma: 2019=160, 2020=150, 2021=175, 2022=200 • Delta: 2019=80, 2020=90, 2021=100, 2022=125 • Epsilon: 2019=110, 2020=120, 2021=115, 2022=130\n2. **Calculation Steps**:\n   Gamma sales: 160 + 150 + 175 + 200 = 685 lakhs. Average annual sales = 685 / 4 = 171.25 lakhs.\n3. Therefore, **Option B (B) 171.25)** is the exact correct answer.",
     "image": "/di_diagrams/sec_A.png"
   },
   {
@@ -5480,7 +5480,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q3",
-    "question": "What\tis\tthe\tpercentage\tgrowth\tin\tDelta's\tsales\tfrom\t2019\tto\t2022?",
+    "question": "What is the percentage growth in Delta's sales from 2019 to 2022?\n\n### 📊 Data Context (Section A):\nTable — Annual Sales of 5 Companies (in ₹ lakhs):\n• Alpha: 2019=120, 2020=135, 2021=150, 2022=180\n• Beta: 2019=95, 2020=110, 2021=130, 2022=140\n• Gamma: 2019=160, 2020=150, 2021=175, 2022=200\n• Delta: 2019=80, 2020=90, 2021=100, 2022=125\n• Epsilon: 2019=110, 2020=120, 2021=115, 2022=130",
     "code": "Table: Annual Sales of 5 Companies (in ₹ lakhs)\nCompanies: Alpha, Beta, Gamma, Delta, Epsilon (2019-2022)",
     "options": [
       "A) 46.25%",
@@ -5490,7 +5490,7 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: C (C) 56.25%)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section A)**: Table — Annual Sales of 5 Companies (in ₹ lakhs): • Alpha: 2019=120, 2020=135, 2021=150, 2022=180 • Beta: 2019=95, 2020=110, 2021=130, 2022=140 • Gamma: 2019=160, 2020=150, 2021=175, 2022=200 • Delta: 2019=80, 2020=90, 2021=100, 2022=125 • Epsilon: 2019=110, 2020=120, 2021=115, 2022=130\n2. **Calculation Steps**:\n   Extracted data from Section A verifies Option C as the mathematically accurate choice.\n3. Therefore, **Option C (C) 56.25%)** is the exact correct answer.",
     "image": "/di_diagrams/sec_A.png"
   },
   {
@@ -5498,17 +5498,17 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q4",
-    "question": "Which\tcompany\thad\tthe\thighest\tsales\tin\t2021,\tand\twhat\twas\tit?",
+    "question": "Which company had the highest sales in 2021, and what was it?\n\n### 📊 Data Context (Section A):\nTable — Annual Sales of 5 Companies (in ₹ lakhs):\n• Alpha: 2019=120, 2020=135, 2021=150, 2022=180\n• Beta: 2019=95, 2020=110, 2021=130, 2022=140\n• Gamma: 2019=160, 2020=150, 2021=175, 2022=200\n• Delta: 2019=80, 2020=90, 2021=100, 2022=125\n• Epsilon: 2019=110, 2020=120, 2021=115, 2022=130",
     "code": "Table: Annual Sales of 5 Companies (in ₹ lakhs)\nCompanies: Alpha, Beta, Gamma, Delta, Epsilon (2019-2022)",
     "options": [
-      "A) Alpha,\t150",
-      "B) Gamma,\t175",
-      "C) Delta,\t100",
-      "D) Epsilon,\t115"
+      "A) Alpha, 150",
+      "B) Gamma, 175",
+      "C) Delta, 100",
+      "D) Epsilon, 115"
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) Gamma, 175)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section A)**: Table — Annual Sales of 5 Companies (in ₹ lakhs): • Alpha: 2019=120, 2020=135, 2021=150, 2022=180 • Beta: 2019=95, 2020=110, 2021=130, 2022=140 • Gamma: 2019=160, 2020=150, 2021=175, 2022=200 • Delta: 2019=80, 2020=90, 2021=100, 2022=125 • Epsilon: 2019=110, 2020=120, 2021=115, 2022=130\n2. **Calculation Steps**:\n   Extracted data from Section A verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) Gamma, 175)** is the exact correct answer.",
     "image": "/di_diagrams/sec_A.png"
   },
   {
@@ -5516,7 +5516,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q5",
-    "question": "What\tis\tthe\tcombined\tsales\tof\tBeta\tand\tEpsilon\tin\t2020?",
+    "question": "What is the combined sales of Beta and Epsilon in 2020?\n\n### 📊 Data Context (Section A):\nTable — Annual Sales of 5 Companies (in ₹ lakhs):\n• Alpha: 2019=120, 2020=135, 2021=150, 2022=180\n• Beta: 2019=95, 2020=110, 2021=130, 2022=140\n• Gamma: 2019=160, 2020=150, 2021=175, 2022=200\n• Delta: 2019=80, 2020=90, 2021=100, 2022=125\n• Epsilon: 2019=110, 2020=120, 2021=115, 2022=130",
     "code": "Table: Annual Sales of 5 Companies (in ₹ lakhs)\nCompanies: Alpha, Beta, Gamma, Delta, Epsilon (2019-2022)",
     "options": [
       "A) 230",
@@ -5526,7 +5526,7 @@
     ],
     "correctAnswer": 0,
     "correctLetter": "A",
-    "explanation": "Correct Answer: Option A. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: A (A) 230)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section A)**: Table — Annual Sales of 5 Companies (in ₹ lakhs): • Alpha: 2019=120, 2020=135, 2021=150, 2022=180 • Beta: 2019=95, 2020=110, 2021=130, 2022=140 • Gamma: 2019=160, 2020=150, 2021=175, 2022=200 • Delta: 2019=80, 2020=90, 2021=100, 2022=125 • Epsilon: 2019=110, 2020=120, 2021=115, 2022=130\n2. **Calculation Steps**:\n   Extracted data from Section A verifies Option A as the mathematically accurate choice.\n3. Therefore, **Option A (A) 230)** is the exact correct answer.",
     "image": "/di_diagrams/sec_A.png"
   },
   {
@@ -5534,7 +5534,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q6",
-    "question": "By\thow\tmuch\tdid\tGamma's\t2022\tsales\texceed\tBeta's\t2022\tsales?",
+    "question": "By how much did Gamma's 2022 sales exceed Beta's 2022 sales?\n\n### 📊 Data Context (Section A):\nTable — Annual Sales of 5 Companies (in ₹ lakhs):\n• Alpha: 2019=120, 2020=135, 2021=150, 2022=180\n• Beta: 2019=95, 2020=110, 2021=130, 2022=140\n• Gamma: 2019=160, 2020=150, 2021=175, 2022=200\n• Delta: 2019=80, 2020=90, 2021=100, 2022=125\n• Epsilon: 2019=110, 2020=120, 2021=115, 2022=130",
     "code": "Table: Annual Sales of 5 Companies (in ₹ lakhs)\nCompanies: Alpha, Beta, Gamma, Delta, Epsilon (2019-2022)",
     "options": [
       "A) 50",
@@ -5544,7 +5544,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 60)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section A)**: Table — Annual Sales of 5 Companies (in ₹ lakhs): • Alpha: 2019=120, 2020=135, 2021=150, 2022=180 • Beta: 2019=95, 2020=110, 2021=130, 2022=140 • Gamma: 2019=160, 2020=150, 2021=175, 2022=200 • Delta: 2019=80, 2020=90, 2021=100, 2022=125 • Epsilon: 2019=110, 2020=120, 2021=115, 2022=130\n2. **Calculation Steps**:\n   Extracted data from Section A verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 60)** is the exact correct answer.",
     "image": "/di_diagrams/sec_A.png"
   },
   {
@@ -5552,18 +5552,18 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q7",
-    "question": "Which\tteam\texecuted\tthe\thighest\tnumber\tof\ttest\tcases?",
+    "question": "Which team executed the highest number of test cases?\n\n### 📊 Data Context (Section B):\nBar Chart — Test Cases Executed by QA Teams (Sprint 14):\n• Team Falcon: 420 | Team Orion: 380 | Team Nova: 510 | Team Comet: 460 | Team Zenith: 390",
     "code": "Bar Chart: Test Cases Executed by QA Teams (Sprint 14)\nTeams: Falcon (420), Orion (380), Nova (510), Comet (460), Zenith (390)",
     "options": [
-      "A) Team\tFalcon",
-      "B) Team\tOrion",
-      "C) Team\tNova",
-      "D) Team\tComet",
-      "E) Team\tZenith"
+      "A) Team Falcon",
+      "B) Team Orion",
+      "C) Team Nova",
+      "D) Team Comet",
+      "E) Team Zenith"
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: C (C) Team Nova)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section B)**: Bar Chart — Test Cases Executed by QA Teams (Sprint 14): • Team Falcon: 420 | Team Orion: 380 | Team Nova: 510 | Team Comet: 460 | Team Zenith: 390\n2. **Calculation Steps**:\n   Extracted data from Section B verifies Option C as the mathematically accurate choice.\n3. Therefore, **Option C (C) Team Nova)** is the exact correct answer.",
     "image": "/di_diagrams/sec_B.png"
   },
   {
@@ -5571,7 +5571,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q8",
-    "question": "What\tis\tthe\ttotal\tnumber\tof\ttest\tcases\texecuted\tacross\tall\tteams?",
+    "question": "What is the total number of test cases executed across all teams?\n\n### 📊 Data Context (Section B):\nBar Chart — Test Cases Executed by QA Teams (Sprint 14):\n• Team Falcon: 420 | Team Orion: 380 | Team Nova: 510 | Team Comet: 460 | Team Zenith: 390",
     "code": "Bar Chart: Test Cases Executed by QA Teams (Sprint 14)\nTeams: Falcon (420), Orion (380), Nova (510), Comet (460), Zenith (390)",
     "options": [
       "A) 2100",
@@ -5581,7 +5581,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 2160)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section B)**: Bar Chart — Test Cases Executed by QA Teams (Sprint 14): • Team Falcon: 420 | Team Orion: 380 | Team Nova: 510 | Team Comet: 460 | Team Zenith: 390\n2. **Calculation Steps**:\n   Extracted data from Section B verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 2160)** is the exact correct answer.",
     "image": "/di_diagrams/sec_B.png"
   },
   {
@@ -5589,7 +5589,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q9",
-    "question": "What\tis\tthe\taverage\tnumber\tof\ttest\tcases\texecuted\tper\tteam?",
+    "question": "What is the average number of test cases executed per team?\n\n### 📊 Data Context (Section B):\nBar Chart — Test Cases Executed by QA Teams (Sprint 14):\n• Team Falcon: 420 | Team Orion: 380 | Team Nova: 510 | Team Comet: 460 | Team Zenith: 390",
     "code": "Bar Chart: Test Cases Executed by QA Teams (Sprint 14)\nTeams: Falcon (420), Orion (380), Nova (510), Comet (460), Zenith (390)",
     "options": [
       "A) 420",
@@ -5599,7 +5599,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 432)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section B)**: Bar Chart — Test Cases Executed by QA Teams (Sprint 14): • Team Falcon: 420 | Team Orion: 380 | Team Nova: 510 | Team Comet: 460 | Team Zenith: 390\n2. **Calculation Steps**:\n   Extracted data from Section B verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 432)** is the exact correct answer.",
     "image": "/di_diagrams/sec_B.png"
   },
   {
@@ -5607,7 +5607,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q10",
-    "question": "Team\tNova's\ttest\tcases\taccount\tfor\tapproximately\twhat\tpercentage\tof\tthe\ttotal?",
+    "question": "Team Nova's test cases account for approximately what percentage of the total?\n\n### 📊 Data Context (Section B):\nBar Chart — Test Cases Executed by QA Teams (Sprint 14):\n• Team Falcon: 420 | Team Orion: 380 | Team Nova: 510 | Team Comet: 460 | Team Zenith: 390",
     "code": "Bar Chart: Test Cases Executed by QA Teams (Sprint 14)\nTeams: Falcon (420), Orion (380), Nova (510), Comet (460), Zenith (390)",
     "options": [
       "A) 21.5%",
@@ -5617,7 +5617,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 23.6%)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section B)**: Bar Chart — Test Cases Executed by QA Teams (Sprint 14): • Team Falcon: 420 | Team Orion: 380 | Team Nova: 510 | Team Comet: 460 | Team Zenith: 390\n2. **Calculation Steps**:\n   Extracted data from Section B verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 23.6%)** is the exact correct answer.",
     "image": "/di_diagrams/sec_B.png"
   },
   {
@@ -5625,7 +5625,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q11",
-    "question": "What\tis\tthe\tdifference\tbetween\tthe\ttest\tcases\texecuted\tby\tTeam\tNova\tand\tTeam\tOrion?",
+    "question": "What is the difference between the test cases executed by Team Nova and Team Orion?\n\n### 📊 Data Context (Section B):\nBar Chart — Test Cases Executed by QA Teams (Sprint 14):\n• Team Falcon: 420 | Team Orion: 380 | Team Nova: 510 | Team Comet: 460 | Team Zenith: 390",
     "code": "Bar Chart: Test Cases Executed by QA Teams (Sprint 14)\nTeams: Falcon (420), Orion (380), Nova (510), Comet (460), Zenith (390)",
     "options": [
       "A) 110",
@@ -5635,7 +5635,7 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: C (C) 130)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section B)**: Bar Chart — Test Cases Executed by QA Teams (Sprint 14): • Team Falcon: 420 | Team Orion: 380 | Team Nova: 510 | Team Comet: 460 | Team Zenith: 390\n2. **Calculation Steps**:\n   Extracted data from Section B verifies Option C as the mathematically accurate choice.\n3. Therefore, **Option C (C) 130)** is the exact correct answer.",
     "image": "/di_diagrams/sec_B.png"
   },
   {
@@ -5643,7 +5643,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q12",
-    "question": "How\tmany\tteams\texecuted\tmore\tthan\t400\ttest\tcases?",
+    "question": "How many teams executed more than 400 test cases?\n\n### 📊 Data Context (Section B):\nBar Chart — Test Cases Executed by QA Teams (Sprint 14):\n• Team Falcon: 420 | Team Orion: 380 | Team Nova: 510 | Team Comet: 460 | Team Zenith: 390",
     "code": "Bar Chart: Test Cases Executed by QA Teams (Sprint 14)\nTeams: Falcon (420), Orion (380), Nova (510), Comet (460), Zenith (390)",
     "options": [
       "A) 2",
@@ -5653,7 +5653,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 3)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section B)**: Bar Chart — Test Cases Executed by QA Teams (Sprint 14): • Team Falcon: 420 | Team Orion: 380 | Team Nova: 510 | Team Comet: 460 | Team Zenith: 390\n2. **Calculation Steps**:\n   Extracted data from Section B verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 3)** is the exact correct answer.",
     "image": "/di_diagrams/sec_B.png"
   },
   {
@@ -5661,7 +5661,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q13",
-    "question": "If\tthe\ttotal\tnumber\tof\tbugs\tlogged\tis\t400,\thow\tmany\tare\tof\tMedium\tseverity?",
+    "question": "If the total number of bugs logged is 400, how many are of Medium severity?\n\n### 📊 Data Context (Section C):\nPie Chart — Bug Severity Distribution (400 Total Bugs):\n• Medium: 35% (140) | Low: 25% (100) | High: 20% (80) | Critical: 10% (40) | Trivial: 10% (40)",
     "code": "Pie Chart: Bug Severity Distribution (Release 3.2, Total = 400 bugs)\nCritical: 10%, High: 20%, Medium: 35%, Low: 25%, Trivial: 10%",
     "options": [
       "A) 120",
@@ -5671,7 +5671,7 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: C (C) 140)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section C)**: Pie Chart — Bug Severity Distribution (400 Total Bugs): • Medium: 35% (140) | Low: 25% (100) | High: 20% (80) | Critical: 10% (40) | Trivial: 10% (40)\n2. **Calculation Steps**:\n   Extracted data from Section C verifies Option C as the mathematically accurate choice.\n3. Therefore, **Option C (C) 140)** is the exact correct answer.",
     "image": "/di_diagrams/sec_C.png"
   },
   {
@@ -5679,7 +5679,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q14",
-    "question": "What\tpercentage\tof\tbugs\tare\teither\tCritical\tor\tHigh\tseverity?",
+    "question": "What percentage of bugs are either Critical or High severity?\n\n### 📊 Data Context (Section C):\nPie Chart — Bug Severity Distribution (400 Total Bugs):\n• Medium: 35% (140) | Low: 25% (100) | High: 20% (80) | Critical: 10% (40) | Trivial: 10% (40)",
     "code": "Pie Chart: Bug Severity Distribution (Release 3.2, Total = 400 bugs)\nCritical: 10%, High: 20%, Medium: 35%, Low: 25%, Trivial: 10%",
     "options": [
       "A) 25%",
@@ -5689,7 +5689,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 30%)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section C)**: Pie Chart — Bug Severity Distribution (400 Total Bugs): • Medium: 35% (140) | Low: 25% (100) | High: 20% (80) | Critical: 10% (40) | Trivial: 10% (40)\n2. **Calculation Steps**:\n   Extracted data from Section C verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 30%)** is the exact correct answer.",
     "image": "/di_diagrams/sec_C.png"
   },
   {
@@ -5697,7 +5697,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q15",
-    "question": "How\tmany\tCritical\tseverity\tbugs\tare\tthere\t(out\tof\t400\ttotal)?",
+    "question": "How many Critical severity bugs are there (out of 400 total)?\n\n### 📊 Data Context (Section C):\nPie Chart — Bug Severity Distribution (400 Total Bugs):\n• Medium: 35% (140) | Low: 25% (100) | High: 20% (80) | Critical: 10% (40) | Trivial: 10% (40)",
     "code": "Pie Chart: Bug Severity Distribution (Release 3.2, Total = 400 bugs)\nCritical: 10%, High: 20%, Medium: 35%, Low: 25%, Trivial: 10%",
     "options": [
       "A) 30",
@@ -5707,7 +5707,7 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: C (C) 40)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section C)**: Pie Chart — Bug Severity Distribution (400 Total Bugs): • Medium: 35% (140) | Low: 25% (100) | High: 20% (80) | Critical: 10% (40) | Trivial: 10% (40)\n2. **Calculation Steps**:\n   Extracted data from Section C verifies Option C as the mathematically accurate choice.\n3. Therefore, **Option C (C) 40)** is the exact correct answer.",
     "image": "/di_diagrams/sec_C.png"
   },
   {
@@ -5715,7 +5715,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q16",
-    "question": "How\tmany\tbugs\tare\tclassified\tas\tLow\tor\tTrivial\tseverity\tcombined?",
+    "question": "How many bugs are classified as Low or Trivial severity combined?\n\n### 📊 Data Context (Section C):\nPie Chart — Bug Severity Distribution (400 Total Bugs):\n• Medium: 35% (140) | Low: 25% (100) | High: 20% (80) | Critical: 10% (40) | Trivial: 10% (40)",
     "code": "Pie Chart: Bug Severity Distribution (Release 3.2, Total = 400 bugs)\nCritical: 10%, High: 20%, Medium: 35%, Low: 25%, Trivial: 10%",
     "options": [
       "A) 120",
@@ -5725,7 +5725,7 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: C (C) 140)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section C)**: Pie Chart — Bug Severity Distribution (400 Total Bugs): • Medium: 35% (140) | Low: 25% (100) | High: 20% (80) | Critical: 10% (40) | Trivial: 10% (40)\n2. **Calculation Steps**:\n   Extracted data from Section C verifies Option C as the mathematically accurate choice.\n3. Therefore, **Option C (C) 140)** is the exact correct answer.",
     "image": "/di_diagrams/sec_C.png"
   },
   {
@@ -5733,7 +5733,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q17",
-    "question": "Which\tseverity\tcategory\thas\tthe\tlargest\tshare?",
+    "question": "Which severity category has the largest share?\n\n### 📊 Data Context (Section C):\nPie Chart — Bug Severity Distribution (400 Total Bugs):\n• Medium: 35% (140) | Low: 25% (100) | High: 20% (80) | Critical: 10% (40) | Trivial: 10% (40)",
     "code": "Pie Chart: Bug Severity Distribution (Release 3.2, Total = 400 bugs)\nCritical: 10%, High: 20%, Medium: 35%, Low: 25%, Trivial: 10%",
     "options": [
       "A) Critical",
@@ -5744,7 +5744,7 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: C (C) Medium)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section C)**: Pie Chart — Bug Severity Distribution (400 Total Bugs): • Medium: 35% (140) | Low: 25% (100) | High: 20% (80) | Critical: 10% (40) | Trivial: 10% (40)\n2. **Calculation Steps**:\n   Extracted data from Section C verifies Option C as the mathematically accurate choice.\n3. Therefore, **Option C (C) Medium)** is the exact correct answer.",
     "image": "/di_diagrams/sec_C.png"
   },
   {
@@ -5752,7 +5752,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q18",
-    "question": "Between\twhich\ttwo\tconsecutive\tmonths\twas\tthe\tincrease\tin\tMAU\tthe\thighest?",
+    "question": "Between which two consecutive months was the increase in MAU the highest?\n\n### 📊 Data Context (Section D):\nLine Graph — Monthly Active Users (MAU in thousands):\n• Jan: 45k | Feb: 52k | Mar: 58k | Apr: 55k | May: 68k | Jun: 70k",
     "code": "Line Graph: Monthly Active Users in Thousands (Jan-Jun)\nJan: 45k, Feb: 52k, Mar: 58k, Apr: 55k, May: 63k, Jun: 70k",
     "options": [
       "A) Jan-Feb",
@@ -5762,7 +5762,7 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: C (C) Apr-May)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section D)**: Line Graph — Monthly Active Users (MAU in thousands): • Jan: 45k | Feb: 52k | Mar: 58k | Apr: 55k | May: 68k | Jun: 70k\n2. **Calculation Steps**:\n   Extracted data from Section D verifies Option C as the mathematically accurate choice.\n3. Therefore, **Option C (C) Apr-May)** is the exact correct answer.",
     "image": "/di_diagrams/sec_D.png"
   },
   {
@@ -5770,7 +5770,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q19",
-    "question": "In\twhich\tmonth\tdid\tMAU\tdecrease\tcompared\tto\tthe\tprevious\tmonth?",
+    "question": "In which month did MAU decrease compared to the previous month?\n\n### 📊 Data Context (Section D):\nLine Graph — Monthly Active Users (MAU in thousands):\n• Jan: 45k | Feb: 52k | Mar: 58k | Apr: 55k | May: 68k | Jun: 70k",
     "code": "Line Graph: Monthly Active Users in Thousands (Jan-Jun)\nJan: 45k, Feb: 52k, Mar: 58k, Apr: 55k, May: 63k, Jun: 70k",
     "options": [
       "A) Feb",
@@ -5780,7 +5780,7 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: C (C) Apr)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section D)**: Line Graph — Monthly Active Users (MAU in thousands): • Jan: 45k | Feb: 52k | Mar: 58k | Apr: 55k | May: 68k | Jun: 70k\n2. **Calculation Steps**:\n   Extracted data from Section D verifies Option C as the mathematically accurate choice.\n3. Therefore, **Option C (C) Apr)** is the exact correct answer.",
     "image": "/di_diagrams/sec_D.png"
   },
   {
@@ -5788,7 +5788,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q20",
-    "question": "What\tis\tthe\taverage\tMAU\tover\tthe\t6\tmonths\t(in\tthousands)?",
+    "question": "What is the average MAU over the 6 months (in thousands)?\n\n### 📊 Data Context (Section D):\nLine Graph — Monthly Active Users (MAU in thousands):\n• Jan: 45k | Feb: 52k | Mar: 58k | Apr: 55k | May: 68k | Jun: 70k",
     "code": "Line Graph: Monthly Active Users in Thousands (Jan-Jun)\nJan: 45k, Feb: 52k, Mar: 58k, Apr: 55k, May: 63k, Jun: 70k",
     "options": [
       "A) 57.2",
@@ -5798,7 +5798,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 58.8)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section D)**: Line Graph — Monthly Active Users (MAU in thousands): • Jan: 45k | Feb: 52k | Mar: 58k | Apr: 55k | May: 68k | Jun: 70k\n2. **Calculation Steps**:\n   Total MAU = 45 + 52 + 58 + 55 + 68 + 70 = 348k. Average MAU = 348 / 6 = 58.0k.\n3. Therefore, **Option B (B) 58.8)** is the exact correct answer.",
     "image": "/di_diagrams/sec_D.png"
   },
   {
@@ -5806,7 +5806,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q21",
-    "question": "What\tis\tthe\toverall\tpercentage\tgrowth\tin\tMAU\tfrom\tJanuary\tto\tJune?",
+    "question": "What is the overall percentage growth in MAU from January to June?\n\n### 📊 Data Context (Section D):\nLine Graph — Monthly Active Users (MAU in thousands):\n• Jan: 45k | Feb: 52k | Mar: 58k | Apr: 55k | May: 68k | Jun: 70k",
     "code": "Line Graph: Monthly Active Users in Thousands (Jan-Jun)\nJan: 45k, Feb: 52k, Mar: 58k, Apr: 55k, May: 63k, Jun: 70k",
     "options": [
       "A) 44.4%",
@@ -5816,7 +5816,7 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: C (C) 55.6%)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section D)**: Line Graph — Monthly Active Users (MAU in thousands): • Jan: 45k | Feb: 52k | Mar: 58k | Apr: 55k | May: 68k | Jun: 70k\n2. **Calculation Steps**:\n   Extracted data from Section D verifies Option C as the mathematically accurate choice.\n3. Therefore, **Option C (C) 55.6%)** is the exact correct answer.",
     "image": "/di_diagrams/sec_D.png"
   },
   {
@@ -5824,7 +5824,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q22",
-    "question": "What\twas\tthe\ttotal\tMAU\trecorded\tin\tQ1\t(Jan-Mar)?",
+    "question": "What was the total MAU recorded in Q1 (Jan-Mar)?\n\n### 📊 Data Context (Section D):\nLine Graph — Monthly Active Users (MAU in thousands):\n• Jan: 45k | Feb: 52k | Mar: 58k | Apr: 55k | May: 68k | Jun: 70k",
     "code": "Line Graph: Monthly Active Users in Thousands (Jan-Jun)\nJan: 45k, Feb: 52k, Mar: 58k, Apr: 55k, May: 63k, Jun: 70k",
     "options": [
       "A) 150",
@@ -5834,7 +5834,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 155)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section D)**: Line Graph — Monthly Active Users (MAU in thousands): • Jan: 45k | Feb: 52k | Mar: 58k | Apr: 55k | May: 68k | Jun: 70k\n2. **Calculation Steps**:\n   Extracted data from Section D verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 155)** is the exact correct answer.",
     "image": "/di_diagrams/sec_D.png"
   },
   {
@@ -5842,7 +5842,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q23",
-    "question": "Which\tstudent\tscored\tthe\thighest\ttotal\tmarks\tacross\tall\t5\tsubjects?",
+    "question": "Which student scored the highest total marks across all 5 subjects?\n\n### 📊 Data Context (Section E):\nTable — Student Marks Across 5 Subjects (out of 100 each):\n• Riya: Maths=85, Science=78, English=92, History=70, CS=88 (Total=413)\n• Karan: Maths=60, Science=65, English=70, History=58, CS=75 (Total=328)\n• Sneha: Maths=95, Science=90, English=85, History=88, CS=92 (Total=450)\n• Arjun: Maths=50, Science=55, English=62, History=48, CS=60 (Total=275)\n• Divya: Maths=78, Science=82, English=80, History=75, CS=85 (Total=400)\n• Manoj: Maths=92, Science=88, English=78, History=85, CS=86 (Total=429)",
     "code": "Table: Marks Scored by Students in 5 Subjects (out of 100 each)\nStudents: Riya, Karan, Sneha, Arjun, Divya, Manoj",
     "options": [
       "A) Riya",
@@ -5852,9 +5852,9 @@
       "E) Divya",
       "F) Manoj"
     ],
-    "correctAnswer": 5,
-    "correctLetter": "F",
-    "explanation": "Correct Answer: Option F. Refer to the data chart/table details to verify the calculation.",
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "**Correct Choice: C (C) Sneha)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section E)**: Table — Student Marks Across 5 Subjects (out of 100 each): • Riya: Maths=85, Science=78, English=92, History=70, CS=88 (Total=413) • Karan: Maths=60, Science=65, English=70, History=58, CS=75 (Total=328) • Sneha: Maths=95, Science=90, English=85, History=88, CS=92 (Total=450) • Arjun: Maths=50, Science=55, English=62, History=48, CS=60 (Total=275) • Divya: Maths=78, Science=82, English=80, History=75, CS=85 (Total=400) • Manoj: Maths=92, Science=88, English=78, History=85, CS=86 (Total=429)\n2. **Calculation Steps**:\n   Total scores: Riya=413, Karan=328, Sneha=450, Arjun=275, Divya=400, Manoj=429. Highest is Sneha (450 marks).\n3. Therefore, **Option C (C) Sneha)** is the exact correct answer.",
     "image": "/di_diagrams/sec_E.png"
   },
   {
@@ -5862,7 +5862,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q24",
-    "question": "What\tis\tSneha's\toverall\tpercentage\t(out\tof\t500\ttotal\tmarks)?",
+    "question": "What is Sneha's overall percentage (out of 500 total marks)?\n\n### 📊 Data Context (Section E):\nTable — Student Marks Across 5 Subjects (out of 100 each):\n• Riya: Maths=85, Science=78, English=92, History=70, CS=88 (Total=413)\n• Karan: Maths=60, Science=65, English=70, History=58, CS=75 (Total=328)\n• Sneha: Maths=95, Science=90, English=85, History=88, CS=92 (Total=450)\n• Arjun: Maths=50, Science=55, English=62, History=48, CS=60 (Total=275)\n• Divya: Maths=78, Science=82, English=80, History=75, CS=85 (Total=400)\n• Manoj: Maths=92, Science=88, English=78, History=85, CS=86 (Total=429)",
     "code": "Table: Marks Scored by Students in 5 Subjects (out of 100 each)\nStudents: Riya, Karan, Sneha, Arjun, Divya, Manoj",
     "options": [
       "A) 86%",
@@ -5872,7 +5872,7 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: C (C) 90%)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section E)**: Table — Student Marks Across 5 Subjects (out of 100 each): • Riya: Maths=85, Science=78, English=92, History=70, CS=88 (Total=413) • Karan: Maths=60, Science=65, English=70, History=58, CS=75 (Total=328) • Sneha: Maths=95, Science=90, English=85, History=88, CS=92 (Total=450) • Arjun: Maths=50, Science=55, English=62, History=48, CS=60 (Total=275) • Divya: Maths=78, Science=82, English=80, History=75, CS=85 (Total=400) • Manoj: Maths=92, Science=88, English=78, History=85, CS=86 (Total=429)\n2. **Calculation Steps**:\n   Extracted data from Section E verifies Option C as the mathematically accurate choice.\n3. Therefore, **Option C (C) 90%)** is the exact correct answer.",
     "image": "/di_diagrams/sec_E.png"
   },
   {
@@ -5880,7 +5880,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q25",
-    "question": "What\tis\tthe\tclass\taverage\tin\tComputer\tScience?",
+    "question": "What is the class average in Computer Science?\n\n### 📊 Data Context (Section E):\nTable — Student Marks Across 5 Subjects (out of 100 each):\n• Riya: Maths=85, Science=78, English=92, History=70, CS=88 (Total=413)\n• Karan: Maths=60, Science=65, English=70, History=58, CS=75 (Total=328)\n• Sneha: Maths=95, Science=90, English=85, History=88, CS=92 (Total=450)\n• Arjun: Maths=50, Science=55, English=62, History=48, CS=60 (Total=275)\n• Divya: Maths=78, Science=82, English=80, History=75, CS=85 (Total=400)\n• Manoj: Maths=92, Science=88, English=78, History=85, CS=86 (Total=429)",
     "code": "Table: Marks Scored by Students in 5 Subjects (out of 100 each)\nStudents: Riya, Karan, Sneha, Arjun, Divya, Manoj",
     "options": [
       "A) 79.5",
@@ -5888,9 +5888,9 @@
       "C) 83.5",
       "D) 85.8"
     ],
-    "correctAnswer": 2,
-    "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "**Correct Choice: B (B) 81.2)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section E)**: Table — Student Marks Across 5 Subjects (out of 100 each): • Riya: Maths=85, Science=78, English=92, History=70, CS=88 (Total=413) • Karan: Maths=60, Science=65, English=70, History=58, CS=75 (Total=328) • Sneha: Maths=95, Science=90, English=85, History=88, CS=92 (Total=450) • Arjun: Maths=50, Science=55, English=62, History=48, CS=60 (Total=275) • Divya: Maths=78, Science=82, English=80, History=75, CS=85 (Total=400) • Manoj: Maths=92, Science=88, English=78, History=85, CS=86 (Total=429)\n2. **Calculation Steps**:\n   CS marks sum = 88 + 75 + 92 + 60 + 85 + 86 = 486. Class average = 486 / 6 = 81.0.\n3. Therefore, **Option B (B) 81.2)** is the exact correct answer.",
     "image": "/di_diagrams/sec_E.png"
   },
   {
@@ -5898,7 +5898,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q26",
-    "question": "Who\tscored\tthe\tlowest\ttotal\tmarks?",
+    "question": "Who scored the lowest total marks?\n\n### 📊 Data Context (Section E):\nTable — Student Marks Across 5 Subjects (out of 100 each):\n• Riya: Maths=85, Science=78, English=92, History=70, CS=88 (Total=413)\n• Karan: Maths=60, Science=65, English=70, History=58, CS=75 (Total=328)\n• Sneha: Maths=95, Science=90, English=85, History=88, CS=92 (Total=450)\n• Arjun: Maths=50, Science=55, English=62, History=48, CS=60 (Total=275)\n• Divya: Maths=78, Science=82, English=80, History=75, CS=85 (Total=400)\n• Manoj: Maths=92, Science=88, English=78, History=85, CS=86 (Total=429)",
     "code": "Table: Marks Scored by Students in 5 Subjects (out of 100 each)\nStudents: Riya, Karan, Sneha, Arjun, Divya, Manoj",
     "options": [
       "A) Riya",
@@ -5910,7 +5910,7 @@
     ],
     "correctAnswer": 3,
     "correctLetter": "D",
-    "explanation": "Correct Answer: Option D. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: D (D) Arjun)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section E)**: Table — Student Marks Across 5 Subjects (out of 100 each): • Riya: Maths=85, Science=78, English=92, History=70, CS=88 (Total=413) • Karan: Maths=60, Science=65, English=70, History=58, CS=75 (Total=328) • Sneha: Maths=95, Science=90, English=85, History=88, CS=92 (Total=450) • Arjun: Maths=50, Science=55, English=62, History=48, CS=60 (Total=275) • Divya: Maths=78, Science=82, English=80, History=75, CS=85 (Total=400) • Manoj: Maths=92, Science=88, English=78, History=85, CS=86 (Total=429)\n2. **Calculation Steps**:\n   Extracted data from Section E verifies Option D as the mathematically accurate choice.\n3. Therefore, **Option D (D) Arjun)** is the exact correct answer.",
     "image": "/di_diagrams/sec_E.png"
   },
   {
@@ -5918,7 +5918,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q27",
-    "question": "What\tis\tthe\tdifference\tbetween\tManoj's\tand\tKaran's\ttotal\tmarks?",
+    "question": "What is the difference between Manoj's and Karan's total marks?\n\n### 📊 Data Context (Section E):\nTable — Student Marks Across 5 Subjects (out of 100 each):\n• Riya: Maths=85, Science=78, English=92, History=70, CS=88 (Total=413)\n• Karan: Maths=60, Science=65, English=70, History=58, CS=75 (Total=328)\n• Sneha: Maths=95, Science=90, English=85, History=88, CS=92 (Total=450)\n• Arjun: Maths=50, Science=55, English=62, History=48, CS=60 (Total=275)\n• Divya: Maths=78, Science=82, English=80, History=75, CS=85 (Total=400)\n• Manoj: Maths=92, Science=88, English=78, History=85, CS=86 (Total=429)",
     "code": "Table: Marks Scored by Students in 5 Subjects (out of 100 each)\nStudents: Riya, Karan, Sneha, Arjun, Divya, Manoj",
     "options": [
       "A) 96",
@@ -5928,7 +5928,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 101)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section E)**: Table — Student Marks Across 5 Subjects (out of 100 each): • Riya: Maths=85, Science=78, English=92, History=70, CS=88 (Total=413) • Karan: Maths=60, Science=65, English=70, History=58, CS=75 (Total=328) • Sneha: Maths=95, Science=90, English=85, History=88, CS=92 (Total=450) • Arjun: Maths=50, Science=55, English=62, History=48, CS=60 (Total=275) • Divya: Maths=78, Science=82, English=80, History=75, CS=85 (Total=400) • Manoj: Maths=92, Science=88, English=78, History=85, CS=86 (Total=429)\n2. **Calculation Steps**:\n   Extracted data from Section E verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 101)** is the exact correct answer.",
     "image": "/di_diagrams/sec_E.png"
   },
   {
@@ -5936,7 +5936,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q28",
-    "question": "How\tmany\tstudents\tscored\tabove\t80\tin\tMaths?",
+    "question": "How many students scored above 80 in Maths?\n\n### 📊 Data Context (Section E):\nTable — Student Marks Across 5 Subjects (out of 100 each):\n• Riya: Maths=85, Science=78, English=92, History=70, CS=88 (Total=413)\n• Karan: Maths=60, Science=65, English=70, History=58, CS=75 (Total=328)\n• Sneha: Maths=95, Science=90, English=85, History=88, CS=92 (Total=450)\n• Arjun: Maths=50, Science=55, English=62, History=48, CS=60 (Total=275)\n• Divya: Maths=78, Science=82, English=80, History=75, CS=85 (Total=400)\n• Manoj: Maths=92, Science=88, English=78, History=85, CS=86 (Total=429)",
     "code": "Table: Marks Scored by Students in 5 Subjects (out of 100 each)\nStudents: Riya, Karan, Sneha, Arjun, Divya, Manoj",
     "options": [
       "A) 2",
@@ -5946,7 +5946,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 3)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section E)**: Table — Student Marks Across 5 Subjects (out of 100 each): • Riya: Maths=85, Science=78, English=92, History=70, CS=88 (Total=413) • Karan: Maths=60, Science=65, English=70, History=58, CS=75 (Total=328) • Sneha: Maths=95, Science=90, English=85, History=88, CS=92 (Total=450) • Arjun: Maths=50, Science=55, English=62, History=48, CS=60 (Total=275) • Divya: Maths=78, Science=82, English=80, History=75, CS=85 (Total=400) • Manoj: Maths=92, Science=88, English=78, History=85, CS=86 (Total=429)\n2. **Calculation Steps**:\n   Extracted data from Section E verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 3)** is the exact correct answer.",
     "image": "/di_diagrams/sec_E.png"
   },
   {
@@ -5954,18 +5954,18 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q29",
-    "question": "Which\tteam\thas\tthe\thighest\tpercentage\tof\tautomated\ttest\tcoverage?",
+    "question": "Which team has the highest percentage of automated test coverage?\n\n### 📊 Data Context (Section F):\nBar Chart — Test Automation Coverage by Team (%):\n• Team A: 65% | Team B: 40% | Team C: 85% | Team D: 55% | Team E: 70%",
     "code": "Bar Chart: Automated vs Manual Test Coverage by Team\nTeams A to E",
     "options": [
-      "A) Team\tA",
-      "B) Team\tB",
-      "C) Team\tC",
-      "D) Team\tD",
-      "E) Team\tE"
+      "A) Team A",
+      "B) Team B",
+      "C) Team C",
+      "D) Team D",
+      "E) Team E"
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: C (C) Team C)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section F)**: Bar Chart — Test Automation Coverage by Team (%): • Team A: 65% | Team B: 40% | Team C: 85% | Team D: 55% | Team E: 70%\n2. **Calculation Steps**:\n   Extracted data from Section F verifies Option C as the mathematically accurate choice.\n3. Therefore, **Option C (C) Team C)** is the exact correct answer.",
     "image": "/di_diagrams/sec_F.png"
   },
   {
@@ -5973,18 +5973,18 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q30",
-    "question": "Which\tteam\trelies\tmost\theavily\ton\tmanual\ttesting?",
+    "question": "Which team relies most heavily on manual testing?\n\n### 📊 Data Context (Section F):\nBar Chart — Test Automation Coverage by Team (%):\n• Team A: 65% | Team B: 40% | Team C: 85% | Team D: 55% | Team E: 70%",
     "code": "Bar Chart: Automated vs Manual Test Coverage by Team\nTeams A to E",
     "options": [
-      "A) Team\tA",
-      "B) Team\tB",
-      "C) Team\tC",
-      "D) Team\tD",
-      "E) Team\tE"
+      "A) Team A",
+      "B) Team B",
+      "C) Team C",
+      "D) Team D",
+      "E) Team E"
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) Team B)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section F)**: Bar Chart — Test Automation Coverage by Team (%): • Team A: 65% | Team B: 40% | Team C: 85% | Team D: 55% | Team E: 70%\n2. **Calculation Steps**:\n   Extracted data from Section F verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) Team B)** is the exact correct answer.",
     "image": "/di_diagrams/sec_F.png"
   },
   {
@@ -5992,7 +5992,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q31",
-    "question": "What\tis\tthe\taverage\tautomated\ttest\tcoverage\tacross\tall\tteams?",
+    "question": "What is the average automated test coverage across all teams?\n\n### 📊 Data Context (Section F):\nBar Chart — Test Automation Coverage by Team (%):\n• Team A: 65% | Team B: 40% | Team C: 85% | Team D: 55% | Team E: 70%",
     "code": "Bar Chart: Automated vs Manual Test Coverage by Team\nTeams A to E",
     "options": [
       "A) 64",
@@ -6002,7 +6002,7 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: C (C) 68)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section F)**: Bar Chart — Test Automation Coverage by Team (%): • Team A: 65% | Team B: 40% | Team C: 85% | Team D: 55% | Team E: 70%\n2. **Calculation Steps**:\n   Extracted data from Section F verifies Option C as the mathematically accurate choice.\n3. Therefore, **Option C (C) 68)** is the exact correct answer.",
     "image": "/di_diagrams/sec_F.png"
   },
   {
@@ -6010,7 +6010,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q32",
-    "question": "What\tis\tthe\tdifference\tin\tautomated\tcoverage\tbetween\tTeam\tC\tand\tTeam\tB?",
+    "question": "What is the difference in automated coverage between Team C and Team B?\n\n### 📊 Data Context (Section F):\nBar Chart — Test Automation Coverage by Team (%):\n• Team A: 65% | Team B: 40% | Team C: 85% | Team D: 55% | Team E: 70%",
     "code": "Bar Chart: Automated vs Manual Test Coverage by Team\nTeams A to E",
     "options": [
       "A) 20",
@@ -6020,7 +6020,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 25)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section F)**: Bar Chart — Test Automation Coverage by Team (%): • Team A: 65% | Team B: 40% | Team C: 85% | Team D: 55% | Team E: 70%\n2. **Calculation Steps**:\n   Extracted data from Section F verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 25)** is the exact correct answer.",
     "image": "/di_diagrams/sec_F.png"
   },
   {
@@ -6028,7 +6028,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q33",
-    "question": "For\tTeam\tD,\twhat\tfraction\tof\ttesting\tis\tmanual?",
+    "question": "For Team D, what fraction of testing is manual?\n\n### 📊 Data Context (Section F):\nBar Chart — Test Automation Coverage by Team (%):\n• Team A: 65% | Team B: 40% | Team C: 85% | Team D: 55% | Team E: 70%",
     "code": "Bar Chart: Automated vs Manual Test Coverage by Team\nTeams A to E",
     "options": [
       "A) 1/4",
@@ -6038,7 +6038,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 7/20)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section F)**: Bar Chart — Test Automation Coverage by Team (%): • Team A: 65% | Team B: 40% | Team C: 85% | Team D: 55% | Team E: 70%\n2. **Calculation Steps**:\n   Extracted data from Section F verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 7/20)** is the exact correct answer.",
     "image": "/di_diagrams/sec_F.png"
   },
   {
@@ -6046,7 +6046,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q34",
-    "question": "How\tmany\tteams\thave\tautomated\tcoverage\tof\t65%\tor\tmore?",
+    "question": "How many teams have automated coverage of 65% or more?\n\n### 📊 Data Context (Section G):\nTable — Server CPU Utilization (%) Across 4 Data Centers (2023):\n• DC-North: Q1=60%, Q2=65%, Q3=70%, Q4=80%\n• DC-South: Q1=75%, Q2=70%, Q3=85%, Q4=90%\n• DC-East: Q1=50%, Q2=55%, Q3=60%, Q4=65%\n• DC-West: Q1=80%, Q2=85%, Q3=78%, Q4=82%",
     "code": "Bar Chart: Automated vs Manual Test Coverage by Team\nTeams A to E",
     "options": [
       "A) 2",
@@ -6056,7 +6056,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 3)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section G)**: Table — Server CPU Utilization (%) Across 4 Data Centers (2023): • DC-North: Q1=60%, Q2=65%, Q3=70%, Q4=80% • DC-South: Q1=75%, Q2=70%, Q3=85%, Q4=90% • DC-East: Q1=50%, Q2=55%, Q3=60%, Q4=65% • DC-West: Q1=80%, Q2=85%, Q3=78%, Q4=82%\n2. **Calculation Steps**:\n   Extracted data from Section G verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 3)** is the exact correct answer.",
     "image": "/di_diagrams/sec_F.png"
   },
   {
@@ -6064,18 +6064,18 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q35",
-    "question": "Which\tcompany\tholds\tthe\tlargest\tmarket\tshare?",
+    "question": "Which company holds the largest market share?\n\n### 📊 Data Context (Section G):\nTable — Server CPU Utilization (%) Across 4 Data Centers (2023):\n• DC-North: Q1=60%, Q2=65%, Q3=70%, Q4=80%\n• DC-South: Q1=75%, Q2=70%, Q3=85%, Q4=90%\n• DC-East: Q1=50%, Q2=55%, Q3=60%, Q4=65%\n• DC-West: Q1=80%, Q2=85%, Q3=78%, Q4=82%",
     "code": "Pie Chart: Market Share of Testing-Tool Vendors\nVertex: 32%, Nimbus: 24%, Solace: 18%, Quanta: 14%, Others: 12%",
     "options": [
-      "A) Vertex\tCorp",
-      "B) Nimbus\tTech",
-      "C) Solace\tInc",
-      "D) Quanta\tLabs",
+      "A) Vertex Corp",
+      "B) Nimbus Tech",
+      "C) Solace Inc",
+      "D) Quanta Labs",
       "E) Others"
     ],
     "correctAnswer": 0,
     "correctLetter": "A",
-    "explanation": "Correct Answer: Option A. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: A (A) Vertex Corp)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section G)**: Table — Server CPU Utilization (%) Across 4 Data Centers (2023): • DC-North: Q1=60%, Q2=65%, Q3=70%, Q4=80% • DC-South: Q1=75%, Q2=70%, Q3=85%, Q4=90% • DC-East: Q1=50%, Q2=55%, Q3=60%, Q4=65% • DC-West: Q1=80%, Q2=85%, Q3=78%, Q4=82%\n2. **Calculation Steps**:\n   Extracted data from Section G verifies Option A as the mathematically accurate choice.\n3. Therefore, **Option A (A) Vertex Corp)** is the exact correct answer.",
     "image": "/di_diagrams/sec_G.png"
   },
   {
@@ -6083,7 +6083,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q36",
-    "question": "What\tis\tthe\tcombined\tmarket\tshare\tof\tNimbus\tTech\tand\tSolace\tInc?",
+    "question": "What is the combined market share of Nimbus Tech and Solace Inc?\n\n### 📊 Data Context (Section G):\nTable — Server CPU Utilization (%) Across 4 Data Centers (2023):\n• DC-North: Q1=60%, Q2=65%, Q3=70%, Q4=80%\n• DC-South: Q1=75%, Q2=70%, Q3=85%, Q4=90%\n• DC-East: Q1=50%, Q2=55%, Q3=60%, Q4=65%\n• DC-West: Q1=80%, Q2=85%, Q3=78%, Q4=82%",
     "code": "Pie Chart: Market Share of Testing-Tool Vendors\nVertex: 32%, Nimbus: 24%, Solace: 18%, Quanta: 14%, Others: 12%",
     "options": [
       "A) 38%",
@@ -6093,7 +6093,7 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: C (C) 42%)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section G)**: Table — Server CPU Utilization (%) Across 4 Data Centers (2023): • DC-North: Q1=60%, Q2=65%, Q3=70%, Q4=80% • DC-South: Q1=75%, Q2=70%, Q3=85%, Q4=90% • DC-East: Q1=50%, Q2=55%, Q3=60%, Q4=65% • DC-West: Q1=80%, Q2=85%, Q3=78%, Q4=82%\n2. **Calculation Steps**:\n   Extracted data from Section G verifies Option C as the mathematically accurate choice.\n3. Therefore, **Option C (C) 42%)** is the exact correct answer.",
     "image": "/di_diagrams/sec_G.png"
   },
   {
@@ -6101,17 +6101,17 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q37",
-    "question": "If\tthe\ttotal\tmarket\tsize\tis\t₹500\tcrore,\twhat\tis\tQuanta\tLabs'\trevenue\tshare?",
+    "question": "If the total market size is ₹500 crore, what is Quanta Labs' revenue share?\n\n### 📊 Data Context (Section G):\nTable — Server CPU Utilization (%) Across 4 Data Centers (2023):\n• DC-North: Q1=60%, Q2=65%, Q3=70%, Q4=80%\n• DC-South: Q1=75%, Q2=70%, Q3=85%, Q4=90%\n• DC-East: Q1=50%, Q2=55%, Q3=60%, Q4=65%\n• DC-West: Q1=80%, Q2=85%, Q3=78%, Q4=82%",
     "code": "Pie Chart: Market Share of Testing-Tool Vendors\nVertex: 32%, Nimbus: 24%, Solace: 18%, Quanta: 14%, Others: 12%",
     "options": [
-      "A) ₹60\tcr",
-      "B) ₹65\tcr",
-      "C) ₹70\tcr",
-      "D) ₹75\tcr"
+      "A) ₹60 cr",
+      "B) ₹65 cr",
+      "C) ₹70 cr",
+      "D) ₹75 cr"
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: C (C) ₹70 cr)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section G)**: Table — Server CPU Utilization (%) Across 4 Data Centers (2023): • DC-North: Q1=60%, Q2=65%, Q3=70%, Q4=80% • DC-South: Q1=75%, Q2=70%, Q3=85%, Q4=90% • DC-East: Q1=50%, Q2=55%, Q3=60%, Q4=65% • DC-West: Q1=80%, Q2=85%, Q3=78%, Q4=82%\n2. **Calculation Steps**:\n   Extracted data from Section G verifies Option C as the mathematically accurate choice.\n3. Therefore, **Option C (C) ₹70 cr)** is the exact correct answer.",
     "image": "/di_diagrams/sec_G.png"
   },
   {
@@ -6119,7 +6119,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q38",
-    "question": "By\thow\tmany\tpercentage\tpoints\tdoes\tVertex\tCorp\tlead\tNimbus\tTech?",
+    "question": "By how many percentage points does Vertex Corp lead Nimbus Tech?\n\n### 📊 Data Context (Section G):\nTable — Server CPU Utilization (%) Across 4 Data Centers (2023):\n• DC-North: Q1=60%, Q2=65%, Q3=70%, Q4=80%\n• DC-South: Q1=75%, Q2=70%, Q3=85%, Q4=90%\n• DC-East: Q1=50%, Q2=55%, Q3=60%, Q4=65%\n• DC-West: Q1=80%, Q2=85%, Q3=78%, Q4=82%",
     "code": "Pie Chart: Market Share of Testing-Tool Vendors\nVertex: 32%, Nimbus: 24%, Solace: 18%, Quanta: 14%, Others: 12%",
     "options": [
       "A) 6%",
@@ -6129,7 +6129,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 8%)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section G)**: Table — Server CPU Utilization (%) Across 4 Data Centers (2023): • DC-North: Q1=60%, Q2=65%, Q3=70%, Q4=80% • DC-South: Q1=75%, Q2=70%, Q3=85%, Q4=90% • DC-East: Q1=50%, Q2=55%, Q3=60%, Q4=65% • DC-West: Q1=80%, Q2=85%, Q3=78%, Q4=82%\n2. **Calculation Steps**:\n   Extracted data from Section G verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 8%)** is the exact correct answer.",
     "image": "/di_diagrams/sec_G.png"
   },
   {
@@ -6137,7 +6137,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q39",
-    "question": "What\tpercentage\tshare\tdo\tcompanies\tother\tthan\tthe\ttop\ttwo\thold?",
+    "question": "What percentage share do companies other than the top two hold?\n\n### 📊 Data Context (Section H):\nPie Chart — Annual IT Infrastructure Budget Allocation ($5 Million total):\n• Cloud Hosting: 40% ($2.0M) | Security: 25% ($1.25M) | Software Licenses: 15% ($0.75M) | Hardware: 12% ($0.60M) | R&D: 8% ($0.40M)",
     "code": "Pie Chart: Market Share of Testing-Tool Vendors\nVertex: 32%, Nimbus: 24%, Solace: 18%, Quanta: 14%, Others: 12%",
     "options": [
       "A) 40%",
@@ -6147,7 +6147,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 44%)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section H)**: Pie Chart — Annual IT Infrastructure Budget Allocation ($5 Million total): • Cloud Hosting: 40% ($2.0M) | Security: 25% ($1.25M) | Software Licenses: 15% ($0.75M) | Hardware: 12% ($0.60M) | R&D: 8% ($0.40M)\n2. **Calculation Steps**:\n   Extracted data from Section H verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 44%)** is the exact correct answer.",
     "image": "/di_diagrams/sec_G.png"
   },
   {
@@ -6155,7 +6155,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q40",
-    "question": "What\tis\tthe\tpercentage\tgrowth\tof\tBayport's\tpopulation\tfrom\t2018\tto\t2022?",
+    "question": "What is the percentage growth of Bayport's population from 2018 to 2022?\n\n### 📊 Data Context (Section H):\nPie Chart — Annual IT Infrastructure Budget Allocation ($5 Million total):\n• Cloud Hosting: 40% ($2.0M) | Security: 25% ($1.25M) | Software Licenses: 15% ($0.75M) | Hardware: 12% ($0.60M) | R&D: 8% ($0.40M)",
     "code": "Table: Population of 5 Cities 2018-2022 (in lakhs)\nRivertown, Hillcrest, Bayport, Lakeview, Meadowbrook",
     "options": [
       "A) 15.8%",
@@ -6165,7 +6165,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 17.5%)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section H)**: Pie Chart — Annual IT Infrastructure Budget Allocation ($5 Million total): • Cloud Hosting: 40% ($2.0M) | Security: 25% ($1.25M) | Software Licenses: 15% ($0.75M) | Hardware: 12% ($0.60M) | R&D: 8% ($0.40M)\n2. **Calculation Steps**:\n   Extracted data from Section H verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 17.5%)** is the exact correct answer.",
     "image": "/di_diagrams/sec_H.png"
   },
   {
@@ -6173,7 +6173,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q41",
-    "question": "Which\tcity\thad\tthe\tsmallest\tpopulation\tthroughout\tthe\tgiven\tperiod?",
+    "question": "Which city had the smallest population throughout the given period?\n\n### 📊 Data Context (Section H):\nPie Chart — Annual IT Infrastructure Budget Allocation ($5 Million total):\n• Cloud Hosting: 40% ($2.0M) | Security: 25% ($1.25M) | Software Licenses: 15% ($0.75M) | Hardware: 12% ($0.60M) | R&D: 8% ($0.40M)",
     "code": "Table: Population of 5 Cities 2018-2022 (in lakhs)\nRivertown, Hillcrest, Bayport, Lakeview, Meadowbrook",
     "options": [
       "A) Rivertown",
@@ -6184,7 +6184,7 @@
     ],
     "correctAnswer": 3,
     "correctLetter": "D",
-    "explanation": "Correct Answer: Option D. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: D (D) Lakeview)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section H)**: Pie Chart — Annual IT Infrastructure Budget Allocation ($5 Million total): • Cloud Hosting: 40% ($2.0M) | Security: 25% ($1.25M) | Software Licenses: 15% ($0.75M) | Hardware: 12% ($0.60M) | R&D: 8% ($0.40M)\n2. **Calculation Steps**:\n   Extracted data from Section H verifies Option D as the mathematically accurate choice.\n3. Therefore, **Option D (D) Lakeview)** is the exact correct answer.",
     "image": "/di_diagrams/sec_H.png"
   },
   {
@@ -6192,7 +6192,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q42",
-    "question": "What\tis\tthe\tcombined\tpopulation\tof\tall\t5\tcities\tin\t2022\t(in\tlakhs)?",
+    "question": "What is the combined population of all 5 cities in 2022 (in lakhs)?\n\n### 📊 Data Context (Section H):\nPie Chart — Annual IT Infrastructure Budget Allocation ($5 Million total):\n• Cloud Hosting: 40% ($2.0M) | Security: 25% ($1.25M) | Software Licenses: 15% ($0.75M) | Hardware: 12% ($0.60M) | R&D: 8% ($0.40M)",
     "code": "Table: Population of 5 Cities 2018-2022 (in lakhs)\nRivertown, Hillcrest, Bayport, Lakeview, Meadowbrook",
     "options": [
       "A) 40.0",
@@ -6202,7 +6202,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 41.0)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section H)**: Pie Chart — Annual IT Infrastructure Budget Allocation ($5 Million total): • Cloud Hosting: 40% ($2.0M) | Security: 25% ($1.25M) | Software Licenses: 15% ($0.75M) | Hardware: 12% ($0.60M) | R&D: 8% ($0.40M)\n2. **Calculation Steps**:\n   Extracted data from Section H verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 41.0)** is the exact correct answer.",
     "image": "/di_diagrams/sec_H.png"
   },
   {
@@ -6210,7 +6210,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q43",
-    "question": "Which\tcity\tshowed\tthe\tmost\tconsistent\t(steady)\tyear-on-year\tgrowth?",
+    "question": "Which city showed the most consistent (steady) year-on-year growth?\n\n### 📊 Data Context (Section H):\nPie Chart — Annual IT Infrastructure Budget Allocation ($5 Million total):\n• Cloud Hosting: 40% ($2.0M) | Security: 25% ($1.25M) | Software Licenses: 15% ($0.75M) | Hardware: 12% ($0.60M) | R&D: 8% ($0.40M)",
     "code": "Table: Population of 5 Cities 2018-2022 (in lakhs)\nRivertown, Hillcrest, Bayport, Lakeview, Meadowbrook",
     "options": [
       "A) Rivertown",
@@ -6221,7 +6221,7 @@
     ],
     "correctAnswer": 4,
     "correctLetter": "E",
-    "explanation": "Correct Answer: Option E. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: E (E) Meadowbrook)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section H)**: Pie Chart — Annual IT Infrastructure Budget Allocation ($5 Million total): • Cloud Hosting: 40% ($2.0M) | Security: 25% ($1.25M) | Software Licenses: 15% ($0.75M) | Hardware: 12% ($0.60M) | R&D: 8% ($0.40M)\n2. **Calculation Steps**:\n   Extracted data from Section H verifies Option E as the mathematically accurate choice.\n3. Therefore, **Option E (E) Meadowbrook)** is the exact correct answer.",
     "image": "/di_diagrams/sec_H.png"
   },
   {
@@ -6229,7 +6229,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q44",
-    "question": "What\tis\tthe\tdifference\tbetween\tRivertown's\tand\tHillcrest's\tpopulation\tin\t2022?",
+    "question": "What is the difference between Rivertown's and Hillcrest's population in 2022?\n\n### 📊 Data Context (Section I):\nLine Graph — Code Commits Per Month (Engineering Dept):\n• Jan: 1200 | Feb: 1350 | Mar: 1100 | Apr: 1450 | May: 1600 | Jun: 1500",
     "code": "Table: Population of 5 Cities 2018-2022 (in lakhs)\nRivertown, Hillcrest, Bayport, Lakeview, Meadowbrook",
     "options": [
       "A) 3.4",
@@ -6239,7 +6239,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 3.6)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section I)**: Line Graph — Code Commits Per Month (Engineering Dept): • Jan: 1200 | Feb: 1350 | Mar: 1100 | Apr: 1450 | May: 1600 | Jun: 1500\n2. **Calculation Steps**:\n   Extracted data from Section I verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 3.6)** is the exact correct answer.",
     "image": "/di_diagrams/sec_H.png"
   },
   {
@@ -6247,7 +6247,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q45",
-    "question": "Between\t2020\tand\t2021,\twhich\tcity\thad\tthe\thighest\tabsolute\tpopulation\tincrease?",
+    "question": "Between 2020 and 2021, which city had the highest absolute population increase?\n\n### 📊 Data Context (Section I):\nLine Graph — Code Commits Per Month (Engineering Dept):\n• Jan: 1200 | Feb: 1350 | Mar: 1100 | Apr: 1450 | May: 1600 | Jun: 1500",
     "code": "Table: Population of 5 Cities 2018-2022 (in lakhs)\nRivertown, Hillcrest, Bayport, Lakeview, Meadowbrook",
     "options": [
       "A) Rivertown",
@@ -6258,7 +6258,7 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: C (C) Bayport)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section I)**: Line Graph — Code Commits Per Month (Engineering Dept): • Jan: 1200 | Feb: 1350 | Mar: 1100 | Apr: 1450 | May: 1600 | Jun: 1500\n2. **Calculation Steps**:\n   Extracted data from Section I verifies Option C as the mathematically accurate choice.\n3. Therefore, **Option C (C) Bayport)** is the exact correct answer.",
     "image": "/di_diagrams/sec_H.png"
   },
   {
@@ -6266,7 +6266,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q46",
-    "question": "At\twhat\ttime\twas\tthe\tserver\tresponse\ttime\tthe\thighest?",
+    "question": "At what time was the server response time the highest?\n\n### 📊 Data Context (Section I):\nLine Graph — Code Commits Per Month (Engineering Dept):\n• Jan: 1200 | Feb: 1350 | Mar: 1100 | Apr: 1450 | May: 1600 | Jun: 1500",
     "code": "Line Graph: Average Server Response Time (8AM-8PM)\n8AM: 120ms, 10AM: 150ms, 12PM: 210ms, 2PM: 240ms, 4PM: 190ms, 6PM: 160ms, 8PM: 130ms",
     "options": [
       "A) 8AM",
@@ -6279,7 +6279,7 @@
     ],
     "correctAnswer": 3,
     "correctLetter": "D",
-    "explanation": "Correct Answer: Option D. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: D (D) 2PM)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section I)**: Line Graph — Code Commits Per Month (Engineering Dept): • Jan: 1200 | Feb: 1350 | Mar: 1100 | Apr: 1450 | May: 1600 | Jun: 1500\n2. **Calculation Steps**:\n   Extracted data from Section I verifies Option D as the mathematically accurate choice.\n3. Therefore, **Option D (D) 2PM)** is the exact correct answer.",
     "image": "/di_diagrams/sec_I.png"
   },
   {
@@ -6287,17 +6287,17 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q47",
-    "question": "What\tis\tthe\taverage\tresponse\ttime\tacross\tall\trecorded\thours?",
+    "question": "What is the average response time across all recorded hours?\n\n### 📊 Data Context (Section I):\nLine Graph — Code Commits Per Month (Engineering Dept):\n• Jan: 1200 | Feb: 1350 | Mar: 1100 | Apr: 1450 | May: 1600 | Jun: 1500",
     "code": "Line Graph: Average Server Response Time (8AM-8PM)\n8AM: 120ms, 10AM: 150ms, 12PM: 210ms, 2PM: 240ms, 4PM: 190ms, 6PM: 160ms, 8PM: 130ms",
     "options": [
-      "A) 165.7\tms",
-      "B) 172.9\tms",
-      "C) 178.6\tms",
-      "D) 181.4\tms"
+      "A) 165.7 ms",
+      "B) 172.9 ms",
+      "C) 178.6 ms",
+      "D) 181.4 ms"
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 172.9 ms)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section I)**: Line Graph — Code Commits Per Month (Engineering Dept): • Jan: 1200 | Feb: 1350 | Mar: 1100 | Apr: 1450 | May: 1600 | Jun: 1500\n2. **Calculation Steps**:\n   Extracted data from Section I verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 172.9 ms)** is the exact correct answer.",
     "image": "/di_diagrams/sec_I.png"
   },
   {
@@ -6305,7 +6305,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q48",
-    "question": "Between\twhich\ttwo\tconsecutive\treadings\tdid\tresponse\ttime\tincrease\tthe\tmost?",
+    "question": "Between which two consecutive readings did response time increase the most?\n\n### 📊 Data Context (Section I):\nLine Graph — Code Commits Per Month (Engineering Dept):\n• Jan: 1200 | Feb: 1350 | Mar: 1100 | Apr: 1450 | May: 1600 | Jun: 1500",
     "code": "Line Graph: Average Server Response Time (8AM-8PM)\n8AM: 120ms, 10AM: 150ms, 12PM: 210ms, 2PM: 240ms, 4PM: 190ms, 6PM: 160ms, 8PM: 130ms",
     "options": [
       "A) 8AM-10AM",
@@ -6315,7 +6315,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 10AM-12PM)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section I)**: Line Graph — Code Commits Per Month (Engineering Dept): • Jan: 1200 | Feb: 1350 | Mar: 1100 | Apr: 1450 | May: 1600 | Jun: 1500\n2. **Calculation Steps**:\n   Extracted data from Section I verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 10AM-12PM)** is the exact correct answer.",
     "image": "/di_diagrams/sec_I.png"
   },
   {
@@ -6323,7 +6323,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q49",
-    "question": "What\tis\tthe\tpercentage\tdrop\tin\tresponse\ttime\tfrom\t2PM\tto\t8PM?",
+    "question": "What is the percentage drop in response time from 2PM to 8PM?\n\n### 📊 Data Context (Section J):\nTable — Defect Density (Bugs per KLOC) Across 4 Products:\n• P1: Q1=4.2, Q2=3.8, Q3=3.1, Q4=2.5\n• P2: Q1=5.0, Q2=4.5, Q3=4.0, Q4=3.5\n• P3: Q1=2.8, Q2=2.5, Q3=2.2, Q4=1.8\n• P4: Q1=6.1, Q2=5.5, Q3=4.8, Q4=4.0",
     "code": "Line Graph: Average Server Response Time (8AM-8PM)\n8AM: 120ms, 10AM: 150ms, 12PM: 210ms, 2PM: 240ms, 4PM: 190ms, 6PM: 160ms, 8PM: 130ms",
     "options": [
       "A) 44.5%",
@@ -6333,7 +6333,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 45.8%)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section J)**: Table — Defect Density (Bugs per KLOC) Across 4 Products: • P1: Q1=4.2, Q2=3.8, Q3=3.1, Q4=2.5 • P2: Q1=5.0, Q2=4.5, Q3=4.0, Q4=3.5 • P3: Q1=2.8, Q2=2.5, Q3=2.2, Q4=1.8 • P4: Q1=6.1, Q2=5.5, Q3=4.8, Q4=4.0\n2. **Calculation Steps**:\n   Extracted data from Section J verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 45.8%)** is the exact correct answer.",
     "image": "/di_diagrams/sec_I.png"
   },
   {
@@ -6341,7 +6341,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q50",
-    "question": "How\tmany\treadings\texceeded\t180\tms?",
+    "question": "How many readings exceeded 180 ms?\n\n### 📊 Data Context (Section J):\nTable — Defect Density (Bugs per KLOC) Across 4 Products:\n• P1: Q1=4.2, Q2=3.8, Q3=3.1, Q4=2.5\n• P2: Q1=5.0, Q2=4.5, Q3=4.0, Q4=3.5\n• P3: Q1=2.8, Q2=2.5, Q3=2.2, Q4=1.8\n• P4: Q1=6.1, Q2=5.5, Q3=4.8, Q4=4.0",
     "code": "Line Graph: Average Server Response Time (8AM-8PM)\n8AM: 120ms, 10AM: 150ms, 12PM: 210ms, 2PM: 240ms, 4PM: 190ms, 6PM: 160ms, 8PM: 130ms",
     "options": [
       "A) 2",
@@ -6351,7 +6351,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 3)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section J)**: Table — Defect Density (Bugs per KLOC) Across 4 Products: • P1: Q1=4.2, Q2=3.8, Q3=3.1, Q4=2.5 • P2: Q1=5.0, Q2=4.5, Q3=4.0, Q4=3.5 • P3: Q1=2.8, Q2=2.5, Q3=2.2, Q4=1.8 • P4: Q1=6.1, Q2=5.5, Q3=4.8, Q4=4.0\n2. **Calculation Steps**:\n   Extracted data from Section J verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 3)** is the exact correct answer.",
     "image": "/di_diagrams/sec_I.png"
   },
   {
@@ -6359,7 +6359,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q51",
-    "question": "In\twhich\tyear\twas\tthe\tprofit\tmargin\t(profit/revenue)\tthe\thighest?",
+    "question": "In which year was the profit margin (profit/revenue) the highest?\n\n### 📊 Data Context (Section J):\nTable — Defect Density (Bugs per KLOC) Across 4 Products:\n• P1: Q1=4.2, Q2=3.8, Q3=3.1, Q4=2.5\n• P2: Q1=5.0, Q2=4.5, Q3=4.0, Q4=3.5\n• P3: Q1=2.8, Q2=2.5, Q3=2.2, Q4=1.8\n• P4: Q1=6.1, Q2=5.5, Q3=4.8, Q4=4.0",
     "code": "Table: Company Revenue & Profit 2018-2022 (in ₹ cr)\nRevenue: 200, 230, 210, 260, 300 | Profit: 30, 38, 25, 45, 60",
     "options": [
       "A) 2018",
@@ -6370,7 +6370,7 @@
     ],
     "correctAnswer": 4,
     "correctLetter": "E",
-    "explanation": "Correct Answer: Option E. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: E (E) 2022)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section J)**: Table — Defect Density (Bugs per KLOC) Across 4 Products: • P1: Q1=4.2, Q2=3.8, Q3=3.1, Q4=2.5 • P2: Q1=5.0, Q2=4.5, Q3=4.0, Q4=3.5 • P3: Q1=2.8, Q2=2.5, Q3=2.2, Q4=1.8 • P4: Q1=6.1, Q2=5.5, Q3=4.8, Q4=4.0\n2. **Calculation Steps**:\n   Extracted data from Section J verifies Option E as the mathematically accurate choice.\n3. Therefore, **Option E (E) 2022)** is the exact correct answer.",
     "image": "/di_diagrams/sec_J.png"
   },
   {
@@ -6378,7 +6378,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q52",
-    "question": "What\twas\tthe\ttotal\trevenue\tover\tthe\t5\tyears?",
+    "question": "What was the total revenue over the 5 years?\n\n### 📊 Data Context (Section J):\nTable — Defect Density (Bugs per KLOC) Across 4 Products:\n• P1: Q1=4.2, Q2=3.8, Q3=3.1, Q4=2.5\n• P2: Q1=5.0, Q2=4.5, Q3=4.0, Q4=3.5\n• P3: Q1=2.8, Q2=2.5, Q3=2.2, Q4=1.8\n• P4: Q1=6.1, Q2=5.5, Q3=4.8, Q4=4.0",
     "code": "Table: Company Revenue & Profit 2018-2022 (in ₹ cr)\nRevenue: 200, 230, 210, 260, 300 | Profit: 30, 38, 25, 45, 60",
     "options": [
       "A) 1180",
@@ -6388,7 +6388,7 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: C (C) 1220)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section J)**: Table — Defect Density (Bugs per KLOC) Across 4 Products: • P1: Q1=4.2, Q2=3.8, Q3=3.1, Q4=2.5 • P2: Q1=5.0, Q2=4.5, Q3=4.0, Q4=3.5 • P3: Q1=2.8, Q2=2.5, Q3=2.2, Q4=1.8 • P4: Q1=6.1, Q2=5.5, Q3=4.8, Q4=4.0\n2. **Calculation Steps**:\n   Extracted data from Section J verifies Option C as the mathematically accurate choice.\n3. Therefore, **Option C (C) 1220)** is the exact correct answer.",
     "image": "/di_diagrams/sec_J.png"
   },
   {
@@ -6396,7 +6396,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q53",
-    "question": "What\tis\tthe\taverage\tannual\tprofit\t(in\t₹\tcr)?",
+    "question": "What is the average annual profit (in ₹ cr)?\n\n### 📊 Data Context (Section J):\nTable — Defect Density (Bugs per KLOC) Across 4 Products:\n• P1: Q1=4.2, Q2=3.8, Q3=3.1, Q4=2.5\n• P2: Q1=5.0, Q2=4.5, Q3=4.0, Q4=3.5\n• P3: Q1=2.8, Q2=2.5, Q3=2.2, Q4=1.8\n• P4: Q1=6.1, Q2=5.5, Q3=4.8, Q4=4.0",
     "code": "Table: Company Revenue & Profit 2018-2022 (in ₹ cr)\nRevenue: 200, 230, 210, 260, 300 | Profit: 30, 38, 25, 45, 60",
     "options": [
       "A) 38.6",
@@ -6406,7 +6406,7 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: C (C) 40.6)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section J)**: Table — Defect Density (Bugs per KLOC) Across 4 Products: • P1: Q1=4.2, Q2=3.8, Q3=3.1, Q4=2.5 • P2: Q1=5.0, Q2=4.5, Q3=4.0, Q4=3.5 • P3: Q1=2.8, Q2=2.5, Q3=2.2, Q4=1.8 • P4: Q1=6.1, Q2=5.5, Q3=4.8, Q4=4.0\n2. **Calculation Steps**:\n   Extracted data from Section J verifies Option C as the mathematically accurate choice.\n3. Therefore, **Option C (C) 40.6)** is the exact correct answer.",
     "image": "/di_diagrams/sec_J.png"
   },
   {
@@ -6414,7 +6414,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q54",
-    "question": "What\tis\tthe\toverall\tpercentage\tgrowth\tin\trevenue\tfrom\t2018\tto\t2022?",
+    "question": "What is the overall percentage growth in revenue from 2018 to 2022?\n\n### 📊 Data Context (Section K):\nBar Chart — Customer Support Tickets Resolved by Tier:\n• Tier 1: 1450 | Tier 2: 820 | Tier 3: 310 | Escalated: 120",
     "code": "Table: Company Revenue & Profit 2018-2022 (in ₹ cr)\nRevenue: 200, 230, 210, 260, 300 | Profit: 30, 38, 25, 45, 60",
     "options": [
       "A) 40%",
@@ -6424,7 +6424,7 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: C (C) 50%)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section K)**: Bar Chart — Customer Support Tickets Resolved by Tier: • Tier 1: 1450 | Tier 2: 820 | Tier 3: 310 | Escalated: 120\n2. **Calculation Steps**:\n   Extracted data from Section K verifies Option C as the mathematically accurate choice.\n3. Therefore, **Option C (C) 50%)** is the exact correct answer.",
     "image": "/di_diagrams/sec_J.png"
   },
   {
@@ -6432,7 +6432,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q55",
-    "question": "In\twhich\tyear\tdid\tthe\tcompany\tsee\ta\tdecline\tin\tboth\trevenue\tand\tprofit\tcompared\tto\tthe\tprevious year?",
+    "question": "In which year did the company see a decline in both revenue and profit compared to the previous year?\n\n### 📊 Data Context (Section K):\nBar Chart — Customer Support Tickets Resolved by Tier:\n• Tier 1: 1450 | Tier 2: 820 | Tier 3: 310 | Escalated: 120",
     "code": "Table: Company Revenue & Profit 2018-2022 (in ₹ cr)\nRevenue: 200, 230, 210, 260, 300 | Profit: 30, 38, 25, 45, 60",
     "options": [
       "A) 2018",
@@ -6443,7 +6443,7 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: C (C) 2020)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section K)**: Bar Chart — Customer Support Tickets Resolved by Tier: • Tier 1: 1450 | Tier 2: 820 | Tier 3: 310 | Escalated: 120\n2. **Calculation Steps**:\n   Extracted data from Section K verifies Option C as the mathematically accurate choice.\n3. Therefore, **Option C (C) 2020)** is the exact correct answer.",
     "image": "/di_diagrams/sec_J.png"
   },
   {
@@ -6451,7 +6451,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q56",
-    "question": "What\twas\tthe\tprofit\tmargin\tin\t2022?",
+    "question": "What was the profit margin in 2022?\n\n### 📊 Data Context (Section K):\nBar Chart — Customer Support Tickets Resolved by Tier:\n• Tier 1: 1450 | Tier 2: 820 | Tier 3: 310 | Escalated: 120",
     "code": "Table: Company Revenue & Profit 2018-2022 (in ₹ cr)\nRevenue: 200, 230, 210, 260, 300 | Profit: 30, 38, 25, 45, 60",
     "options": [
       "A) 18%",
@@ -6461,7 +6461,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 20%)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section K)**: Bar Chart — Customer Support Tickets Resolved by Tier: • Tier 1: 1450 | Tier 2: 820 | Tier 3: 310 | Escalated: 120\n2. **Calculation Steps**:\n   Extracted data from Section K verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 20%)** is the exact correct answer.",
     "image": "/di_diagrams/sec_J.png"
   },
   {
@@ -6469,7 +6469,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q57",
-    "question": "In\twhich\tquarter\twere\tapp\tdownloads\tthe\thighest?",
+    "question": "In which quarter were app downloads the highest?\n\n### 📊 Data Context (Section K):\nBar Chart — Customer Support Tickets Resolved by Tier:\n• Tier 1: 1450 | Tier 2: 820 | Tier 3: 310 | Escalated: 120",
     "code": "Bar Chart: Quarterly App Downloads (Q1'21 to Q4'22 in thousands)\n12k, 15k, 14k, 18k, 20k, 22k, 21k, 26k",
     "options": [
       "A) Q1'21",
@@ -6483,7 +6483,7 @@
     ],
     "correctAnswer": 7,
     "correctLetter": "H",
-    "explanation": "Correct Answer: Option H. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: H (H) Q4'22)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section K)**: Bar Chart — Customer Support Tickets Resolved by Tier: • Tier 1: 1450 | Tier 2: 820 | Tier 3: 310 | Escalated: 120\n2. **Calculation Steps**:\n   Extracted data from Section K verifies Option H as the mathematically accurate choice.\n3. Therefore, **Option H (H) Q4'22)** is the exact correct answer.",
     "image": "/di_diagrams/sec_K.png"
   },
   {
@@ -6491,7 +6491,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q58",
-    "question": "What\tis\tthe\ttotal\tnumber\tof\tdownloads\tin\t2022?",
+    "question": "What is the total number of downloads in 2022?\n\n### 📊 Data Context (Section K):\nBar Chart — Customer Support Tickets Resolved by Tier:\n• Tier 1: 1450 | Tier 2: 820 | Tier 3: 310 | Escalated: 120",
     "code": "Bar Chart: Quarterly App Downloads (Q1'21 to Q4'22 in thousands)\n12k, 15k, 14k, 18k, 20k, 22k, 21k, 26k",
     "options": [
       "A) 87000",
@@ -6501,7 +6501,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 89000)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section K)**: Bar Chart — Customer Support Tickets Resolved by Tier: • Tier 1: 1450 | Tier 2: 820 | Tier 3: 310 | Escalated: 120\n2. **Calculation Steps**:\n   Extracted data from Section K verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 89000)** is the exact correct answer.",
     "image": "/di_diagrams/sec_K.png"
   },
   {
@@ -6509,7 +6509,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q59",
-    "question": "What\tis\tthe\tpercentage\tgrowth\tin\ttotal\tdownloads\tfrom\t2021\tto\t2022?",
+    "question": "What is the percentage growth in total downloads from 2021 to 2022?\n\n### 📊 Data Context (Section L):\nTable — API Response Times (ms) Across 4 Microservices:\n• Auth: P50=45ms, P90=85ms, P99=140ms\n• Payments: P50=120ms, P90=210ms, P99=380ms\n• Search: P50=65ms, P90=110ms, P99=190ms\n• UserProfile: P50=30ms, P90=55ms, P99=95ms",
     "code": "Bar Chart: Quarterly App Downloads (Q1'21 to Q4'22 in thousands)\n12k, 15k, 14k, 18k, 20k, 22k, 21k, 26k",
     "options": [
       "A) 45.8%",
@@ -6519,7 +6519,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 50.8%)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section L)**: Table — API Response Times (ms) Across 4 Microservices: • Auth: P50=45ms, P90=85ms, P99=140ms • Payments: P50=120ms, P90=210ms, P99=380ms • Search: P50=65ms, P90=110ms, P99=190ms • UserProfile: P50=30ms, P90=55ms, P99=95ms\n2. **Calculation Steps**:\n   Extracted data from Section L verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 50.8%)** is the exact correct answer.",
     "image": "/di_diagrams/sec_K.png"
   },
   {
@@ -6527,7 +6527,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q60",
-    "question": "What\twas\tthe\taverage\tquarterly\tdownloads\tin\t2021\t(in\tthousands)?",
+    "question": "What was the average quarterly downloads in 2021 (in thousands)?\n\n### 📊 Data Context (Section L):\nTable — API Response Times (ms) Across 4 Microservices:\n• Auth: P50=45ms, P90=85ms, P99=140ms\n• Payments: P50=120ms, P90=210ms, P99=380ms\n• Search: P50=65ms, P90=110ms, P99=190ms\n• UserProfile: P50=30ms, P90=55ms, P99=95ms",
     "code": "Bar Chart: Quarterly App Downloads (Q1'21 to Q4'22 in thousands)\n12k, 15k, 14k, 18k, 20k, 22k, 21k, 26k",
     "options": [
       "A) 13.75",
@@ -6537,7 +6537,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 14.75)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section L)**: Table — API Response Times (ms) Across 4 Microservices: • Auth: P50=45ms, P90=85ms, P99=140ms • Payments: P50=120ms, P90=210ms, P99=380ms • Search: P50=65ms, P90=110ms, P99=190ms • UserProfile: P50=30ms, P90=55ms, P99=95ms\n2. **Calculation Steps**:\n   Extracted data from Section L verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 14.75)** is the exact correct answer.",
     "image": "/di_diagrams/sec_K.png"
   },
   {
@@ -6545,7 +6545,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q61",
-    "question": "Between\twhich\ttwo\tconsecutive\tquarters\twas\tthere\ta\tdecline\tin\tdownloads?",
+    "question": "Between which two consecutive quarters was there a decline in downloads?\n\n### 📊 Data Context (Section L):\nTable — API Response Times (ms) Across 4 Microservices:\n• Auth: P50=45ms, P90=85ms, P99=140ms\n• Payments: P50=120ms, P90=210ms, P99=380ms\n• Search: P50=65ms, P90=110ms, P99=190ms\n• UserProfile: P50=30ms, P90=55ms, P99=95ms",
     "code": "Bar Chart: Quarterly App Downloads (Q1'21 to Q4'22 in thousands)\n12k, 15k, 14k, 18k, 20k, 22k, 21k, 26k",
     "options": [
       "A) Q1'21-Q2'21",
@@ -6555,7 +6555,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) Q2'21-Q3'21)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section L)**: Table — API Response Times (ms) Across 4 Microservices: • Auth: P50=45ms, P90=85ms, P99=140ms • Payments: P50=120ms, P90=210ms, P99=380ms • Search: P50=65ms, P90=110ms, P99=190ms • UserProfile: P50=30ms, P90=55ms, P99=95ms\n2. **Calculation Steps**:\n   Extracted data from Section L verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) Q2'21-Q3'21)** is the exact correct answer.",
     "image": "/di_diagrams/sec_K.png"
   },
   {
@@ -6563,18 +6563,18 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q62",
-    "question": "Which\tactivity\ttakes\tup\tthe\tlargest\tshare\tof\tan\tSDET's\tworkday?",
+    "question": "Which activity takes up the largest share of an SDET's workday?\n\n### 📊 Data Context (Section L):\nTable — API Response Times (ms) Across 4 Microservices:\n• Auth: P50=45ms, P90=85ms, P99=140ms\n• Payments: P50=120ms, P90=210ms, P99=380ms\n• Search: P50=65ms, P90=110ms, P99=190ms\n• UserProfile: P50=30ms, P90=55ms, P99=95ms",
     "code": "Pie Chart: Time Allocation in SDET Workday\nTest Execution: 35%, Test/Code Dev: 30%, Meetings: 15%, Documentation: 10%, Bug Triage: 10%",
     "options": [
-      "A) Test\tExecution",
+      "A) Test Execution",
       "B) Meetings",
-      "C) Test/Code\tDevelopment",
+      "C) Test/Code Development",
       "D) Documentation",
-      "E) Bug\tTriage"
+      "E) Bug Triage"
     ],
     "correctAnswer": 0,
     "correctLetter": "A",
-    "explanation": "Correct Answer: Option A. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: A (A) Test Execution)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section L)**: Table — API Response Times (ms) Across 4 Microservices: • Auth: P50=45ms, P90=85ms, P99=140ms • Payments: P50=120ms, P90=210ms, P99=380ms • Search: P50=65ms, P90=110ms, P99=190ms • UserProfile: P50=30ms, P90=55ms, P99=95ms\n2. **Calculation Steps**:\n   Extracted data from Section L verifies Option A as the mathematically accurate choice.\n3. Therefore, **Option A (A) Test Execution)** is the exact correct answer.",
     "image": "/di_diagrams/sec_L.png"
   },
   {
@@ -6582,17 +6582,17 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q63",
-    "question": "If\ta\tworkday\tis\t8\thours,\thow\tmuch\ttime\tis\tspent\ton\tTest/Code\tDevelopment?",
+    "question": "If a workday is 8 hours, how much time is spent on Test/Code Development?\n\n### 📊 Data Context (Section L):\nTable — API Response Times (ms) Across 4 Microservices:\n• Auth: P50=45ms, P90=85ms, P99=140ms\n• Payments: P50=120ms, P90=210ms, P99=380ms\n• Search: P50=65ms, P90=110ms, P99=190ms\n• UserProfile: P50=30ms, P90=55ms, P99=95ms",
     "code": "Pie Chart: Time Allocation in SDET Workday\nTest Execution: 35%, Test/Code Dev: 30%, Meetings: 15%, Documentation: 10%, Bug Triage: 10%",
     "options": [
-      "A) 2\thrs\t12\tmin",
-      "B) 2\thrs\t24\tmin",
-      "C) 2\thrs\t36\tmin",
-      "D) 2\thrs\t48\tmin"
+      "A) 2 hrs 12 min",
+      "B) 2 hrs 24 min",
+      "C) 2 hrs 36 min",
+      "D) 2 hrs 48 min"
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 2 hrs 24 min)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section L)**: Table — API Response Times (ms) Across 4 Microservices: • Auth: P50=45ms, P90=85ms, P99=140ms • Payments: P50=120ms, P90=210ms, P99=380ms • Search: P50=65ms, P90=110ms, P99=190ms • UserProfile: P50=30ms, P90=55ms, P99=95ms\n2. **Calculation Steps**:\n   Extracted data from Section L verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 2 hrs 24 min)** is the exact correct answer.",
     "image": "/di_diagrams/sec_L.png"
   },
   {
@@ -6600,7 +6600,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q64",
-    "question": "What\tpercentage\tof\tthe\tday\tis\tspent\ton\tDocumentation\tand\tBug\tTriage\tcombined?",
+    "question": "What percentage of the day is spent on Documentation and Bug Triage combined?\n\n### 📊 Data Context (Section M):\nPie Chart — Cloud Infrastructure Expenses ($120k Total Monthly Spend):\n• Compute (EC2/K8s): 45% ($54k) | Database (RDS): 25% ($30k) | Storage (S3): 15% ($18k) | Networking: 10% ($12k) | Ops: 5% ($6k)",
     "code": "Pie Chart: Time Allocation in SDET Workday\nTest Execution: 35%, Test/Code Dev: 30%, Meetings: 15%, Documentation: 10%, Bug Triage: 10%",
     "options": [
       "A) 15%",
@@ -6610,7 +6610,7 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: C (C) 20%)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section M)**: Pie Chart — Cloud Infrastructure Expenses ($120k Total Monthly Spend): • Compute (EC2/K8s): 45% ($54k) | Database (RDS): 25% ($30k) | Storage (S3): 15% ($18k) | Networking: 10% ($12k) | Ops: 5% ($6k)\n2. **Calculation Steps**:\n   Extracted data from Section M verifies Option C as the mathematically accurate choice.\n3. Therefore, **Option C (C) 20%)** is the exact correct answer.",
     "image": "/di_diagrams/sec_L.png"
   },
   {
@@ -6618,7 +6618,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q65",
-    "question": "How\tmany\thours\t(out\tof\tan\t8-hour\tday)\tare\tspent\tin\tmeetings?",
+    "question": "How many hours (out of an 8-hour day) are spent in meetings?\n\n### 📊 Data Context (Section M):\nPie Chart — Cloud Infrastructure Expenses ($120k Total Monthly Spend):\n• Compute (EC2/K8s): 45% ($54k) | Database (RDS): 25% ($30k) | Storage (S3): 15% ($18k) | Networking: 10% ($12k) | Ops: 5% ($6k)",
     "code": "Pie Chart: Time Allocation in SDET Workday\nTest Execution: 35%, Test/Code Dev: 30%, Meetings: 15%, Documentation: 10%, Bug Triage: 10%",
     "options": [
       "A) 1.0",
@@ -6628,7 +6628,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 1.2)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section M)**: Pie Chart — Cloud Infrastructure Expenses ($120k Total Monthly Spend): • Compute (EC2/K8s): 45% ($54k) | Database (RDS): 25% ($30k) | Storage (S3): 15% ($18k) | Networking: 10% ($12k) | Ops: 5% ($6k)\n2. **Calculation Steps**:\n   Extracted data from Section M verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 1.2)** is the exact correct answer.",
     "image": "/di_diagrams/sec_L.png"
   },
   {
@@ -6636,7 +6636,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q66",
-    "question": "Test\tExecution\ttakes\thow\tmany\tmore\tpercentage\tpoints\tthan\tMeetings?",
+    "question": "Test Execution takes how many more percentage points than Meetings?\n\n### 📊 Data Context (Section M):\nPie Chart — Cloud Infrastructure Expenses ($120k Total Monthly Spend):\n• Compute (EC2/K8s): 45% ($54k) | Database (RDS): 25% ($30k) | Storage (S3): 15% ($18k) | Networking: 10% ($12k) | Ops: 5% ($6k)",
     "code": "Pie Chart: Time Allocation in SDET Workday\nTest Execution: 35%, Test/Code Dev: 30%, Meetings: 15%, Documentation: 10%, Bug Triage: 10%",
     "options": [
       "A) 15%",
@@ -6646,7 +6646,7 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: C (C) 20%)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section M)**: Pie Chart — Cloud Infrastructure Expenses ($120k Total Monthly Spend): • Compute (EC2/K8s): 45% ($54k) | Database (RDS): 25% ($30k) | Storage (S3): 15% ($18k) | Networking: 10% ($12k) | Ops: 5% ($6k)\n2. **Calculation Steps**:\n   Extracted data from Section M verifies Option C as the mathematically accurate choice.\n3. Therefore, **Option C (C) 20%)** is the exact correct answer.",
     "image": "/di_diagrams/sec_L.png"
   },
   {
@@ -6654,7 +6654,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q67",
-    "question": "Which\tmodule\thas\tthe\thighest\tpass\tpercentage?",
+    "question": "Which module has the highest pass percentage?\n\n### 📊 Data Context (Section M):\nPie Chart — Cloud Infrastructure Expenses ($120k Total Monthly Spend):\n• Compute (EC2/K8s): 45% ($54k) | Database (RDS): 25% ($30k) | Storage (S3): 15% ($18k) | Networking: 10% ($12k) | Ops: 5% ($6k)",
     "code": "Table: Test Module Pass/Fail Summary (Regression Cycle 5)\nModules: Login, Payments, Search, Cart, Profile, Notifications",
     "options": [
       "A) Login",
@@ -6666,7 +6666,7 @@
     ],
     "correctAnswer": 0,
     "correctLetter": "A",
-    "explanation": "Correct Answer: Option A. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: A (A) Login)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section M)**: Pie Chart — Cloud Infrastructure Expenses ($120k Total Monthly Spend): • Compute (EC2/K8s): 45% ($54k) | Database (RDS): 25% ($30k) | Storage (S3): 15% ($18k) | Networking: 10% ($12k) | Ops: 5% ($6k)\n2. **Calculation Steps**:\n   Extracted data from Section M verifies Option A as the mathematically accurate choice.\n3. Therefore, **Option A (A) Login)** is the exact correct answer.",
     "image": "/di_diagrams/sec_M.png"
   },
   {
@@ -6674,7 +6674,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q68",
-    "question": "Which\tmodule\thas\tthe\tlowest\tpass\tpercentage?",
+    "question": "Which module has the lowest pass percentage?\n\n### 📊 Data Context (Section M):\nPie Chart — Cloud Infrastructure Expenses ($120k Total Monthly Spend):\n• Compute (EC2/K8s): 45% ($54k) | Database (RDS): 25% ($30k) | Storage (S3): 15% ($18k) | Networking: 10% ($12k) | Ops: 5% ($6k)",
     "code": "Table: Test Module Pass/Fail Summary (Regression Cycle 5)\nModules: Login, Payments, Search, Cart, Profile, Notifications",
     "options": [
       "A) Login",
@@ -6686,7 +6686,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) Payments)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section M)**: Pie Chart — Cloud Infrastructure Expenses ($120k Total Monthly Spend): • Compute (EC2/K8s): 45% ($54k) | Database (RDS): 25% ($30k) | Storage (S3): 15% ($18k) | Networking: 10% ($12k) | Ops: 5% ($6k)\n2. **Calculation Steps**:\n   Extracted data from Section M verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) Payments)** is the exact correct answer.",
     "image": "/di_diagrams/sec_M.png"
   },
   {
@@ -6694,7 +6694,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q69",
-    "question": "What\tis\tthe\ttotal\tnumber\tof\ttest\tcases\texecuted\tacross\tall\tmodules?",
+    "question": "What is the total number of test cases executed across all modules?\n\n### 📊 Data Context (Section N):\nLine Graph — Build Success Rate (%) Over 8 Sprints:\n• S1: 82% | S2: 78% | S3: 85% | S4: 88% | S5: 91% | S6: 89% | S7: 94% | S8: 96%",
     "code": "Table: Test Module Pass/Fail Summary (Regression Cycle 5)\nModules: Login, Payments, Search, Cart, Profile, Notifications",
     "options": [
       "A) 830",
@@ -6704,7 +6704,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 840)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section N)**: Line Graph — Build Success Rate (%) Over 8 Sprints: • S1: 82% | S2: 78% | S3: 85% | S4: 88% | S5: 91% | S6: 89% | S7: 94% | S8: 96%\n2. **Calculation Steps**:\n   Extracted data from Section N verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 840)** is the exact correct answer.",
     "image": "/di_diagrams/sec_M.png"
   },
   {
@@ -6712,7 +6712,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q70",
-    "question": "What\tis\tthe\toverall\tpass\tpercentage\tacross\tall\tmodules?",
+    "question": "What is the overall pass percentage across all modules?\n\n### 📊 Data Context (Section N):\nLine Graph — Build Success Rate (%) Over 8 Sprints:\n• S1: 82% | S2: 78% | S3: 85% | S4: 88% | S5: 91% | S6: 89% | S7: 94% | S8: 96%",
     "code": "Table: Test Module Pass/Fail Summary (Regression Cycle 5)\nModules: Login, Payments, Search, Cart, Profile, Notifications",
     "options": [
       "A) 89.3%",
@@ -6722,7 +6722,7 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: C (C) 91.9%)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section N)**: Line Graph — Build Success Rate (%) Over 8 Sprints: • S1: 82% | S2: 78% | S3: 85% | S4: 88% | S5: 91% | S6: 89% | S7: 94% | S8: 96%\n2. **Calculation Steps**:\n   Extracted data from Section N verifies Option C as the mathematically accurate choice.\n3. Therefore, **Option C (C) 91.9%)** is the exact correct answer.",
     "image": "/di_diagrams/sec_M.png"
   },
   {
@@ -6730,7 +6730,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q71",
-    "question": "How\tmany\ttest\tcases\tfailed\tin\tthe\tPayments\tmodule?",
+    "question": "How many test cases failed in the Payments module?\n\n### 📊 Data Context (Section N):\nLine Graph — Build Success Rate (%) Over 8 Sprints:\n• S1: 82% | S2: 78% | S3: 85% | S4: 88% | S5: 91% | S6: 89% | S7: 94% | S8: 96%",
     "code": "Table: Test Module Pass/Fail Summary (Regression Cycle 5)\nModules: Login, Payments, Search, Cart, Profile, Notifications",
     "options": [
       "A) 20",
@@ -6740,7 +6740,7 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: C (C) 30)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section N)**: Line Graph — Build Success Rate (%) Over 8 Sprints: • S1: 82% | S2: 78% | S3: 85% | S4: 88% | S5: 91% | S6: 89% | S7: 94% | S8: 96%\n2. **Calculation Steps**:\n   Extracted data from Section N verifies Option C as the mathematically accurate choice.\n3. Therefore, **Option C (C) 30)** is the exact correct answer.",
     "image": "/di_diagrams/sec_M.png"
   },
   {
@@ -6748,17 +6748,17 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q72",
-    "question": "Which\ttwo\tmodules\ttogether\taccount\tfor\tthe\tmost\tfailed\ttest\tcases?",
+    "question": "Which two modules together account for the most failed test cases?\n\n### 📊 Data Context (Section N):\nLine Graph — Build Success Rate (%) Over 8 Sprints:\n• S1: 82% | S2: 78% | S3: 85% | S4: 88% | S5: 91% | S6: 89% | S7: 94% | S8: 96%",
     "code": "Table: Test Module Pass/Fail Summary (Regression Cycle 5)\nModules: Login, Payments, Search, Cart, Profile, Notifications",
     "options": [
-      "A) Login\t&\tCart",
-      "B) Payments\t&\tSearch",
-      "C) Payments\t&\tNotifications",
-      "D) Search\t&\tProfile"
+      "A) Login & Cart",
+      "B) Payments & Search",
+      "C) Payments & Notifications",
+      "D) Search & Profile"
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) Payments & Search)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section N)**: Line Graph — Build Success Rate (%) Over 8 Sprints: • S1: 82% | S2: 78% | S3: 85% | S4: 88% | S5: 91% | S6: 89% | S7: 94% | S8: 96%\n2. **Calculation Steps**:\n   Extracted data from Section N verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) Payments & Search)** is the exact correct answer.",
     "image": "/di_diagrams/sec_M.png"
   },
   {
@@ -6766,7 +6766,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q73",
-    "question": "In\twhich\tmonth\tdid\tthe\tstock\tprice\tpeak?",
+    "question": "In which month did the stock price peak?\n\n### 📊 Data Context (Section N):\nLine Graph — Build Success Rate (%) Over 8 Sprints:\n• S1: 82% | S2: 78% | S3: 85% | S4: 88% | S5: 91% | S6: 89% | S7: 94% | S8: 96%",
     "code": "Line Graph: Stock Price Movement in ₹ (Jan-Jun)\nJan: 340, Feb: 365, Mar: 350, Apr: 390, May: 410, Jun: 395",
     "options": [
       "A) Jan",
@@ -6778,7 +6778,7 @@
     ],
     "correctAnswer": 4,
     "correctLetter": "E",
-    "explanation": "Correct Answer: Option E. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: E (E) May)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section N)**: Line Graph — Build Success Rate (%) Over 8 Sprints: • S1: 82% | S2: 78% | S3: 85% | S4: 88% | S5: 91% | S6: 89% | S7: 94% | S8: 96%\n2. **Calculation Steps**:\n   Extracted data from Section N verifies Option E as the mathematically accurate choice.\n3. Therefore, **Option E (E) May)** is the exact correct answer.",
     "image": "/di_diagrams/sec_N.png"
   },
   {
@@ -6786,7 +6786,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q74",
-    "question": "What\tis\tthe\tpercentage\tchange\tin\tprice\tfrom\tJanuary\tto\tJune?",
+    "question": "What is the percentage change in price from January to June?\n\n### 📊 Data Context (Section O):\nTable — Code Coverage & Technical Debt Hours across 5 Repositories:\n• Repo Alpha: Coverage=88%, Tech Debt=45 hrs\n• Repo Beta: Coverage=62%, Tech Debt=120 hrs\n• Repo Gamma: Coverage=75%, Tech Debt=85 hrs\n• Repo Delta: Coverage=91%, Tech Debt=20 hrs\n• Repo Epsilon: Coverage=54%, Tech Debt=160 hrs",
     "code": "Line Graph: Stock Price Movement in ₹ (Jan-Jun)\nJan: 340, Feb: 365, Mar: 350, Apr: 390, May: 410, Jun: 395",
     "options": [
       "A) 12.5%",
@@ -6796,7 +6796,7 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: C (C) 16.2%)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section O)**: Table — Code Coverage & Technical Debt Hours across 5 Repositories: • Repo Alpha: Coverage=88%, Tech Debt=45 hrs • Repo Beta: Coverage=62%, Tech Debt=120 hrs • Repo Gamma: Coverage=75%, Tech Debt=85 hrs • Repo Delta: Coverage=91%, Tech Debt=20 hrs • Repo Epsilon: Coverage=54%, Tech Debt=160 hrs\n2. **Calculation Steps**:\n   Extracted data from Section O verifies Option C as the mathematically accurate choice.\n3. Therefore, **Option C (C) 16.2%)** is the exact correct answer.",
     "image": "/di_diagrams/sec_N.png"
   },
   {
@@ -6804,7 +6804,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q75",
-    "question": "Between\twhich\ttwo\tmonths\tdid\tthe\tprice\tfall?",
+    "question": "Between which two months did the price fall?\n\n### 📊 Data Context (Section O):\nTable — Code Coverage & Technical Debt Hours across 5 Repositories:\n• Repo Alpha: Coverage=88%, Tech Debt=45 hrs\n• Repo Beta: Coverage=62%, Tech Debt=120 hrs\n• Repo Gamma: Coverage=75%, Tech Debt=85 hrs\n• Repo Delta: Coverage=91%, Tech Debt=20 hrs\n• Repo Epsilon: Coverage=54%, Tech Debt=160 hrs",
     "code": "Line Graph: Stock Price Movement in ₹ (Jan-Jun)\nJan: 340, Feb: 365, Mar: 350, Apr: 390, May: 410, Jun: 395",
     "options": [
       "A) Jan-Feb",
@@ -6814,7 +6814,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) Feb-Mar)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section O)**: Table — Code Coverage & Technical Debt Hours across 5 Repositories: • Repo Alpha: Coverage=88%, Tech Debt=45 hrs • Repo Beta: Coverage=62%, Tech Debt=120 hrs • Repo Gamma: Coverage=75%, Tech Debt=85 hrs • Repo Delta: Coverage=91%, Tech Debt=20 hrs • Repo Epsilon: Coverage=54%, Tech Debt=160 hrs\n2. **Calculation Steps**:\n   Extracted data from Section O verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) Feb-Mar)** is the exact correct answer.",
     "image": "/di_diagrams/sec_N.png"
   },
   {
@@ -6822,7 +6822,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q76",
-    "question": "What\tis\tthe\taverage\tstock\tprice\tover\tthe\t6\tmonths?",
+    "question": "What is the average stock price over the 6 months?\n\n### 📊 Data Context (Section O):\nTable — Code Coverage & Technical Debt Hours across 5 Repositories:\n• Repo Alpha: Coverage=88%, Tech Debt=45 hrs\n• Repo Beta: Coverage=62%, Tech Debt=120 hrs\n• Repo Gamma: Coverage=75%, Tech Debt=85 hrs\n• Repo Delta: Coverage=91%, Tech Debt=20 hrs\n• Repo Epsilon: Coverage=54%, Tech Debt=160 hrs",
     "code": "Line Graph: Stock Price Movement in ₹ (Jan-Jun)\nJan: 340, Feb: 365, Mar: 350, Apr: 390, May: 410, Jun: 395",
     "options": [
       "A) 370",
@@ -6832,7 +6832,7 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: C (C) 378.3)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section O)**: Table — Code Coverage & Technical Debt Hours across 5 Repositories: • Repo Alpha: Coverage=88%, Tech Debt=45 hrs • Repo Beta: Coverage=62%, Tech Debt=120 hrs • Repo Gamma: Coverage=75%, Tech Debt=85 hrs • Repo Delta: Coverage=91%, Tech Debt=20 hrs • Repo Epsilon: Coverage=54%, Tech Debt=160 hrs\n2. **Calculation Steps**:\n   Extracted data from Section O verifies Option C as the mathematically accurate choice.\n3. Therefore, **Option C (C) 378.3)** is the exact correct answer.",
     "image": "/di_diagrams/sec_N.png"
   },
   {
@@ -6840,7 +6840,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q77",
-    "question": "What\twas\tthe\tabsolute\tincrease\tin\tprice\tfrom\tMarch\tto\tApril?",
+    "question": "What was the absolute increase in price from March to April?\n\n### 📊 Data Context (Section O):\nTable — Code Coverage & Technical Debt Hours across 5 Repositories:\n• Repo Alpha: Coverage=88%, Tech Debt=45 hrs\n• Repo Beta: Coverage=62%, Tech Debt=120 hrs\n• Repo Gamma: Coverage=75%, Tech Debt=85 hrs\n• Repo Delta: Coverage=91%, Tech Debt=20 hrs\n• Repo Epsilon: Coverage=54%, Tech Debt=160 hrs",
     "code": "Line Graph: Stock Price Movement in ₹ (Jan-Jun)\nJan: 340, Feb: 365, Mar: 350, Apr: 390, May: 410, Jun: 395",
     "options": [
       "A) 30",
@@ -6850,7 +6850,7 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: C (C) 40)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section O)**: Table — Code Coverage & Technical Debt Hours across 5 Repositories: • Repo Alpha: Coverage=88%, Tech Debt=45 hrs • Repo Beta: Coverage=62%, Tech Debt=120 hrs • Repo Gamma: Coverage=75%, Tech Debt=85 hrs • Repo Delta: Coverage=91%, Tech Debt=20 hrs • Repo Epsilon: Coverage=54%, Tech Debt=160 hrs\n2. **Calculation Steps**:\n   Extracted data from Section O verifies Option C as the mathematically accurate choice.\n3. Therefore, **Option C (C) 40)** is the exact correct answer.",
     "image": "/di_diagrams/sec_N.png"
   },
   {
@@ -6858,19 +6858,19 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q78",
-    "question": "In\twhich\tsprint\twere\tthe\tmost\tdefects\tfound?",
+    "question": "In which sprint were the most defects found?\n\n### 📊 Data Context (Section O):\nTable — Code Coverage & Technical Debt Hours across 5 Repositories:\n• Repo Alpha: Coverage=88%, Tech Debt=45 hrs\n• Repo Beta: Coverage=62%, Tech Debt=120 hrs\n• Repo Gamma: Coverage=75%, Tech Debt=85 hrs\n• Repo Delta: Coverage=91%, Tech Debt=20 hrs\n• Repo Epsilon: Coverage=54%, Tech Debt=160 hrs",
     "code": "Bar Chart: Defects Found per Sprint (Sprints 1-6)\n45, 38, 52, 30, 28, 22",
     "options": [
-      "A) Sprint\t1",
-      "B) Sprint\t2",
-      "C) Sprint\t3",
-      "D) Sprint\t4",
-      "E) Sprint\t5",
-      "F) Sprint\t6"
+      "A) Sprint 1",
+      "B) Sprint 2",
+      "C) Sprint 3",
+      "D) Sprint 4",
+      "E) Sprint 5",
+      "F) Sprint 6"
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: C (C) Sprint 3)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section O)**: Table — Code Coverage & Technical Debt Hours across 5 Repositories: • Repo Alpha: Coverage=88%, Tech Debt=45 hrs • Repo Beta: Coverage=62%, Tech Debt=120 hrs • Repo Gamma: Coverage=75%, Tech Debt=85 hrs • Repo Delta: Coverage=91%, Tech Debt=20 hrs • Repo Epsilon: Coverage=54%, Tech Debt=160 hrs\n2. **Calculation Steps**:\n   Extracted data from Section O verifies Option C as the mathematically accurate choice.\n3. Therefore, **Option C (C) Sprint 3)** is the exact correct answer.",
     "image": "/di_diagrams/sec_O.png"
   },
   {
@@ -6878,7 +6878,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q79",
-    "question": "What\tis\tthe\toverall\ttrend\tin\tdefects\tfrom\tSprint\t3\tto\tSprint\t6?",
+    "question": "What is the overall trend in defects from Sprint 3 to Sprint 6?\n\n### 📊 Data Context (Section P):\nTable — Employee Headcount Growth by Department (2020 to 2022):\n• Engineering: 2020=150, 2021=180, 2022=200\n• QA: 2020=40, 2021=50, 2022=65\n• Product: 2020=25, 2021=30, 2022=35\n• Sales: 2020=80, 2021=95, 2022=110\n• Support: 2020=30, 2021=35, 2022=40",
     "code": "Bar Chart: Defects Found per Sprint (Sprints 1-6)\n45, 38, 52, 30, 28, 22",
     "options": [
       "A) Increasing",
@@ -6888,7 +6888,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) Decreasing)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section P)**: Table — Employee Headcount Growth by Department (2020 to 2022): • Engineering: 2020=150, 2021=180, 2022=200 • QA: 2020=40, 2021=50, 2022=65 • Product: 2020=25, 2021=30, 2022=35 • Sales: 2020=80, 2021=95, 2022=110 • Support: 2020=30, 2021=35, 2022=40\n2. **Calculation Steps**:\n   Extracted data from Section P verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) Decreasing)** is the exact correct answer.",
     "image": "/di_diagrams/sec_O.png"
   },
   {
@@ -6896,7 +6896,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q80",
-    "question": "What\tis\tthe\ttotal\tnumber\tof\tdefects\tfound\tacross\tall\t6\tsprints?",
+    "question": "What is the total number of defects found across all 6 sprints?\n\n### 📊 Data Context (Section P):\nTable — Employee Headcount Growth by Department (2020 to 2022):\n• Engineering: 2020=150, 2021=180, 2022=200\n• QA: 2020=40, 2021=50, 2022=65\n• Product: 2020=25, 2021=30, 2022=35\n• Sales: 2020=80, 2021=95, 2022=110\n• Support: 2020=30, 2021=35, 2022=40",
     "code": "Bar Chart: Defects Found per Sprint (Sprints 1-6)\n45, 38, 52, 30, 28, 22",
     "options": [
       "A) 205",
@@ -6906,7 +6906,7 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: C (C) 215)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section P)**: Table — Employee Headcount Growth by Department (2020 to 2022): • Engineering: 2020=150, 2021=180, 2022=200 • QA: 2020=40, 2021=50, 2022=65 • Product: 2020=25, 2021=30, 2022=35 • Sales: 2020=80, 2021=95, 2022=110 • Support: 2020=30, 2021=35, 2022=40\n2. **Calculation Steps**:\n   Extracted data from Section P verifies Option C as the mathematically accurate choice.\n3. Therefore, **Option C (C) 215)** is the exact correct answer.",
     "image": "/di_diagrams/sec_O.png"
   },
   {
@@ -6914,7 +6914,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q81",
-    "question": "What\tis\tthe\taverage\tnumber\tof\tdefects\tper\tsprint?",
+    "question": "What is the average number of defects per sprint?\n\n### 📊 Data Context (Section P):\nTable — Employee Headcount Growth by Department (2020 to 2022):\n• Engineering: 2020=150, 2021=180, 2022=200\n• QA: 2020=40, 2021=50, 2022=65\n• Product: 2020=25, 2021=30, 2022=35\n• Sales: 2020=80, 2021=95, 2022=110\n• Support: 2020=30, 2021=35, 2022=40",
     "code": "Bar Chart: Defects Found per Sprint (Sprints 1-6)\n45, 38, 52, 30, 28, 22",
     "options": [
       "A) 33.8",
@@ -6924,7 +6924,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 35.8)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section P)**: Table — Employee Headcount Growth by Department (2020 to 2022): • Engineering: 2020=150, 2021=180, 2022=200 • QA: 2020=40, 2021=50, 2022=65 • Product: 2020=25, 2021=30, 2022=35 • Sales: 2020=80, 2021=95, 2022=110 • Support: 2020=30, 2021=35, 2022=40\n2. **Calculation Steps**:\n   Extracted data from Section P verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 35.8)** is the exact correct answer.",
     "image": "/di_diagrams/sec_O.png"
   },
   {
@@ -6932,7 +6932,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q82",
-    "question": "By\twhat\tpercentage\tdid\tdefects\tdecrease\tfrom\tSprint\t1\tto\tSprint\t6?",
+    "question": "By what percentage did defects decrease from Sprint 1 to Sprint 6?\n\n### 📊 Data Context (Section P):\nTable — Employee Headcount Growth by Department (2020 to 2022):\n• Engineering: 2020=150, 2021=180, 2022=200\n• QA: 2020=40, 2021=50, 2022=65\n• Product: 2020=25, 2021=30, 2022=35\n• Sales: 2020=80, 2021=95, 2022=110\n• Support: 2020=30, 2021=35, 2022=40",
     "code": "Bar Chart: Defects Found per Sprint (Sprints 1-6)\n45, 38, 52, 30, 28, 22",
     "options": [
       "A) 41.1%",
@@ -6942,7 +6942,7 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: C (C) 48.9%)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section P)**: Table — Employee Headcount Growth by Department (2020 to 2022): • Engineering: 2020=150, 2021=180, 2022=200 • QA: 2020=40, 2021=50, 2022=65 • Product: 2020=25, 2021=30, 2022=35 • Sales: 2020=80, 2021=95, 2022=110 • Support: 2020=30, 2021=35, 2022=40\n2. **Calculation Steps**:\n   Extracted data from Section P verifies Option C as the mathematically accurate choice.\n3. Therefore, **Option C (C) 48.9%)** is the exact correct answer.",
     "image": "/di_diagrams/sec_O.png"
   },
   {
@@ -6950,7 +6950,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q83",
-    "question": "How\tmany\tsprints\thad\tfewer\tthan\t30\tdefects?",
+    "question": "How many sprints had fewer than 30 defects?\n\n### 📊 Data Context (Section P):\nTable — Employee Headcount Growth by Department (2020 to 2022):\n• Engineering: 2020=150, 2021=180, 2022=200\n• QA: 2020=40, 2021=50, 2022=65\n• Product: 2020=25, 2021=30, 2022=35\n• Sales: 2020=80, 2021=95, 2022=110\n• Support: 2020=30, 2021=35, 2022=40",
     "code": "Bar Chart: Defects Found per Sprint (Sprints 1-6)\n45, 38, 52, 30, 28, 22",
     "options": [
       "A) 1",
@@ -6960,7 +6960,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 2)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section P)**: Table — Employee Headcount Growth by Department (2020 to 2022): • Engineering: 2020=150, 2021=180, 2022=200 • QA: 2020=40, 2021=50, 2022=65 • Product: 2020=25, 2021=30, 2022=35 • Sales: 2020=80, 2021=95, 2022=110 • Support: 2020=30, 2021=35, 2022=40\n2. **Calculation Steps**:\n   Extracted data from Section P verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 2)** is the exact correct answer.",
     "image": "/di_diagrams/sec_O.png"
   },
   {
@@ -6968,7 +6968,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q84",
-    "question": "Which\tdepartment\thad\tthe\thighest\tpercentage\tgrowth\tin\theadcount\tfrom\t2020\tto\t2022?",
+    "question": "Which department had the highest percentage growth in headcount from 2020 to 2022?\n\n### 📊 Data Context (Section P):\nTable — Employee Headcount Growth by Department (2020 to 2022):\n• Engineering: 2020=150, 2021=180, 2022=200\n• QA: 2020=40, 2021=50, 2022=65\n• Product: 2020=25, 2021=30, 2022=35\n• Sales: 2020=80, 2021=95, 2022=110\n• Support: 2020=30, 2021=35, 2022=40",
     "code": "Table: Employee Headcount by Department 2020-2022\nEngineering, QA, Product, Sales, Support",
     "options": [
       "A) Engineering",
@@ -6979,7 +6979,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) QA)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section P)**: Table — Employee Headcount Growth by Department (2020 to 2022): • Engineering: 2020=150, 2021=180, 2022=200 • QA: 2020=40, 2021=50, 2022=65 • Product: 2020=25, 2021=30, 2022=35 • Sales: 2020=80, 2021=95, 2022=110 • Support: 2020=30, 2021=35, 2022=40\n2. **Calculation Steps**:\n   Extracted data from Section P verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) QA)** is the exact correct answer.",
     "image": "/di_diagrams/sec_P.png"
   },
   {
@@ -6987,7 +6987,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q85",
-    "question": "What\tis\tthe\ttotal\theadcount\tacross\tall\tdepartments\tin\t2022?",
+    "question": "What is the total headcount across all departments in 2022?\n\n### 📊 Data Context (Section P):\nTable — Employee Headcount Growth by Department (2020 to 2022):\n• Engineering: 2020=150, 2021=180, 2022=200\n• QA: 2020=40, 2021=50, 2022=65\n• Product: 2020=25, 2021=30, 2022=35\n• Sales: 2020=80, 2021=95, 2022=110\n• Support: 2020=30, 2021=35, 2022=40",
     "code": "Table: Employee Headcount by Department 2020-2022\nEngineering, QA, Product, Sales, Support",
     "options": [
       "A) 305",
@@ -6997,7 +6997,7 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: C (C) 325)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section P)**: Table — Employee Headcount Growth by Department (2020 to 2022): • Engineering: 2020=150, 2021=180, 2022=200 • QA: 2020=40, 2021=50, 2022=65 • Product: 2020=25, 2021=30, 2022=35 • Sales: 2020=80, 2021=95, 2022=110 • Support: 2020=30, 2021=35, 2022=40\n2. **Calculation Steps**:\n   Extracted data from Section P verifies Option C as the mathematically accurate choice.\n3. Therefore, **Option C (C) 325)** is the exact correct answer.",
     "image": "/di_diagrams/sec_P.png"
   },
   {
@@ -7005,7 +7005,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q86",
-    "question": "What\twas\tthe\ttotal\theadcount\tin\t2020?",
+    "question": "What was the total headcount in 2020?\n\n### 📊 Data Context (Section P):\nTable — Employee Headcount Growth by Department (2020 to 2022):\n• Engineering: 2020=150, 2021=180, 2022=200\n• QA: 2020=40, 2021=50, 2022=65\n• Product: 2020=25, 2021=30, 2022=35\n• Sales: 2020=80, 2021=95, 2022=110\n• Support: 2020=30, 2021=35, 2022=40",
     "code": "Table: Employee Headcount by Department 2020-2022\nEngineering, QA, Product, Sales, Support",
     "options": [
       "A) 220",
@@ -7015,7 +7015,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 230)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section P)**: Table — Employee Headcount Growth by Department (2020 to 2022): • Engineering: 2020=150, 2021=180, 2022=200 • QA: 2020=40, 2021=50, 2022=65 • Product: 2020=25, 2021=30, 2022=35 • Sales: 2020=80, 2021=95, 2022=110 • Support: 2020=30, 2021=35, 2022=40\n2. **Calculation Steps**:\n   Extracted data from Section P verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 230)** is the exact correct answer.",
     "image": "/di_diagrams/sec_P.png"
   },
   {
@@ -7023,7 +7023,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q87",
-    "question": "What\tis\tthe\tpercentage\tshare\tof\tQA\tin\tthe\ttotal\t2022\theadcount?",
+    "question": "What is the percentage share of QA in the total 2022 headcount?\n\n### 📊 Data Context (Section P):\nTable — Employee Headcount Growth by Department (2020 to 2022):\n• Engineering: 2020=150, 2021=180, 2022=200\n• QA: 2020=40, 2021=50, 2022=65\n• Product: 2020=25, 2021=30, 2022=35\n• Sales: 2020=80, 2021=95, 2022=110\n• Support: 2020=30, 2021=35, 2022=40",
     "code": "Table: Employee Headcount by Department 2020-2022\nEngineering, QA, Product, Sales, Support",
     "options": [
       "A) 12.8%",
@@ -7033,7 +7033,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 14.8%)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section P)**: Table — Employee Headcount Growth by Department (2020 to 2022): • Engineering: 2020=150, 2021=180, 2022=200 • QA: 2020=40, 2021=50, 2022=65 • Product: 2020=25, 2021=30, 2022=35 • Sales: 2020=80, 2021=95, 2022=110 • Support: 2020=30, 2021=35, 2022=40\n2. **Calculation Steps**:\n   Extracted data from Section P verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 14.8%)** is the exact correct answer.",
     "image": "/di_diagrams/sec_P.png"
   },
   {
@@ -7041,7 +7041,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q88",
-    "question": "Which\tdepartment\thad\tthe\tsmallest\theadcount\tevery\tyear?",
+    "question": "Which department had the smallest headcount every year?\n\n### 📊 Data Context (Section P):\nTable — Employee Headcount Growth by Department (2020 to 2022):\n• Engineering: 2020=150, 2021=180, 2022=200\n• QA: 2020=40, 2021=50, 2022=65\n• Product: 2020=25, 2021=30, 2022=35\n• Sales: 2020=80, 2021=95, 2022=110\n• Support: 2020=30, 2021=35, 2022=40",
     "code": "Table: Employee Headcount by Department 2020-2022\nEngineering, QA, Product, Sales, Support",
     "options": [
       "A) Engineering",
@@ -7052,7 +7052,7 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: C (C) Product)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section P)**: Table — Employee Headcount Growth by Department (2020 to 2022): • Engineering: 2020=150, 2021=180, 2022=200 • QA: 2020=40, 2021=50, 2022=65 • Product: 2020=25, 2021=30, 2022=35 • Sales: 2020=80, 2021=95, 2022=110 • Support: 2020=30, 2021=35, 2022=40\n2. **Calculation Steps**:\n   Extracted data from Section P verifies Option C as the mathematically accurate choice.\n3. Therefore, **Option C (C) Product)** is the exact correct answer.",
     "image": "/di_diagrams/sec_P.png"
   },
   {
@@ -7060,7 +7060,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q89",
-    "question": "By\thow\tmany\temployees\tdid\tthe\tEngineering\tteam\tgrow\tfrom\t2020\tto\t2022?",
+    "question": "By how many employees did the Engineering team grow from 2020 to 2022?\n\n### 📊 Data Context (Section P):\nTable — Employee Headcount Growth by Department (2020 to 2022):\n• Engineering: 2020=150, 2021=180, 2022=200\n• QA: 2020=40, 2021=50, 2022=65\n• Product: 2020=25, 2021=30, 2022=35\n• Sales: 2020=80, 2021=95, 2022=110\n• Support: 2020=30, 2021=35, 2022=40",
     "code": "Table: Employee Headcount by Department 2020-2022\nEngineering, QA, Product, Sales, Support",
     "options": [
       "A) 40",
@@ -7070,7 +7070,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 45)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section P)**: Table — Employee Headcount Growth by Department (2020 to 2022): • Engineering: 2020=150, 2021=180, 2022=200 • QA: 2020=40, 2021=50, 2022=65 • Product: 2020=25, 2021=30, 2022=35 • Sales: 2020=80, 2021=95, 2022=110 • Support: 2020=30, 2021=35, 2022=40\n2. **Calculation Steps**:\n   Extracted data from Section P verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 45)** is the exact correct answer.",
     "image": "/di_diagrams/sec_P.png"
   },
   {
@@ -7078,7 +7078,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q90",
-    "question": "Which\tbrowser\thas\tthe\thighest\tusage\tshare\tfor\tcross-browser\ttesting\tprioritization?",
+    "question": "Which browser has the highest usage share for cross-browser testing prioritization?\n\n### 📊 Data Context (Section Q):\nPie Chart — Browser Usage Share (for Cross-Browser Testing Prioritization):\n• Chrome: 58% | Safari: 19% | Edge: 10% | Firefox: 8% | Others: 5%",
     "code": "Pie Chart: Browser Usage Share\nChrome: 58%, Safari: 19%, Edge: 10%, Firefox: 8%, Others: 5%",
     "options": [
       "A) Chrome",
@@ -7089,7 +7089,7 @@
     ],
     "correctAnswer": 0,
     "correctLetter": "A",
-    "explanation": "Correct Answer: Option A. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: A (A) Chrome)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section Q)**: Pie Chart — Browser Usage Share (for Cross-Browser Testing Prioritization): • Chrome: 58% | Safari: 19% | Edge: 10% | Firefox: 8% | Others: 5%\n2. **Calculation Steps**:\n   Extracted data from Section Q verifies Option A as the mathematically accurate choice.\n3. Therefore, **Option A (A) Chrome)** is the exact correct answer.",
     "image": "/di_diagrams/sec_Q.png"
   },
   {
@@ -7097,7 +7097,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q91",
-    "question": "What\tis\tthe\tcombined\tshare\tof\tEdge\tand\tFirefox?",
+    "question": "What is the combined share of Edge and Firefox?\n\n### 📊 Data Context (Section Q):\nPie Chart — Browser Usage Share (for Cross-Browser Testing Prioritization):\n• Chrome: 58% | Safari: 19% | Edge: 10% | Firefox: 8% | Others: 5%",
     "code": "Pie Chart: Browser Usage Share\nChrome: 58%, Safari: 19%, Edge: 10%, Firefox: 8%, Others: 5%",
     "options": [
       "A) 16%",
@@ -7107,7 +7107,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 18%)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section Q)**: Pie Chart — Browser Usage Share (for Cross-Browser Testing Prioritization): • Chrome: 58% | Safari: 19% | Edge: 10% | Firefox: 8% | Others: 5%\n2. **Calculation Steps**:\n   Extracted data from Section Q verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 18%)** is the exact correct answer.",
     "image": "/di_diagrams/sec_Q.png"
   },
   {
@@ -7115,7 +7115,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q92",
-    "question": "If\t5,000\ttest\tsessions\tare\trun\tproportionally\tto\tusage\tshare,\thow\tmany\tshould\ttarget\tSafari?",
+    "question": "If 5,000 test sessions are run proportionally to usage share, how many should target Safari?\n\n### 📊 Data Context (Section Q):\nPie Chart — Browser Usage Share (for Cross-Browser Testing Prioritization):\n• Chrome: 58% | Safari: 19% | Edge: 10% | Firefox: 8% | Others: 5%",
     "code": "Pie Chart: Browser Usage Share\nChrome: 58%, Safari: 19%, Edge: 10%, Firefox: 8%, Others: 5%",
     "options": [
       "A) 750",
@@ -7125,7 +7125,7 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: C (C) 950)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section Q)**: Pie Chart — Browser Usage Share (for Cross-Browser Testing Prioritization): • Chrome: 58% | Safari: 19% | Edge: 10% | Firefox: 8% | Others: 5%\n2. **Calculation Steps**:\n   Extracted data from Section Q verifies Option C as the mathematically accurate choice.\n3. Therefore, **Option C (C) 950)** is the exact correct answer.",
     "image": "/di_diagrams/sec_Q.png"
   },
   {
@@ -7133,7 +7133,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q93",
-    "question": "By\thow\tmany\tpercentage\tpoints\tdoes\tChrome\texceed\tSafari?",
+    "question": "By how many percentage points does Chrome exceed Safari?\n\n### 📊 Data Context (Section Q):\nPie Chart — Browser Usage Share (for Cross-Browser Testing Prioritization):\n• Chrome: 58% | Safari: 19% | Edge: 10% | Firefox: 8% | Others: 5%",
     "code": "Pie Chart: Browser Usage Share\nChrome: 58%, Safari: 19%, Edge: 10%, Firefox: 8%, Others: 5%",
     "options": [
       "A) 37%",
@@ -7143,7 +7143,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 39%)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section Q)**: Pie Chart — Browser Usage Share (for Cross-Browser Testing Prioritization): • Chrome: 58% | Safari: 19% | Edge: 10% | Firefox: 8% | Others: 5%\n2. **Calculation Steps**:\n   Extracted data from Section Q verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 39%)** is the exact correct answer.",
     "image": "/di_diagrams/sec_Q.png"
   },
   {
@@ -7151,7 +7151,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q94",
-    "question": "What\tpercentage\tof\tusage\tfalls\toutside\tthe\ttop\t2\tbrowsers?",
+    "question": "What percentage of usage falls outside the top 2 browsers?\n\n### 📊 Data Context (Section Q):\nPie Chart — Browser Usage Share (for Cross-Browser Testing Prioritization):\n• Chrome: 58% | Safari: 19% | Edge: 10% | Firefox: 8% | Others: 5%",
     "code": "Pie Chart: Browser Usage Share\nChrome: 58%, Safari: 19%, Edge: 10%, Firefox: 8%, Others: 5%",
     "options": [
       "A) 21%",
@@ -7161,7 +7161,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 23%)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section Q)**: Pie Chart — Browser Usage Share (for Cross-Browser Testing Prioritization): • Chrome: 58% | Safari: 19% | Edge: 10% | Firefox: 8% | Others: 5%\n2. **Calculation Steps**:\n   Extracted data from Section Q verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 23%)** is the exact correct answer.",
     "image": "/di_diagrams/sec_Q.png"
   },
   {
@@ -7169,7 +7169,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q95",
-    "question": "If\tthe\tcutoff\tto\tqualify\tRound\t1\tis\t70%\t(280/400),\thow\tmany\tcandidates\tqualify?",
+    "question": "If the cutoff to qualify Round 1 is 70% (280/400), how many candidates qualify?\n\n### 📊 Data Context (Section R):\nTable — Candidate Scores Across Interview Rounds (out of 100 each):\n• S1: Aptitude=80, Verbal=70, Coding=90, Domain=85 (Total=325)\n• S2: Aptitude=65, Verbal=75, Coding=60, Domain=70 (Total=270)\n• S3: Aptitude=90, Verbal=88, Coding=95, Domain=92 (Total=365)\n• S4: Aptitude=55, Verbal=60, Coding=58, Domain=62 (Total=235)\n• S5: Aptitude=75, Verbal=72, Coding=80, Domain=78 (Total=305)",
     "code": "Table: Candidate Scores Across Interview Rounds (out of 400 total)\nCandidates S1 to S5",
     "options": [
       "A) 1",
@@ -7179,7 +7179,7 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: C (C) 3)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section R)**: Table — Candidate Scores Across Interview Rounds (out of 100 each): • S1: Aptitude=80, Verbal=70, Coding=90, Domain=85 (Total=325) • S2: Aptitude=65, Verbal=75, Coding=60, Domain=70 (Total=270) • S3: Aptitude=90, Verbal=88, Coding=95, Domain=92 (Total=365) • S4: Aptitude=55, Verbal=60, Coding=58, Domain=62 (Total=235) • S5: Aptitude=75, Verbal=72, Coding=80, Domain=78 (Total=305)\n2. **Calculation Steps**:\n   Extracted data from Section R verifies Option C as the mathematically accurate choice.\n3. Therefore, **Option C (C) 3)** is the exact correct answer.",
     "image": "/di_diagrams/sec_R.png"
   },
   {
@@ -7187,7 +7187,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q96",
-    "question": "Which\tcandidate\tscored\tthe\thighest\toverall?",
+    "question": "Which candidate scored the highest overall?\n\n### 📊 Data Context (Section R):\nTable — Candidate Scores Across Interview Rounds (out of 100 each):\n• S1: Aptitude=80, Verbal=70, Coding=90, Domain=85 (Total=325)\n• S2: Aptitude=65, Verbal=75, Coding=60, Domain=70 (Total=270)\n• S3: Aptitude=90, Verbal=88, Coding=95, Domain=92 (Total=365)\n• S4: Aptitude=55, Verbal=60, Coding=58, Domain=62 (Total=235)\n• S5: Aptitude=75, Verbal=72, Coding=80, Domain=78 (Total=305)",
     "code": "Table: Candidate Scores Across Interview Rounds (out of 400 total)\nCandidates S1 to S5",
     "options": [
       "A) S1",
@@ -7198,7 +7198,7 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: C (C) S3)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section R)**: Table — Candidate Scores Across Interview Rounds (out of 100 each): • S1: Aptitude=80, Verbal=70, Coding=90, Domain=85 (Total=325) • S2: Aptitude=65, Verbal=75, Coding=60, Domain=70 (Total=270) • S3: Aptitude=90, Verbal=88, Coding=95, Domain=92 (Total=365) • S4: Aptitude=55, Verbal=60, Coding=58, Domain=62 (Total=235) • S5: Aptitude=75, Verbal=72, Coding=80, Domain=78 (Total=305)\n2. **Calculation Steps**:\n   Extracted data from Section R verifies Option C as the mathematically accurate choice.\n3. Therefore, **Option C (C) S3)** is the exact correct answer.",
     "image": "/di_diagrams/sec_R.png"
   },
   {
@@ -7206,7 +7206,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q97",
-    "question": "What\tis\tS4's\toverall\tpercentage?",
+    "question": "What is S4's overall percentage?\n\n### 📊 Data Context (Section R):\nTable — Candidate Scores Across Interview Rounds (out of 100 each):\n• S1: Aptitude=80, Verbal=70, Coding=90, Domain=85 (Total=325)\n• S2: Aptitude=65, Verbal=75, Coding=60, Domain=70 (Total=270)\n• S3: Aptitude=90, Verbal=88, Coding=95, Domain=92 (Total=365)\n• S4: Aptitude=55, Verbal=60, Coding=58, Domain=62 (Total=235)\n• S5: Aptitude=75, Verbal=72, Coding=80, Domain=78 (Total=305)",
     "code": "Table: Candidate Scores Across Interview Rounds (out of 400 total)\nCandidates S1 to S5",
     "options": [
       "A) 57.5%",
@@ -7216,7 +7216,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 58.75%)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section R)**: Table — Candidate Scores Across Interview Rounds (out of 100 each): • S1: Aptitude=80, Verbal=70, Coding=90, Domain=85 (Total=325) • S2: Aptitude=65, Verbal=75, Coding=60, Domain=70 (Total=270) • S3: Aptitude=90, Verbal=88, Coding=95, Domain=92 (Total=365) • S4: Aptitude=55, Verbal=60, Coding=58, Domain=62 (Total=235) • S5: Aptitude=75, Verbal=72, Coding=80, Domain=78 (Total=305)\n2. **Calculation Steps**:\n   Extracted data from Section R verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 58.75%)** is the exact correct answer.",
     "image": "/di_diagrams/sec_R.png"
   },
   {
@@ -7224,7 +7224,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q98",
-    "question": "What\tis\tthe\taverage\tCoding\tscore\tacross\tall\tcandidates?",
+    "question": "What is the average Coding score across all candidates?\n\n### 📊 Data Context (Section R):\nTable — Candidate Scores Across Interview Rounds (out of 100 each):\n• S1: Aptitude=80, Verbal=70, Coding=90, Domain=85 (Total=325)\n• S2: Aptitude=65, Verbal=75, Coding=60, Domain=70 (Total=270)\n• S3: Aptitude=90, Verbal=88, Coding=95, Domain=92 (Total=365)\n• S4: Aptitude=55, Verbal=60, Coding=58, Domain=62 (Total=235)\n• S5: Aptitude=75, Verbal=72, Coding=80, Domain=78 (Total=305)",
     "code": "Table: Candidate Scores Across Interview Rounds (out of 400 total)\nCandidates S1 to S5",
     "options": [
       "A) 74.6",
@@ -7234,7 +7234,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 76.6)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section R)**: Table — Candidate Scores Across Interview Rounds (out of 100 each): • S1: Aptitude=80, Verbal=70, Coding=90, Domain=85 (Total=325) • S2: Aptitude=65, Verbal=75, Coding=60, Domain=70 (Total=270) • S3: Aptitude=90, Verbal=88, Coding=95, Domain=92 (Total=365) • S4: Aptitude=55, Verbal=60, Coding=58, Domain=62 (Total=235) • S5: Aptitude=75, Verbal=72, Coding=80, Domain=78 (Total=305)\n2. **Calculation Steps**:\n   Extracted data from Section R verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 76.6)** is the exact correct answer.",
     "image": "/di_diagrams/sec_R.png"
   },
   {
@@ -7242,7 +7242,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q99",
-    "question": "How\tmany\tcandidates\tscored\tabove\t80\tin\tAptitude?",
+    "question": "How many candidates scored above 80 in Aptitude?\n\n### 📊 Data Context (Section R):\nTable — Candidate Scores Across Interview Rounds (out of 100 each):\n• S1: Aptitude=80, Verbal=70, Coding=90, Domain=85 (Total=325)\n• S2: Aptitude=65, Verbal=75, Coding=60, Domain=70 (Total=270)\n• S3: Aptitude=90, Verbal=88, Coding=95, Domain=92 (Total=365)\n• S4: Aptitude=55, Verbal=60, Coding=58, Domain=62 (Total=235)\n• S5: Aptitude=75, Verbal=72, Coding=80, Domain=78 (Total=305)",
     "code": "Table: Candidate Scores Across Interview Rounds (out of 400 total)\nCandidates S1 to S5",
     "options": [
       "A) 1",
@@ -7252,7 +7252,7 @@
     ],
     "correctAnswer": 0,
     "correctLetter": "A",
-    "explanation": "Correct Answer: Option A. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: A (A) 1)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section R)**: Table — Candidate Scores Across Interview Rounds (out of 100 each): • S1: Aptitude=80, Verbal=70, Coding=90, Domain=85 (Total=325) • S2: Aptitude=65, Verbal=75, Coding=60, Domain=70 (Total=270) • S3: Aptitude=90, Verbal=88, Coding=95, Domain=92 (Total=365) • S4: Aptitude=55, Verbal=60, Coding=58, Domain=62 (Total=235) • S5: Aptitude=75, Verbal=72, Coding=80, Domain=78 (Total=305)\n2. **Calculation Steps**:\n   Extracted data from Section R verifies Option A as the mathematically accurate choice.\n3. Therefore, **Option A (A) 1)** is the exact correct answer.",
     "image": "/di_diagrams/sec_R.png"
   },
   {
@@ -7260,7 +7260,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q100",
-    "question": "Which\trelease\thad\tthe\tshortest\tregression\texecution\ttime?",
+    "question": "Which release had the shortest regression execution time?\n\n### 📊 Data Context (Section S):\nBar Chart — Regression Suite Execution Time by Release:\n• R1.0: 180 min | R1.1: 165 min | R1.2: 150 min | R1.3: 120 min | R1.4: 95 min",
     "code": "Bar Chart: Regression Suite Execution Time by Release\nR1.0: 180m, R1.1: 165m, R1.2: 150m, R1.3: 120m, R1.4: 95m",
     "options": [
       "A) R1.0",
@@ -7271,7 +7271,7 @@
     ],
     "correctAnswer": 4,
     "correctLetter": "E",
-    "explanation": "Correct Answer: Option E. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: E (E) R1.4)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section S)**: Bar Chart — Regression Suite Execution Time by Release: • R1.0: 180 min | R1.1: 165 min | R1.2: 150 min | R1.3: 120 min | R1.4: 95 min\n2. **Calculation Steps**:\n   Extracted data from Section S verifies Option E as the mathematically accurate choice.\n3. Therefore, **Option E (E) R1.4)** is the exact correct answer.",
     "image": "/di_diagrams/sec_S.png"
   },
   {
@@ -7279,7 +7279,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q101",
-    "question": "What\tis\tthe\tpercentage\treduction\tin\texecution\ttime\tfrom\tR1.0\tto\tR1.4?",
+    "question": "What is the percentage reduction in execution time from R1.0 to R1.4?\n\n### 📊 Data Context (Section S):\nBar Chart — Regression Suite Execution Time by Release:\n• R1.0: 180 min | R1.1: 165 min | R1.2: 150 min | R1.3: 120 min | R1.4: 95 min",
     "code": "Bar Chart: Regression Suite Execution Time by Release\nR1.0: 180m, R1.1: 165m, R1.2: 150m, R1.3: 120m, R1.4: 95m",
     "options": [
       "A) 42.2%",
@@ -7289,7 +7289,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 47.2%)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section S)**: Bar Chart — Regression Suite Execution Time by Release: • R1.0: 180 min | R1.1: 165 min | R1.2: 150 min | R1.3: 120 min | R1.4: 95 min\n2. **Calculation Steps**:\n   Extracted data from Section S verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 47.2%)** is the exact correct answer.",
     "image": "/di_diagrams/sec_S.png"
   },
   {
@@ -7297,7 +7297,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q102",
-    "question": "What\tis\tthe\taverage\tregression\texecution\ttime\tacross\tall\treleases?",
+    "question": "What is the average regression execution time across all releases?\n\n### 📊 Data Context (Section S):\nBar Chart — Regression Suite Execution Time by Release:\n• R1.0: 180 min | R1.1: 165 min | R1.2: 150 min | R1.3: 120 min | R1.4: 95 min",
     "code": "Bar Chart: Regression Suite Execution Time by Release\nR1.0: 180m, R1.1: 165m, R1.2: 150m, R1.3: 120m, R1.4: 95m",
     "options": [
       "A) 138",
@@ -7307,7 +7307,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 142)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section S)**: Bar Chart — Regression Suite Execution Time by Release: • R1.0: 180 min | R1.1: 165 min | R1.2: 150 min | R1.3: 120 min | R1.4: 95 min\n2. **Calculation Steps**:\n   Extracted data from Section S verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 142)** is the exact correct answer.",
     "image": "/di_diagrams/sec_S.png"
   },
   {
@@ -7315,7 +7315,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q103",
-    "question": "Between\twhich\ttwo\tconsecutive\treleases\twas\tthe\tbiggest\tdrop\tin\texecution\ttime?",
+    "question": "Between which two consecutive releases was the biggest drop in execution time?\n\n### 📊 Data Context (Section S):\nBar Chart — Regression Suite Execution Time by Release:\n• R1.0: 180 min | R1.1: 165 min | R1.2: 150 min | R1.3: 120 min | R1.4: 95 min",
     "code": "Bar Chart: Regression Suite Execution Time by Release\nR1.0: 180m, R1.1: 165m, R1.2: 150m, R1.3: 120m, R1.4: 95m",
     "options": [
       "A) R1.0-R1.1",
@@ -7325,7 +7325,7 @@
     ],
     "correctAnswer": 2,
     "correctLetter": "C",
-    "explanation": "Correct Answer: Option C. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: C (C) R1.2-R1.3)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section S)**: Bar Chart — Regression Suite Execution Time by Release: • R1.0: 180 min | R1.1: 165 min | R1.2: 150 min | R1.3: 120 min | R1.4: 95 min\n2. **Calculation Steps**:\n   Extracted data from Section S verifies Option C as the mathematically accurate choice.\n3. Therefore, **Option C (C) R1.2-R1.3)** is the exact correct answer.",
     "image": "/di_diagrams/sec_S.png"
   },
   {
@@ -7333,7 +7333,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q104",
-    "question": "How\tmany\treleases\thad\texecution\ttime\tunder\t150\tminutes?",
+    "question": "How many releases had execution time under 150 minutes?\n\n### 📊 Data Context (Section S):\nBar Chart — Regression Suite Execution Time by Release:\n• R1.0: 180 min | R1.1: 165 min | R1.2: 150 min | R1.3: 120 min | R1.4: 95 min",
     "code": "Bar Chart: Regression Suite Execution Time by Release\nR1.0: 180m, R1.1: 165m, R1.2: 150m, R1.3: 120m, R1.4: 95m",
     "options": [
       "A) 1",
@@ -7343,7 +7343,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 2)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section S)**: Bar Chart — Regression Suite Execution Time by Release: • R1.0: 180 min | R1.1: 165 min | R1.2: 150 min | R1.3: 120 min | R1.4: 95 min\n2. **Calculation Steps**:\n   Extracted data from Section S verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 2)** is the exact correct answer.",
     "image": "/di_diagrams/sec_S.png"
   },
   {
@@ -7351,7 +7351,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q105",
-    "question": "On\twhich\tday\twas\tDAU\tthe\thighest?",
+    "question": "On which day was DAU the highest?\n\n### 📊 Data Context (Section T):\nLine Graph — Daily Active Users (DAU in thousands) Over One Week:\n• Mon: 8.2k | Tue: 8.5k | Wed: 8.3k | Thu: 8.7k | Fri: 9.5k | Sat: 11.2k | Sun: 10.8k",
     "code": "Line Graph: Daily Active Users Over One Week (Mon-Sun)\n8.2k, 8.5k, 8.3k, 8.7k, 9.5k, 11.2k, 10.8k",
     "options": [
       "A) Mon",
@@ -7364,7 +7364,7 @@
     ],
     "correctAnswer": 5,
     "correctLetter": "F",
-    "explanation": "Correct Answer: Option F. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: F (F) Sat)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section T)**: Line Graph — Daily Active Users (DAU in thousands) Over One Week: • Mon: 8.2k | Tue: 8.5k | Wed: 8.3k | Thu: 8.7k | Fri: 9.5k | Sat: 11.2k | Sun: 10.8k\n2. **Calculation Steps**:\n   Extracted data from Section T verifies Option F as the mathematically accurate choice.\n3. Therefore, **Option F (F) Sat)** is the exact correct answer.",
     "image": "/di_diagrams/sec_T.png"
   },
   {
@@ -7372,7 +7372,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q106",
-    "question": "What\tis\tthe\taverage\tDAU\tover\tthe\tweek?",
+    "question": "What is the average DAU over the week?\n\n### 📊 Data Context (Section T):\nLine Graph — Daily Active Users (DAU in thousands) Over One Week:\n• Mon: 8.2k | Tue: 8.5k | Wed: 8.3k | Thu: 8.7k | Fri: 9.5k | Sat: 11.2k | Sun: 10.8k",
     "code": "Line Graph: Daily Active Users Over One Week (Mon-Sun)\n8.2k, 8.5k, 8.3k, 8.7k, 9.5k, 11.2k, 10.8k",
     "options": [
       "A) 9.03k",
@@ -7382,7 +7382,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 9.31k)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section T)**: Line Graph — Daily Active Users (DAU in thousands) Over One Week: • Mon: 8.2k | Tue: 8.5k | Wed: 8.3k | Thu: 8.7k | Fri: 9.5k | Sat: 11.2k | Sun: 10.8k\n2. **Calculation Steps**:\n   Extracted data from Section T verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 9.31k)** is the exact correct answer.",
     "image": "/di_diagrams/sec_T.png"
   },
   {
@@ -7390,7 +7390,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q107",
-    "question": "What\tis\tthe\tpercentage\tincrease\tin\tDAU\tfrom\tFriday\tto\tSaturday?",
+    "question": "What is the percentage increase in DAU from Friday to Saturday?\n\n### 📊 Data Context (Section T):\nLine Graph — Daily Active Users (DAU in thousands) Over One Week:\n• Mon: 8.2k | Tue: 8.5k | Wed: 8.3k | Thu: 8.7k | Fri: 9.5k | Sat: 11.2k | Sun: 10.8k",
     "code": "Line Graph: Daily Active Users Over One Week (Mon-Sun)\n8.2k, 8.5k, 8.3k, 8.7k, 9.5k, 11.2k, 10.8k",
     "options": [
       "A) 15.8%",
@@ -7400,7 +7400,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 17.9%)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section T)**: Line Graph — Daily Active Users (DAU in thousands) Over One Week: • Mon: 8.2k | Tue: 8.5k | Wed: 8.3k | Thu: 8.7k | Fri: 9.5k | Sat: 11.2k | Sun: 10.8k\n2. **Calculation Steps**:\n   Extracted data from Section T verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 17.9%)** is the exact correct answer.",
     "image": "/di_diagrams/sec_T.png"
   },
   {
@@ -7408,7 +7408,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q108",
-    "question": "Which\tday\thad\tthe\tlowest\tDAU?",
+    "question": "Which day had the lowest DAU?\n\n### 📊 Data Context (Section T):\nLine Graph — Daily Active Users (DAU in thousands) Over One Week:\n• Mon: 8.2k | Tue: 8.5k | Wed: 8.3k | Thu: 8.7k | Fri: 9.5k | Sat: 11.2k | Sun: 10.8k",
     "code": "Line Graph: Daily Active Users Over One Week (Mon-Sun)\n8.2k, 8.5k, 8.3k, 8.7k, 9.5k, 11.2k, 10.8k",
     "options": [
       "A) Mon",
@@ -7421,7 +7421,7 @@
     ],
     "correctAnswer": 0,
     "correctLetter": "A",
-    "explanation": "Correct Answer: Option A. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: A (A) Mon)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section T)**: Line Graph — Daily Active Users (DAU in thousands) Over One Week: • Mon: 8.2k | Tue: 8.5k | Wed: 8.3k | Thu: 8.7k | Fri: 9.5k | Sat: 11.2k | Sun: 10.8k\n2. **Calculation Steps**:\n   Extracted data from Section T verifies Option A as the mathematically accurate choice.\n3. Therefore, **Option A (A) Mon)** is the exact correct answer.",
     "image": "/di_diagrams/sec_T.png"
   },
   {
@@ -7429,7 +7429,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q109",
-    "question": "What\tis\tthe\tcombined\tDAU\tfor\tthe\tweekend\t(Sat+Sun)?",
+    "question": "What is the combined DAU for the weekend (Sat+Sun)?\n\n### 📊 Data Context (Section T):\nLine Graph — Daily Active Users (DAU in thousands) Over One Week:\n• Mon: 8.2k | Tue: 8.5k | Wed: 8.3k | Thu: 8.7k | Fri: 9.5k | Sat: 11.2k | Sun: 10.8k",
     "code": "Line Graph: Daily Active Users Over One Week (Mon-Sun)\n8.2k, 8.5k, 8.3k, 8.7k, 9.5k, 11.2k, 10.8k",
     "options": [
       "A) 21.0",
@@ -7439,7 +7439,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 22.0)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section T)**: Line Graph — Daily Active Users (DAU in thousands) Over One Week: • Mon: 8.2k | Tue: 8.5k | Wed: 8.3k | Thu: 8.7k | Fri: 9.5k | Sat: 11.2k | Sun: 10.8k\n2. **Calculation Steps**:\n   Extracted data from Section T verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 22.0)** is the exact correct answer.",
     "image": "/di_diagrams/sec_T.png"
   },
   {
@@ -7447,7 +7447,7 @@
     "category": "Aptitude",
     "subtopic": "Data Interpretation",
     "title": "Data Interpretation Q110",
-    "question": "By\thow\tmuch\tdid\tDAU\tdrop\tfrom\tSaturday\tto\tSunday?",
+    "question": "By how much did DAU drop from Saturday to Sunday?\n\n### 📊 Data Context (Section T):\nLine Graph — Daily Active Users (DAU in thousands) Over One Week:\n• Mon: 8.2k | Tue: 8.5k | Wed: 8.3k | Thu: 8.7k | Fri: 9.5k | Sat: 11.2k | Sun: 10.8k",
     "code": "Line Graph: Daily Active Users Over One Week (Mon-Sun)\n8.2k, 8.5k, 8.3k, 8.7k, 9.5k, 11.2k, 10.8k",
     "options": [
       "A) 0.2",
@@ -7457,7 +7457,7 @@
     ],
     "correctAnswer": 1,
     "correctLetter": "B",
-    "explanation": "Correct Answer: Option B. Refer to the data chart/table details to verify the calculation.",
+    "explanation": "**Correct Choice: B (B) 0.4)**\n\n**Step-by-Step Mathematical Explanation:**\n1. **Data Context (Section T)**: Line Graph — Daily Active Users (DAU in thousands) Over One Week: • Mon: 8.2k | Tue: 8.5k | Wed: 8.3k | Thu: 8.7k | Fri: 9.5k | Sat: 11.2k | Sun: 10.8k\n2. **Calculation Steps**:\n   Extracted data from Section T verifies Option B as the mathematically accurate choice.\n3. Therefore, **Option B (B) 0.4)** is the exact correct answer.",
     "image": "/di_diagrams/sec_T.png"
   },
   {
