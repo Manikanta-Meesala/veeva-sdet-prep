@@ -1,5 +1,1042 @@
 [
   {
+    "id": "dump_1",
+    "category": "Java",
+    "subtopic": "Operators & Expressions",
+    "title": "Post-Increment vs Pre-Increment Precedence",
+    "question": "What will be the output of the following Java code?",
+    "code": "public class Test {\n    public static void main(String[] args) {\n        int x = 5;\n        x = x++ + ++x;\n        System.out.println(x);\n    }\n}",
+    "options": [
+      "A) 11",
+      "B) 12",
+      "C) 13",
+      "D) 14"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "In 'x = x++ + ++x': x++ evaluates to 5 (and increments x to 6). Then ++x increments x from 6 to 7 and evaluates to 7. 5 + 7 = 12, which is assigned back to x."
+  },
+  {
+    "id": "dump_2",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "Char Primitive Compound Assignment",
+    "question": "What will be printed when the following code is executed?",
+    "code": "public class Test {\n    public static void main(String[] args) {\n        char c = 'A';\n        c += 2;\n        System.out.println(c);\n    }\n}",
+    "options": [
+      "A) A",
+      "B) B",
+      "C) C",
+      "D) 67"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "'c += 2' performs implicit type casting: c = (char)(c + 2). ASCII value of 'A' is 65. 65 + 2 = 67, which corresponds to character 'C'."
+  },
+  {
+    "id": "dump_3",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "Field Hiding vs Method Overriding in Inheritance",
+    "question": "Predict the output of the following inheritance-driven code:",
+    "code": "class A {\n    int i = 10;\n    void display() { \n        System.out.print(i + \" \"); \n    } \n} \nclass B extends A {\n    int i = 20;\n    void display() { \n        System.out.print(i + \" \"); \n    } \n}\npublic class Test {\n    public static void main(String[] args) { \n        A obj = new B();\n        obj.display();\n        System.out.println(obj.i);\n    } \n}",
+    "options": [
+      "A) 10 10",
+      "B) 20 20",
+      "C) 20 10",
+      "D) 10 20"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Methods are overridden dynamically based on the runtime instance (class B's display prints 20). Instance variables are NOT polymorphic; obj.i accesses class A's field based on the reference type (10)."
+  },
+  {
+    "id": "dump_4",
+    "category": "Java",
+    "subtopic": "Control Flow & Loops",
+    "title": "Integer Literal in Loop Condition",
+    "question": "What will be the output of the following loop code?",
+    "code": "public class Test {\n    public static void main(String[] args) {\n        for (int i = 0; 0; i++) {\n            System.out.println(\"Hello World!\");\n        }\n    }\n}",
+    "options": [
+      "A) Loops infinitely",
+      "B) Does not compile",
+      "C) Prints nothing",
+      "D) Throws a Runtime Exception"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "In Java, loop conditions must evaluate to boolean (true/false). Using an integer literal '0' causes a compiler error: incompatible types: int cannot be converted to boolean."
+  },
+  {
+    "id": "dump_5",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "Constructor Chaining with this()",
+    "question": "What will be the output of the following Java code?",
+    "code": "class Test {\n    int x;\n    Test() {\n        this(10);\n    }\n    Test(int x) {\n        this.x = x;\n    }\n    public static void main(String[] args) {\n        Test t = new Test();\n        System.out.println(t.x);\n    }\n}",
+    "options": [
+      "A) 0",
+      "B) 10",
+      "C) Compilation error",
+      "D) Runtime error"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Calling default constructor Test() invokes this(10), which executes Test(int x) initializing t.x to 10."
+  },
+  {
+    "id": "dump_6",
+    "category": "Java",
+    "subtopic": "Core Java - Initialization",
+    "title": "Static Variable Counter across Objects",
+    "question": "What will be the output of the following Java code?",
+    "code": "class Demo {\n    static int count = 0;\n    Demo() {\n        count++;\n    }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Demo d1 = new Demo();\n        Demo d2 = new Demo();\n        Demo d3 = new Demo();\n        System.out.println(Demo.count);\n    }\n}",
+    "options": [
+      "A) 0",
+      "B) 1",
+      "C) 3",
+      "D) Compilation error"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Static variable 'count' is shared across all instances of Demo. Instantiating Demo three times increments count to 3."
+  },
+  {
+    "id": "dump_7",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "Polymorphic Method Resolution",
+    "question": "What will be the output of the following Java code?",
+    "code": "class Base {\n    public void display() {\n        System.out.print(\"Base \");\n    }\n}\nclass Derived extends Base {\n    public void display() {\n        System.out.print(\"Derived \");\n    }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Base obj = new Derived();\n        obj.display();\n    }\n}",
+    "options": [
+      "A) Base",
+      "B) Derived",
+      "C) Base Derived",
+      "D) Compilation error"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Dynamic method dispatch executes Derived's overridden display() method because the heap object created is of class Derived."
+  },
+  {
+    "id": "dump_8",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "Integer Object Caching Behavior",
+    "question": "What will be the output of the following Java code?",
+    "code": "public class Main {\n    public static void main(String[] args) {\n        Integer num1 = 100;\n        Integer num2 = 100;\n        Integer num3 = 150;\n        Integer num4 = 150;\n        if (num1 == num2) System.out.print(\"A\");\n        else System.out.print(\"B\");\n        if (num3 == num4) System.out.print(\"C\");\n        else System.out.print(\"D\");\n    }\n}",
+    "options": [
+      "A) AC",
+      "B) AD",
+      "C) BC",
+      "D) BD"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Java caches Integer objects in the range [-128, 127]. num1 == num2 evaluates to true ('A') as both refer to the cached object. 150 is outside the cache range, so num3 == num4 evaluates to false ('D'). Output is AD."
+  },
+  {
+    "id": "dump_9",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "Overloading Primitive Promotion Priority",
+    "question": "What will be the output of the following Java code?",
+    "code": "class Overload {\n    void show(int a) { \n        System.out.println(\"int\"); \n    }\n    void show(long a) { \n        System.out.println(\"long\"); \n    }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Overload o = new Overload();\n        o.show(10);\n    }\n}",
+    "options": [
+      "A) int",
+      "B) long",
+      "C) int long",
+      "D) Compilation error"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "10 is an int literal. Exact parameter match show(int) is preferred over promoted type show(long)."
+  },
+  {
+    "id": "dump_10",
+    "category": "Java",
+    "subtopic": "Control Flow & Loops",
+    "title": "Array Element Retrieval from Input Stream",
+    "question": "What will be the output of the following Java program if user input is: 5 10 15 20 25?",
+    "code": "import java.util.Scanner;\nclass Codechef {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int[] arr = new int[5];\n        for (int i = 0; i < arr.length; i++) {\n            arr[i] = sc.nextInt();\n        }\n        System.out.println(arr[2]);\n    }\n}",
+    "options": [
+      "A) 5",
+      "B) 10",
+      "C) 15",
+      "D) 20"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "Array indices are 0-based. arr[0]=5, arr[1]=10, arr[2]=15. Printing arr[2] outputs 15."
+  },
+  {
+    "id": "dump_11",
+    "category": "Java",
+    "subtopic": "Strings & Memory",
+    "title": "String Concatenation Arithmetic Precedence",
+    "question": "What will be the output of the following code snippet?",
+    "code": "public class Main {\n    public static void main(String[] args) {\n        int x = 5;\n        int y = 10;\n        System.out.println(x + y + \"Hello\");\n    }\n}",
+    "options": [
+      "A) 15Hello",
+      "B) Hello15",
+      "C) 510Hello",
+      "D) 5Hello10"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Evaluation is left-to-right. First, x + y = 5 + 10 = 15 (integer addition). Then 15 + \"Hello\" = \"15Hello\" (String concatenation)."
+  },
+  {
+    "id": "dump_12",
+    "category": "Java",
+    "subtopic": "Strings & Memory",
+    "title": "Literal vs Heap String Comparison with == Operator",
+    "question": "What is the output of the following code snippet?",
+    "code": "public class Main{\n     public static void main(String []args){\n        String str1 = \"Hello\";\n        String str2 = new String(\"Hello\");\n        System.out.println(str1 == str2);\n     }\n}",
+    "options": [
+      "A) true",
+      "B) false",
+      "C) Compilation error",
+      "D) Runtime exception"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "str1 points to string pool memory, while str2 is created in heap memory. '==' compares memory addresses, returning false."
+  },
+  {
+    "id": "dump_13",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "Array Length Property",
+    "question": "What is the output of the following code snippet?",
+    "code": "public class Main{\n     public static void main(String []args){\n        int[] arr = {1, 2, 3, 4, 5};\n        System.out.println(arr.length);\n     }\n}",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 5"
+    ],
+    "correctAnswer": 3,
+    "correctLetter": "D",
+    "explanation": "The length property of an array returns the total number of elements contained in the array (5)."
+  },
+  {
+    "id": "dump_14",
+    "category": "Java",
+    "subtopic": "Control Flow & Loops",
+    "title": "If-Else Branch Execution",
+    "question": "What is the output of the following Java program?",
+    "code": "public class Main{\n     public static void main(String []args){\n        int x = 5;\n        int y = 10;\n        if (x < y)\n            System.out.println(\"x is less than y\");\n        else if (x > y)\n            System.out.println(\"x is greater than y\");\n        else\n            System.out.println(\"x is equal to y\");\n     }\n}",
+    "options": [
+      "A) x is less than y",
+      "B) x is greater than y",
+      "C) x is equal to y",
+      "D) Does not compile"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Since x=5 and y=10, condition (x < y) evaluates to true, executing the first print statement."
+  },
+  {
+    "id": "dump_15",
+    "category": "Java",
+    "subtopic": "Operators & Expressions",
+    "title": "Ternary Operator Evaluation",
+    "question": "What is the output of the following Java program?",
+    "code": "public class Main{\n     public static void main(String []args){\n        int x = 10;\n        int y = 5;\n        int z = (x > y) ? x : y;\n        System.out.println(z);\n     }\n}",
+    "options": [
+      "A) 10",
+      "B) 5",
+      "C) 15",
+      "D) Does not compile"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "(10 > 5) evaluates to true, so the ternary expression returns x (10), which is assigned to z."
+  },
+  {
+    "id": "dump_16",
+    "category": "Java",
+    "subtopic": "Control Flow & Loops",
+    "title": "While Loop Countdown Output",
+    "question": "What is the output of the following Java program?",
+    "code": "class Main{\n     public static void main(String []args){\n        int x = 10;\n        while (x > 0) {\n            System.out.print(x + \" \");\n            x--;\n        }\n     }\n}",
+    "options": [
+      "A) 10 9 8 7 6 5 4 3 2 1",
+      "B) 10 9 8 7 6 5 4 3 2 1 0",
+      "C) 1 2 3 4 5 6 7 8 9 10",
+      "D) Does not compile"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Loop starts at x=10 and decrements until x=1. When x reaches 0, condition (0 > 0) becomes false and loop terminates."
+  },
+  {
+    "id": "dump_17",
+    "category": "Java",
+    "subtopic": "Control Flow & Loops",
+    "title": "Break Statement in Loop Execution",
+    "question": "What is the output of the following Java program?",
+    "code": "public class Main{\n     public static void main(String []args){\n        for (int i = 0; i < 5; i++) {\n            System.out.print(i + \" \");\n            if (i == 2)\n                break;\n        }\n     }\n}",
+    "options": [
+      "A) 0 1 2",
+      "B) 0 1 2 3 4",
+      "C) 0 1",
+      "D) 0 1 2 3 4 5"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Prints 0, 1, 2. When i becomes 2, the break statement immediately exits the loop."
+  },
+  {
+    "id": "dump_18",
+    "category": "Java",
+    "subtopic": "Control Flow & Loops",
+    "title": "Do-While Loop Execution Guarantee",
+    "question": "What is the output of the following Java program?",
+    "code": "public class Main{\n     public static void main(String []args){\n        int i = 0;\n        do {\n            System.out.print(i + \" \");\n            i++;\n        } while (i < 5);\n     }\n}",
+    "options": [
+      "A) 0 1 2 3 4",
+      "B) 0 1 2 3 4 5",
+      "C) 1 2 3 4 5",
+      "D) Syntax error"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "A do-while loop executes body first then tests condition. Output is 0 1 2 3 4 before i becomes 5 terminating loop."
+  },
+  {
+    "id": "dump_19",
+    "category": "Java",
+    "subtopic": "Control Flow & Loops",
+    "title": "Switch Statement Default Case Behavior",
+    "question": "What is the output of the following Java program?",
+    "code": "public class Main{\n     public static void main(String []args){\n        int x = 10;\n        switch(x) {\n            case 5:\n                System.out.println(\"Five\");\n                break;\n            case 15:\n                System.out.println(\"Fifteen\");\n                break;\n            default:\n                System.out.println(\"Default\");\n        }\n     }\n}",
+    "options": [
+      "A) Five",
+      "B) Fifteen",
+      "C) Default",
+      "D) Does not compile"
+    ],
+    "correctAnswer": 2,
+    "correctLetter": "C",
+    "explanation": "None of the matching cases (5, 15) match x=10, so execution falls into the default block."
+  },
+  {
+    "id": "dump_20",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "Primitive Array Default Initialization",
+    "question": "What is the output of the following Java program?",
+    "code": "public class Main{\n     public static void main(String []args){\n        int[] arr = new int[5];\n        System.out.println(arr[0]);\n     }\n}",
+    "options": [
+      "A) 0",
+      "B) null",
+      "C) Garbage value",
+      "D) Compilation error"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "In Java, numeric array elements are automatically initialized to default value 0 upon creation."
+  },
+  {
+    "id": "dump_21",
+    "category": "Java",
+    "subtopic": "Exception Handling",
+    "title": "ArithmeticException Division by Zero",
+    "question": "What is the output of the following Java program?",
+    "code": "public class Main{\n     public static void main(String []args){\n        try {\n            int x = 10 / 0;\n        } catch(ArithmeticException e) {\n            System.out.println(\"Arithmetic Exception caught\");\n        }\n     }\n}",
+    "options": [
+      "A) Arithmetic Exception caught",
+      "B) Program crashes",
+      "C) 0",
+      "D) Does not compile"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Integer division by zero throws ArithmeticException, which is caught by the catch block printing 'Arithmetic Exception caught'."
+  },
+  {
+    "id": "dump_22",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "Math.pow Return Type and Result",
+    "question": "What is the output of the following Java program?",
+    "code": "public class Main{\n     public static void main(String []args){\n        System.out.println(Math.pow(2, 3));\n     }\n}",
+    "options": [
+      "A) 8",
+      "B) 8.0",
+      "C) 6",
+      "D) 6.0"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "Math.pow(double a, double b) returns a double value. Math.pow(2, 3) evaluates to 8.0."
+  },
+  {
+    "id": "dump_23",
+    "category": "Java",
+    "subtopic": "Operators & Expressions",
+    "title": "Post-Increment Assignment Semantics",
+    "question": "What is the output of the following Java program?",
+    "code": "public class Main {\n    public static void main(String[] args) {\n        int i = 10;\n        int j = i++;\n        System.out.println(\"i = \" + i + \", j = \" + j);\n    }\n}",
+    "options": [
+      "A) i = 11, j = 10",
+      "B) i = 10, j = 11",
+      "C) i = 11, j = 11",
+      "D) i = 10, j = 10"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "j gets original value of i (10) before post-increment. Afterwards i is incremented to 11."
+  },
+  {
+    "id": "dump_24",
+    "category": "Java",
+    "subtopic": "Core Java - Initialization",
+    "title": "Multi-Level Inheritance Constructor Chain",
+    "question": "Which option provides the output of this inheritance program?",
+    "code": "class Base {\n    public Base() {\n        System.out.println(\"Base\");\n    }\n}\nclass Derived extends Base {\n    public Derived() {\n        System.out.println(\"Derived\");\n    }\n}\nclass DeriDerived extends Derived {\n    public DeriDerived() {\n        System.out.println(\"DeriDerived\");\n    }\n}\npublic class Test {\n    public static void main(String[] args) {\n        Derived b = new DeriDerived();\n    }\n}",
+    "options": [
+      "A) Base \\n Derived \\n DeriDerived",
+      "B) Derived \\n DeriDerived",
+      "C) DeriDerived \\n Derived \\n Base",
+      "D) DeriDerived \\n Derived"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Instantiating DeriDerived triggers superclass constructors first: Base() executes, then Derived(), then DeriDerived()."
+  },
+  {
+    "id": "dump_25",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "Method Overloading with Primitive vs Wrapper Types",
+    "question": "What will be printed by this method overloading program?",
+    "code": "public class Test {\n    public void print(Integer i) {\n        System.out.println(\"Integer\");\n    }\n    public void print(int i) {\n        System.out.println(\"int\");\n    }\n    public void print(long i) {\n        System.out.println(\"long\");\n    }\n    public static void main(String args[]) {\n        Test t = new Test();\n        t.print(10);\n    }\n}",
+    "options": [
+      "A) int",
+      "B) Integer",
+      "C) long",
+      "D) Compilation error"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "10 is an int primitive literal. Exact primitive match print(int) is chosen before autoboxing or widening."
+  },
+  {
+    "id": "dump_26",
+    "category": "Java",
+    "subtopic": "Strings & Memory",
+    "title": "String Comparison equality methods",
+    "question": "What is the output of the following string equality check?",
+    "code": "public class StrEqual {\n    public static void main(String[] args) {\n        String s1 = \"hello\";\n        String s2 = new String(\"hello\");\n        if (s1 == s2) System.out.print(\"s1 and s2 equal \");\n        else System.out.print(\"s1 and s2 not equal \");\n        if (s1.equals(s2)) System.out.print(\"s1 and s2 equal\");\n        else System.out.print(\"s1 and s2 not equal\");\n    }\n}",
+    "options": [
+      "A) s1 and s2 equal s1 and s2 equal",
+      "B) s1 and s2 not equal s1 and s2 equal",
+      "C) s1 and s2 equal s1 and s2 not equal",
+      "D) s1 and s2 not equal s1 and s2 not equal"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "'==' checks memory references (false, different heap/pool memory). 'equals()' checks string character content (true)."
+  },
+  {
+    "id": "dump_27",
+    "category": "Java",
+    "subtopic": "Core Java - Initialization",
+    "title": "Static and Instance Block Order with Multiple Objects",
+    "question": "What will be printed when running this program?",
+    "code": "public class Test {\n    static {\n        System.out.print(\"1 \");\n    }\n    {\n        System.out.print(\"2 \");\n    }\n    public Test() {\n        System.out.print(\"3 \");\n    }\n    public static void main(String[] args) {\n        Test t1 = new Test();\n        Test t2 = new Test();\n    }\n}",
+    "options": [
+      "A) 1 2 3 2 3",
+      "B) 1 2 3 1 2 3",
+      "C) 2 3 1 2 3",
+      "D) 1 3 2 3 2"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Static block runs once on class loading ('1 '). Instance block ('2 ') and constructor ('3 ') run for each new instance."
+  },
+  {
+    "id": "dump_28",
+    "category": "Java",
+    "subtopic": "Multithreading & Concurrency",
+    "title": "Basic Thread Creation with Runnable",
+    "question": "What is the output of the following multithreaded program?",
+    "code": "public class Main implements Runnable {\n    public void run() {\n        System.out.println(\"Thread running\");\n    }\n    public static void main(String[] args) {\n        Thread t = new Thread(new Main());\n        t.start();\n    }\n}",
+    "options": [
+      "A) Thread running",
+      "B) Compilation error",
+      "C) Runtime Exception",
+      "D) No output"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "t.start() creates a new thread of execution and invokes the run() method of the Runnable target."
+  },
+  {
+    "id": "dump_29",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "Regex Pattern Matching for Digits",
+    "question": "What is the output of the following Regex code?",
+    "code": "import java.util.regex.*;\npublic class RegexQuiz {\n    public static void main(String[] args) {\n        String regex = \"\\\\d+\";\n        String input = \"1234\";\n        Pattern pattern = Pattern.compile(regex);\n        Matcher matcher = pattern.matcher(input);\n        while (matcher.find()) {\n            System.out.print(matcher.group() + \" \");\n        }\n    }\n}",
+    "options": [
+      "A) 1234 ",
+      "B) 1 2 3 4 ",
+      "C) true ",
+      "D) Compilation error"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "'\\\\d+' matches one or more contiguous digits. In greedy mode, it matches the entire sequence '1234' as a single group."
+  },
+  {
+    "id": "dump_30",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "Regex Word Character Sequence Matching",
+    "question": "What is the output of the following Regex code?",
+    "code": "import java.util.regex.*;\npublic class RegexQuiz {\n    public static void main(String[] args) {\n        String regex = \"\\\\w+\";\n        String input = \"Java 123\";\n        Pattern pattern = Pattern.compile(regex);\n        Matcher matcher = pattern.matcher(input);\n        while (matcher.find()) {\n            System.out.print(matcher.group() + \" \");\n        }\n    }\n}",
+    "options": [
+      "A) Java 123 ",
+      "B) Java ",
+      "C) 123 ",
+      "D) J a v a 1 2 3 "
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "'\\\\w+' matches contiguous word characters [a-zA-Z_0-9]. matcher.find() finds 'Java', then skips space, then finds '123'."
+  },
+  {
+    "id": "dump_31",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "Default Constructor Inheritance",
+    "question": "Predict the output of the following code:",
+    "code": "class One{\n    int x = 10;\n}\nclass Two extends One{\n    int y = 20;\n}\npublic class Test{\n    public static void main(String[] args) {\n        Two b = new Two();\n        System.out.println(b.x + \" \" + b.y);\n    }\n}",
+    "options": [
+      "A) 10 20",
+      "B) 0 20",
+      "C) 10 0",
+      "D) Compilation error"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Class Two inherits field x from class One. Instantiating Two gives access to both b.x (10) and b.y (20)."
+  },
+  {
+    "id": "dump_32",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "Super Keyword Access to Parent Field",
+    "question": "Predict the output of the following code:",
+    "code": "class One{\n    int x = 10;\n}\nclass Two extends One{\n    int x = 20;\n    void show() {\n        System.out.println(super.x + \" \" + x);\n    }\n}\npublic class Test{\n    public static void main(String[] args) {\n        Two b = new Two();\n        b.show();\n    }\n}",
+    "options": [
+      "A) 10 20",
+      "B) 20 20",
+      "C) 10 10",
+      "D) Compilation error"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "'super.x' refers to parent class One's field (10), while 'x' refers to child class Two's field (20)."
+  },
+  {
+    "id": "dump_33",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "Method Overriding in Subclass Hierarchy",
+    "question": "What is the output of the following inheritance program?",
+    "code": "class One{\n    void display() {\n        System.out.println(\"One\");\n    }\n}\nclass Two extends One{\n    void display() {\n        System.out.println(\"Two\");\n    }\n}\npublic class Test{\n    public static void main(String[] args) {\n        One obj = new Two();\n        obj.display();\n    }\n}",
+    "options": [
+      "A) Two",
+      "B) One",
+      "C) One Two",
+      "D) Compilation error"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Runtime polymorphism ensures Two's display() method is called when obj points to a Two instance."
+  },
+  {
+    "id": "dump_34",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "Static Method Hiding vs Overriding",
+    "question": "Predict the output of the following static method code:",
+    "code": "class Parent{\n    static void print() {\n        System.out.println(\"Parent\");\n    }\n}\nclass Child extends Parent{\n    static void print() {\n        System.out.println(\"Child\");\n    }\n}\npublic class Test{\n    public static void main(String[] args) {\n        Parent obj = new Child();\n        obj.print();\n    }\n}",
+    "options": [
+      "A) Parent",
+      "B) Child",
+      "C) Compilation error",
+      "D) Runtime Exception"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Static methods cannot be overridden (method hiding). Resolution depends on reference type (Parent), so Parent's print() is invoked."
+  },
+  {
+    "id": "dump_35",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "Same Name Method vs Constructor in Java",
+    "question": "What is the output of the following Java program?",
+    "code": "class Demo {\n    void Demo() {\n        System.out.println(\"Method\");\n    }\n}\npublic class Test {\n    public static void main(String[] args) {\n        Demo d = new Demo();\n    }\n}",
+    "options": [
+      "A) Method",
+      "B) Prints nothing",
+      "C) Compilation error",
+      "D) Runtime Exception"
+    ],
+    "correctAnswer": 1,
+    "correctLetter": "B",
+    "explanation": "void Demo() is a regular method (not a constructor because of void return type). Default compiler constructor executes, printing nothing."
+  },
+  {
+    "id": "dump_36",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "Private Constructor with Static Factory Method",
+    "question": "What is the output of the following factory pattern code?",
+    "code": "class Demo {\n    private Demo() {\n        System.out.print(\"Constructor \");\n    }\n    public static Demo create() {\n        return new Demo();\n    }\n}\npublic class Test {\n    public static void main(String[] args) {\n        Demo d = Demo.create();\n    }\n}",
+    "options": [
+      "A) Constructor ",
+      "B) Compilation error",
+      "C) Runtime error",
+      "D) Prints nothing"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Private constructor can be invoked inside static method of the same class (Demo.create()), outputting 'Constructor '."
+  },
+  {
+    "id": "dump_37",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "Abstract Method Implementation Requirement",
+    "question": "Predict the output of the following abstract class code:",
+    "code": "abstract class One {\n    abstract void show();\n}\nclass Two extends One {\n    void show() {\n        System.out.println(\"Two\");\n    }\n}\npublic class Test {\n    public static void main(String[] args) {\n        One obj = new Two();\n        obj.show();\n    }\n}",
+    "options": [
+      "A) Two",
+      "B) One",
+      "C) Compilation error",
+      "D) Runtime error"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Concrete class Two provides implementation for abstract method show(). Invoking obj.show() executes Two's method."
+  },
+  {
+    "id": "dump_38",
+    "category": "Java",
+    "subtopic": "Strings & Memory",
+    "title": "String Immutability and Modifying Methods",
+    "question": "What is the output of the following String code?",
+    "code": "public class Main {\n    public static void main(String[] args) {\n        String s = \"Java\";\n        s.concat(\" SE\");\n        System.out.println(s);\n    }\n}",
+    "options": [
+      "A) Java",
+      "B) Java SE",
+      "C) SE",
+      "D) Compilation error"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Strings in Java are immutable. s.concat(\" SE\") returns a new String, but 's' remains unchanged because the result is not reassigned."
+  },
+  {
+    "id": "dump_39",
+    "category": "Java",
+    "subtopic": "Strings & Memory",
+    "title": "StringBuilder Mutation Behavior",
+    "question": "What is the output of the following StringBuilder code?",
+    "code": "public class Main {\n    public static void main(String[] args) {\n        StringBuilder sb = new StringBuilder(\"Java\");\n        sb.append(\" SE\");\n        System.out.println(sb);\n    }\n}",
+    "options": [
+      "A) Java SE",
+      "B) Java",
+      "C) SE",
+      "D) Compilation error"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "StringBuilder is mutable. sb.append(\" SE\") modifies the original object in place, resulting in 'Java SE'."
+  },
+  {
+    "id": "dump_40",
+    "category": "Java",
+    "subtopic": "Exception Handling",
+    "title": "Try-Catch-Finally Return Value Overriding",
+    "question": "What will be printed by this exception handling snippet?",
+    "code": "public class ExceptionTest {\n    public static int test() {\n        try {\n            return 1;\n        } catch (Exception e) {\n            return 2;\n        } finally {\n            return 3;\n        }\n    }\n    public static void main(String[] args) {\n        System.out.println(test());\n    }\n}",
+    "options": [
+      "A) 3",
+      "B) 1",
+      "C) 2",
+      "D) Compilation error"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "The return statement in the finally block always executes and overrides any return value from try or catch."
+  },
+  {
+    "id": "dump_41",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "Method Overloading Null Argument Specificity",
+    "question": "What is the output when passing null to overloaded methods?",
+    "code": "public class OverloadTest {\n    public static void test(Object o) {\n        System.out.println(\"Object\");\n    }\n    public static void test(String s) {\n        System.out.println(\"String\");\n    }\n    public static void main(String[] args) {\n        test(null);\n    }\n}",
+    "options": [
+      "A) String",
+      "B) Object",
+      "C) Ambiguous compiler error",
+      "D) NullPointerException"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "When matching null, Java selects the most specific type in the hierarchy. Since String is a subclass of Object, test(String) is selected."
+  },
+  {
+    "id": "dump_42",
+    "category": "Java",
+    "subtopic": "Core Java - Initialization",
+    "title": "Static vs Instance Initialization Block Sequence",
+    "question": "What is the console output of creating two instances of class A?",
+    "code": "class A {\n    static {\n        System.out.print(\"1\");\n    }\n    {\n        System.out.print(\"2\");\n    }\n    public A() {\n        System.out.print(\"3\");\n    }\n}\npublic class Test {\n    public static void main(String[] args) {\n        A a1 = new A();\n        A a2 = new A();\n    }\n}",
+    "options": [
+      "A) 12323",
+      "B) 123123",
+      "C) 23123",
+      "D) 13232"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Static block executes once ('1'). Then for a1: instance block ('2') + constructor ('3'). For a2: instance block ('2') + constructor ('3'). Final output is 12323."
+  },
+  {
+    "id": "dump_43",
+    "category": "Java",
+    "subtopic": "Operators & Expressions",
+    "title": "IEEE 754 Floating-Point Addition Comparison",
+    "question": "What is the output of checking 0.1 + 0.2 == 0.3 in Java?",
+    "code": "public class Test {\n    public static void main(String[] args) {\n        double a = 0.1 + 0.2;\n        System.out.println(a == 0.3);\n    }\n}",
+    "options": [
+      "A) false",
+      "B) true",
+      "C) Compilation error",
+      "D) Runtime Exception"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Due to IEEE 754 binary floating-point representation limits, 0.1 + 0.2 evaluates to 0.30000000000000004, which is not strictly equal to 0.3."
+  },
+  {
+    "id": "dump_44",
+    "category": "Java",
+    "subtopic": "Exception Handling",
+    "title": "Unhandled Exception Propagation inside Try-Catch-Finally",
+    "question": "What is the output of the following exception handling program?",
+    "code": "public class Test {\n    public static void main(String[] args) {\n        try {\n            System.out.print(\"A\");\n            throw new RuntimeException();\n        } catch (RuntimeException e) {\n            System.out.print(\"B\");\n        } finally {\n            System.out.print(\"C\");\n        }\n    }\n}",
+    "options": [
+      "A) ABC",
+      "B) AB",
+      "C) AC",
+      "D) Compilation error"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Prints 'A' in try block, exception caught printing 'B' in catch block, and finally block always executes printing 'C'. Output is ABC."
+  },
+  {
+    "id": "dump_45",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "Varargs vs Fixed Arguments Method Overloading",
+    "question": "What is the output when calling print(1, 2, 3)?",
+    "code": "public class Test {\n    public static void main(String[] args) {\n        new Test().print(1, 2, 3);\n    }\n    public void print(int... numbers) {\n        System.out.println(\"int...\");\n    }\n    public void print(Integer i1, Integer i2) {\n        System.out.println(\"Integer\");\n    }\n}",
+    "options": [
+      "A) int...",
+      "B) Integer",
+      "C) Compilation error",
+      "D) Runtime Exception"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "3 arguments match the varargs method signature print(int... numbers). The fixed 2-parameter method cannot take 3 arguments."
+  },
+  {
+    "id": "dump_46",
+    "category": "Java",
+    "subtopic": "Exception Handling",
+    "title": "System.exit inside Try Block Execution Flow",
+    "question": "What is the output of the following program containing System.exit(0)?",
+    "code": "public class FinallyBlockTest {\n    public static void main(String[] args) {\n        try {\n            System.out.println(\"Inside try block\");\n            System.exit(0);\n        } finally {\n            System.out.println(\"Inside finally block\");\n        }\n    }\n}",
+    "options": [
+      "A) Inside try block",
+      "B) Inside try block \\n Inside finally block",
+      "C) Inside finally block",
+      "D) Compilation error"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "System.exit(0) terminates JVM process immediately. The finally block is one of the rare exceptions that DOES NOT execute when System.exit is called."
+  },
+  {
+    "id": "dump_47",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "Floating-Point Division by Zero Behavior",
+    "question": "What is the output of 1.0 / 0 and 0.0 / 0 in Java?",
+    "code": "public class Test {\n    public static void main(String[] args) {\n        System.out.println(1.0 / 0);\n        System.out.println(0.0 / 0);\n    }\n}",
+    "options": [
+      "A) Infinity \\n NaN",
+      "B) ArithmeticException thrown",
+      "C) NaN \\n Infinity",
+      "D) 0.0 \\n 0.0"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "In floating-point math: positive non-zero divided by 0.0 results in Infinity (Double.POSITIVE_INFINITY). 0.0 / 0.0 results in NaN (Not a Number)."
+  },
+  {
+    "id": "dump_48",
+    "category": "Java",
+    "subtopic": "Strings & Memory",
+    "title": "Arithmetic Operator Precedence before String Concatenation",
+    "question": "What is the output of the following Java code?",
+    "code": "public class Test {\n    public static void main(String[] args) {\n        System.out.println(10 * 20 + \"Hello\");\n        System.out.println(\"Hello\" + 10 * 20);\n    }\n}",
+    "options": [
+      "A) 200Hello \\n Hello200",
+      "B) 200Hello \\n Hello1020",
+      "C) 1020Hello \\n Hello200",
+      "D) 1020Hello \\n Hello1020"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Multiplication '*' has higher precedence than addition '+'. 10 * 20 = 200 in both lines before string concatenation occurs."
+  },
+  {
+    "id": "dump_49",
+    "category": "Java",
+    "subtopic": "Operators & Expressions",
+    "title": "Left-to-Right Evaluation of mixed String & Int Addition",
+    "question": "What is the output of the following program?",
+    "code": "public class Test {\n    public static void main(String[] args) {\n        String s = new String(\"5\");\n        System.out.println(1 + 10 + s + 1 + 10);\n    }\n}",
+    "options": [
+      "A) 115110",
+      "B) 11511",
+      "C) 1105110",
+      "D) 11520"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "1 + 10 = 11. 11 + \"5\" = \"115\". \"115\" + 1 = \"1151\". \"1151\" + 10 = \"115110\"."
+  },
+  {
+    "id": "dump_50",
+    "category": "Java",
+    "subtopic": "Collections - Overview",
+    "title": "PriorityQueue Min-Heap Sorting Order",
+    "question": "What is the output of iterating over PriorityQueue elements?",
+    "code": "import java.util.*;\npublic class priorityQueue {\n    public static void main(String[] args) {\n        PriorityQueue<Integer> queue = new PriorityQueue<>();\n        queue.add(11);\n        queue.add(10);\n        queue.add(22);\n        queue.add(5);\n        while (!queue.isEmpty()) {\n            System.out.print(queue.poll() + \" \");\n        }\n    }\n}",
+    "options": [
+      "A) 5 10 11 22 ",
+      "B) 11 10 22 5 ",
+      "C) 5 22 10 11 ",
+      "D) 22 11 10 5 "
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "PriorityQueue in Java by default implements a min-heap structure. poll() retrieves and removes elements in ascending sorted order (5, 10, 11, 22)."
+  },
+  {
+    "id": "dump_51",
+    "category": "Java",
+    "subtopic": "Collections - Overview",
+    "title": "TreeSet Unique Ascending Order Traversal",
+    "question": "What is the output of the following TreeSet program?",
+    "code": "import java.util.*;\npublic class Treeset {\n    public static void main(String[] args) {\n        TreeSet<String> treeSet = new TreeSet<>();\n        treeSet.add(\"Geeks\");\n        treeSet.add(\"For\");\n        treeSet.add(\"Geeks\");\n        treeSet.add(\"GeeksforGeeks\");\n        for (String temp : treeSet)\n            System.out.print(temp + \" \");\n    }\n}",
+    "options": [
+      "A) For Geeks GeeksforGeeks ",
+      "B) Geeks For GeeksforGeeks ",
+      "C) Geeks For Geeks GeeksforGeeks ",
+      "D) GeeksforGeeks For Geeks "
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "TreeSet stores unique elements in lexicographical (natural alphabetical) order. Duplicate 'Geeks' is ignored. Sorted order: For, Geeks, GeeksforGeeks."
+  },
+  {
+    "id": "dump_52",
+    "category": "Java",
+    "subtopic": "Collections - ArrayList",
+    "title": "LinkedList Element Insertion and Duplicate Handling",
+    "question": "What is the output of the following LinkedList program?",
+    "code": "import java.util.*;\npublic class linkedList {\n    public static void main(String[] args) {\n        List<String> list1 = new LinkedList<>();\n        list1.add(\"Geeks\");\n        list1.add(\"For\");\n        list1.add(\"Geeks\");\n        System.out.println(list1);\n    }\n}",
+    "options": [
+      "A) [Geeks, For, Geeks]",
+      "B) [Geeks, For]",
+      "C) [For, Geeks]",
+      "D) Compilation error"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "List implementations (including LinkedList) allow duplicate elements and maintain insertion order."
+  },
+  {
+    "id": "dump_53",
+    "category": "Java",
+    "subtopic": "Collections - HashMap",
+    "title": "HashSet Unique Element Filtering",
+    "question": "What is the output of the following HashSet program?",
+    "code": "import java.util.*;\npublic class hashSet {\n    public static void main(String[] args) {\n        HashSet<String> hashSet = new HashSet<>();\n        hashSet.add(\"Geeks\");\n        hashSet.add(\"For\");\n        hashSet.add(\"Geeks\");\n        hashSet.add(\"GeeksforGeeks\");\n        System.out.println(hashSet.size());\n    }\n}",
+    "options": [
+      "A) 3",
+      "B) 4",
+      "C) 2",
+      "D) 5"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "HashSet disallows duplicates. Adding 'Geeks' a second time returns false, leaving 3 unique elements in the set."
+  },
+  {
+    "id": "dump_54",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "Private Field Access Outside Class Bounds",
+    "question": "What is the output of accessing private field data?",
+    "code": "class Helper {\n    private int data = 5;\n}\npublic class Test {\n    public static void main(String[] args) {\n        Helper help = new Helper();\n        System.out.println(help.data);\n    }\n}",
+    "options": [
+      "A) Compilation error",
+      "B) 5",
+      "C) Runtime error",
+      "D) 0"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Private fields are restricted to class Helper scope. Accessing help.data from class Test produces compile error: data has private access in Helper."
+  },
+  {
+    "id": "dump_55",
+    "category": "Java",
+    "subtopic": "Multithreading & Concurrency",
+    "title": "Thread Join Precedence and Execution Order",
+    "question": "What is the output of the following multithreaded code?",
+    "code": "public class Test implements Runnable {\n    public void run() {\n        System.out.print(\"3\");\n    }\n    public static void main(String[] args) throws InterruptedException {\n        Thread thread = new Thread(new Test());\n        thread.start();\n        System.out.print(\"1\");\n        thread.join();\n        System.out.print(\"2\");\n    }\n}",
+    "options": [
+      "A) 132 or 312",
+      "B) 123",
+      "C) 321",
+      "D) 213"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "thread.join() blocks main thread until '3' is printed. '1' or '3' can print first depending on thread scheduling, but '2' always prints LAST."
+  },
+  {
+    "id": "dump_56",
+    "category": "Java",
+    "subtopic": "Inner Classes & Anonymous Classes",
+    "title": "Static Nested Class Instantiation Syntax",
+    "question": "What is the output of instantiating a static nested class?",
+    "code": "public class Test {\n    private static int value = 20;\n    public static class Nested {\n        public void display() {\n            System.out.println(value);\n        }\n    }\n    public static void main(String[] args) {\n        Test.Nested obj = new Test.Nested();\n        obj.display();\n    }\n}",
+    "options": [
+      "A) 20",
+      "B) Compilation error",
+      "C) Runtime Exception",
+      "D) null"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Static nested classes can be instantiated directly using 'new Outer.Nested()' and can access static members of the enclosing class."
+  },
+  {
+    "id": "dump_57",
+    "category": "Java",
+    "subtopic": "Exception Handling",
+    "title": "Method Overriding Checked Exception Declaration Rules",
+    "question": "What is the output of the following exception inheritance program?",
+    "code": "import java.io.*;\nclass Test {\n    public void display() throws IOException {\n        System.out.println(\"Test\");\n    }\n}\nclass Derived extends Test {\n    public void display() throws IOException {\n        System.out.println(\"Derived\");\n    }\n    public static void main(String[] args) throws IOException {\n        Test object = new Derived();\n        object.display();\n    }\n}",
+    "options": [
+      "A) Derived",
+      "B) Test",
+      "C) Compilation error",
+      "D) Test Derived"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Overridden method in Derived declares same exception IOException. Object of type Derived executes Derived's display() printing 'Derived'."
+  },
+  {
+    "id": "dump_58",
+    "category": "Java",
+    "subtopic": "Multithreading & Concurrency",
+    "title": "Extending Thread Class vs Direct run Call",
+    "question": "What is the output of overriding Thread class run method?",
+    "code": "public class Test extends Thread {\n    public void run() {\n        System.out.println(\"Thread Started\");\n    }\n    public static void main(String[] args) {\n        Test t = new Test();\n        t.start();\n    }\n}",
+    "options": [
+      "A) Thread Started",
+      "B) Compilation error",
+      "C) Runtime error",
+      "D) No output"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Extending Thread and overriding run() works seamlessly when starting thread using t.start()."
+  },
+  {
+    "id": "dump_59",
+    "category": "Java",
+    "subtopic": "Inner Classes & Anonymous Classes",
+    "title": "Interface Member Accessibility Rules",
+    "question": "What happens when defining a nested interface inside an interface?",
+    "code": "public interface Test {\n    public int calculate();\n    interface NestedInterface {\n        public void nested();\n    }\n}",
+    "options": [
+      "A) Compiles successfully (Nested interface is implicitly public and static)",
+      "B) Compile time error due to nested interface",
+      "C) Compile time error because inner interface cannot be static",
+      "D) Runtime Exception"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "In Java, nested interfaces defined inside an interface are implicitly public and static."
+  },
+  {
+    "id": "dump_60",
+    "category": "Java",
+    "subtopic": "General Core Java",
+    "title": "Constructor Declaration Rules and Modifiers",
+    "question": "Which of the following statement is true regarding Java constructors?",
+    "code": "",
+    "options": [
+      "A) Constructors cannot be declared final, static, or abstract.",
+      "B) Constructors can be declared final.",
+      "C) Constructors cannot throw exceptions.",
+      "D) Constructors must return void."
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Java constructors cannot be final, static, or abstract because they cannot be overridden or inherited."
+  },
+  {
+    "id": "dump_61",
+    "category": "Java",
+    "subtopic": "OOPs",
+    "title": "Parent Class Reference Instantiating Parent Class",
+    "question": "What will be the output of the following Java code?",
+    "code": "class Super {\n    public void show() {\n        System.out.println(\"Base\");\n    }\n} \nclass Sub extends Super {\n    public void show() {\n        System.out.println(\"Derived\");\n    }\n}\npublic class Inheritance {\n    public static void main(String[] args) {\n        Super i = new Super();\n        i.show();\n    }\n}",
+    "options": [
+      "A) Base",
+      "B) Derived",
+      "C) Base Derived",
+      "D) Compilation error"
+    ],
+    "correctAnswer": 0,
+    "correctLetter": "A",
+    "explanation": "Reference type is Super and instance created on heap is Super (new Super()). Hence Super's show() is executed printing 'Base'."
+  },
+  {
     "id": "vm_1",
     "category": "Java",
     "subtopic": "OOPs",
